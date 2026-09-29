@@ -1,0 +1,94 @@
+{
+  "tool": "built-in image_gen",
+  "script_sha256": "99c9e2f74d61272fee0878fd615d04472b31aed59ec1fafa0c717112ded643cd",
+  "assets": [
+    {
+      "name": "qixing_troubled",
+      "prompt": "Use case: identity-preserve. Edit target: attached existing full-body visual novel sprite of Qixing. Create ONE expression variant: troubled, avoiding a painful family topic; gaze lowered slightly, inner brows subtly raised, lips pressed gently, no anger or tears. Change ONLY facial expression (eyebrows, eyes, mouth). Preserve exact face identity, head angle, hair, every part of body, pose, hands, clothing, shoes, lighting, original character scale and position on the same 1024x1536 canvas. Commercial Japanese PC visual novel, restrained natural emotion. True transparent background, no glow, shadow, backdrop, text, labels or panels. Full original figure, no crop. Output one finished PNG sprite.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-4dcda2cf-5a9e-4fc5-8aa2-6f3012e0162c.png",
+      "reference": "game/images/ch01/qixing_neutral.png",
+      "archive": "assets/ch01/expressions/qixing_troubled_v1.png",
+      "game": "game/images/ch01/qixing_troubled.png"
+    },
+    {
+      "name": "qixing_bemused",
+      "prompt": "Use case: identity-preserve. Edit target: the attached Qixing full-body VN sprite. Produce ONE facial expression variant: bemused and mildly awkward: one eyebrow slightly raised, the other lightly furrowed, small wry asymmetrical mouth, no smile of happiness. Change ONLY eyebrows, eyes and mouth. Preserve exact character identity, head angle and position, hair, silhouette, body, hands, pose, clothes, shoes, colors and lighting. Keep original 1024x1536 canvas and pixel alignment; no zoom or reposition. Restrained commercial Japanese visual novel acting. True transparent background, no halo/backdrop, no text, no panels.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-25daf265-2cd0-445f-8384-8bfcf5d038ba.png",
+      "reference": "game/images/ch01/qixing_neutral.png",
+      "archive": "assets/ch01/expressions/qixing_bemused_v1.png",
+      "game": "game/images/ch01/qixing_bemused.png"
+    },
+    {
+      "name": "qixing_serious",
+      "prompt": "Use case: identity-preserve. Edit target: the attached Qixing full-body VN sprite. Produce ONE facial expression variant: serious and concerned: focused attentive gaze, eyebrows gently drawn together, closed firm mouth; caring not angry, not sad. Change ONLY eyebrows, eyes and mouth. Preserve exact character identity, head angle and position, hair, silhouette, body, hands, pose, clothes, shoes, colors and lighting. Keep original 1024x1536 canvas and pixel alignment; no zoom or reposition. Restrained commercial Japanese visual novel acting. True transparent background, no halo/backdrop, no text, no panels.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-9783acb2-40f8-4e5f-971b-507063bfb102.png",
+      "reference": "game/images/ch01/qixing_neutral.png",
+      "archive": "assets/ch01/expressions/qixing_serious_v1.png",
+      "game": "game/images/ch01/qixing_serious.png"
+    },
+    {
+      "name": "qixing_soft",
+      "prompt": "Use case: identity-preserve. Edit the attached Qixing VN sprite into a gentle warm expression: visibly softer relaxed eyebrows and eyes, small clearly upturned closed-mouth smile, kind reassurance, no blush. Change ONLY facial features inside the face; preserve exact head/hair position, anatomy, hands, costume textures, body, pose, shoes, palette, lighting, 1024x1536 canvas and silhouette. Full-body original same placement, no cropping/zoom. One transparent PNG expression variant, no text or panels, no background or halo.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-b4445448-2be6-479e-9ff2-2b9ad79f1425.png",
+      "reference": "game/images/ch01/qixing_neutral.png",
+      "archive": "assets/ch01/expressions/qixing_soft_v1.png",
+      "game": "game/images/ch01/qixing_soft.png"
+    },
+    {
+      "name": "qixing_surprised",
+      "prompt": "Use case: identity-preserve. Edit target: attached Qixing sprite. ONLY change his face expression into startled indignant protest at being called an uncle despite being twenty: distinctly raised eyebrows, widened eyes and an open speaking mouth; youthful slightly flustered but no blush, no rage, not screaming. This must be visibly different from neutral at game size. Keep all outside facial features exactly unchanged: identity, hair, head angle/position, shoulders, arms, hands, clothing folds/textures, stance, shoes, colors. Original full figure and original 1024x1536 canvas, no crop or zoom. Single PNG with preserved real transparent alpha; no background, halo, captions, labels, comic marks or panels. Serious Japanese visual novel art.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-1f5238d6-4475-4dce-86ec-e826b41d9278.png",
+      "reference": "game/images/ch01/qixing_neutral.png",
+      "archive": "assets/ch01/expressions/qixing_surprised_v1.png",
+      "game": "game/images/ch01/qixing_surprised.png"
+    },
+    {
+      "name": "chinatsu_embarrassed",
+      "prompt": "Use case: identity-preserve. Edit target: attached Chinatsu full-body VN sprite. ONE facial expression variant, shy gratitude just after being helped: gently averted lowered eyes, subtle warm pink blush confined to cheeks, small hesitant soft closed mouth. No tears, no broad grin. ONLY change eyebrows, eyes, mouth and cheek blush. Preserve original exact identity, head tilt and position, hair strands/silhouette, body, hands clasped in front, ivory long coat, trousers, shoes, lighting and colors. Exact 1024x1536 canvas, character scale/placement unchanged. Transparent PNG, no background or halo, no text or panels. Restrained Japanese commercial VN artwork.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-b164773e-c7aa-4ef0-8fb8-4bc691995cc3.png",
+      "reference": "game/images/ch01/chinatsu_guarded.png",
+      "archive": "assets/ch01/expressions/chinatsu_embarrassed_v1.png",
+      "game": "game/images/ch01/chinatsu_embarrassed.png"
+    },
+    {
+      "name": "chinatsu_downcast",
+      "prompt": "Use case: identity-preserve. Edit attached Chinatsu sprite. ONE facial expression variant: exhausted and downcast while discussing relentless music practice, tired half-lidded eyes looking down to the side, eyebrows raised slightly toward center, small downturned closed mouth. NO blush, no tears, no smile, not terror. Change only facial features. Lock original face identity, exact head angle/position, hair, pose, hands, clothing, trousers, boots, proportions, silhouette, all colors and lighting. Keep original 1024x1536 full-body canvas and all alignment. One transparent PNG VN sprite; no background, halo, text or panels. Natural restrained commercial Japanese visual novel art.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-af74de82-d7fd-418a-b2f7-51068657493e.png",
+      "reference": "game/images/ch01/chinatsu_guarded.png",
+      "archive": "assets/ch01/expressions/chinatsu_downcast_v1.png",
+      "game": "game/images/ch01/chinatsu_downcast.png"
+    },
+    {
+      "name": "chinatsu_surprised",
+      "prompt": "Use case: identity-preserve. Edit attached Chinatsu VN sprite into surprised tentative hope when offered a safe place to stay: eyes clearly widened and looking up toward the other person, eyebrows raised, lips slightly parted in a small natural open mouth. No fear, tears or blush, not yet smiling. ONLY change facial features. Preserve exact face identity, hair, head tilt/position, body, hands, full ivory coat and folds, trousers, boots, palette, lighting and original 1024x1536 alignment. One full-body PNG with true transparent alpha, no crop, background, glow, captions or panels. Restrained expressive commercial Japanese VN art.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-5e808910-ef1a-471e-bbc8-9e7c873b0683.png",
+      "reference": "game/images/ch01/chinatsu_guarded.png",
+      "archive": "assets/ch01/expressions/chinatsu_surprised_v1.png",
+      "game": "game/images/ch01/chinatsu_surprised.png"
+    },
+    {
+      "name": "maxi_enthusiastic",
+      "prompt": "Use case: identity-preserve. Edit target: attached Maxi male VN sprite holding phone. ONE expression variation: enthusiastic proud recommendation to a friend, bright engaged eyes, raised relaxed eyebrows, a distinctly cheerful open-mouth speaking smile, friendly not smug. Change ONLY eyebrows, eyes and mouth. Keep exact identity, same face contour, head angle and pixel position, messy hair, hands and phone, cardigan, white shirt, trousers, shoes, body pose, silhouette, colors, lighting. Exact original 1024x1536 full-body canvas. True transparent PNG, no backdrop/glow/text/panels, no cartoon symbols. Commercial Japanese VN art matching source.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-6667091b-064a-452c-b69e-2a08080e7ff4.png",
+      "reference": "game/images/ch01/maxi_neutral.png",
+      "archive": "assets/ch01/expressions/maxi_enthusiastic_v1.png",
+      "game": "game/images/ch01/maxi_enthusiastic.png"
+    },
+    {
+      "name": "maxi_concerned",
+      "prompt": "Use case: identity-preserve. Edit attached Maxi VN sprite. Facial expression ONLY: cautious concern as he asks a friend about family trouble. Remove smile completely, slightly raise inner eyebrows, attentive softened eyes, closed neutral-to-downturned mouth. No blush or tears. Preserve exact head angle, face identity and contour, hair, body pose, hands/phone, clothes, folds, trousers/shoes, all colors, lighting, original full-body size and placement on 1024x1536 canvas. One transparent PNG, no backdrop/halo/text/panels. Natural Japanese VN acting, clearly distinct from the cheerful source face.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-9649e3ef-121b-4e91-96b5-4deaec236db9.png",
+      "reference": "game/images/ch01/maxi_neutral.png",
+      "archive": "assets/ch01/expressions/maxi_concerned_v1.png",
+      "game": "game/images/ch01/maxi_concerned.png"
+    },
+    {
+      "name": "maxi_annoyed",
+      "prompt": "Use case: identity-preserve. Edit the attached full-body Maxi VN sprite. Change ONLY face expression to mock annoyance: eyebrows distinctly lowered/furrowed, eyes mildly narrowed, open speaking mouth protesting that his friend took his water. Friendly exasperation, not villainous anger, no grin or comedic symbols. Preserve exact original identity, head angle/position, hair, body, silhouette, hands with phone, clothes, folds, all colors and lighting. Same 1024x1536 canvas, same pixel placement and full figure. One transparent PNG, no background, glow, text or panels. Keep commercial Japanese VN quality.",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-50b9fbfd-8bc1-4998-b569-984c78680c4d.png",
+      "reference": "game/images/ch01/maxi_neutral.png",
+      "archive": "assets/ch01/expressions/maxi_annoyed_v1.png",
+      "game": "game/images/ch01/maxi_annoyed.png"
+    }
+  ]
+}

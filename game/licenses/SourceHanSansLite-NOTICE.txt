@@ -1,0 +1,12 @@
+Font supplied with the existing project: SourceHanSansLite.ttf
+Not modified by this project. Embedded copyright notice:
+?2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+?2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+?2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+© 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+© 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+© 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+License: SIL Open Font License 1.1. See SourceHanSans-OFL.txt.
+Upstream license source: https://github.com/adobe-fonts/source-han-sans/blob/release/LICENSE.txt
+Font SHA-256: b2aaf73b7acc23d746b110f1caeaecc93d4292824979af44e96000200591b2a7

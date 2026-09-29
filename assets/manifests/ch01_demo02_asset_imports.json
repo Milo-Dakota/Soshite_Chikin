@@ -1,0 +1,26 @@
+[
+  {
+    "key": "cg_sleeve",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-0fa2fb54-be16-4f09-8298-b4c76bbaf70c.png",
+    "archive": "assets/ch01/cg/cg_sleeve_v1.png",
+    "game": "game/images/ch01/cg_sleeve.png"
+  },
+  {
+    "key": "cg_two_fingers",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-53d41fc4-a864-4fde-808b-d1e464b51cfe.png",
+    "archive": "assets/ch01/cg/cg_two_fingers_v1.png",
+    "game": "game/images/ch01/cg_two_fingers.png"
+  },
+  {
+    "key": "cg_table",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-629b7f7f-56a5-495f-99e5-5d5a7e328f87.png",
+    "archive": "assets/ch01/cg/cg_table_v1.png",
+    "game": "game/images/ch01/cg_table.png"
+  },
+  {
+    "key": "cg_walk_v2",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-cefaeb87-5890-489e-9fee-ee3a22c1ce15.png",
+    "archive": "assets/ch01/cg/cg_walk_v2.png",
+    "game": "game/images/ch01/cg_walk.png"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "supplied_audio": [
+    {
+      "file": "game\\audio\\bgm\\ch01_daily_calm.ogg",
+      "bytes": 1656451,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\bgm\\ch01_piano_recital.ogg",
+      "bytes": 463360,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\bgm\\ch01_warm.ogg",
+      "bytes": 2044934,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\bgm\\lobby.ogg",
+      "bytes": 2948056,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\sfx\\ch01_phone_ring.ogg",
+      "bytes": 48929,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\sfx\\ch01_restaurant_door.ogg",
+      "bytes": 49189,
+      "ogg_header": true
+    },
+    {
+      "file": "game\\audio\\sfx\\ch01_shower_loop.ogg",
+      "bytes": 425440,
+      "ogg_header": true
+    }
+  ],
+  "generated_recital_seconds": 18,
+  "door_pauses_seconds": 5,
+  "voice_integrated": true,
+  "previous_demo_user_accepted": true,
+  "new_audio_runtime_tested": false,
+  "audio_listened": false
+}

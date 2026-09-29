@@ -1,0 +1,1085 @@
+{
+  "note": "Current local media inventory, not an independently inspected published package. Original game files unchanged.",
+  "files": [
+    {
+      "file": "game/images/ch01/beidai_bow.png",
+      "kind": "chapter_image",
+      "bytes": 1372550,
+      "sha256": "ee4cac7cdb927b5662a459c885b7e1624d9b8c4859c54e54295e7e9d550e9f11",
+      "preserved_copies": [
+        "assets/ch01/sprites/beidai_bow_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_bread.png",
+      "kind": "chapter_image",
+      "bytes": 2259019,
+      "sha256": "03423d2ff0360bfddc243fbfe9937a1c66458fc655c7c20b020fd683d0d9568b",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_bread_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_car.png",
+      "kind": "chapter_image",
+      "bytes": 1997698,
+      "sha256": "bd7c36903abdac29ecf1848d78e91b709f36ce9164da3facb76850a14880742a",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_car_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_recital.png",
+      "kind": "chapter_image",
+      "bytes": 1832335,
+      "sha256": "83e91c2b4be536dea73b2cbb5443240e430e012ba4a755992fd318856344af7a",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_recital_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_shower.png",
+      "kind": "chapter_image",
+      "bytes": 1830336,
+      "sha256": "e4cbf61272aea2978f8334c93c3996eaebc7d937da3a594a6b2f1ab156b8b676",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_shower_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_sleeve.png",
+      "kind": "chapter_image",
+      "bytes": 2255012,
+      "sha256": "3ebd9e77af654a18f61f74d7be99c3ee2e45d47f936e28ec282a650367ad16f7",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_sleeve_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_demo02_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_support.png",
+      "kind": "chapter_image",
+      "bytes": 2395499,
+      "sha256": "ddb2019f1c45dc0630f722d68da3ac712ee8a30d7cbd332d7235eba7bb095d7e",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_support_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_table.png",
+      "kind": "chapter_image",
+      "bytes": 2049546,
+      "sha256": "63473c9643ad887a2cf8115fa470241ac3274771b62511df85a6dcc06be07997",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_table_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_demo02_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_two_fingers.png",
+      "kind": "chapter_image",
+      "bytes": 2074630,
+      "sha256": "c65450b556212f77555dc79c46d52c814b8ad6775c720088c94687b5eb3a641f",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_two_fingers_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_demo02_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_violin.png",
+      "kind": "chapter_image",
+      "bytes": 2087831,
+      "sha256": "4a53e37cfc63db7345f88ca04f8a51abffc66eb7c311ff21c4884efda0907cff",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_violin_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_walk.png",
+      "kind": "chapter_image",
+      "bytes": 2268012,
+      "sha256": "e10d05b3e4a2a83ed52a113fc0e93185670e59b9fd7eb3c446a1409601fbcc58",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_walk_v2.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_demo02_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/cg_water.png",
+      "kind": "chapter_image",
+      "bytes": 2468804,
+      "sha256": "0863c14871622ba2718abeb5f905dbbf3830dcff11c179247c3026ca2a4bb857",
+      "preserved_copies": [
+        "assets/ch01/cg/cg_water_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_afraid.png",
+      "kind": "chapter_image",
+      "bytes": 1387894,
+      "sha256": "bc0250c7abe22e748a3ee4bf7a4a6df12342e0e8d48f37d4ab7054547ac485bd",
+      "preserved_copies": [
+        "assets/ch01/sprites/chinatsu_afraid_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_downcast.png",
+      "kind": "chapter_image",
+      "bytes": 1390280,
+      "sha256": "6e2343d5e66a0e0ee0ca3023ece4b45565d30f9f9aa246b86a4df67eb17e10b8",
+      "preserved_copies": [
+        "assets/ch01/expressions/chinatsu_downcast_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_embarrassed.png",
+      "kind": "chapter_image",
+      "bytes": 1393405,
+      "sha256": "2a88143d7b280047b2784e74913c453d1632618c65f90815bbb1014ce6ae5bae",
+      "preserved_copies": [
+        "assets/ch01/expressions/chinatsu_embarrassed_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_guarded.png",
+      "kind": "chapter_image",
+      "bytes": 1394405,
+      "sha256": "da32eb56afb9b87106d32524a8102bb0e4c78d4525ae8982d52feafaa2ee38d7",
+      "preserved_copies": [
+        "assets/ch01/sprites/chinatsu_casual_guarded_v1.png"
+      ],
+      "provenance_records": [],
+      "source": "project image_gen; early records in archived assets README and assets/prompts"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_smile.png",
+      "kind": "chapter_image",
+      "bytes": 1382383,
+      "sha256": "3a9897a09561e64df510927378fd9cf48bc8392698dbdec4e9856ccfe371a2b9",
+      "preserved_copies": [
+        "assets/ch01/sprites/chinatsu_casual_smile_v1.png"
+      ],
+      "provenance_records": [],
+      "source": "project image_gen; early records in archived assets README and assets/prompts"
+    },
+    {
+      "file": "game/images/ch01/chinatsu_surprised.png",
+      "kind": "chapter_image",
+      "bytes": 1381724,
+      "sha256": "b3a30e052beaa06ee20ca34a1c45e1888ff2acfbb3007b1b0d750dd1933550c7",
+      "preserved_copies": [
+        "assets/ch01/expressions/chinatsu_surprised_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/gym_empty.png",
+      "kind": "chapter_image",
+      "bytes": 1720865,
+      "sha256": "dec1df35948146f903c23f54a98d26f8b6022191c7616a3e098c6285bb9baf10",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/gym_empty_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/gym_locker.png",
+      "kind": "chapter_image",
+      "bytes": 1903679,
+      "sha256": "e87e0680c526fb762b1aebbdb7bab179b1fce2a2fccf69654eae7c939a8dc3cb",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/gym_locker_v1.png"
+      ],
+      "provenance_records": [],
+      "source": "project image_gen; early records in archived assets README and assets/prompts"
+    },
+    {
+      "file": "game/images/ch01/maxi_annoyed.png",
+      "kind": "chapter_image",
+      "bytes": 1362025,
+      "sha256": "c6d960456b591e2aee4ef126de168f19910cae44dc0f95fb41b67bb1d52482f2",
+      "preserved_copies": [
+        "assets/ch01/expressions/maxi_annoyed_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/maxi_concerned.png",
+      "kind": "chapter_image",
+      "bytes": 1382147,
+      "sha256": "a70aeeb142ee16ac462f9a058b74c6bb8784f808e05a1954eb02b965bf67413a",
+      "preserved_copies": [
+        "assets/ch01/expressions/maxi_concerned_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/maxi_enthusiastic.png",
+      "kind": "chapter_image",
+      "bytes": 1381719,
+      "sha256": "7915ba9a0ee803da7cf76e799b3bafe981035458f3354b693c49728fc992aa05",
+      "preserved_copies": [
+        "assets/ch01/expressions/maxi_enthusiastic_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/maxi_neutral.png",
+      "kind": "chapter_image",
+      "bytes": 1391963,
+      "sha256": "2f602329d0df9f637dd66c2cf1f547e7bbc80a3a07d8c7eca7dc3362b65196c2",
+      "preserved_copies": [
+        "assets/ch01/sprites/maxi_neutral_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/qixing_bemused.png",
+      "kind": "chapter_image",
+      "bytes": 1423741,
+      "sha256": "cf419872a8e9a29f463f55e9b1f77e48290ddb082ec9d06544ab5115a38e4635",
+      "preserved_copies": [
+        "assets/ch01/expressions/qixing_bemused_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/qixing_neutral.png",
+      "kind": "chapter_image",
+      "bytes": 1442962,
+      "sha256": "05a79a23f7877f157df2462013f87cc83bfdd88af7a759a9cbc839475d47f57a",
+      "preserved_copies": [
+        "assets/ch01/sprites/qixing_casual_neutral_v1.png"
+      ],
+      "provenance_records": [],
+      "source": "project image_gen; early records in archived assets README and assets/prompts"
+    },
+    {
+      "file": "game/images/ch01/qixing_serious.png",
+      "kind": "chapter_image",
+      "bytes": 1428903,
+      "sha256": "7221c9a711da6983094c9514cec7cef3fcd4cd4b8ca0a5b4717eeb8594f352dc",
+      "preserved_copies": [
+        "assets/ch01/expressions/qixing_serious_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/qixing_soft.png",
+      "kind": "chapter_image",
+      "bytes": 1422303,
+      "sha256": "ef5e7c81831bad5f007d98064301f998cf3359d1c864775466f13e83b57060df",
+      "preserved_copies": [
+        "assets/ch01/expressions/qixing_soft_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/qixing_surprised.png",
+      "kind": "chapter_image",
+      "bytes": 1431073,
+      "sha256": "329a50b3814ec3e3a5f8b396190828afc55add66999d17206b666dab11f83010",
+      "preserved_copies": [
+        "assets/ch01/expressions/qixing_surprised_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/qixing_troubled.png",
+      "kind": "chapter_image",
+      "bytes": 1418518,
+      "sha256": "756a58a21f7de6c100a244c51c524765131af49151c156e2d49c7068320748ee",
+      "preserved_copies": [
+        "assets/ch01/expressions/qixing_troubled_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_expression_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/restaurant_day.png",
+      "kind": "chapter_image",
+      "bytes": 2054607,
+      "sha256": "94ef15e5e184d462f168909f9757e31f022833f40f8b562512c2310959427cff",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/restaurant_day_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/restaurant_empty.png",
+      "kind": "chapter_image",
+      "bytes": 1979679,
+      "sha256": "92ac5b5b0c4a2aab143662c19f0ca4af0ab88d59f5e31f006b95df172ed18b2d",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/restaurant_empty_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_asset_imports.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/restaurant_public.png",
+      "kind": "chapter_image",
+      "bytes": 1976221,
+      "sha256": "a7820da5d5218fa2ead681774001b5feb1d36f36297a37efe04abeb1ab67af2f",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/restaurant_public_v1.png"
+      ],
+      "provenance_records": [
+        "assets/manifests/ch01_beidai_staging_asset.json"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/images/ch01/street_day.png",
+      "kind": "chapter_image",
+      "bytes": 2682385,
+      "sha256": "13f9c8bc48e21e5c837046b85a600be42b35b75fe325b768ec2d0a141a238eea",
+      "preserved_copies": [
+        "assets/ch01/backgrounds/street_day_v1.png"
+      ],
+      "provenance_records": [],
+      "source": "project image_gen; early records in archived assets README and assets/prompts"
+    },
+    {
+      "file": "game/images/ui/chikurin_soft_logo.png",
+      "kind": "ui_image",
+      "bytes": 43261,
+      "sha256": "d6273af322e285123d8e32f526390784d985dfa3e16024fa45f2ca870324bac3",
+      "preserved_copies": [
+        "assets/ui/chikurin_soft_logo.png"
+      ],
+      "provenance_records": [],
+      "source": "existing project file; independent source not recorded"
+    },
+    {
+      "file": "game/images/ui/menu_theatre_v1.png",
+      "kind": "ui_image",
+      "bytes": 1591987,
+      "sha256": "413a284d802fa61a353393f46e1c3a76c8910f230e66710960834df1b7f72c21",
+      "preserved_copies": [
+        "assets/ui/menu_theatre_v1.png"
+      ],
+      "provenance_records": [
+        "docs/design/main_menu_design.md"
+      ],
+      "source": "built-in image_gen"
+    },
+    {
+      "file": "game/audio/ambience/ch01_gym_room.ogg",
+      "kind": "audio",
+      "bytes": 646324,
+      "sha256": "52164643eb9d463221d6dd250c7046c977fddd76ce7cf2f99632f42b384686ef",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/ambience/ch01_restaurant_room.ogg",
+      "kind": "audio",
+      "bytes": 1435512,
+      "sha256": "5bfecfe8d2fd4a0b8aab59197feed5d4ccfc698c771bc3c6baa31428191c6258",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/ambience/ch01_street_day.ogg",
+      "kind": "audio",
+      "bytes": 2162542,
+      "sha256": "55e9c3098ef6f340f26827ed327d082469ffebc8da590537e3086dbdd2d9a925",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/bgm/ch01_daily_calm.ogg",
+      "kind": "audio",
+      "bytes": 1656451,
+      "sha256": "fcba9a945c414b9c7ee45cf3bad572ad944b62816c62e088fa26c41460f0549e",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/bgm/ch01_piano_recital.ogg",
+      "kind": "audio",
+      "bytes": 463360,
+      "sha256": "7f6ea6eb75a1f3d705967fc406e8c6ad9e3b7f5474a91b08e0056fe05b6fc049",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/bgm/ch01_warm.ogg",
+      "kind": "audio",
+      "bytes": 2044934,
+      "sha256": "9ca60ef8429ae86e9f21bcebd33e58f77c444481d6ea1378c5a94507fe76ed7c",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/bgm/lobby.ogg",
+      "kind": "audio",
+      "bytes": 2948056,
+      "sha256": "6f8a072788b2fa27b19b9edbb6140527460925a548e84e783106879e71794a89",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/sfx/ch01_phone_ring.ogg",
+      "kind": "audio",
+      "bytes": 48929,
+      "sha256": "24c0ecc2830650bba65ac4e13f6dc6d1d7fca3cc55598eeeb180c6c7b514f66d",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/sfx/ch01_restaurant_door.ogg",
+      "kind": "audio",
+      "bytes": 49189,
+      "sha256": "7be465ea853dc2e856091cea8114f83d39c054a81db1aef46a2c3dd6f6dafe1a",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/sfx/ch01_shower_loop.ogg",
+      "kind": "audio",
+      "bytes": 425440,
+      "sha256": "2f009f0291970b63f7cfe54450fcd93a5bd067ade1343c24f87ea71416a003f1",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/sfx/chikurin_soft_call.ogg",
+      "kind": "audio",
+      "bytes": 12081,
+      "sha256": "0643df9649572ba5d3c9044fbae26b90ff300c6d93be277b3bab817869feaf43",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/beidai/ch01_sc05_027.ogg",
+      "kind": "audio",
+      "bytes": 66239,
+      "sha256": "ffdbaeb436e95c21baecd6399728e80aea7100b6e24e506a1ce4beffe03410fe",
+      "preserved_copies": [
+        "voice/beidai/ch01_sc05_027.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc01_006.ogg",
+      "kind": "audio",
+      "bytes": 30126,
+      "sha256": "9331408670892403002880fe579e1c51f73fc36e50cc3e20ee7a2eeb13ad357e",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc01_006.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc01_010.ogg",
+      "kind": "audio",
+      "bytes": 41006,
+      "sha256": "e9a4097693028f09afc94d769942fe0e1c021d696ee0b6faee4987c4ec1d6426",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc01_010.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc04_009.ogg",
+      "kind": "audio",
+      "bytes": 8498,
+      "sha256": "664bcf1c6967b7e6883605b81c44d0f4478eeb0c41330ed16bb36eb0b690e50a",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_036.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc04_012.ogg",
+      "kind": "audio",
+      "bytes": 19554,
+      "sha256": "bf6b246140fd420b8ccc5b1963c9b685d19d17b5c8a3ab1cda8180fa4c21196f",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc04_012.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc04_014.ogg",
+      "kind": "audio",
+      "bytes": 61101,
+      "sha256": "e002a5008356f30ee968659ed0c64d694c5920ab30165a7fa7550b658a52404b",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc04_014.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc04_015.ogg",
+      "kind": "audio",
+      "bytes": 56641,
+      "sha256": "3ff6caa4af8f5f4f7575a9f1bd4007a99a8ef07969b89c0efdfa63fe218e59f1",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc04_015.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc04_016.ogg",
+      "kind": "audio",
+      "bytes": 63878,
+      "sha256": "bf8bb598569a59ce2042dee89b033c4859dcbeff77e90996e1e3378ee188f425",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc04_016.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_004.ogg",
+      "kind": "audio",
+      "bytes": 26874,
+      "sha256": "6e23c91af2abd03a2c1f02d12c2a4775140a82d32d7bd6b0d1dd5bb02f3adf64",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_004.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_006.ogg",
+      "kind": "audio",
+      "bytes": 14127,
+      "sha256": "c2ac6db4e6c65c4ce869167ccb00d91a2f11617a864f1fd6a8ce3236a5bfb4b7",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_006.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_008.ogg",
+      "kind": "audio",
+      "bytes": 27619,
+      "sha256": "d71fa223677d233217e4b719122fdbf566836824330d0fe1fd606bd86ccc98c2",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_008.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_010.ogg",
+      "kind": "audio",
+      "bytes": 19763,
+      "sha256": "4f6133bdaa8f56148133af7445a542868a1fb4e0af9f83f21d90356b87a51741",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_010.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_011.ogg",
+      "kind": "audio",
+      "bytes": 54188,
+      "sha256": "10e012410ff637a90a3535c2cab4097e7c4231631f6d443561d4258c93897724",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_011.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_014.ogg",
+      "kind": "audio",
+      "bytes": 47927,
+      "sha256": "5eaf6f9f1109a4a8f41edc3511b997c2a4916f858cdf16677d9410ad3e2d6965",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_014.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_015.ogg",
+      "kind": "audio",
+      "bytes": 36045,
+      "sha256": "33aecceffe924e7a7e3019e1794c02696063579e973635cb17e1918683ba6c17",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_015.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_016.ogg",
+      "kind": "audio",
+      "bytes": 43015,
+      "sha256": "35390722a598ae7c98a118e01c3ee22ffbe838c73567880c2b7ebade57e8d1ff",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_016.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_019.ogg",
+      "kind": "audio",
+      "bytes": 25817,
+      "sha256": "76456c76b06eb0de8c69854d15326c46aa35ba0cc30387771b19565e3cce540d",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_019.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_021.ogg",
+      "kind": "audio",
+      "bytes": 28301,
+      "sha256": "0851014611e7622ca2fb6e53b63c16d68560f744b13e3e36c17694853b00cf97",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_021.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_024.ogg",
+      "kind": "audio",
+      "bytes": 56038,
+      "sha256": "18b82c4089506dcbee1ec2c5be7a94ce841deb2f0613db72a1407b5bac345c32",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_024.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_029.ogg",
+      "kind": "audio",
+      "bytes": 44262,
+      "sha256": "ff52a20782a538b2088cbf46158b615cdfad52a58f52d306baf6b39cdec0ec44",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_029.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc05_036.ogg",
+      "kind": "audio",
+      "bytes": 8498,
+      "sha256": "664bcf1c6967b7e6883605b81c44d0f4478eeb0c41330ed16bb36eb0b690e50a",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc05_036.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc06_001.ogg",
+      "kind": "audio",
+      "bytes": 9593,
+      "sha256": "6076c7b482013e37570e8642b808db55ac1a2d273b2e8e690cd3361b72ba4689",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc06_001.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/chinatsu/ch01_sc06_004.ogg",
+      "kind": "audio",
+      "bytes": 23900,
+      "sha256": "99d356c1c26e699f0e7d4d448298e3095671b3b76192df3cefd3006af9ad745e",
+      "preserved_copies": [
+        "voice/chinatsu/ch01_sc06_004.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc02_005.ogg",
+      "kind": "audio",
+      "bytes": 30918,
+      "sha256": "3d03b72e17a7d80677605f27965bdee0d18839393898e92623795161fe1e4e8f",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc02_005.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc02_008.ogg",
+      "kind": "audio",
+      "bytes": 42031,
+      "sha256": "1f35338a61bb7bc5380ebd4862f9820a6a743f6438db232143c4f5b70d978bd0",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc02_008.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc02_018.ogg",
+      "kind": "audio",
+      "bytes": 13991,
+      "sha256": "0728541c7ccfe5a260703e1453757d2f047008c5ac8d23e13037acbe62c57a51",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc02_018.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc03_001.ogg",
+      "kind": "audio",
+      "bytes": 29782,
+      "sha256": "183d1d980a338cd9faee6ef8662231123af0f1141e5b41448634c6405e8eed7f",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc03_001.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc03_002.ogg",
+      "kind": "audio",
+      "bytes": 25162,
+      "sha256": "ebf1507ac98368f748d670d6deaa9ec658e8d9106510cb3f68eff66c47b2f65c",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc03_002.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/maxi/ch01_sc03_003.ogg",
+      "kind": "audio",
+      "bytes": 26651,
+      "sha256": "6b686ec432242b4e1bb72bebf52c80be01b7f99c6a815543d0212c80b032cdb0",
+      "preserved_copies": [
+        "voice/maxi/ch01_sc03_003.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/zheng/ch01_sc02_011.ogg",
+      "kind": "audio",
+      "bytes": 56215,
+      "sha256": "100b01498f3600aa4f9d81e9276abc917e09553216ed1e6b6adfc47328c3e203",
+      "preserved_copies": [
+        "voice/zheng/ch01_sc02_011.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/zheng/ch01_sc02_013.ogg",
+      "kind": "audio",
+      "bytes": 38372,
+      "sha256": "94c0fd33888c42b71aae3d43b885e616fc4f6cc0f319b852307e2a1742170c61",
+      "preserved_copies": [
+        "voice/zheng/ch01_sc02_013.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/zheng/ch01_sc02_014.ogg",
+      "kind": "audio",
+      "bytes": 30179,
+      "sha256": "f961eb5420220caa93959f732a7dc1a381e9f9fc335a3b8cd14cc0cdefdbc236",
+      "preserved_copies": [
+        "voice/zheng/ch01_sc02_014.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/audio/voice/zheng/ch01_sc02_016.ogg",
+      "kind": "audio",
+      "bytes": 57998,
+      "sha256": "489330570380ea1fb7eae13703ebc900b0011ea8b63afbceb79b3c11924733cf",
+      "preserved_copies": [
+        "voice/zheng/ch01_sc02_016.ogg"
+      ],
+      "provenance_records": [
+        "voice/ch01_manifest.json",
+        "docs/reports/ch01_voice_check.json"
+      ],
+      "source": "user_supplied"
+    },
+    {
+      "file": "game/fonts/ShipporiMincho-SemiBold.ttf",
+      "kind": "font",
+      "bytes": 8633540,
+      "sha256": "9bc5b031d54f26fd67e346838637c27891db02316583aef8f50cf7bd9905ddff",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied; detailed license records in docs/asset_licenses.md"
+    },
+    {
+      "file": "game/fonts/SourceHanSansJP-Regular.otf",
+      "kind": "font",
+      "bytes": 16560052,
+      "sha256": "6fe3b72967986ccdef600128752d1ade57c13c68129a548cdebe4c7d3c0f8543",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied; detailed license records in docs/asset_licenses.md"
+    },
+    {
+      "file": "game/fonts/SourceHanSansSC-Regular.otf",
+      "kind": "font",
+      "bytes": 16529832,
+      "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied; detailed license records in docs/asset_licenses.md"
+    },
+    {
+      "file": "game/fonts/SourceHanSerifJP-Medium.otf",
+      "kind": "font",
+      "bytes": 24836268,
+      "sha256": "9fdbd146a26155d2b3941d7fde0b9b964ab2a9850b16e7922e5400cf193cad27",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied; detailed license records in docs/asset_licenses.md"
+    },
+    {
+      "file": "game/fonts/SourceHanSerifSC-Medium.otf",
+      "kind": "font",
+      "bytes": 24805580,
+      "sha256": "1d4dc4b757c07034e2412d6edf48f54f94ec7172d4deb3b90a3e4fc9dcb94f5d",
+      "preserved_copies": [],
+      "provenance_records": [],
+      "source": "user_supplied; detailed license records in docs/asset_licenses.md"
+    },
+    {
+      "file": "game/gui/reading_panel_a.svg",
+      "kind": "project_ui",
+      "bytes": 520,
+      "sha256": "cccb3695214ae388e0ca960da257fc5e8575024f551769ee132efc7fdb626afe",
+      "source": "existing project",
+      "preserved_copies": [],
+      "provenance_records": []
+    },
+    {
+      "file": "game/SourceHanSansLite.ttf",
+      "kind": "legacy_font",
+      "bytes": 2901056,
+      "sha256": "b2aaf73b7acc23d746b110f1caeaecc93d4292824979af44e96000200591b2a7",
+      "source": "existing project",
+      "preserved_copies": [],
+      "provenance_records": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "script_sha256": "99c9e2f74d61272fee0878fd615d04472b31aed59ec1fafa0c717112ded643cd",
+  "scenes": 6,
+  "text_counts": {
+    "thought": 36,
+    "dialogue": 33,
+    "protagonist_dialogue": 28
+  },
+  "voice_lines": 33,
+  "voice_by_character": {
+    "chinatsu": 22,
+    "maxi": 6,
+    "zheng": 4,
+    "beidai": 1
+  },
+  "checks": [
+    "yaml_parse",
+    "unique_ids",
+    "known_speakers",
+    "thought_pov",
+    "protagonist_unvoiced",
+    "ruby_spoken"
+  ],
+  "not_checked": [
+    "RenPy runtime",
+    "layout",
+    "save/load",
+    "voice audio",
+    "asset integration"
+  ]
+}

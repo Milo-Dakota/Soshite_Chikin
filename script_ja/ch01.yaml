@@ -1,0 +1,179 @@
+schema_version: 1
+chapter_id: ch01
+title_ja: "パンと、家出少女"
+revision: 2
+status: demo_reviewed
+scenes:
+  - id: ch01_sc01
+    scene_kind: main
+    narrative_pov: qixing
+    location: xingcheng_street
+    time: february_day
+    entries:
+      - {id: ch01_sc01_dir001, type: direction, action: scene, target: street_day, note: "淡い冬の日差し。コート姿の啓星が歩く。"}
+      - {id: ch01_sc01_001, type: thought, speaker: qixing, ja: "二月にしては、暖かい。北の寒さに慣れた身には、このコートも少し暑いくらいだ。"}
+      - {id: ch01_sc01_002, type: thought, speaker: qixing, ja: "二か月の休暇も、もう終わる。休みだからって、警察官が体をなまらせるわけにはいかない。"}
+      - {id: ch01_sc01_003, type: thought, speaker: qixing, ja: "ジムまでは歩いて十分。往復二十分の散歩も、すっかり日課になった。"}
+      - {id: ch01_sc01_004, type: thought, speaker: qixing, ja: "次の角を曲がれば……あ、水筒を忘れた。あとで水を二本買うか。"}
+      - {id: ch01_sc01_005, type: thought, speaker: qixing, ja: "このパンも、どうしよう。朝の炭水化物は、もう十分とったんだけどな。"}
+      - {id: ch01_sc01_dir002, type: direction, action: encounter, target: chinatsu, note: "長いアイボリーのダウンを着た少女が現れ、啓星の袖をつかむ。"}
+      - {id: ch01_sc01_006, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "あの……それ、もらってもいいですか？", performance: {emotion: weak, intensity: low, pace: slightly_slow, note: "かすれ気味だが、パンへの切実な願い。"}}
+      - {id: ch01_sc01_007, type: thought, speaker: qixing, ja: "顔色が悪い。唇も乾いてるし、目も充血している。……泣いていたのか？"}
+      - {id: ch01_sc01_008, type: protagonist_dialogue, speaker: qixing, ja: "具合、悪いのか？"}
+      - {id: ch01_sc01_009, type: thought, speaker: qixing, ja: "ろくに食べていないのかもしれない。寝不足もありそうだ。"}
+      - {id: ch01_sc01_010, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "ち、違……そうじゃなくて。お願い、それを……。", performance: {emotion: pleading, intensity: low, pace: hesitant}}
+      - {id: ch01_sc01_dir003, type: direction, action: give_bread, note: "少女が両手を差し出す。啓星がパンを渡すと、少女はすぐ人混みへ去る。"}
+      - {id: ch01_sc01_011, type: thought, speaker: qixing, ja: "あ……。"}
+      - {id: ch01_sc01_012, type: thought, speaker: qixing, ja: "左腕の裏、青くなっていた。あざ……だろうか。"}
+      - {id: ch01_sc01_dir004, type: direction, action: leave, note: "人の流れが少女の背中を隠す。啓星は一度振り返り、ジムへ入る。"}
+
+  - id: ch01_sc02
+    scene_kind: main
+    narrative_pov: qixing
+    location: gym
+    time: same_day_after_training
+    entries:
+      - {id: ch01_sc02_dir001, type: direction, action: scene, target: gym_locker, note: "静かなジムから、トレーニング後のシャワー室へ。身体は映さず、隔壁とボトルを見せる。"}
+      - {id: ch01_sc02_001, type: thought, speaker: qixing, ja: "今日も、いつもの顔ぶれだ。世の中は省エネ一色。わざわざ汗をかきに来る物好きは、そう多くない。"}
+      - {id: ch01_sc02_dir002, type: direction, action: borrow_soap, note: "隣の個室から手が伸び、ボディソープを持ち去る。水音に気楽な鼻歌が混ざる。"}
+      - {id: ch01_sc02_002, type: thought, speaker: qixing, ja: "また忘れたのか。……いや、あいつが自分で持ってきたこと、あったか？"}
+      - {id: ch01_sc02_003, type: thought, speaker: qixing, ja: "〖馬皙｜マー・シー〗。ここで知り合った友人だ。本人いわく、だらしないんじゃなくて芸術家気質、らしい。"}
+      - {id: ch01_sc02_004, type: thought, speaker: qixing, ja: "〖艾昆｜アイクン〗劇場で働いているのが自慢だけど、俺はまだ一度も行ったことがない。"}
+      - {id: ch01_sc02_005, type: dialogue, speaker: maxi, ja: "なあ、お前さ。トレーニング中、いつも何聴いてんの？", performance: {emotion: casual, intensity: medium, pace: natural}}
+      - {id: ch01_sc02_006, type: protagonist_dialogue, speaker: qixing, ja: "さあ……落ち着くピアノ曲とか、そのへん。"}
+      - {id: ch01_sc02_dir003, type: direction, action: dressed, target: gym_locker, note: "時間を少し進め、着替え終わった二人の更衣室での会話に移る。"}
+      - {id: ch01_sc02_007, type: thought, speaker: qixing, ja: "普段は仕事だけで手いっぱいだ。音楽くらい、何も考えずに聴いていたい。"}
+      - {id: ch01_sc02_008, type: dialogue, speaker: maxi, ja: "へえ。せっかく休みなんだし、趣味でもつくれよ。生の演奏とかさ。俺が――"}
+      - {id: ch01_sc02_009, type: thought, speaker: qixing, ja: "悪くない。時間だけは、たっぷりある。"}
+      - {id: ch01_sc02_dir004, type: direction, action: phone_ring, note: "携帯が鳴る。発信者は鄭局長。"}
+      - {id: ch01_sc02_010, type: protagonist_dialogue, speaker: qixing, ja: "……今、休暇中なんだけどな。"}
+      - {id: ch01_sc02_011, type: dialogue, speaker: zheng, ja: "おう、いい休みを過ごしてるみたいだな。いつ戻る？", performance: {emotion: familiar, intensity: medium, pace: measured}}
+      - {id: ch01_sc02_012, type: protagonist_dialogue, speaker: qixing, ja: "あと二、三日です。ちょっと用事が残ってて。局長こそ、いつからそんなに仕事熱心に？"}
+      - {id: ch01_sc02_013, type: dialogue, speaker: zheng, ja: "言うじゃないか。戻ってきたら覚えてろよ。"}
+      - {id: ch01_sc02_dir005, type: direction, action: pause, seconds: 0.5, note: "声には笑み。気安い空気から、次の問いで調子が変わる。"}
+      - {id: ch01_sc02_014, type: dialogue, speaker: zheng, ja: "……正月は、実家に帰ったのか？", performance: {emotion: concerned, intensity: low, pace: measured}}
+      - {id: ch01_sc02_dir006, type: direction, action: silence, note: "啓星の表情が止まる。音楽を静かに落とす。"}
+      - {id: ch01_sc02_015, type: protagonist_dialogue, speaker: qixing, ja: "いえ……仕事だって、言ってあるので……。"}
+      - {id: ch01_sc02_016, type: dialogue, speaker: zheng, ja: "やっぱりな。いつまでも意地を張ってないで、一度ちゃんと話してこい。"}
+      - {id: ch01_sc02_017, type: protagonist_dialogue, speaker: qixing, ja: "……はい。分かってます。"}
+      - {id: ch01_sc02_dir007, type: direction, action: hang_up, note: "通話を終える。顔を上げると馬皙と目が合う。"}
+      - {id: ch01_sc02_018, type: dialogue, speaker: maxi, ja: "……家と、もめてんの？", performance: {emotion: cautious, intensity: low, pace: natural}}
+      - {id: ch01_sc02_dir008, type: direction, action: look_away, note: "答えず、ロッカーへ視線を戻す。"}
+      - {id: ch01_sc02_019, type: thought, speaker: qixing, ja: "本当は、電話さえしていない。新年の挨拶を、短いメッセージで送っただけだ。"}
+      - {id: ch01_sc02_020, type: thought, speaker: qixing, ja: "親とぶつかって、勢いで〖杏城｜シンチェン〗まで来た。仕事も、暮らしも、ようやく落ち着いた。"}
+      - {id: ch01_sc02_021, type: thought, speaker: qixing, ja: "もう、怒ってなんかいない。それなのに、帰るとなると……。"}
+
+  - id: ch01_sc03
+    scene_kind: side_scene
+    narrative_pov: external
+    location: gym_locker
+    time: immediately_after
+    entries:
+      - {id: ch01_sc03_dir001, type: direction, action: interlude, note: "幕間・ジム。啓星が去った後。馬皙は一人、劇場の連絡を携帯で探す。"}
+      - {id: ch01_sc03_001, type: dialogue, speaker: maxi, ja: "近い日だと……これか。明日の十時半。おい、これ――"}
+      - {id: ch01_sc03_dir002, type: direction, action: empty_seat, note: "馬皙が顔を上げる。返事はない。置いてあった未開封の水も一本なくなっている。"}
+      - {id: ch01_sc03_002, type: dialogue, speaker: maxi, ja: "……帰ってんのかよ。あれ、俺の水まで！"}
+      - {id: ch01_sc03_003, type: dialogue, speaker: maxi, ja: "次はボディソープ、一本まるごと使ってやるからな！", performance: {emotion: mock_annoyed, intensity: medium, pace: brisk}}
+
+  - id: ch01_sc04
+    scene_kind: main
+    narrative_pov: qixing
+    location: xingcheng_street
+    time: same_day_return_walk
+    entries:
+      - {id: ch01_sc04_dir001, type: direction, action: scene, target: street_day, note: "本編に戻る。啓星は携帯の連絡先を開いて歩いている。発信はしない。"}
+      - {id: ch01_sc04_001, type: thought, speaker: qixing, ja: "父さん。……あと一回、押すだけなんだよな。"}
+      - {id: ch01_sc04_002, type: thought, speaker: qixing, ja: "一年半。こんなふうに迷ったことなら、何度もある。"}
+      - {id: ch01_sc04_003, type: thought, speaker: qixing, ja: "一人前になってやる、なんて飛び出してきた手前、どんな顔で話せばいいのか分からない。"}
+      - {id: ch01_sc04_dir002, type: direction, action: find_girl, note: "道端にしゃがむ少女。パンの小さな残りを、少しずつかじっている。"}
+      - {id: ch01_sc04_004, type: protagonist_dialogue, speaker: qixing, ja: "……まだ、ここにいたのか。"}
+      - {id: ch01_sc04_dir003, type: direction, action: offer_water, note: "啓星が水を差し出す。少女が顔を上げる。目元が赤い。"}
+      - {id: ch01_sc04_005, type: protagonist_dialogue, speaker: qixing, ja: "家に帰らないの？"}
+      - {id: ch01_sc04_006, type: protagonist_dialogue, speaker: qixing, ja: "……家出？"}
+      - {id: ch01_sc04_dir004, type: direction, action: lower_gaze, note: "少女は答えず、パンを見つめる。"}
+      - {id: ch01_sc04_007, type: thought, speaker: qixing, ja: "その顔じゃ、放っておけないだろ。"}
+      - {id: ch01_sc04_008, type: protagonist_dialogue, speaker: qixing, ja: "立てる？　何か食べに行こう。"}
+      - {id: ch01_sc04_009, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "……はい。"}
+      - {id: ch01_sc04_dir005, type: direction, action: stumble, note: "立ち上がった少女がよろめく。啓星が腕を伸ばし支える。"}
+      - {id: ch01_sc04_010, type: protagonist_dialogue, speaker: qixing, ja: "危ない！"}
+      - {id: ch01_sc04_011, type: thought, speaker: qixing, ja: "腕に、かすかな温かさが伝わってくる。"}
+      - {id: ch01_sc04_012, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "……ありがとう、ございます。", performance: {emotion: shy, intensity: low, pace: gentle}}
+      - {id: ch01_sc04_dir006, type: direction, action: walk_together, note: "少女は頬を赤くして少し前へ。二人はゆっくり歩き出す。"}
+      - {id: ch01_sc04_013, type: protagonist_dialogue, speaker: qixing, ja: "どうして家を出たんだ？　ああ、ただの通りすがりの質問だよ。"}
+      - {id: ch01_sc04_014, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "小さい頃から、音楽の才能があるって言われて……。母は踊り手で、父はピアニストなんです。"}
+      - {id: ch01_sc04_015, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "二人とも、私にも音楽の道に進んでほしくて。ずっと、ヴァイオリンを……。"}
+      - {id: ch01_sc04_016, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "もう十七なのに、練習と演奏ばかり。息が詰まって……何も持たずに、飛び出してきちゃいました。", performance: {emotion: exhausted, intensity: low, pace: slightly_slow}}
+      - {id: ch01_sc04_017, type: thought, speaker: qixing, ja: "……そうか。"}
+      - {id: ch01_sc04_018, type: protagonist_dialogue, speaker: qixing, ja: "近くに、うまい洋食屋があるんだ。パンだけじゃ足りないだろ。続きは、そこで。"}
+      - {id: ch01_sc04_019, type: thought, speaker: qixing, ja: "家出の話は、あとだ。まずは腹を満たさないと。……あそこの会員カードも、あることだし。"}
+
+  - id: ch01_sc05
+    scene_kind: main
+    narrative_pov: qixing
+    location: restaurant
+    time: same_day_meal
+    entries:
+      - {id: ch01_sc05_dir001, type: direction, action: scene, target: restaurant_day, note: "窓際の席。二人は向かい合う。啓星が肉を一口食べる。少女はまだ硬い顔で食卓を見ている。"}
+      - {id: ch01_sc05_001, type: thought, speaker: qixing, ja: "……静かだ。食事中はあまり話さないほうだけど、さすがにこれは。"}
+      - {id: ch01_sc05_002, type: thought, speaker: qixing, ja: "『続きは、そこで』なんて言ったの、俺だしな。何か……。"}
+      - {id: ch01_sc05_003, type: protagonist_dialogue, speaker: qixing, ja: "名前は？"}
+      - {id: ch01_sc05_004, type: dialogue, speaker: chinatsu, display_name: "少女", ja: "千夏……島田千夏です。", ja_spoken: "ちなつ……しまだちなつです。"}
+      - {id: ch01_sc05_005, type: protagonist_dialogue, speaker: qixing, ja: "年齢は……いや、違う。今のは――"}
+      - {id: ch01_sc05_dir002, type: direction, action: brief_smile, note: "千夏が小さく吹き出す。けれど、その笑みはすぐ曇る。"}
+      - {id: ch01_sc05_006, type: dialogue, speaker: chinatsu, ja: "じゅう……七です。"}
+      - {id: ch01_sc05_007, type: thought, speaker: qixing, ja: "さっき聞いたばかりじゃないか。職業病にもほどがある。"}
+      - {id: ch01_sc05_008, type: dialogue, speaker: chinatsu, ja: "……おまわりさんみたいな、話し方ですね。"}
+      - {id: ch01_sc05_009, type: protagonist_dialogue, speaker: qixing, ja: "そう？　実は本当に警察官だ、って可能性もあるんじゃない？"}
+      - {id: ch01_sc05_010, type: dialogue, speaker: chinatsu, ja: "……そうじゃないと、いいな。"}
+      - {id: ch01_sc05_011, type: dialogue, speaker: chinatsu, ja: "おまわりさんなら、家出した子は親のところへ連れて帰るでしょう？　それは嫌。……今は、まだ。", performance: {emotion: guarded, intensity: low, pace: measured}}
+      - {id: ch01_sc05_012, type: thought, speaker: qixing, ja: "言いかけた言葉を、飲み込んだ。"}
+      - {id: ch01_sc05_013, type: protagonist_dialogue, speaker: qixing, ja: "でも、君くらいの子が、親を頼らずに暮らすのは大変だろ。"}
+      - {id: ch01_sc05_dir003, type: direction, action: two_fingers, note: "千夏が少しむっとして、指を二本立てる。"}
+      - {id: ch01_sc05_014, type: dialogue, speaker: chinatsu, ja: "まず、子ども扱いしないでください。それから、自分で食べていくくらい、できます。"}
+      - {id: ch01_sc05_015, type: dialogue, speaker: chinatsu, ja: "私、これでも少しは名の知られたヴァイオリニストなんですよ。"}
+      - {id: ch01_sc05_016, type: dialogue, speaker: chinatsu, ja: "あんなに無理にやらされなかったら……弾くの、けっこう好きだったと思うんです。", performance: {emotion: wistful, intensity: low, pace: natural}}
+      - {id: ch01_sc05_dir004, type: direction, action: mime_violin, note: "千夏が何も持たない両手でヴァイオリンを弾く仕草。啓星の表情も和らぐ。"}
+      - {id: ch01_sc05_017, type: thought, speaker: qixing, ja: "さっきまでとは、まるで違う顔だ。……こんなふうにも、笑うんだな。"}
+      - {id: ch01_sc05_dir005, type: direction, action: notice_car, target: restaurant_car, note: "千夏の視線が窓へ。笑みが消え、身を硬くする。向かいに黒いリムジン、茶色いサスペンダー姿の男たちが店主に何か尋ねている。"}
+      - {id: ch01_sc05_018, type: protagonist_dialogue, speaker: qixing, ja: "……どうした？"}
+      - {id: ch01_sc05_019, type: dialogue, speaker: chinatsu, ja: "あ……父です。〖梅川備代｜サスペンダーなし〗……。", performance: {emotion: afraid, intensity: low, pace: hesitant}}
+      - {id: ch01_sc05_020, type: protagonist_dialogue, speaker: qixing, ja: "サスペンダー、なし？　いや、してるけど……。"}
+      - {id: ch01_sc05_021, type: dialogue, speaker: chinatsu, ja: "違いますっ。父の、名前です。"}
+      - {id: ch01_sc05_022, type: thought, speaker: qixing, ja: "名前だったのか。……紛らわしいな。"}
+      - {id: ch01_sc05_023, type: protagonist_dialogue, speaker: qixing, ja: "じゃあ、梅川さん――"}
+      - {id: ch01_sc05_024, type: dialogue, speaker: chinatsu, ja: "その呼び方はやめてください。家から逃げたくて、千夏って名乗ったんです。千夏で、いいですから。"}
+      - {id: ch01_sc05_025, type: protagonist_dialogue, speaker: qixing, ja: "……分かった。千夏。"}
+      - {id: ch01_sc05_026, type: thought, speaker: qixing, ja: "本来なら、父親のところへ連れていくべきなんだろう。でも今、警察官だと知られたら……。"}
+      - {id: ch01_sc05_dir006, type: direction, action: entrance, target: beidai_recital, note: "一行が入店。中央で男が深く一礼する。整えたセンター分けの髪が揺れる。千夏は席で小さくなる。"}
+      - {id: ch01_sc05_027, type: dialogue, speaker: beidai, ja: "お食事中の皆さま、こんにちは。演奏歴二十年半、ピアニストの〖梅川備代｜サスペンダーなし〗です。好きなものは――", performance: {emotion: grandiose, intensity: medium, pace: ceremonial}}
+      - {id: ch01_sc05_dir007, type: direction, action: piano_recital, note: "台詞の後、男は当然のようにピアノへ。伴の者たちは周囲を見回す。短い演奏の後、一行は耳打ちし、礼をして去る。客たちはぽかんと見送る。"}
+      - {id: ch01_sc05_028, type: thought, speaker: qixing, ja: "……帰った。今のは、何だったんだ。"}
+      - {id: ch01_sc05_dir008, type: direction, action: relief, note: "千夏がようやく息を吐く。"}
+      - {id: ch01_sc05_029, type: dialogue, speaker: chinatsu, ja: "すみません。変なところ、見せちゃって。父、ちょっと……目立ちたがりで。"}
+      - {id: ch01_sc05_030, type: protagonist_dialogue, speaker: qixing, ja: "いや、気にしなくていいよ。"}
+      - {id: ch01_sc05_dir009, type: direction, action: empty_plates, note: "食卓には空になった皿。千夏の顔色は少しよくなっている。"}
+      - {id: ch01_sc05_031, type: thought, speaker: qixing, ja: "いつの間に、こんなに食べたんだ。俺、まだ少ししか……。"}
+      - {id: ch01_sc05_032, type: thought, speaker: qixing, ja: "まあ、いいか。これだけ食べてくれると、こっちまで気分がいい。"}
+      - {id: ch01_sc05_033, type: protagonist_dialogue, speaker: qixing, ja: "お腹、いっぱいになった？"}
+      - {id: ch01_sc05_dir010, type: direction, action: serious, note: "啓星が両手を前に置き、少し真面目な顔になる。"}
+      - {id: ch01_sc05_034, type: protagonist_dialogue, speaker: qixing, ja: "じゃあ、一つだけ。……いつ、家に帰るつもり？"}
+      - {id: ch01_sc05_dir011, type: direction, action: freeze, note: "千夏の笑顔が止まる。返事を待ちすぎず、啓星が続ける。"}
+      - {id: ch01_sc05_035, type: protagonist_dialogue, speaker: qixing, ja: "まだ帰りたくないなら、しばらく俺のところにいてもいいよ。"}
+      - {id: ch01_sc05_dir012, type: direction, action: surprised, note: "千夏が目を上げる。啓星を見る沈黙を置く。"}
+      - {id: ch01_sc05_036, type: dialogue, speaker: chinatsu, ja: "……はい。", performance: {emotion: relieved, intensity: low, pace: gentle}}
+      - {id: ch01_sc05_037, type: protagonist_dialogue, speaker: qixing, ja: "じゃ、ちょっと待ってて。会計してくる。"}
+
+  - id: ch01_sc06
+    scene_kind: main
+    narrative_pov: qixing
+    location: xingcheng_street
+    time: same_day_after_meal
+    entries:
+      - {id: ch01_sc06_dir001, type: direction, action: scene, target: walk_home, note: "店を出た二人。千夏は啓星の少し後ろを、小さな歩幅でついてくる。"}
+      - {id: ch01_sc06_001, type: dialogue, speaker: chinatsu, ja: "……ありがとう。"}
+      - {id: ch01_sc06_002, type: protagonist_dialogue, speaker: qixing, ja: "ん。"}
+      - {id: ch01_sc06_003, type: thought, speaker: qixing, ja: "……ああ、俺に言ってるのか。"}
+      - {id: ch01_sc06_dir002, type: direction, action: hide_smile, note: "啓星は口元を緩め、見られないように少し顔を背ける。"}
+      - {id: ch01_sc06_004, type: dialogue, speaker: chinatsu, ja: "なんだか、野良猫を拾ったおじさんみたい。", performance: {emotion: playful, intensity: low, pace: natural}}
+      - {id: ch01_sc06_005, type: protagonist_dialogue, speaker: qixing, ja: "おじさんって……俺、まだ二十歳なんだけど！"}
+      - {id: ch01_sc06_dir003, type: direction, action: chapter_end, note: "二人を同じ画面に収めたまま余韻。暗転して第一章終了。"}

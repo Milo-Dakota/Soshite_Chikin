@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-ef0c9b90-3d15-43a6-b470-dc3bc6c3ab9e.png",
+  "archive": "assets/ch01/bg/restaurant_public_v1.png",
+  "game": "game/images/ch01/restaurant_public.png",
+  "references": [
+    "game/images/ch01/restaurant_day.png",
+    "game/images/ch01/cg_recital.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit target image 1: existing Japanese visual novel restaurant background. Make ONE additional background shot of the SAME restaurant for a pianist publicly bowing near its piano. Camera has moved forward from the dining table into the open aisle, looking toward entrance and piano. Remove the entire foreground table, food, glasses and two foreground chair backs; replace this foreground with continuous unobstructed polished wooden floor. Preserve architectural continuity: tall street-facing windows on the left, glazed entrance door slightly left of center at rear, dark wood panels and square columns, warm wall lamps, black grand piano on low platform to the right, reception cabinet near entrance, winter daytime street outside. Broad clear floor area in center-left for a standing full-body sprite, no furniture crossing it. Piano and door fully legible, eye-level medium-wide perspective. Image 2 is supporting style/setting reference ONLY, do not copy any people from it. Empty background, NO people or silhouettes. Match source refined anime VN background painting and restrained warm palette. Landscape 16:9, full bleed, no labels/text, no dramatic new lighting, no new architecture. Output an opaque background."
+}

@@ -1,0 +1,19 @@
+{
+  "markdown_links_checked": 29,
+  "manifest_paths_checked": 69,
+  "inventory_files_checked": 87,
+  "runtime_files_unchanged": 203,
+  "moved_files": 24,
+  "errors": [],
+  "checks": [
+    "local_markdown_links",
+    "provenance_paths",
+    "inventory_hashes",
+    "preserved_copy_hashes",
+    "runtime_snapshot",
+    "tool_syntax",
+    "tool_report_paths"
+  ],
+  "engine_launched": false,
+  "published_package_verified": false
+}
