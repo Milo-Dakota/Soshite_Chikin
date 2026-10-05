@@ -1,0 +1,36 @@
+[
+  {
+    "id": "qixing_take_hand_v3",
+    "replaces": "qixing_take_hand_v2",
+    "title": "启星抓手（整图重绘）",
+    "group": "primary",
+    "scene": "sc02",
+    "refs": [
+      "assets/reference/ch02/qixing_indoor_v1.png",
+      "assets/reference/ch02/chinatsu_indoor_v1.png",
+      "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+    ],
+    "prompt": "Use case: illustration-story. Generate an entirely NEW complete landscape 16:9 CG, not a local edit or repair of previous CG. References supply ONLY character identities, clothing and living-room setting. Serious 2010–2016 Japanese PC visual novel, refined anime line art, restrained cel shading, softly painted background. Medium two-person shot on same gray sofa, morning window light LEFT. Qixing on LEFT black tousled hair blue-gray knit sweater dark trousers leans toward Chinatsu on RIGHT with chestnut long hair ivory sweater black trousers knees drawn up. He reflexively takes her RIGHT hand with his LEFT hand, she looks startled and guarded, no blush. Stage the hands near the CENTER at 55 percent image height so they remain above dialogue panel. SIMPLE CORRECT HAND ANATOMY is crucial: her near anatomical RIGHT upper arm visibly continues from right shoulder into right elbow and forearm extending LEFT toward him; her RIGHT HAND is seen from BACK, knuckles and nails up, fingers point LEFT, her RIGHT THUMB is on the UPPER/FAR side of that hand (toward rear of sofa). The man's near anatomical LEFT forearm extends RIGHT with LEFT PALM UP beneath her right hand, thumb lightly supporting her outer hand, no interlocked fingers. Both hands each have five naturally proportioned fingers, uninterrupted wrist alignment, distinct silhouettes. Other hands stay on their respective laps or hidden naturally, no second hand in grip. Caring but mistaken gesture, natural relaxed grasp not romantic pose. Faces and joined hands above bottom 30 percent. Opaque full-frame illustration, no text, UI or collage.",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7049da64-ab1e-45ff-a2bd-7008b3c394a7.png",
+    "output": "assets/ch02/cg/qixing_take_hand_v3.png",
+    "selected": true,
+    "mode": "builtin image_gen full-frame regeneration from character/background references"
+  },
+  {
+    "id": "chinatsu_corridor_escort_v3",
+    "replaces": "chinatsu_corridor_escort_v2",
+    "title": "千夏被佣人带往走廊深处（整图重绘）",
+    "group": "supplement",
+    "scene": "sc06",
+    "refs": [
+      "assets/reference/chinatsu_casual_v1.png",
+      "assets/ch02/backgrounds/umekawa_corridor_v1.png",
+      "assets/ch01/cg/cg_recital_v1.png"
+    ],
+    "prompt": "Use case: illustration-story. Generate an entirely NEW complete 16:9 narrative CG, NOT an edit of old corridor picture. Reference 1 supplies Chinatsu identity and clothes, ref 2 corridor architecture, ref 3 supplies ONLY ivory shirt, dark brown suspenders and brown high-waisted trousers of two standing household servants. Serious commercial anime VN rendering with refined anatomy, restrained colors. Wide three-quarter SIDE VIEW of a closely grouped escort progressing TOGETHER from foreground-left toward a door along RIGHT wall in Gothic corridor, windows LEFT, walnut wainscot and polished floor. Chinatsu slender chestnut-haired girl in long ivory puffer black trousers is visibly WALKING in the same direction as both servants, head lowered, RIGHT hand resting protectively on LEFT upper arm. Exactly TWO adult male servants in ivory button shirts, BROWN suspenders, brown tailored trousers, white gloves, dark shoes. FIRST servant is only ONE STEP ahead and to her right: he turns his head and shoulders BACK toward her, makes a clearly visible open gloved hand gesture toward the right-side doorway to direct her onward. SECOND servant walks at her other side HALF A STEP behind, within arm's length, looking toward her and keeping close pace, body oriented along same route. Their gazes, close spacing and lead gesture make it unmistakable that they are escorting HER, not three strangers standing separately. Do not seize her arms, add restraints, force physical contact or add guards. Show all three full or knee-length figures as ONE tight narrative group near center; no servant huge isolated foreground, no distant unrelated servant. Directional foot placement and stepping clothes communicate walking, not idle standing. Faces and guiding gesture in upper 65 percent. Opaque full frame, no text or symbols.",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7d471db1-eda4-4709-bfdb-a2c5c7e8b2c4.png",
+    "output": "assets/ch02/cg/chinatsu_corridor_escort_v3.png",
+    "selected": true,
+    "mode": "builtin image_gen full-frame regeneration from character/background references"
+  }
+]

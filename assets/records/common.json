@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "runtime_images": [
+    {
+      "runtime": "game/images/ui/chikurin_soft_logo.png",
+      "originals": [
+        "assets/common/ui/chikurin_soft_logo.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ui/menu_theatre_v1.png",
+      "originals": [
+        "assets/common/ui/menu_theatre_v1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "directions": {
+    "ch01_sc01_dir001": [
+      "scene ch_bg street",
+      "show ch_qixing neutral at ch_left",
+      "with Dissolve(0.6)",
+      "$ ch_audio(\"daily\")",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch01_sc01_dir002": [
+      "scene ch_cg sleeve",
+      "with dissolve"
+    ],
+    "ch01_sc01_dir003": [
+      "window hide",
+      "scene ch_cg bread",
+      "with dissolve",
+      "pause 1.2"
+    ],
+    "ch01_sc01_dir004": [
+      "window hide",
+      "scene ch_bg street",
+      "show ch_qixing neutral at ch_left",
+      "with dissolve",
+      "pause 0.5"
+    ],
+    "ch01_sc02_dir001": [
+      "$ ch_audio(\"gym_room\")",
+      "scene ch_bg locker",
+      "with fade"
+    ],
+    "ch01_sc02_dir002": [
+      "window hide",
+      "scene ch_cg shower",
+      "with dissolve",
+      "$ ch_audio(\"shower\")",
+      "pause 0.6"
+    ],
+    "ch01_sc02_dir003": [
+      "$ ch_audio(\"gym_room\")",
+      "scene ch_bg locker",
+      "show ch_qixing neutral at ch_left",
+      "show ch_maxi neutral at ch_maxi_position(1690)",
+      "with fade"
+    ],
+    "ch01_sc02_dir004": [
+      "$ ch_audio(\"phone\")",
+      "show screen ch_phone(\"鄭局長\", True)",
+      "with dissolve"
+    ],
+    "ch01_sc02_dir005": [
+      "pause 0.5"
+    ],
+    "ch01_sc02_dir006": [
+      "stop music fadeout 1.0",
+      "show ch_qixing troubled at ch_left",
+      "show ch_maxi concerned at ch_maxi_position(1690)",
+      "with Dissolve(0.2)",
+      "pause 0.7"
+    ],
+    "ch01_sc02_dir007": [
+      "hide screen ch_phone",
+      "with dissolve"
+    ],
+    "ch01_sc02_dir008": [
+      "hide ch_maxi",
+      "with dissolve",
+      "pause 0.5"
+    ],
+    "ch01_sc03_dir001": [
+      "$ ch_stop_audio()",
+      "call ch_card(\"ch01_interlude\") from ch01_interlude_return",
+      "scene ch_bg locker_empty",
+      "show ch_maxi enthusiastic at ch_maxi_position(320)",
+      "with Dissolve(0.6)",
+      "$ ch_audio(\"gym_room\")"
+    ],
+    "ch01_sc03_dir002": [
+      "window hide",
+      "hide ch_maxi",
+      "with dissolve",
+      "pause 0.9",
+      "show ch_maxi annoyed at ch_maxi_position(320)",
+      "with dissolve"
+    ],
+    "ch01_sc04_dir001": [
+      "call ch_card(\"ch01_walk\") from ch01_walk_return",
+      "scene ch_bg street",
+      "show ch_qixing troubled at ch_left",
+      "show screen ch_phone(\"父さん\")",
+      "with Dissolve(0.6)",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch01_sc04_dir002": [
+      "hide screen ch_phone",
+      "scene ch_cg water",
+      "with dissolve"
+    ],
+    "ch01_sc04_dir003": [
+      "pause 0.5"
+    ],
+    "ch01_sc04_dir004": [
+      "pause 0.7"
+    ],
+    "ch01_sc04_dir005": [
+      "window hide",
+      "scene ch_cg support",
+      "with dissolve",
+      "$ ch_audio(\"warm\")",
+      "pause 0.6"
+    ],
+    "ch01_sc04_dir006": [
+      "scene ch_bg street",
+      "show ch_qixing neutral at ch_left",
+      "show ch_chinatsu embarrassed at ch_right",
+      "with dissolve",
+      "pause 0.5"
+    ],
+    "ch01_sc05_dir001": [
+      "scene ch_cg table",
+      "with fade",
+      "$ ch_audio(\"daily\")",
+      "$ ch_audio(\"restaurant_room\")"
+    ],
+    "ch01_sc05_dir002": [
+      "scene ch_bg restaurant",
+      "show ch_qixing neutral at ch_seated_left",
+      "show ch_chinatsu smile at ch_seated_right",
+      "with dissolve",
+      "pause 0.5",
+      "show ch_chinatsu guarded at ch_seated_right",
+      "with dissolve"
+    ],
+    "ch01_sc05_dir003": [
+      "scene ch_cg two_fingers",
+      "with dissolve",
+      "pause 0.4"
+    ],
+    "ch01_sc05_dir004": [
+      "window hide",
+      "scene ch_cg violin",
+      "with dissolve",
+      "pause 0.8"
+    ],
+    "ch01_sc05_dir005": [
+      "stop music fadeout 0.8",
+      "scene ch_cg car",
+      "with dissolve",
+      "pause 0.8"
+    ],
+    "ch01_sc05_dir006": [
+      "window hide",
+      "$ ch_audio(\"door\")",
+      "scene ch_bg restaurant_public",
+      "show ch_beidai bow at ch_beidai_public",
+      "with Dissolve(0.6)",
+      "pause 5.0",
+      "stop sound fadeout 0.15"
+    ],
+    "ch01_sc05_dir007": [
+      "window hide",
+      "scene ch_cg recital",
+      "with dissolve",
+      "$ ch_audio(\"recital\")",
+      "$ renpy.music.set_volume(0.35, delay=0.5, channel=\"ch_ambience\")",
+      "if renpy.loadable(CH_AUDIO[\"recital\"][0]):",
+      "    show screen ch_recital_hint",
+      "    pause 18.0",
+      "else:",
+      "    pause 2.0",
+      "hide screen ch_recital_hint",
+      "with None",
+      "stop music fadeout 1.3",
+      "$ renpy.music.set_volume(1.0, delay=0.8, channel=\"ch_ambience\")",
+      "scene ch_bg restaurant_public",
+      "show ch_beidai bow at ch_beidai_public",
+      "with dissolve",
+      "pause 1.0",
+      "scene ch_bg restaurant",
+      "show ch_qixing bemused at ch_seated_left",
+      "show ch_chinatsu afraid at ch_seated_right",
+      "with Dissolve(0.5)",
+      "$ ch_audio(\"door\")",
+      "pause 5.0",
+      "stop sound fadeout 0.15"
+    ],
+    "ch01_sc05_dir008": [
+      "show ch_qixing neutral at ch_seated_left",
+      "show ch_chinatsu guarded at ch_seated_right",
+      "with dissolve",
+      "$ ch_audio(\"warm\")"
+    ],
+    "ch01_sc05_dir009": [
+      "window hide",
+      "scene ch_bg restaurant_empty",
+      "with dissolve",
+      "pause 1.0",
+      "show ch_qixing neutral at ch_seated_left",
+      "show ch_chinatsu smile at ch_seated_right",
+      "with dissolve"
+    ],
+    "ch01_sc05_dir010": [
+      "show ch_qixing serious at ch_seated_left",
+      "with Dissolve(0.2)",
+      "pause 0.5"
+    ],
+    "ch01_sc05_dir011": [
+      "show ch_chinatsu guarded at ch_seated_right",
+      "with dissolve",
+      "pause 0.4"
+    ],
+    "ch01_sc05_dir012": [
+      "show ch_chinatsu surprised at ch_seated_right",
+      "with Dissolve(0.2)",
+      "pause 0.6"
+    ],
+    "ch01_sc06_dir001": [
+      "scene ch_bg street",
+      "show ch_qixing neutral at ch_left",
+      "show ch_chinatsu smile at ch_right",
+      "with fade",
+      "$ ch_audio(\"warm\")",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch01_sc06_dir002": [
+      "scene ch_cg walk",
+      "with dissolve",
+      "pause 0.5"
+    ],
+    "ch01_sc06_dir003": [
+      "window hide",
+      "pause 1.0",
+      "$ ch_stop_audio()",
+      "scene black",
+      "with fade",
+      "call ch_card(\"ch01_ending\") from ch01_ending_return"
+    ]
+  },
+  "before": {
+    "ch01_sc01_012": [
+      "scene ch_bg street",
+      "show ch_qixing serious at ch_left",
+      "with dissolve"
+    ],
+    "ch01_sc02_011": [
+      "stop sound",
+      "hide screen ch_phone",
+      "with dissolve"
+    ],
+    "ch01_sc05_019": [
+      "scene ch_bg restaurant",
+      "show ch_qixing neutral at ch_seated_left",
+      "show ch_chinatsu afraid at ch_seated_right",
+      "with dissolve"
+    ],
+    "ch01_sc06_005": [
+      "scene ch_bg street",
+      "show ch_qixing surprised at ch_left",
+      "show ch_chinatsu smile at ch_right",
+      "with dissolve"
+    ],
+    "ch01_sc02_008": [
+      "show ch_maxi enthusiastic at ch_maxi_position(1690)",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc02_010": [
+      "show ch_qixing bemused at ch_left",
+      "show ch_maxi neutral at ch_maxi_position(1690)",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc04_014": [
+      "show ch_chinatsu downcast at ch_right",
+      "show ch_qixing serious at ch_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc04_018": [
+      "show ch_qixing soft at ch_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_007": [
+      "show ch_qixing bemused at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_010": [
+      "show ch_chinatsu downcast at ch_seated_right",
+      "show ch_qixing serious at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_020": [
+      "show ch_qixing bemused at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_024": [
+      "show ch_qixing serious at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_030": [
+      "show ch_qixing soft at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_031": [
+      "show ch_qixing bemused at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_032": [
+      "show ch_qixing soft at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_035": [
+      "show ch_qixing soft at ch_seated_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch01_sc05_036": [
+      "show ch_chinatsu smile at ch_seated_right",
+      "with Dissolve(0.2)"
+    ]
+  }
+}

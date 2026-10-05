@@ -1,0 +1,44 @@
+[
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\ch02\\sprites\\beidai_home_neutral_v1.png",
+    "width": 1024,
+    "height": 1536,
+    "png_color_type": 6,
+    "sha256": "448690f1b8c66f6e3f97aa2d51766624ffaff46ffefa60f88a72f2d849c9d9b1"
+  },
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\ch02\\sprites\\chinatsu_dress_neutral_v1.png",
+    "width": 1024,
+    "height": 1536,
+    "png_color_type": 6,
+    "sha256": "1903ae597fe72ab96f5a73b7df69cffc6a2493cd2097c9a76055f3aa0a0c6dd8"
+  },
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\ch02\\sprites\\chinatsu_indoor_seated_neutral_v1.png",
+    "width": 1024,
+    "height": 1536,
+    "png_color_type": 6,
+    "sha256": "cdc504682e84d8953df5b4386183639cc01fe38aa79e8c12ff19142d42042daa"
+  },
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\ch02\\sprites\\qixing_indoor_neutral_v1.png",
+    "width": 1024,
+    "height": 1536,
+    "png_color_type": 6,
+    "sha256": "8bc75de2889b3860c75dbec3140bd886daec29716ce69d3a2ef04ce98b86034c"
+  },
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\ch02\\sprites\\wengang_work_neutral_v1.png",
+    "width": 1024,
+    "height": 1536,
+    "png_color_type": 6,
+    "sha256": "1fc30bbd777efd15e8670f52a93de1b816686e71c5887c1766c7dbd9517f4d46"
+  },
+  {
+    "path": "C:\\Users\\craft\\Desktop\\soshite_chikin\\assets\\reference\\ch02\\chinatsu_dress_v2.png",
+    "width": 1536,
+    "height": 1024,
+    "png_color_type": 2,
+    "sha256": "06edaf01463381bb2dc43308d97fa070d7b2e236b71c65e6536d8378837bb7db"
+  }
+]

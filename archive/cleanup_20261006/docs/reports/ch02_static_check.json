@@ -1,0 +1,129 @@
+{
+  "chapter_id": "ch02",
+  "script_sha256": "fa06b84c2245e33152c419fa7fc3abf503dc6ca34fde0aa2f9403a7f53730e0a",
+  "scenes": 9,
+  "text_counts": {
+    "thought": 69,
+    "dialogue": 36,
+    "protagonist_dialogue": 16,
+    "document_text": 4
+  },
+  "directions": 61,
+  "voice_lines": 36,
+  "voice_by_character": {
+    "chinatsu": 8,
+    "maxi": 5,
+    "wengang": 6,
+    "theatre_staff": 2,
+    "house_driver": 1,
+    "beidai": 12,
+    "house_servant": 1,
+    "unknown_caller": 1
+  },
+  "scene_counts": [
+    {
+      "scene_id": "ch02_sc01",
+      "counts": {
+        "direction": 6,
+        "thought": 5,
+        "dialogue": 5,
+        "protagonist_dialogue": 4,
+        "document_text": 4
+      }
+    },
+    {
+      "scene_id": "ch02_sc02",
+      "counts": {
+        "direction": 4,
+        "thought": 4,
+        "protagonist_dialogue": 1,
+        "dialogue": 1
+      }
+    },
+    {
+      "scene_id": "ch02_sc03",
+      "counts": {
+        "direction": 5,
+        "thought": 9,
+        "protagonist_dialogue": 1
+      }
+    },
+    {
+      "scene_id": "ch02_sc04",
+      "counts": {
+        "direction": 6,
+        "dialogue": 6,
+        "thought": 4,
+        "protagonist_dialogue": 4
+      }
+    },
+    {
+      "scene_id": "ch02_sc05",
+      "counts": {
+        "direction": 8,
+        "thought": 11,
+        "dialogue": 5,
+        "protagonist_dialogue": 1
+      }
+    },
+    {
+      "scene_id": "ch02_sc06",
+      "counts": {
+        "direction": 9,
+        "dialogue": 5,
+        "thought": 13
+      }
+    },
+    {
+      "scene_id": "ch02_sc07",
+      "counts": {
+        "direction": 11,
+        "thought": 6,
+        "dialogue": 9
+      }
+    },
+    {
+      "scene_id": "ch02_sc08",
+      "counts": {
+        "direction": 5,
+        "dialogue": 5
+      }
+    },
+    {
+      "scene_id": "ch02_sc09",
+      "counts": {
+        "direction": 7,
+        "thought": 17,
+        "protagonist_dialogue": 5
+      }
+    }
+  ],
+  "document_text_ids": [
+    "ch02_sc01_011",
+    "ch02_sc01_012",
+    "ch02_sc01_013",
+    "ch02_sc01_014"
+  ],
+  "checks": [
+    "yaml_parse",
+    "required_fields",
+    "unique_ids",
+    "id_namespaces",
+    "scene_pov",
+    "known_speakers",
+    "thought_pov",
+    "protagonist_unvoiced",
+    "documents_unvoiced",
+    "ruby_pairs",
+    "spoken_name_readings",
+    "performance_fields",
+    "markdown_voice_coverage"
+  ],
+  "not_checked": [
+    "RenPy runtime",
+    "bilingual layout",
+    "voice audio",
+    "image assets",
+    "localization"
+  ]
+}

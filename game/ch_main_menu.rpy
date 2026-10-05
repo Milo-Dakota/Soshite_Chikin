@@ -104,6 +104,9 @@ screen ch_theatre_menu(animate=False, interactive=True):
                 action (Continue() if interactive else Return())
                 default_focus can_continue
                 text_color ("#e7cf9c" if can_continue else "#777b83")
+            textbutton "第二章":
+                style "ch_menu_primary"
+                action (Start("ch02_start") if interactive else Return())
 
     fixed:
         at (ch_menu_reveal(2.6) if animate else Transform())

@@ -1,0 +1,261 @@
+schema_version: 1
+chapter_id: ch02
+title_ja: "消えた首席と星の救難信号"
+revision: 2
+status: script_complete_unvoiced
+text_type_extensions:
+  document_text:
+    required: [id, source_kind, ja]
+    optional: [author]
+    display: true
+    voiced: false
+    note: "作中の書面。台詞として読ませない。署名も本文として表示する。"
+scenes:
+  - id: ch02_sc01
+    scene_kind: main
+    narrative_pov: qixing
+    location: qixing_home_to_street
+    time: morning_after_shelter
+    entries:
+      - {id: ch02_sc01_dir001, type: direction, action: scene, target: qixing_living_morning, note: "朝の居間。テレビから賑やかなピアノ。千夏はソファに座っている。演奏映像の中だけに備代を映す。"}
+      - {id: ch02_sc01_001, type: thought, speaker: qixing, ja: "……朝から、ずいぶん元気なピアノだな。"}
+      - {id: ch02_sc01_002, type: thought, speaker: qixing, ja: "何事もなく、一晩が過ぎた。それだけで少しほっとしたのに、今度はテレビに起こされた。"}
+      - {id: ch02_sc01_dir002, type: direction, action: television_recital, note: "画面の男はセンター分けにサスペンダー。髪を揺らし、腕を大きく動かして弾く。千夏は気まずそうに目を伏せる。"}
+      - {id: ch02_sc01_003, type: dialogue, speaker: chinatsu, ja: "……お父さん。朝からずっと、これを見てたんです。", performance: {emotion: awkward, intensity: low, pace: natural, note: "テレビの人物を指す。誇らしさより、見られた気まずさ。"}}
+      - {id: ch02_sc01_004, type: dialogue, speaker: chinatsu, ja: "練習歴二十年半ですから。芸術の『極み』に達した、ってところでしょうか。", ja_spoken: "練習歴二十年半ですから。芸術の極みに達した、ってところでしょうか。", performance: {emotion: wry, intensity: low, pace: measured, note: "わずかな皮肉。物まねや大げさな笑いにはしない。"}}
+      - {id: ch02_sc01_005, type: protagonist_dialogue, speaker: qixing, ja: "君は俺のもの。俺は君の、何なんだ……。"}
+      - {id: ch02_sc01_006, type: dialogue, speaker: chinatsu, ja: "あれ、その歌、知ってるんですか？　父が有名になった曲。", performance: {emotion: surprised, intensity: low, pace: natural, note: "思わず問い返す。"}}
+      - {id: ch02_sc01_dir003, type: direction, action: nod, note: "啓星が苦笑してうなずく。歌唱や実在の音源を追加せず、先ほどの言葉は小声の引用として扱う。"}
+      - {id: ch02_sc01_007, type: protagonist_dialogue, speaker: qixing, ja: "あの一曲で売れて、それからピアニストに転向。〖梅川備代｜サスペンダーなし〗の話なら、街じゅう知ってるよ。"}
+      - {id: ch02_sc01_008, type: protagonist_dialogue, speaker: qixing, ja: "『国民プロデューサー』の皆さんの、おかげなのかもな。"}
+      - {id: ch02_sc01_009, type: protagonist_dialogue, speaker: qixing, ja: "じゃ、朝飯を買ってくる。"}
+      - {id: ch02_sc01_dir004, type: direction, action: move, target: street_notice_morning, note: "テレビ音を終え、住宅地の外へ。両側に同じ尋ね人の紙。千夏の写真へ寄る。文章は生成画像に焼き込まず、続く document_text を順に表示。"}
+      - {id: ch02_sc01_010, type: thought, speaker: qixing, ja: "……千夏？　こんなところにも、あっちにも。"}
+      - {id: ch02_sc01_011, type: document_text, source_kind: missing_person_notice, author: beidai, ja: "娘の〖梅川千夏｜うめかわちなつ〗が行方不明になって、二週間半になります。"}
+      - {id: ch02_sc01_012, type: document_text, source_kind: missing_person_notice, author: beidai, ja: "いなくなった日、娘はサスペンダーを着けておらず、髪もセンター分けではありませんでした。"}
+      - {id: ch02_sc01_013, type: document_text, source_kind: missing_person_notice, author: beidai, ja: "〖只因｜ただ〗、あの子が美しすぎたから。"}
+      - {id: ch02_sc01_014, type: document_text, source_kind: missing_person_notice, author: beidai, ja: "――〖梅川備代｜サスペンダーなし〗"}
+      - {id: ch02_sc01_015, type: thought, speaker: qixing, ja: "……人を捜す気はあるんだよな、これ。"}
+      - {id: ch02_sc01_dir005, type: direction, action: phone_ring, note: "歩き出したところで着信。画面は馬皙。啓星が応答した時点で呼出音を止める。"}
+      - {id: ch02_sc01_016, type: dialogue, speaker: maxi, ja: "おう、〖徐启星｜シュー・チーシン〗！　コンサートのチケット、手に入ったぞ。", performance: {emotion: upbeat, intensity: medium, pace: brisk, note: "電話。用件を一気に切り出す。フィルターは録音本文に含めない。"}}
+      - {id: ch02_sc01_017, type: dialogue, speaker: maxi, ja: "明後日、午後二時半。〖艾昆｜アイクン〗劇場な。絶対来いよ！", performance: {emotion: upbeat, intensity: medium, pace: brisk, note: "返事を待つつもりがない調子。"}}
+      - {id: ch02_sc01_dir006, type: direction, action: hang_up, note: "啓星が答える前に通話終了。端末を見たまま短く間を置く。"}
+      - {id: ch02_sc01_018, type: thought, speaker: qixing, ja: "……返事ぐらい、させろよ。"}
+
+  - id: ch02_sc02
+    scene_kind: main
+    narrative_pov: qixing
+    location: qixing_living_room
+    time: same_morning_after_breakfast_shopping
+    entries:
+      - {id: ch02_sc02_dir001, type: direction, action: scene, target: qixing_living_morning, note: "玄関から居間へ。テレビのピアノがまだ聞こえる。同じソファ、同じ窓。千夏は膝を抱え、テレビを見つめている。"}
+      - {id: ch02_sc02_001, type: thought, speaker: qixing, ja: "まだ、見てる。そんなに気になるのか。"}
+      - {id: ch02_sc02_dir002, type: direction, action: notice_bruise, note: "2026-10-03 ユーザー指定による位置修正：あざは左前腕（肘と手首の間）の外側。室内ではコートを脱ぎ、袖口が肘のすぐ下まで自然に寄り、膝に添えた前腕のあざが日差しの中で見える。上腕は衣服で覆い、衣服を透かさない。"}
+      - {id: ch02_sc02_002, type: thought, speaker: qixing, ja: "左腕の、あざ。……まだ、こんなにはっきり。"}
+      - {id: ch02_sc02_003, type: thought, speaker: qixing, ja: "どこかにぶつけただけ、にしては……。"}
+      - {id: ch02_sc02_dir003, type: direction, action: reach_and_recoil, note: "啓星が反射的に千夏の手を取る。千夏はびくりと身を縮め、強く引き戻す。接触の位置が分かる手元か二人の構図を用いる。"}
+      - {id: ch02_sc02_004, type: thought, speaker: qixing, ja: "しまった。つい、いつもの癖で。"}
+      - {id: ch02_sc02_005, type: protagonist_dialogue, speaker: qixing, ja: "千夏。その、あざは……。"}
+      - {id: ch02_sc02_006, type: dialogue, speaker: chinatsu, ja: "……聞かないで。", performance: {emotion: guarded, intensity: low, pace: firm, note: "小さく、はっきり拒む。照れや拗ねた声にしない。"}}
+      - {id: ch02_sc02_dir004, type: direction, action: close_off, note: "千夏は腕を隠すように身体を丸める。啓星はそれ以上近づかない。テレビ音を低く落とし、返事のない間から暗転。"}
+
+  - id: ch02_sc03
+    scene_kind: main
+    narrative_pov: qixing
+    location: street_to_qixing_home
+    time: concert_day_morning
+    entries:
+      - {id: ch02_sc03_dir001, type: direction, action: scene, target: street_notices_removed, note: "時間を進め、演奏会当日の朝。同じ道を朝食の袋を手に戻る啓星。尋ね人の紙はなくなっている。撤去した人物は映さない。"}
+      - {id: ch02_sc03_001, type: thought, speaker: qixing, ja: "この二日、千夏はずっと沈んだままだ。やっぱり、触れてほしくないことだったんだろうか。"}
+      - {id: ch02_sc03_002, type: thought, speaker: qixing, ja: "あれだけ貼ってあった紙も、すっかりなくなってる。邪魔だって、市の取り締まりで剥がされたのか？"}
+      - {id: ch02_sc03_dir002, type: direction, action: check_message, note: "馬皙からの通知を確認する。新たなメッセージ全文は作らず、内容は次の内心に集約。"}
+      - {id: ch02_sc03_003, type: thought, speaker: qixing, ja: "馬皙からだ。コンサート、遅れるなよ……か。"}
+      - {id: ch02_sc03_004, type: thought, speaker: qixing, ja: "千夏を一人で留守番させて、俺だけ聴きに行くのもな。"}
+      - {id: ch02_sc03_dir003, type: direction, action: empty_home, target: qixing_entry_empty, note: "帰宅。千夏の靴があった場所が空いている。居間にも人影はない。日常の音楽を引く。"}
+      - {id: ch02_sc03_005, type: protagonist_dialogue, speaker: qixing, ja: "……千夏？"}
+      - {id: ch02_sc03_006, type: thought, speaker: qixing, ja: "靴が、ない。部屋にも――いない。"}
+      - {id: ch02_sc03_dir004, type: direction, action: unsettled, note: "啓星の呼吸が乱れる。剥がされた張り紙の跡を、短い記憶のカットとして挟む。家を出た千夏の映像は挟まない。"}
+      - {id: ch02_sc03_007, type: thought, speaker: qixing, ja: "今朝、消えていた張り紙。……まさか。"}
+      - {id: ch02_sc03_008, type: thought, speaker: qixing, ja: "落ち着け。こういうときに何をするか。訓練で、何度も叩き込まれただろ。"}
+      - {id: ch02_sc03_009, type: thought, speaker: qixing, ja: "休暇もあと二日、ってところで出会った子だ。明日、仕事に戻ったら、あの子のことも相談しようと思っていた。"}
+      - {id: ch02_sc03_010, type: thought, speaker: qixing, ja: "コンサートまでは、まだ六時間ある。……もう、明日まで待ってはいられない。"}
+      - {id: ch02_sc03_dir005, type: direction, action: leave_for_station, note: "啓星は踵を返す。行き先は次の場面で警察署と分かる。捜索の成果や新しい手掛かりは追加しない。"}
+
+  - id: ch02_sc04
+    scene_kind: main
+    narrative_pov: qixing
+    location: xingcheng_police_office
+    time: concert_day_before_noon
+    entries:
+      - {id: ch02_sc04_dir001, type: direction, action: scene, target: police_office_day, note: "杏城の警察署。啓星は私服のまま。パソコンの後ろから、細身で背の高い同僚が顔を出す。"}
+      - {id: ch02_sc04_001, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "お、休暇は終わりか？　今日から出勤？", performance: {emotion: casual, intensity: medium, pace: natural, note: "見慣れた同僚への気軽な声。"}}
+      - {id: ch02_sc04_002, type: thought, speaker: qixing, ja: "同僚の〖文鋼｜ウェン・ガン〗だ。"}
+      - {id: ch02_sc04_003, type: protagonist_dialogue, speaker: qixing, ja: "いや、明日から。今日は暇だから、少し準備をしようと思って。……局長も来てる？"}
+      - {id: ch02_sc04_dir002, type: direction, action: sit_and_lower_voice, note: "啓星は周囲を見てから座り、声を落とす。局長の姿や返答は追加しない。"}
+      - {id: ch02_sc04_004, type: protagonist_dialogue, speaker: qixing, ja: "それと……ちょっと、相談がある。"}
+      - {id: ch02_sc04_dir003, type: direction, action: conversation_ellipsis, note: "事情を説明する短い時間経過。既出の出来事を長い再説明にせず、次の文鋼の反応へつなぐ。"}
+      - {id: ch02_sc04_005, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "何だよそれ！　今どきの子は、もう少し自分の身を守るってことをだな……。", performance: {emotion: indignant, intensity: high, pace: brisk, note: "話を聞いて急に声が大きくなる。"}}
+      - {id: ch02_sc04_006, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "知らない男の家に転がり込んで、二日も泊まった？　二日だぞ？", performance: {emotion: incredulous, intensity: high, pace: emphatic, note: "後半の二日を繰り返してしまう。笑わせようとはしない。"}}
+      - {id: ch02_sc04_007, type: thought, speaker: qixing, ja: "そこかよ。今、引っかかるのは。"}
+      - {id: ch02_sc04_008, type: protagonist_dialogue, speaker: qixing, ja: "……それで、どうすればいいと思う。"}
+      - {id: ch02_sc04_009, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "どうもこうも。張り紙がなくなったなら、家の人が迎えに来たんだろ。", performance: {emotion: matter_of_fact, intensity: medium, pace: natural, note: "自分の推測に疑いがない。"}}
+      - {id: ch02_sc04_010, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "局長に話したら、お前のほうが説教されかねないぞ。", performance: {emotion: cautioning, intensity: medium, pace: natural, note: "同僚への忠告として。"}}
+      - {id: ch02_sc04_011, type: dialogue, speaker: wengang, display_name: "文鋼", ja: "仮に本当に行方不明だとしても、詳しい特徴を説明できるのか？　本名だって、はっきりしないんだろ。", performance: {emotion: skeptical, intensity: medium, pace: measured, note: "これは文鋼の認識。正式な受理拒否の口調にはしない。"}}
+      - {id: ch02_sc04_dir004, type: direction, action: shuffle_files, note: "啓星が手で話を切り、自分のパソコンへ向き直る。書類を揃えようとして、かえって乱す。"}
+      - {id: ch02_sc04_012, type: thought, speaker: qixing, ja: "言いたいことは分かる。分かるけど……腹が立つ。"}
+      - {id: ch02_sc04_013, type: thought, speaker: qixing, ja: "自分で、どうにかするしかないのか。"}
+      - {id: ch02_sc04_dir005, type: direction, action: fail_to_settle, note: "揃わない紙の端。啓星の手が止まる。"}
+      - {id: ch02_sc04_014, type: protagonist_dialogue, speaker: qixing, ja: "……くそっ！"}
+      - {id: ch02_sc04_dir006, type: direction, action: rush_out, note: "立ち上がる啓星から、開くドアへ切る。文鋼は驚いたまま。追跡や新たな会話は足さず、午後へ。"}
+
+  - id: ch02_sc05
+    scene_kind: main
+    narrative_pov: qixing
+    location: aikun_theatre_to_street
+    time: concert_day_1400_then_intermission
+    entries:
+      - {id: ch02_sc05_dir001, type: direction, action: scene, target: theatre_entrance_day, note: "午後二時。劇場前で馬皙と合流。馬皙が啓星の背を軽く叩く。"}
+      - {id: ch02_sc05_001, type: thought, speaker: qixing, ja: "午後二時。約束の、艾昆劇場。"}
+      - {id: ch02_sc05_002, type: dialogue, speaker: maxi, ja: "ひどい顔だな。何かあったのか？", performance: {emotion: concerned, intensity: medium, pace: natural, note: "軽く声をかけるが、本当に様子を気にしている。"}}
+      - {id: ch02_sc05_003, type: dialogue, speaker: maxi, ja: "まあ、いいから。音楽でも聴けば、少しは気が晴れるって。", performance: {emotion: encouraging, intensity: medium, pace: easy, note: "気分転換に誘う、いつもの親しさ。"}}
+      - {id: ch02_sc05_dir002, type: direction, action: enter_and_listen, target: theatre_audience_day, note: "啓星は苦笑して首を振り、馬皙と入る。やがて演奏へ。華やかな内装、舞台と観客席の位置を示す。画内音楽に切り替える。"}
+      - {id: ch02_sc05_004, type: thought, speaker: qixing, ja: "立派なホールだ。音も、身体に響く。……なのに、ちっとも落ち着かない。"}
+      - {id: ch02_sc05_005, type: thought, speaker: qixing, ja: "突然現れて、突然いなくなった。たった二日、一緒にいただけなのに。"}
+      - {id: ch02_sc05_dir003, type: direction, action: search_stage, note: "舞台のヴァイオリン奏者たちへ視線を送る啓星。千夏に似た替え玉や、千夏本人の映像は挿入しない。"}
+      - {id: ch02_sc05_006, type: thought, speaker: qixing, ja: "あそこにいたり、しないだろうか。何もなかったみたいに、ヴァイオリンを弾いて……。"}
+      - {id: ch02_sc05_007, type: thought, speaker: qixing, ja: "……いない。何度探したって、いない。"}
+      - {id: ch02_sc05_dir004, type: direction, action: intermission, note: "演奏が一区切りして奏者が退場。客席両側から制服の係員が入り、一人ずつ券を配る。長い音楽待ちはクリックで進行可能にするが、以下の説明は省略しない。"}
+      - {id: ch02_sc05_008, type: dialogue, speaker: theatre_staff, display_name: "劇場係員", ja: "申し訳ございません。本日は、首席ヴァイオリン奏者が出演できず……。", performance: {emotion: apologetic, intensity: medium, pace: measured, note: "客席の一人ひとりへの説明。館内放送にはしない。"}}
+      - {id: ch02_sc05_009, type: dialogue, speaker: theatre_staff, display_name: "劇場係員", ja: "お詫びとして、無料の引換券をお配りしております。当劇場のお好きな公演のチケット一枚と交換いただけます。", performance: {emotion: formal, intensity: medium, pace: measured, note: "案内を聞き取れる速さで。"}}
+      - {id: ch02_sc05_dir005, type: direction, action: take_voucher, note: "啓星が半ば上の空で券を受け取る。券には未定の公演日や、新たな手掛かりを書かない。"}
+      - {id: ch02_sc05_010, type: thought, speaker: qixing, ja: "首席……ヴァイオリン奏者。"}
+      - {id: ch02_sc05_011, type: protagonist_dialogue, speaker: qixing, ja: "なあ。その首席って、誰なんだ？"}
+      - {id: ch02_sc05_dir006, type: direction, action: surprised_look, note: "馬皙が信じられないという顔で啓星を見る。"}
+      - {id: ch02_sc05_012, type: dialogue, speaker: maxi, ja: "そこから知らないのかよ。音楽の名門、〖梅川｜うめかわ〗家のお嬢さん。〖梅川千夏｜うめかわちなつ〗だって。", performance: {emotion: incredulous, intensity: medium, pace: natural, note: "名前は明瞭に。長女だとは言わない。"}}
+      - {id: ch02_sc05_013, type: thought, speaker: qixing, ja: "千夏が、首席……？"}
+      - {id: ch02_sc05_014, type: thought, speaker: qixing, ja: "その千夏が、今日は来ていない。だったら、まだ家に帰っていないんじゃ――。"}
+      - {id: ch02_sc05_dir007, type: direction, action: run_outside, target: theatre_street_day, note: "馬皙を残し、席を立つ。通路、出口、街路へ短くつなぐ。楽曲は劇場を離れるにつれ消える。"}
+      - {id: ch02_sc05_015, type: thought, speaker: qixing, ja: "……どこへ行く。どこを捜すつもりだ。"}
+      - {id: ch02_sc05_016, type: thought, speaker: qixing, ja: "あの子が行きそうな場所を、一つでも知ってるのか？"}
+      - {id: ch02_sc05_017, type: thought, speaker: qixing, ja: "何も、知らないじゃないか。"}
+      - {id: ch02_sc05_dir008, type: direction, action: stranded, note: "車と人だけが流れていく。啓星は立ち尽くす。短い余韻の後、幕間へ。千夏の返宅と同時刻であるとは表示しない。"}
+
+  - id: ch02_sc06
+    scene_kind: side_scene
+    narrative_pov: chinatsu
+    location: limousine_to_umekawa_home
+    time: return_home_time_unspecified
+    entries:
+      - {id: ch02_sc06_dir001, type: direction, action: interlude, label_ja: "幕間・千夏", note: "千夏視点であることを明示。車窓に寄りかかった千夏は唇を結んだまま。運転手は前を向いて話す。"}
+      - {id: ch02_sc06_001, type: dialogue, speaker: house_driver, display_name: "運転手", ja: "〖梅川｜うめかわ〗様。勝手に家をお出になるとは、あまりにも軽率です。お父様がどれほど心配なさったか。", performance: {emotion: admonishing, intensity: medium, pace: measured, note: "雇い主側の立場から、丁寧だが一方的に言い聞かせる。"}}
+      - {id: ch02_sc06_dir002, type: direction, action: arrive_home, target: umekawa_entrance, note: "返答はない。リムジンが金色の装飾を施した囲いの内へ。庭の奥に古典的なゴシック様式の屋敷。開いた玄関から、数人の使用人に囲まれて入る。"}
+      - {id: ch02_sc06_002, type: dialogue, speaker: beidai, ja: "やあ、お帰り！　パパの大事な娘が帰ってきた！", performance: {emotion: affected_joy, intensity: medium, pace: buoyant, note: "大げさな歓迎。軽快な口調と千夏の硬直が食い違う。"}}
+      - {id: ch02_sc06_dir003, type: direction, action: welcome_and_freeze, note: "備代が回るように近づいて抱き寄せる。千夏の身体は硬いまま。彼は娘を見てから使用人へ顔を向ける。性的な構図にしない。"}
+      - {id: ch02_sc06_003, type: dialogue, speaker: beidai, ja: "千夏をお風呂に入れて、きれいな服に着替えさせてあげて。", ja_spoken: "ちなつをお風呂に入れて、きれいな服に着替えさせてあげて。", performance: {emotion: instructing, intensity: medium, pace: natural, note: "使用人への、当然のような指示。"}}
+      - {id: ch02_sc06_004, type: dialogue, speaker: beidai, ja: "ねえ、千夏。少し休んだらピアノの部屋へおいで。二人でお話ししよう。いいね？", ja_spoken: "ねえ、ちなつ。少し休んだらピアノの部屋へおいで。二人でお話ししよう。いいね？", performance: {emotion: falsely_tender, intensity: low, pace: measured, note: "甘い声だが、選択肢を与えていない。"}}
+      - {id: ch02_sc06_dir004, type: direction, action: follow_servants, target: umekawa_corridor, note: "備代は軽い足取りで離れる。鼻歌を使う場合も既知の歌詞は追加しない。千夏はうつむき、使用人について歩きながら右手を左腕へ添える。"}
+      - {id: ch02_sc06_005, type: thought, speaker: chinatsu, ja: "ここのあざ、やっと消えてきたところなのに。"}
+      - {id: ch02_sc06_006, type: thought, speaker: chinatsu, ja: "二日、帰らなかっただけ。床も、壁も、何も変わっていない。"}
+      - {id: ch02_sc06_007, type: thought, speaker: chinatsu, ja: "何度も通った廊下なのに、知らない場所みたい。……ううん。知ってる。ここは。"}
+      - {id: ch02_sc06_008, type: thought, speaker: chinatsu, ja: "もう、逃げられない。"}
+      - {id: ch02_sc06_dir005, type: direction, action: reluctant_steps, note: "足元と廊下。千夏は目を上げない。抜け道や監視装置など、恐怖を客観的に証明する新設定は描かない。"}
+      - {id: ch02_sc06_009, type: thought, speaker: chinatsu, ja: "夢から、覚めてしまったみたい。もう少しだけ、あの中にいたかった。"}
+      - {id: ch02_sc06_dir006, type: direction, action: memory_restaurant, note: "千夏の記憶として、第一章の餐卓を短く重ねる。新しい会話は流さない。"}
+      - {id: ch02_sc06_010, type: thought, speaker: chinatsu, ja: "あのお店のごはん、おいしかったな。椅子も、座り心地がよくて。"}
+      - {id: ch02_sc06_011, type: thought, speaker: chinatsu, ja: "それから、あの人……。"}
+      - {id: ch02_sc06_012, type: thought, speaker: chinatsu, ja: "最初に会ったのがおまわりさんなら、もっと早く家に連れ戻されてたんだろうな。"}
+      - {id: ch02_sc06_013, type: thought, speaker: chinatsu, ja: "そのほうが、よかったのかもしれない。知らなければ、あそこに戻りたいなんて思わずに済んだのに。"}
+      - {id: ch02_sc06_014, type: thought, speaker: chinatsu, ja: "でも、あの人は違う。おまわりさんなんかじゃ、ない。"}
+      - {id: ch02_sc06_dir007, type: direction, action: bathroom_cutaway, target: bathroom_water_detail, note: "浴室へ。蛇口、水の流れるタイル、閉じた扉など環境だけを映す。裸身、身体の影、透ける輪郭は描かない。音楽を引いて水音へ。"}
+      - {id: ch02_sc06_015, type: thought, speaker: chinatsu, ja: "……痛い。お湯が触れるだけで、まだ痛むところがある。"}
+      - {id: ch02_sc06_016, type: thought, speaker: chinatsu, ja: "今は二月だから、ダウンで隠せる。でも、夏になっても、私だけ長袖と長いズボンのまま。"}
+      - {id: ch02_sc06_017, type: thought, speaker: chinatsu, ja: "みんな、変だって噂する。どうしてなのか、誰も知らないくせに。"}
+      - {id: ch02_sc06_dir008, type: direction, action: quiet_cry, note: "水音の中に小さな泣き声。身体は映さない。次の一言はプレイヤーに聞き取れる音量を確保する。"}
+      - {id: ch02_sc06_018, type: dialogue, speaker: chinatsu, ja: "誰か……お願い。助けて……。", performance: {emotion: desperate, intensity: low, pace: broken, note: "一人で漏らす助けの声。小さな泣き声は可。官能的な息や長い嗚咽を加えない。"}}
+      - {id: ch02_sc06_dir009, type: direction, action: unheard_plea, note: "扉の外には水音だけ。誰かが聞きつけた描写は入れない。暗転し、水音を終える。"}
+
+  - id: ch02_sc07
+    scene_kind: side_scene
+    narrative_pov: chinatsu
+    location: umekawa_piano_room
+    time: after_bath_and_change
+    entries:
+      - {id: ch02_sc07_dir001, type: direction, action: interlude, label_ja: "幕間・千夏／ピアノ室", note: "千夏視点を継続。既に礼服に着替えた千夏が、使用人に囲まれてピアノ室へ。着替えは映さない。"}
+      - {id: ch02_sc07_001, type: thought, speaker: chinatsu, ja: "家の中なのに。この部屋に入るときは、必ずドレス。……どうして、そこまで。"}
+      - {id: ch02_sc07_dir002, type: direction, action: piano_room_establish, note: "ピアノと椅子、出入口を示す。備代は灰色のズボンに白いサスペンダー。中分けの髪は既存の無彩色グレー。優しげな笑顔で千夏を招く。"}
+      - {id: ch02_sc07_002, type: dialogue, speaker: beidai, ja: "千夏。パパのそばへおいで。", ja_spoken: "ちなつ。パパのそばへおいで。", performance: {emotion: falsely_tender, intensity: low, pace: measured, note: "柔らかい誘いに見せた命令。"}}
+      - {id: ch02_sc07_003, type: thought, speaker: chinatsu, ja: "……笑ってる。あの顔で、こっちを見てる。"}
+      - {id: ch02_sc07_dir003, type: direction, action: sit_and_clear_room, note: "木の床にヒールの音。千夏が隣に座ると、備代の目配せで使用人たちが退出する。千夏は父の顔から目をそらす。"}
+      - {id: ch02_sc07_004, type: dialogue, speaker: beidai, ja: "顔をよく見せてごらん。外にいた間に、痩せてしまったんじゃないかい？", performance: {emotion: inspecting, intensity: medium, pace: measured, note: "心配を装う。"}}
+      - {id: ch02_sc07_dir004, type: direction, action: forced_turn, note: "備代が千夏の両腕をつかみ、自分へ向き直らせる。顔と腕の位置で強制を伝える。身体を鑑賞するカメラにしない。"}
+      - {id: ch02_sc07_005, type: dialogue, speaker: beidai, ja: "やっぱり、ずいぶん痩せた。ひどい目に遭ったんだろう。次はいい子にして、パパに黙って逃げたりしないこと。", performance: {emotion: patronizing, intensity: medium, pace: measured, note: "大げさにいたわった後、逃げるなという命令へ。"}}
+      - {id: ch02_sc07_006, type: thought, speaker: chinatsu, ja: "その声。優しい言葉ばかり並べて……気持ちが悪い。"}
+      - {id: ch02_sc07_dir005, type: direction, action: reject_touch, note: "備代がさらに触れようとすると、千夏はその手を払い、距離を取ろうとする。接触箇所の性的な強調は避け、拒絶を中心に描く。"}
+      - {id: ch02_sc07_007, type: dialogue, speaker: chinatsu, ja: "お父さん、やめてください！", performance: {emotion: rejecting, intensity: high, pace: firm, note: "明確な拒絶。照れや恋愛的な抵抗にしない。"}}
+      - {id: ch02_sc07_008, type: dialogue, speaker: beidai, ja: "何を怒ってるんだい。お前は俺の女だろう。少しくらい触ったっていいじゃないか。", performance: {emotion: entitled, intensity: medium, pace: unhurried, note: "一人称が俺へ変わる。拒絶を取り合わない不快な平然さ。"}}
+      - {id: ch02_sc07_009, type: dialogue, speaker: chinatsu, ja: "私は、あなたの女なんかじゃない！　もう、私に――", performance: {emotion: resisting, intensity: high, pace: urgent, note: "最後は言い終える前に途切れる。息や接触音を足さない。"}}
+      - {id: ch02_sc07_dir006, type: direction, action: assault_ellipsis, note: "再び腕を押さえられる千夏。拒絶の台詞が途切れる瞬間に無人の鍵盤へ切る。強吻そのものや唇の接触は描かず、性的な音も使わない。次の内心で起きた事実を明示する。"}
+      - {id: ch02_sc07_010, type: thought, speaker: chinatsu, ja: "嫌だと言ったのに。無理やり、キスをされた。"}
+      - {id: ch02_sc07_dir007, type: direction, action: angry_silence, note: "千夏の顔へ戻る。言葉が出ず、備代をにらむ。備代が椅子から立ち上がる。甘い照明や恋愛的な余韻はつけない。"}
+      - {id: ch02_sc07_011, type: dialogue, speaker: beidai, ja: "誰がお前に命をやったと思ってる！　母親だって、お前のせいで死んだんだぞ！", performance: {emotion: accusatory, intensity: high, pace: forceful, note: "粗暴な責任転嫁。発言を事実の説明のように読まない。"}}
+      - {id: ch02_sc07_012, type: dialogue, speaker: beidai, ja: "それでも、俺のものじゃないと言うのか！", performance: {emotion: furious, intensity: high, pace: forceful, note: "支配を押しつける怒声。"}}
+      - {id: ch02_sc07_dir008, type: direction, action: composure_collapses, note: "片方の背帯が肩から落ち、髪も乱れる。千夏は震える。笑いの間や効果音を入れない。"}
+      - {id: ch02_sc07_013, type: thought, speaker: chinatsu, ja: "火が……。お母さんの、腕。"}
+      - {id: ch02_sc07_dir009, type: direction, action: fragmented_memory, note: "千夏の断片的な記憶。炎と揺れる腕だけを短く示す。火元、死の瞬間、母親の新しい台詞は加えない。連続フラッシュを避ける。"}
+      - {id: ch02_sc07_014, type: thought, speaker: chinatsu, ja: "あのときの言葉が、頭から離れない。やめて……。"}
+      - {id: ch02_sc07_dir010, type: direction, action: stand_in_fear, note: "千夏が突然立ち上がる。怒りを塗り替えるほどの恐怖。"}
+      - {id: ch02_sc07_015, type: dialogue, speaker: chinatsu, ja: "違う……違う。私じゃ、ない……。", performance: {emotion: terrified, intensity: medium, pace: broken, note: "何に対する否認かを説明し足さない。記憶と父の言葉に圧倒される。"}}
+      - {id: ch02_sc07_dir011, type: direction, action: fade_out, note: "千夏の反応に留めて暗転。以後の通話を彼女が聞いたとは示さない。"}
+
+  - id: ch02_sc08
+    scene_kind: side_scene
+    narrative_pov: external
+    location: umekawa_home_phone
+    time: sunset
+    entries:
+      - {id: ch02_sc08_dir001, type: direction, action: interlude, label_ja: "幕間・梅川邸", note: "千夏の内面から離れ、外から見える出来事だけを描く。電話を差し出す使用人と備代の近景。部屋の具体的な場所は確定しない。"}
+      - {id: ch02_sc08_001, type: dialogue, speaker: beidai, ja: "誰からだ？", performance: {emotion: curt, intensity: medium, pace: short, note: "使用人に尋ねる。"}}
+      - {id: ch02_sc08_002, type: dialogue, speaker: house_servant, display_name: "使用人", ja: "分かりません。声を聞けばお分かりになる、とだけ。", performance: {emotion: formal, intensity: low, pace: measured, note: "相手の言葉をそのまま取り次ぐ。思わせぶりにしない。"}}
+      - {id: ch02_sc08_dir002, type: direction, action: take_phone, note: "備代が電話を受け取る。着信ベルを長く鳴らす演出は不要。"}
+      - {id: ch02_sc08_003, type: dialogue, speaker: beidai, ja: "もしもし。〖梅川備代｜サスペンダーなし〗ですが、どちら様でしょうか。", performance: {emotion: formal, intensity: medium, pace: measured, note: "対外的な礼儀を取り戻した口調。"}}
+      - {id: ch02_sc08_dir003, type: direction, action: phone_silence, note: "返事がない。しばらく待ち、備代が電話を耳から離しかけたところで声がする。相手側の姿も場所も映さない。"}
+      - {id: ch02_sc08_004, type: dialogue, speaker: unknown_caller, display_name: "電話の声", ja: "〖梅川備代｜サスペンダーなし〗さん。時がたつのは、本当に早いものですね。", performance: {emotion: composed, intensity: low, pace: slow, note: "低く、少しかすれた響きのある声。静かに挨拶する。人物名や正体を追加しない。"}}
+      - {id: ch02_sc08_dir004, type: direction, action: recoil_and_dismiss, note: "備代が一歩のけぞる。慌てて手を振り、使用人を遠ざける。独白は入れない。"}
+      - {id: ch02_sc08_005, type: dialogue, speaker: beidai, ja: "お、お前……まだ、生きていたのか……？", performance: {emotion: shocked, intensity: low, pace: broken, note: "息をのむ驚きから震える問いへ。叫びにせず、声が細くなる。"}}
+      - {id: ch02_sc08_dir005, type: direction, action: sunset_fade, note: "山の端へ落ちる夕日とともに、備代の輪郭を暗くする。電話の続きや相手の回答は描かず暗転。"}
+
+  - id: ch02_sc09
+    scene_kind: main
+    narrative_pov: qixing
+    location: xingcheng_street_night
+    time: late_night_after_concert
+    entries:
+      - {id: ch02_sc09_dir001, type: direction, action: return_to_main, label_ja: "杏城・徐启星", note: "深夜の街へ。啓星視点に戻ったことを明示。月が高く、まだ帰宅していない。街の環境音は低く。"}
+      - {id: ch02_sc09_001, type: thought, speaker: qixing, ja: "コンサートなんて、とっくに終わっている。馬皙も、もう帰った。俺は、まだここを歩いてる。"}
+      - {id: ch02_sc09_002, type: protagonist_dialogue, speaker: qixing, ja: "島田千夏……梅川千夏……。"}
+      - {id: ch02_sc09_003, type: thought, speaker: qixing, ja: "何があったんだ。何から、逃げていたんだろう。"}
+      - {id: ch02_sc09_004, type: thought, speaker: qixing, ja: "……考えるのは後だ。まず、見つけないと。"}
+      - {id: ch02_sc09_005, type: thought, speaker: qixing, ja: "尋ね人の張り紙までなくなった今、警察を動かすわけにもいかない。無事に家へ戻っていてくれれば、いいんだけど。"}
+      - {id: ch02_sc09_dir002, type: direction, action: look_up, target: xingcheng_starry_sky, note: "澄んだ空気。啓星が顔を上げる。月と星は同じ夜景の中に置き、地上の光と一貫させる。"}
+      - {id: ch02_sc09_006, type: thought, speaker: qixing, ja: "……星が、よく見える。子どもの頃、星図で見た形だ。"}
+      - {id: ch02_sc09_007, type: thought, speaker: qixing, ja: "記憶力だけは、昔からよかった。二十歳でベテラン扱いされるのも、少しはそのおかげかもしれない。"}
+      - {id: ch02_sc09_008, type: protagonist_dialogue, speaker: qixing, ja: "あれが、みずがめ座。そっちが、うお座。それから、アンドロメダ座……？"}
+      - {id: ch02_sc09_dir003, type: direction, action: notice_star, note: "啓星が目をこすり、もう一度見上げる。アンドロメダ座の一番上の星が不規則に明滅している。画面全体は点滅させない。"}
+      - {id: ch02_sc09_009, type: thought, speaker: qixing, ja: "あの星だけ、妙だ。せわしなく光ったと思えば、今度は長く……。"}
+      - {id: ch02_sc09_010, type: thought, speaker: qixing, ja: "短く、長く。間を置いて、また短く。……モールス信号？"}
+      - {id: ch02_sc09_dir004, type: direction, action: star_signal, sequence: "HELP", repeat: true, note: "長短と文字間隔を実装時に照合。星の光を使う信号で、空から電子音が聞こえる設定にはしない。全文解読までの待機を強制しない。"}
+      - {id: ch02_sc09_011, type: thought, speaker: qixing, ja: "読める。モールスなら、分かる。……落ち着け。ひとつずつだ。"}
+      - {id: ch02_sc09_012, type: protagonist_dialogue, speaker: qixing, ja: "H……E……L……P……。H……E……L……。"}
+      - {id: ch02_sc09_013, type: thought, speaker: qixing, ja: "HELP。同じ言葉を繰り返している。助けて、と。"}
+      - {id: ch02_sc09_014, type: protagonist_dialogue, speaker: qixing, ja: "……梅川千夏。"}
+      - {id: ch02_sc09_015, type: thought, speaker: qixing, ja: "なぜか、あの子の名前が浮かんだ。胸の鼓動が、速くなる。"}
+      - {id: ch02_sc09_dir005, type: direction, action: star_signal, sequence: "89N64W", repeat: false, note: "同じ星の点滅の規則が変わる。地上に別の送信装置や、北極の人物を映さない。"}
+      - {id: ch02_sc09_016, type: thought, speaker: qixing, ja: "待て。今、変わった。今度は――。"}
+      - {id: ch02_sc09_017, type: protagonist_dialogue, speaker: qixing, ja: "8……9……N……6……4……W……。"}
+      - {id: ch02_sc09_018, type: thought, speaker: qixing, ja: "89°N、64°W。北緯八十九度、西経六十四度。……座標だ。"}
+      - {id: ch02_sc09_019, type: thought, speaker: qixing, ja: "千夏が、そこで助けを求めているのかもしれない。"}
+      - {id: ch02_sc09_020, type: thought, speaker: qixing, ja: "いや、待てよ。北緯八十九度って……北極じゃないか。どうして、あの子がそんなところに？"}
+      - {id: ch02_sc09_dir006, type: direction, action: remember_bruise, note: "朝の居間で目にした左腕のあざを、啓星の記憶として短く重ねる。幕間の琴房や浴室は彼の記憶に使わない。"}
+      - {id: ch02_sc09_021, type: thought, speaker: qixing, ja: "あの左腕の、あざ。触れた瞬間に、引っ込めた手。"}
+      - {id: ch02_sc09_022, type: thought, speaker: qixing, ja: "俺が考えていたより、ずっと……。"}
+      - {id: ch02_sc09_dir007, type: direction, action: chapter_end, note: "答えを出さず、夜空と啓星の表情に余韻を残す。暗転して第二章終了。第三章のニュースや事件は始めない。"}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "references": [
+    {
+      "character": "beidai",
+      "file": "assets/reference/beidai/beidai_casual_v2.png"
+    },
+    {
+      "character": "beidai",
+      "file": "assets/reference/beidai/beidai_home_v1.png"
+    },
+    {
+      "character": "chinatsu",
+      "file": "assets/reference/chinatsu/chinatsu_casual_v1.png"
+    },
+    {
+      "character": "chinatsu",
+      "file": "assets/reference/chinatsu/chinatsu_dress_v2.png"
+    },
+    {
+      "character": "chinatsu",
+      "file": "assets/reference/chinatsu/chinatsu_indoor_v1.png"
+    },
+    {
+      "character": "qixing",
+      "file": "assets/reference/qixing/qixing_casual_v1.png"
+    },
+    {
+      "character": "qixing",
+      "file": "assets/reference/qixing/qixing_indoor_v1.png"
+    },
+    {
+      "character": "wengang",
+      "file": "assets/reference/wengang/wengang_v1.png"
+    }
+  ]
+}

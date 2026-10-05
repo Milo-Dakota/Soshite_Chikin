@@ -4,6 +4,8 @@ import io, json, re, tokenize
 from collections import Counter
 
 root = Path(__file__).resolve().parents[1]
+for output_folder in ('.build/reports', '.build/exports'):
+    (root / output_folder).mkdir(parents=True, exist_ok=True)
 paths = [root / 'game' / n for n in ('screens.rpy', 'ch_main_menu.rpy', 'ch_menu_pages.rpy', 'ch_reading_bar.rpy', 'ch_splash.rpy')]
 sources = [p.read_text(encoding='utf-8-sig') for p in paths]
 names = [n for s in sources for n in re.findall(r'^screen (\w+)\(', s, re.M)]
@@ -25,5 +27,5 @@ assert (root / 'game/images/ui/menu_theatre_v1.png').is_file()
 report = {'duplicate_screens': duplicates, 'missing_custom_screens': missing,
           'lexical_checks': [p.name for p in paths], 'runtime_tested': False,
           'layout_tested': False, 'save_load_executed': False}
-(root / 'docs/reports/menu_pages_check.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+(root / '.build/reports/menu_pages_check.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
 print(json.dumps(report))

@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-01",
+  "file_count": 15,
+  "visual_check": "All generated images inspected; theatre composite and hide/show verified in browser",
+  "runtime_check": "not performed",
+  "files": [
+    {
+      "path": "assets/ch02/backgrounds/police_office_day_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1950887,
+      "sha256": "ed98f404e2761968297c10669d5179b4c60b5a0016b53841f204057748a3e023"
+    },
+    {
+      "path": "assets/ch02/backgrounds/qixing_entry_morning_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1518873,
+      "sha256": "8ef63397b98941ae4bb1325fdce7cf38801c89c14c834d45a58220de71acce45"
+    },
+    {
+      "path": "assets/ch02/backgrounds/qixing_living_morning_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2171258,
+      "sha256": "b1b3f94e7997f5b13cf9cce3d5661e5d1f62d0c2ed309241da827707ff380e43"
+    },
+    {
+      "path": "assets/ch02/backgrounds/starry_sky_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1863667,
+      "sha256": "ee47c70c13f4291ef4aee3437c8964b6b45cc8b6fb07c4dd82475cebf6470791"
+    },
+    {
+      "path": "assets/ch02/backgrounds/street_night_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2339939,
+      "sha256": "e768f7eba57b3039e33f899bd1a0dd2ac5bfde716c98c7888a7ed9dce85eea1e"
+    },
+    {
+      "path": "assets/ch02/backgrounds/theatre_audience_side_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1849093,
+      "sha256": "1fa522d1c0a7eb24422c0cdb5004960c93afbe09bfd333c5af48d698a0fb1312"
+    },
+    {
+      "path": "assets/ch02/backgrounds/theatre_exterior_day_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2621314,
+      "sha256": "43ec1c69a2f541c63897e0c0a2f3e49a41452ed3bfc70d2c4b0d203278349b17"
+    },
+    {
+      "path": "assets/ch02/backgrounds/theatre_hall_intermission_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1809170,
+      "sha256": "882e66d6fcc91f5514dbf3d116d0d51f8ae364d996b3e01cad3ec5a9e9a91166"
+    },
+    {
+      "path": "assets/ch02/backgrounds/theatre_orchestra_layer_v1.png",
+      "width": 1671,
+      "height": 941,
+      "png_color_type": 6,
+      "bytes": 380726,
+      "sha256": "e073299e0242eca27735105f6cd44b269b148ebae4258a8c7b1dc88790bdae9f"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_bathroom_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2113129,
+      "sha256": "4b8d57f58353843766cbf46420014e43a256002c5f741e12d05ca3ddcfcee46a"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_corridor_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2299495,
+      "sha256": "4139b8526dc4093f80dfdeebf1fbefdf7b37774b42ead7d7cb3b08a90e4dcd9e"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_exterior_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2915400,
+      "sha256": "86d0e6147ae0cc919183960a8868d5364837ca6d03cd4753617940d058974ec9"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_foyer_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2228142,
+      "sha256": "8e76d4a2b747f4c69ccef150abf2865cbc8a131f48468a10fd9f5402d6afc0aa"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_phone_dusk_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 1784258,
+      "sha256": "e4a12553c4ce6e27ec4f07aca2dbebc4e5a1ac6a043854ede4a80373d30d9971"
+    },
+    {
+      "path": "assets/ch02/backgrounds/umekawa_piano_room_v1.png",
+      "width": 1672,
+      "height": 941,
+      "png_color_type": 2,
+      "bytes": 2241243,
+      "sha256": "ccebb8a3b429f1d3ff334a174ba0433ccbac23e78c7a51d47e80b763ff91f684"
+    }
+  ]
+}

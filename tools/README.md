@@ -1,19 +1,27 @@
 # 制作工具
 
-在项目根目录使用具备现有依赖的 Python 运行。项目此前使用 `.build/deps` 中的 PyYAML／fontTools，部分检查还需要 Pillow 与 NumPy；它们不属于游戏依赖。无需因资料整理重新安装。
+根目录使用 Python 3.11+，依赖见 requirements.txt。本机已有 .build/deps 的 PyYAML／fontTools；不自动安装依赖。
 
-| 命令 | 作用与输出 |
+```text
+python tools/project.py export ch02
+python tools/project.py recording ch02
+python tools/project.py build ch02
+python tools/project.py check ch02
+python tools/project.py check-ui
+python tools/project.py audit
+```
+
+| 操作 | 输出及用途 |
 |---|---|
-| `python tools/export_ch01.py` | 从日语源导出 `voice/` 清单、录音稿及 `docs/reports/ch01_static_check.json` |
-| `python tools/build_ch01.py` | 调用上述导出器，生成游戏六场及入口、`docs/ch01/ch01_bilingual_script.md`、构建报告；会写入 game，发布后仅在修改正式源／演出时运行 |
-| `python tools/check_ch01_assets.py` | 图片引用、双语、字体、语音接口替身检查；写报告及字体 NOTICE |
-| `python tools/check_ch01_fonts.py` | 文字覆盖，报告在 `docs/reports/` |
-| `python tools/check_ch01_expressions.py` | 11 张表情、归档摘要、位置与 CG 分离；读取 `assets/manifests/` |
-| `python tools/check_menu_pages.py` | 菜单屏幕与动作引用的静态检查 |
-| `python tools/check_delivery.py` | 文档链接、素材来源与副本摘要、工具路径、整理前后游戏文件摘要；输出 `docs/reports/organization_check.json` |
+| export chXX | 检查日语，录音机器清单／阅读稿到 .build/exports，报告到 .build/reports |
+| recording chXX | export 后复制录音稿为 handoff/chXX/voice.md，仅确需人类录音时执行 |
+| build chXX | 正式双语＋演出源生成本章 game 脚本；ch01 同时更新总入口，ch02 复制图片副本 |
+| check chXX | 台本、字幕、图片、字体及语音路由检查，不启动引擎、不修改音频 |
+| check-ui | 菜单静态引用检查 |
+| audit | 当前链接、文件映射、正式文本绑定检查，不比较旧发布快照 |
 
-导入 JSON 已移至 `assets/manifests/`。所有报告写入 `docs/reports/`，不会重新散落在 docs 根目录。游戏内效果依然通过 Ren'Py 运行验收。
+现有章节专用校验保留，统一入口调度；第三章没有启动，不预建其构建器。演出在 scripts/staging，工具不维护临时镜头覆盖。公共 UI／声音配置直接维护 game 对应文件。
 
-本次整理的工具原稿已保存到 `docs/archive/pre_release_cleanup_20260929/tools/`；它们只用于追溯，不从归档目录执行。
+唯一日常音频入口为根目录 import_audio.cmd，见 [音频工具](audio_import/README.md)。旧原样导入器、HTML 试听和一次性交付脚本已归档。
 
-`check_delivery.py` 的运行摘要比对针对本次整理基准；以后正式修改游戏后出现差异是预期结果，不应为了消除差异而恢复旧游戏文件。发布新版本时应另建对应版本基准。
+build_ch02_props.py 按日语源重建矢量道具，不生成画廊，修改道具时单独运行并复核。check_voice_levels.py 为按需测量，不必每次运行。报告／导出可重建，不替代 docs/status.md。

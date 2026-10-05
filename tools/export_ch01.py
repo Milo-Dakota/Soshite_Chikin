@@ -8,10 +8,12 @@ import sys
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
+for output_folder in ('.build/reports', '.build/exports'):
+    (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(ROOT / '.build' / 'deps'))
 import yaml
 
-source = ROOT / 'script_ja' / 'ch01.yaml'
+source = ROOT / 'scripts/ja' / 'ch01.yaml'
 data = yaml.safe_load(source.read_text(encoding='utf-8'))
 ruby = re.compile(r'〖([^〖〗｜]+)｜([^〖〗｜]+)〗')
 ids = set()
@@ -61,13 +63,13 @@ for scene in data['scenes']:
             'intensity': performance.get('intensity', intensity),
             'pace': performance.get('pace', pace),
             'performance_note': performance.get('note', ''),
-            'output_path': f'game/audio/voice/{speaker}/{line_id}.ogg',
+            'output_path': f'audio/voice/{speaker}/{line_id}.ogg',
             'spoken_sha256': hashlib.sha256(spoken.encode('utf-8')).hexdigest(),
             'status': 'ready_for_recording' if data['status'] == 'demo_reviewed' else 'draft_for_review',
         }
         rows.append(row)
-output = ROOT / 'voice'
-output.mkdir(exist_ok=True)
+output = ROOT / '.build/exports'
+output.mkdir(parents=True, exist_ok=True)
 with (output / 'ch01_manifest.csv').open('w', encoding='utf-8-sig', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=list(rows[0]))
     writer.writeheader()
@@ -98,5 +100,5 @@ summary = {
     'checks': ['yaml_parse', 'unique_ids', 'known_speakers', 'thought_pov', 'protagonist_unvoiced', 'ruby_spoken'],
     'not_checked': ['RenPy runtime', 'layout', 'save/load', 'voice audio', 'asset integration'],
 }
-(ROOT / 'docs' / 'reports' / 'ch01_static_check.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
+(ROOT / '.build' / 'reports' / 'ch01_static_check.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(summary, ensure_ascii=True))

@@ -1,0 +1,13 @@
+{
+  "id": "bgm:1548:1",
+  "file": "assets/ch02/audio_candidates/bgm_1548_track1.mp3",
+  "source": "https://opentracks.com/bgm/detail/1548",
+  "download_page": "https://opentracks.com/bgm/detail/1548/download",
+  "download_url": "https://dova-worker.tracks-cid.workers.dev/download?filepath=bgm%2Faudio%2F17212a8c-5d70-4f99-af0f-0e60207664d1.mp3&expires=1791015227&token=399c01b3b8bf670c680da73bf8c19cb9f166a48a34e5a203761fbcd4d3884dce&filename=Flutter.mp3",
+  "content_type": "audio/mpeg",
+  "bytes": 4273216,
+  "sha256": "706232253b149c216226807f5bcaa98e2c9b14a28dea8b5242255a477fc648e6",
+  "download_options": [
+    "<option value=\"1\">トラック1 （ループ/4.08 MB）</option>"
+  ]
+}

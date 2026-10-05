@@ -1,0 +1,1931 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch02",
+  "note": "Generation records; historical per-batch status is not chapter status. Current chapter status: docs/status.md.",
+  "collections": {
+    "ch02_background_imports": {
+      "date": "2026-10-01",
+      "tool": "built-in image_gen",
+      "script": "scripts/ja/ch02.yaml",
+      "script_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+      "scope": "B2: 13 background needs, 14 states via 13 RGB backgrounds and one RGBA orchestra overlay; plus one supplemental side audience background. No game integration.",
+      "records": [
+        {
+          "id": "qixing_living_morning_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: modest young policeman's modern apartment living room in morning, NOT a restaurant. Gray fabric sofa left with adjacent broad window and ivory curtains; simple low wooden coffee table; television on right facing sofa, plain dark blank screen suitable for compositing TV footage. At back center-right a short entry passage ends at a plain brown entrance door, low shoe cupboard. Light oak floor, cream walls, quietly lived-in tidy home. Clear floor space and sofa seating, wide eye-level establishing view. Reference is rendering style only; no restaurant architecture or piano.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/restaurant_day.png"
+          ],
+          "title": "启星住处客厅·上午",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-d0115a6a-1040-4663-baa0-e7eac71643da.png",
+          "output": "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+        },
+        {
+          "id": "qixing_entry_morning_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Input is SAME APARTMENT identity/layout reference. Move camera forward into the entry passage seen at back right of living room, looking directly at same closed brown entrance door. Keep its closer, peephole, brass handle at left, narrow light-wood shoe cabinet on RIGHT with small plant and framed landscape above. Same cream walls, wooden trim, warm morning light entering from living room behind camera on left. Frame low enough to clearly show broad empty gray tiled shoe area and transition to oak floor. Empty shoe spot next to dark doormat, no shoes, no people. Do not invent a second entrance or mirror. Wide close architectural background.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_living_morning_v1.png"
+          ],
+          "title": "启星住处玄关·上午",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-d4d7899f-8c74-40b5-a865-3c57ab68ffee.png",
+          "output": "assets/ch02/backgrounds/qixing_entry_morning_v1.png"
+        },
+        {
+          "id": "police_office_day_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene, empty modern police investigators' shared office daytime, understated functional municipal office in fictional Chinese-compatible city, no flags, emblems, firearms or readable case clues. Two main adjacent workstations with gray desks, black monitors, keyboards, ordinary blank folders and swivel chairs; protagonist near left foreground, colleague's workstation middle right, clear aisle to closed frosted-glass office door back right. Filing cabinets back wall, large windows along left with horizontal blinds, cool winter daylight. Pale walls, bluegray chairs, light gray floor, restrained everyday atmosphere. Wide eye-level framing that supports two speaking characters and leaving through door. Reference rendering style only, not its residential furnishings.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_living_morning_v1.png"
+          ],
+          "title": "警局办公室·白天",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-15d85dfa-d08e-4432-a6d9-260524395add.png",
+          "output": "assets/ch02/backgrounds/police_office_day_v1.png"
+        },
+        {
+          "id": "theatre_exterior_day_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: exterior entrance and front pavement of a prestigious city classical concert theater in afternoon. Contemporary early-2000s civic building, light warm stone, tall narrow glass windows, bronze-framed glass main doors, sober symmetrical facade, understated Art Deco accents (not a Gothic mansion). Theater entry occupies left and middle, urban road recedes along right with a few distant ordinary cars, neutral midrise city blocks and winter bare trees. Broad paved foreground for two characters to meet and stand after leaving. Blank dark bronze fascia above entrance reserved for later exact theater name, no generated letters, no posters with invented text. Clear afternoon light, no people.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/street_day.png"
+          ],
+          "title": "艾昆剧院入口·下午",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-fe87197e-f137-4da6-aa0e-8222150b8b3a.png",
+          "output": "assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+        },
+        {
+          "id": "theatre_hall_intermission_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Interior of same civic classical concert theater, seen from middle audience row toward centered broad raised stage. Intermission state: stage empty of musicians and conductor, with semicircle of about twenty empty black orchestral chairs and black music stands; leave generous visible stage floor between stands. Black grand piano closed on rear right, pale amber wood acoustic wall and vertical acoustic panels, warm ivory walls, understated bronze Art Deco fittings matching exterior, burgundy seats. Audience is required here: many ordinary adult spectators seen from behind in lower third and side rows, quietly seated or turned slightly to neighbor, small refined anime background figures without recognizable main characters. Central aisle, side doors. Fixed symmetric wide composition, stage occupies middle third of image, visible foreground seatbacks. Calm neutral concert illumination suitable for both performance and intermission, no spotlight drama. No readable text.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+          ],
+          "title": "艾昆剧院·中场底图",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-260b065f-039e-41be-9e9c-c2d9b7f53f29.png",
+          "output": "assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+        },
+        {
+          "id": "theatre_orchestra_layer_v1",
+          "prompt": "Use case: compositing. Create a TRANSPARENT OVERLAY PNG for the supplied 1672x941 concert hall base, identical full 16:9 canvas and locked camera. Output ONLY the orchestra musicians with their played instruments, conductor and any tiny necessary foreground occluding sections of music stands. Entire architecture, floor, audience, unused chairs and all other pixels TRANSPARENT. Do not tightly crop the group; keep full base-sized canvas. Precisely align about twenty adult orchestral musicians in sober black formal attire to the chairs on stage, occupying approximately x=400..1210,y=385..535 of 1672x941. Seated violinists left, violas/celli right, woodwinds back, conductor standing at x=820,y=440 with feet on existing podium near y=532, facing away to orchestra, restrained raised baton. All musicians must be small distant background-scale figures in the same refined hand-painted commercial anime VN style. Instruments held correctly. No featured soloist, no gray-haired center-part pianist, nobody playing rear-right piano (featured pianist absent). Transparent pixels preserve all original stage architecture and audience unchanged when composited. No text, no background rectangle, no checkerboard baked in.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+          ],
+          "transparent": true,
+          "title": "艾昆剧院·乐团透明层",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-4efbcd8b-1e1c-4a71-b4dd-f8d4fcf52d21.png",
+          "output": "assets/ch02/backgrounds/theatre_orchestra_layer_v1.png"
+        },
+        {
+          "id": "umekawa_exterior_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: wealthy pianist Umekawa family's Gothic revival mansion in a contemporary East Asian city, February afternoon. View from just inside entrance gate across formal garden toward grand pointed-arch dark wood main double doors. Imposing pale gray stone two-storey mansion, steep slate roofs and slender gables, tall pointed windows; restrained gilded decorative metalwork. Black wrought iron boundary fence with gold finials visible on both sides foreground, manicured evergreen hedges and winter dormant trees, stone drive and path lead to main entrance. Expensive private home, not ruined haunted castle, not church, no crosses, no fantasy towers, no snow or cherry blossoms. Building prominent, entrance clear, quiet ordered and subtly oppressive mood, clean afternoon daylight. Reference rendering style only.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/restaurant_day.png"
+          ],
+          "title": "梅川宅花园与外观",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-5acff07b-5b03-4a74-ae78-1a61a4ea55e9.png",
+          "output": "assets/ch02/backgrounds/umekawa_exterior_v1.png"
+        },
+        {
+          "id": "umekawa_foyer_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Interior welcome foyer of the EXACT mansion in reference. View from inside looking diagonally toward the same grand dark walnut pointed-arch main double door and its tracery transom, visible on back LEFT; on back RIGHT a broad pointed arch opens into long interior corridor. Large empty central greeting area fits father daughter and servants later (no figures now). Pale limestone walls above dark walnut wainscot with narrow brass trim, cream marble floor with understated geometric border, warm bronze wall sconces and modest chandelier, high ceiling. Formal wealthy residential scale not cathedral, no religious symbols, portraits, heraldry or story clues. Winter afternoon light through tall narrow front windows near door, calm intimidating symmetry. Keep room connection legible and door design consistent with exterior.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_exterior_v1.png"
+          ],
+          "title": "梅川宅迎接区域",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-e2aef9d0-0cec-4b80-9936-62d6dac2ccf1.png",
+          "output": "assets/ch02/backgrounds/umekawa_foyer_v1.png"
+        },
+        {
+          "id": "umekawa_corridor_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Move into the corridor through right arch of reference foyer; same mansion identity and exact pale limestone/dark walnut/brass palette, lantern wall sconces, shallow pointed ribbed ceiling and cream marble floor with dark border. Wide eye-level view along quiet long corridor with tall pointed clear-glass windows LEFT looking out onto winter garden, heavy closed paneled walnut doors RIGHT (nearest right door leads to piano room, next closed door serves bathroom). No labels. Foreground floor occupies lower third and can be cropped for footsteps. Calm afternoon window light, reserved controlled wealthy atmosphere, not haunted, no candles on floor, no portraits or new clues. No people, shadows of people, stairs or furniture obstructing walking.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+          ],
+          "title": "梅川宅走廊",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-846a8923-a463-4b84-9282-15648bebcd43.png",
+          "output": "assets/ch02/backgrounds/umekawa_corridor_v1.png"
+        },
+        {
+          "id": "umekawa_bathroom_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Quiet empty bathroom environment inside this same mansion. Restrained close architectural composition, near left foreground a cream stone washbasin and antique brass faucet with a slender stream of running water, neatly folded white towel; pale warm-gray marble tiles, subtle brass trim, closed dark walnut paneled door at middle-right matching mansion. A high narrow frosted pointed window admits soft afternoon light. Bathroom only, no person, no body part, no human silhouette, no reflection of anyone, no translucent shower curtain, no clothing on floor, no bathtub occupant. Avoid mirrors or show only wall. Sober environment cutaway expressing isolation through empty space and running water. Wealthy residential bathroom with same walnut, cream stone, brass palette, smaller human-scale room rather than huge cathedral.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+          ],
+          "title": "梅川宅浴室",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-bb5228f3-f570-481f-9054-bdc0e58c4a8d.png",
+          "output": "assets/ch02/backgrounds/umekawa_bathroom_v1.png"
+        },
+        {
+          "id": "umekawa_piano_room_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Private piano practice room in this exact mansion. Wide three-quarter eye-level view: a full-size black grand piano on LEFT-middle with clearly visible uncovered keyboard facing camera diagonally; a wide black upholstered piano bench with room for two adjacent seated people before keyboard, plus one restrained dark-wood side chair nearby to right. Piano keys large and clean enough to crop later. Exposed polished dark walnut wooden floor throughout (important, NOT marble or carpet). Closed heavy single walnut door with pointed carved panels at BACK RIGHT, enough clean wall around it to crop a doorway cutaway. Tall pointed windows LEFT, muted ivory curtains, cream stone/plaster walls over dark walnut wainscot with thin brass trims and same warm lantern sconces. Late afternoon daylight, formal quiet oppressive room without horror effects. No people, no portraits, no extra piano, no readable music, no text on instrument. Make keyboard/bench ergonomically plausible, broad empty floor center-right for movement.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+          ],
+          "title": "梅川宅琴房",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f011d22b-e76e-48ad-8888-53458f6746e2.png",
+          "output": "assets/ch02/backgrounds/umekawa_piano_room_v1.png"
+        },
+        {
+          "id": "umekawa_phone_dusk_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. A closer neutral mansion interior backdrop for a standing adult answering a telephone at dusk. Only a quiet stretch of cream stone wall with dark walnut lower wall panels and thin brass molding, left edge of tall pointed window with ivory curtain, warm bronze lantern sconce high right. Same mansion architecture as reference but tighter camera, no new named room, no desk/books/study, no telephone or person baked in. Low muted orange sunset light enters from LEFT across panels while cool violet shadows deepen right; readable midtones for character sprites, not black or horror lighting. Outside window indistinct dusk sky and bare branches. Clear central background for a halfbody foreground character. No portraits, readable texts, objects suggesting location of another character.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+          ],
+          "title": "宅内电话·黄昏",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-7ee62df2-b8b8-4518-be0a-d63bd0b252d4.png",
+          "output": "assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+        },
+        {
+          "id": "street_night_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Use case: lighting-weather EDIT. Convert supplied SAME city residential street to deep quiet night. Lock all buildings, sidewalk perspective, gym storefront and exercise machines, railings, bare trees, hedges and pavement layout exactly. Sparse distant cars only, no pedestrians. Nearly all apartment windows dark with a handful of warm window lights, gym interior lights off or very dim, gentle pools of warm streetlamp illumination along sidewalk. Deep desaturated navy sky, cool soft moonlight on buildings and pavement; dry ground, no rain/snow, no neon cyberpunk. Preserve usable readable foreground and realistic night contrast, subtle unsettling loneliness. No new shops, signs, stars enlarged into symbols, no giant visible moon required.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/street_day.png"
+          ],
+          "title": "杏城街道·深夜",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-033c5024-3cbb-41dd-8614-760be7f3aea4.png",
+          "output": "assets/ch02/backgrounds/street_night_v1.png"
+        },
+        {
+          "id": "starry_sky_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Upward-looking night sky background from this same urban street, camera tilted almost straight up. Vast deep navy sky with subtly irregular natural small stars, sparse thin wisps of blue-gray cloud near lower left and outer edges, calm pale small moon near upper LEFT around normalized x=.20,y=.23, moon only about 3 percent image width. Only minimal dark bare branch tips at bottom corners, no broad skyline. Restrained winter city night sky, no giant galaxy, rainbow nebula or aurora, no star diagrams, lines, labels, satellites or UFO. IMPORTANT leave a small clean dark-sky patch centered at normalized x=.66,y=.36 with no visible star within radius 2% image width; it reserves a future independently blinking signal-star layer. Ordinary surrounding starfield remains natural and static, no standout luminous signal star baked in. Keep central upper sky unobstructed and lower third uncluttered. Match reference cool night palette and painterly style.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/street_night_v1.png"
+          ],
+          "title": "仰视星空",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-32418978-91a2-46e1-8da9-318eb0323df5.png",
+          "output": "assets/ch02/backgrounds/starry_sky_v1.png"
+        },
+        {
+          "id": "theatre_audience_side_v1",
+          "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Additional SIDE ANGLE of exact supplied concert hall during intermission. Same architecture identity: ivory stone walls, bronze Art Deco wall lamps and vertical trim, burgundy upholstered seats, warm amber wood stage and acoustic panels, no musicians on stage. Camera now at LEFT side aisle at seated eye level, looking diagonally across rows toward stage at upper RIGHT. Close empty burgundy pair of seats at foreground LEFT for later protagonist composition, ordinary small adult spectators sitting in midground rows seen in profile/back, subtly turned to neighbors; no main character. Stage partly visible in upper-right distance with empty black chairs and stands, exact same restrained civic hall, no extra balcony tiers. This is a supplemental spatial cutaway, not a replacement for frontal stage view. Match original style, materials and neutral concert lighting. No text.",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+          ],
+          "supplemental": true,
+          "title": "剧院观众席侧向角度（后续补充）",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-182630c3-3c0a-4394-baac-b56b9d11b2ce.png",
+          "output": "assets/ch02/backgrounds/theatre_audience_side_v1.png"
+        }
+      ],
+      "composition": {
+        "theatre_performance": {
+          "canvas": [
+            1672,
+            941
+          ],
+          "base": "theatre_hall_intermission_v1.png",
+          "overlay": "theatre_orchestra_layer_v1.png",
+          "overlay_scale": 0.84,
+          "overlay_top_left": [
+            125,
+            50
+          ],
+          "intermission": "Hide overlay only",
+          "qa": "Browser composite and state switch visually inspected. Alpha-bearing RGBA verified. Runtime not tested."
+        },
+        "signal_star": {
+          "canvas": [
+            1672,
+            941
+          ],
+          "normalized_anchor": [
+            0.66,
+            0.36
+          ],
+          "pixel_anchor": [
+            1103.52,
+            338.76
+          ],
+          "layer_status": "not produced, B5 future task"
+        }
+      }
+    },
+    "ch02_base_sprite_imports": {
+      "chapter": "ch02",
+      "date": "2026-10-03",
+      "generator": "builtin image_gen",
+      "ja_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+      "images": [
+        {
+          "id": "chinatsu_dress_v2",
+          "prompt": "Edit the supplied character design sheet. Change ONLY the leftmost front-facing full-body figure's physique: make Chinatsu's upper body gently slimmer and more delicate, narrower shoulders and thinner upper arms, less broad ribcage, natural slender waist consistent with the existing middle back/side figure and the right large portrait. Healthy slender seventeen-year-old proportions, not exaggerated or emaciated. Preserve her exact face, head size, long chestnut hair, expression, pose and hand position; preserve the dress design: muted blue-gray off-shoulder folded neckline, modest covered chest, natural waist, full-length layered A-line skirt and dark closed-toe low heels. Do not shrink the skirt's intended A-line volume. Every other panel including middle rear/side figure, large face on right, shoe detail and palette must remain unchanged. Preserve the sheet layout, white background, exact art style and restrained color. No added text or elements.",
+          "refs": [
+            "archive/cleanup_20261006/retired_art/reference/chinatsu/chinatsu_dress_v1.png"
+          ],
+          "transparent": false,
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-54d8e71c-6a62-4576-9632-bebaeb5d78c4.png",
+          "output": "assets/reference/chinatsu/chinatsu_dress_v2.png",
+          "transparent_background": false
+        },
+        {
+          "id": "qixing_indoor_neutral_v1",
+          "refs": [
+            "assets/reference/qixing/qixing_indoor_v1.png",
+            "assets/ch01/sprites/qixing_casual_neutral_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel, stylized-concept. ONE character only, single full-body view from top of hair to soles completely inside frame, portrait 2:3 canvas, modest transparent margins, head near top center. Clean fine anime linework, restrained layered cel shading with soft transitions, exact reference identity and clothing, same quality as existing project sprite. Neutral diffused lighting; real alpha-transparent background. Clean silhouette with NO glow, atmospheric haze, halo, scenery, floor, cast shadow, text, palette, collage, character sheet, inset faces or extra views. This is one baseline sprite, no expression variants. Reference 1 fixes identity and indoor clothing; reference 2 fixes the existing sprite's drawing style and face, but DO NOT copy its overcoat or shoes. Qixing, twenty-year-old lean young man, black tousled short hair, gray-brown eyes. Blue-gray roundneck knit sweater, charcoal straight trousers, black socks, no jacket or shoes. Standing in relaxed subtle three-quarter front orientation, weight evenly distributed, shoulders relaxed, one arm naturally hanging and the other hand loosely near hip, all fingers anatomically correct. Closed mouth, calm attentive neutral face, no smile, anger, blush or overt sleepiness.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-654cf9bc-8e4b-43ad-80fd-0796ad03d9c5.png",
+          "output": "assets/ch02/sprites/qixing_indoor_neutral_v1.png",
+          "transparent_background": true
+        },
+        {
+          "id": "chinatsu_indoor_seated_neutral_v1",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_indoor_v1.png",
+            "assets/ch01/sprites/chinatsu_casual_guarded_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel, stylized-concept. ONE character only, single full-body view from top of hair to soles completely inside frame, portrait 2:3 canvas, modest transparent margins, head near top center. Clean fine anime linework, restrained layered cel shading with soft transitions, exact reference identity and clothing, same quality as existing project sprite. Neutral diffused lighting; real alpha-transparent background. Clean silhouette with NO glow, atmospheric haze, halo, scenery, floor, cast shadow, text, palette, collage, character sheet, inset faces or extra views. This is one baseline sprite, no expression variants. Reference 1 fixes indoor clothing and identity; reference 2 fixes existing sprite style and face only, do NOT copy coat, shoes or standing pose. Chinatsu is a slender seventeen-year-old with long straight chestnut-brown hair, bangs, warm brown eyes, delicate shoulders. Ivory loose crewneck sweater with full-length sleeves down to wrists, black straight trousers, dark gray socks without shoes. Actual seated pose: torso upright but relaxed, hips sitting on an INVISIBLE sofa seat, thighs bent naturally forward, knees close together at right angle, lower legs downward, socked feet fully included. Three-quarter front view facing very slightly viewer-left. Hands loosely resting together on lap; no knees hugged yet. Calm reserved closed-mouth face, slight ordinary downcast gaze without fear, tears or blush. Include ONLY the character cutout, no chair, sofa, floor or furniture. Fully clothed, no visible injuries in this baseline. Natural anatomical seated proportions, not a standing figure with shortened legs.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-421755c4-3be5-4682-b61b-24c230a0321e.png",
+          "output": "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png",
+          "transparent_background": true
+        },
+        {
+          "id": "chinatsu_dress_neutral_v1",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_dress_v2.png",
+            "assets/ch01/sprites/chinatsu_casual_guarded_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel, stylized-concept. ONE character only, single full-body view from top of hair to soles completely inside frame, portrait 2:3 canvas, modest transparent margins, head near top center. Clean fine anime linework, restrained layered cel shading with soft transitions, exact reference identity and clothing, same quality as existing project sprite. Neutral diffused lighting; real alpha-transparent background. Clean silhouette with NO glow, atmospheric haze, halo, scenery, floor, cast shadow, text, palette, collage, character sheet, inset faces or extra views. This is one baseline sprite, no expression variants. Reference 1 is the CORRECTED dress design and slender physique; reference 2 is established face and linework only, not clothing. Chinatsu, slender seventeen-year-old, delicate narrow shoulders and slim upper arms, natural small ribcage and waist, healthy proportions, long straight chestnut hair and bangs, brown eyes. Muted blue-gray full-length layered A-line gown, folded modest off-shoulder neckline, covered chest, natural waistband, dark low-heel closed-toe shoes glimpsed below skirt. Standing in a gentle three-quarter front view with hands loosely together before lower waist, reserved closed-mouth neutral expression, gaze forward, no smile or blush, no tears or overt dramatic fear. Keep dress silhouette elegantly full while upper body remains slim as corrected reference, no broad shoulders or bulky torso. No accessories or makeup changes.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-73cbbe48-664a-4872-ab12-195d65a038e3.png",
+          "output": "assets/ch02/sprites/chinatsu_dress_neutral_v1.png",
+          "transparent_background": true
+        },
+        {
+          "id": "wengang_work_neutral_v1",
+          "refs": [
+            "assets/reference/wengang/wengang_v1.png",
+            "assets/ch01/sprites/qixing_casual_neutral_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel, stylized-concept. ONE character only, single full-body view from top of hair to soles completely inside frame, portrait 2:3 canvas, modest transparent margins, head near top center. Clean fine anime linework, restrained layered cel shading with soft transitions, exact reference identity and clothing, same quality as existing project sprite. Neutral diffused lighting; real alpha-transparent background. Clean silhouette with NO glow, atmospheric haze, halo, scenery, floor, cast shadow, text, palette, collage, character sheet, inset faces or extra views. This is one baseline sprite, no expression variants. Reference 1 ALONE fixes Wengang's identity and clothing; reference 2 only guides sprite rendering quality, never borrow Qixing's face, tousled hair or clothes. Wengang is a tall lean adult police-office colleague, narrow elongated face, long neck, narrow shoulders, short black upward-swept/spiky hair, fine eyebrows and narrow eyes distinct from Qixing. Dark navy nearly-black long-sleeved office uniform shirt with shoulder tabs, two chest pockets, tiny plain abstract shield-shaped badge and unlettered bar, matching dark trousers, plain black leather belt and shoes. Do not add readable rank, police numbers, national emblems, weapons or equipment. Upright relaxed three-quarter frontal standing pose, one hand lightly in trouser pocket and other hanging at side. Baseline ordinary attentive closed-mouth expression, no smile or anger.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-72ed2c96-fc3b-45c9-847f-b58169eb5c6c.png",
+          "output": "assets/ch02/sprites/wengang_work_neutral_v1.png",
+          "transparent_background": true
+        },
+        {
+          "id": "beidai_home_neutral_v1",
+          "refs": [
+            "assets/reference/beidai/beidai_home_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel, stylized-concept. ONE character only, single full-body view from top of hair to soles completely inside frame, portrait 2:3 canvas, modest transparent margins, head near top center. Clean fine anime linework, restrained layered cel shading with soft transitions, exact reference identity and clothing, same quality as existing project sprite. Neutral diffused lighting; real alpha-transparent background. Clean silhouette with NO glow, atmospheric haze, halo, scenery, floor, cast shadow, text, palette, collage, character sheet, inset faces or extra views. This is one baseline sprite, no expression variants. Reference fixes exact Beidai identity, proportions and home costume. Mature father and pianist with neat center-part hair entirely neutral grayscale (NO brown tint), warm gray-brown eyes, established mature face, fit ordinary build. Ivory long-sleeved collared shirt, gray high-waisted tailored trousers, WHITE suspenders BOTH securely worn on shoulders with correct fasteners, black polished dress shoes. Upright relaxed three-quarter front standing pose, one hand loosely beside hip and other naturally relaxed, hands visible with correct anatomy. Mild composed closed-mouth baseline expression, faint polite pleasantness but not a big grin. No phone, no prop, no bow, no messy-hair or slipped-suspender variant yet. Serious commercial VN character, no meme deformation.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-bd81d39c-60ac-4e7b-8fa4-75923b1d33bc.png",
+          "output": "assets/ch02/sprites/beidai_home_neutral_v1.png",
+          "transparent_background": true
+        }
+      ],
+      "checks": "文件尺寸、PNG 类型、SHA-256；生成结果已目视查看，画面验收交给用户。未启动游戏、未生成表情差分。"
+    },
+    "ch02_cg_imports": {
+      "chapter_id": "ch02",
+      "date": "2026-10-03",
+      "tool": "builtin image_gen",
+      "script_sha256": "fa06b84c2245e33152c419fa7fc3abf503dc6ca34fde0aa2f9403a7f53730e0a",
+      "presented_states": 17,
+      "selected_pngs": 18,
+      "images": [
+        {
+          "id": "tv_beidai_recital_v1",
+          "title": "电视节目内的备代演奏",
+          "group": "primary",
+          "scene": "sc01/sc02",
+          "refs": [
+            "assets/reference/beidai/beidai_casual_v2.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 fixes Beidai's face, all-neutral-GRAY center-parted hair and stage costume: ivory shirt, brown suspenders and brown tailored trousers. Television programme CONTENT only, not the TV frame or living room: medium-wide dynamic side-front camera of this middle-aged pianist seated at a polished black concert grand piano on a professionally lit small concert stage, gray center-part hair swinging slightly as he earnestly plays with broad arm movement. Anatomically natural hands aligned over keyboard, no levitating fingers, no comical distortion. Elegant sober stage lighting, dark neutral curtains and warm wood stage, no audience faces or logo. This is a distinct recorded concert performance, never restaurant furniture.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-f068b926-b696-486d-ad2e-79b4d28afc5b.png",
+          "output": "assets/ch02/cg/tv_beidai_recital_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "7c08c677e8fb4d3c34586af6a151c18f29366dda531d14217825b7c14e5ebdf4"
+        },
+        {
+          "id": "chinatsu_bruise_detail_v1",
+          "title": "千夏左上臂淤青特写",
+          "group": "primary",
+          "scene": "sc02/sc09",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_indoor_v1.png",
+            "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 defines Chinatsu's ivory loose sweater, black trousers and chestnut hair; reference 2 defines gray sofa and morning light from left. A restrained clinical narrative close-up of the BACK/outer surface of HER ANATOMICAL LEFT UPPER ARM (above elbow), with a single fading muted purple-brown bruise, skin intact, no blood or wound. She is seated hugging her black-trousered knees; her loose ivory sleeve has physically bunched up near left upper arm, exposing the bruise rather than showing through cloth. Camera from behind her left shoulder looking slightly down; edge of long chestnut hair, sweater fabric and gray sofa establish identity and position. Only modest small skin area on upper arm, rest fully clothed, no chest or bare torso, no sexualized camera, no injury being inflicted. Mark focal bruise upper-middle frame. One exact injury-location source suitable for later memory reuse.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-e2c3cfe0-26db-4b42-8618-1fbbbab55119.png",
+          "output": "archive/cleanup_20261006/retired_art/ch02/cg/chinatsu_bruise_detail_v1.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "42984c84cfbef5a164f7e41fcf7cb9713904afa32912853bc2b0736527702ade"
+        },
+        {
+          "id": "qixing_take_hand_v1",
+          "title": "启星抓住千夏的手",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "assets/reference/qixing/qixing_indoor_v1.png",
+            "assets/reference/chinatsu/chinatsu_indoor_v1.png",
+            "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Refs 1 and 2 identity/clothes, ref 3 same living room. Medium side-on two-person narrative shot: Qixing (black hair, blue-gray sweater, dark trousers, no coat) is on viewer LEFT beside the gray sofa, gently reflexively taking Chinatsu's ANATOMICAL LEFT HAND with HIS RIGHT HAND while leaning forward slightly. Chinatsu on viewer RIGHT seated on gray sofa, ivory sweater and black trousers, chestnut long hair, knees drawn nearer her body. She has startled guarded eyes and tenses, not romantic blush. Her left sleeve is partly pushed upward, left upper arm mostly occluded at this camera angle; no different bruise locations. Their connected hands clearly visible between them above lower 30 percent, correct fingers, no overlapping fused arms. Morning light from left and same furniture layout. Caring but mistaken gesture, not a struggle or romantic handholding. Keep composition stable for later withdrawal edit.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-af62881c-62d5-4a26-88b0-c33eb61c84eb.png",
+          "output": "assets/ch02/cg/qixing_take_hand_v1.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "7f2a65b5cbb2aede21063c2684b5ecf0163390688d15e9e9ed009d8368492099"
+        },
+        {
+          "id": "qixing_files_detail_v1",
+          "title": "凌乱文件与启星手部",
+          "group": "primary",
+          "scene": "sc04",
+          "refs": [
+            "assets/reference/qixing/qixing_casual_v1.png",
+            "assets/ch02/backgrounds/police_office_day_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 supplies Qixing's charcoal overcoat sleeve and blue-gray knit cuff; reference 2 supplies off-white office desk and daylight from left. Tight top-down oblique close-up of his two ordinary bare hands pausing over a poorly aligned stack of pale paper and neutral gray file folders on the desk. One hand has stopped mid-straightening, sheets slipping into slightly different angles, restrained frustration conveyed by fingers going still. Monitor base/keyboard edge blurred at rear, existing office materials. Papers contain only indistinct faint non-readable ruled marks, NO legible names, case information, photographs, seals, dates or clues. Anatomically correct hands, no additional person visible.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-b6a4d570-b994-4af0-9575-28659d7031c7.png",
+          "output": "assets/ch02/cg/qixing_files_detail_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "ec0091144e5aa30c3c7a9cf16e3608ed71256aa07e47ff785069672b2c81a5a9"
+        },
+        {
+          "id": "theatre_voucher_handover_base_v1",
+          "title": "工作人员递补偿券",
+          "group": "primary",
+          "scene": "sc05",
+          "refs": [
+            "assets/reference/qixing/qixing_casual_v1.png",
+            "assets/ch02/backgrounds/theatre_audience_side_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 defines Qixing's charcoal overcoat and blue-gray knit cuff, reference 2 defines theater ivory stone, bronze trim and burgundy seating. Close-up action of a theatre staff member's sleeve and bare hand from LEFT presenting one cream rectangular horizontal voucher to Qixing's bare hand and overcoat sleeve entering from RIGHT. Only hands and forearms, no faces or identifiable new staff design. Ticket held flat, front-facing directly toward camera, horizontal edges, NO perspective skew, center of frame around normalized x=.50 y=.405, ticket rectangle approximately x=.32 y=.25 width=.36 height=.31. Hands touch only extreme outer edges, do not cover inner ticket area. Entire face of ticket is BLANK cream paper, no generated letters or ornaments; authoritative printed ticket graphic will be overlaid after generation. Natural five-finger hands and subtle paper thickness. Theater seats softly out of focus behind, mid-intermission gentle daylight. Not police paperwork.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-4059b836-bfbc-4bf0-b193-0a241e81f2d3.png",
+          "output": "assets/ch02/cg/theatre_voucher_handover_base_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "6d2a70675e94429fd243505a47a4b8af05501f6d4b8c1e70083613465b4022b6"
+        },
+        {
+          "id": "chinatsu_limo_interior_v1",
+          "title": "千夏坐在礼宾车窗旁",
+          "group": "primary",
+          "scene": "sc06",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_casual_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 fixes Chinatsu's exact slender face, long chestnut hair, ivory long puffer coat, ivory knit top and black trousers. Medium-wide private-limousine interior shot: she sits in rear seat on RIGHT, upright but leaning head lightly toward window, eyes lowered and lips tightly closed, hands quiet together on lap, emotionally withdrawn. Black leather seats, restrained luxury wood trim, closed car windows, passing winter city blurred outside in afternoon daylight. On LEFT foreground show only back of driver's head and dark formal suit shoulders in front seat, facing road, no identifiable face, no speech text. No other passengers, no restraints or lock devices. View through cabin from opposite rear seat, no intimate body framing. Her face and window upper half, whole sense of enclosed cabin.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-644b4051-f107-41e5-9df9-54931113a79c.png",
+          "output": "assets/ch02/cg/chinatsu_limo_interior_v1.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "e708b6c833450092401864acd04e0ddb0a8767cdb390884cff23c36224858923"
+        },
+        {
+          "id": "chinatsu_withdraw_hand_v1",
+          "title": "千夏抽回手、护住手臂",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "assets/ch02/cg/qixing_take_hand_v1.png"
+          ],
+          "prompt": "Edit this exact CG into the immediate next action state, maintain same camera framing, gray sofa, window, background furniture, morning light and exact two identities and clothing. Chinatsu on RIGHT has sharply withdrawn her held hand back toward her own body and curled inward protectively, hugging her knees, covering her anatomical LEFT upper arm with the opposite hand; ivory sweater sleeve now naturally down to cover the arm. Her face becomes closed off and guarded, no blush, no smile. Qixing on LEFT stops his reaching hand in the now-empty space between them, looks concerned and realizes his mistake; do not keep holding her. Natural hands and arms, entirely separate silhouettes, no movement lines or ghost limbs. Retain the blue-gray sweater, black trousers, long chestnut hair and layout. No new objects, no text, no injuries added. This is a restrained withdrawal, not romantic action.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-617b834e-e4da-41ce-9acc-8982da14ad05.png",
+          "output": "assets/ch02/cg/chinatsu_withdraw_hand_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "509f5069164e430f27c3e53431a6c3474e9cd8c6a39426df548b77c318f1082d"
+        },
+        {
+          "id": "beidai_welcome_chinatsu_v1",
+          "title": "备代迎接、千夏僵住",
+          "group": "primary",
+          "scene": "sc06",
+          "refs": [
+            "assets/reference/beidai/beidai_casual_v2.png",
+            "assets/reference/chinatsu/chinatsu_casual_v1.png",
+            "assets/ch02/backgrounds/umekawa_foyer_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 Beidai identity and arrival outfit: ivory shirt, BROWN suspenders and brown trousers, gray neutral center-part hair. Reference 2 Chinatsu identity and ivory puffer coat/black trousers, ref 3 exact mansion foyer. Medium-wide two-person shot in foyer near entry: middle-aged father Beidai approaches from LEFT and wraps an ordinary parental welcoming arm around his daughter's shoulders. He wears conspicuously cheerful smile, she remains upright and stiff with arms down and shoulders tight, not returning embrace, eyes lowered and lips shut. No romantic framing or blush, no chest-to-chest emphasis. Two adult household servants in formal dark suits and white cuffs stand at a respectful distance in background near right arch, indistinct understated faces, no new named identities. Ivory stone, walnut wainscot, bronze sconces match reference. Warm daylight but emotionally unsettling contrast conveyed by faces and distance. Faces and shoulder action in upper-middle frame.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-048cb83a-c870-42ff-8d5a-d88bd9f7b636.png",
+          "output": "assets/ch02/cg/beidai_welcome_chinatsu_v1.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "0cc4de1f4b032a24b2fbcef36cde020c2ff004a9f1fd49421db726fc6418168f"
+        },
+        {
+          "id": "piano_forced_turn_v1",
+          "title": "琴房强制转身",
+          "group": "primary",
+          "scene": "sc07",
+          "refs": [
+            "assets/reference/beidai/beidai_home_v1.png",
+            "assets/reference/chinatsu/chinatsu_dress_v2.png",
+            "assets/ch02/backgrounds/umekawa_piano_room_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. References 1 and 2 fix father Beidai (neutral-gray center-part hair, ivory shirt, gray trousers, WHITE suspenders both on shoulders) and slender daughter Chinatsu (long chestnut hair, modest muted blue-gray layered gown), reference 3 fixes grand piano left, adjacent piano bench and carved side chair, wood floor, ivory walls/windows left/door right. A serious NON-ROMANTIC family confrontation. Medium-wide side-front two-person shot: Beidai seated on piano bench LEFT and Chinatsu on adjacent carved chair RIGHT. He has turned toward her, takes BOTH her upper arms from the OUTSIDE through normal arm grip and insistently turns her upper body to face him. Chinatsu leans slightly away, tense eyebrows, lips shut and resistant wary eyes, dress fully in place, no blush, no intimate contact. Father appears falsely solicitous rather than comic. Anatomically correct four arms, five-finger hands resting only on OUTER upper arms, no chest contact, no kissing, no bed, no restraints or injuries inflicted. Camera focuses faces, hands and seating geometry, not body appraisal. Piano edge on left, same closed Gothic door background. Stable composition for a subsequent pushing-away edit.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-d49f0176-1031-4b85-ba67-5f1c07bfbc76.png",
+          "output": "assets/ch02/cg/piano_forced_turn_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "4c4be1888a831b360527008d86b3e7938f0e2cf57bba1ed250cf2317ce0cb940"
+        },
+        {
+          "id": "memory_flames_v1",
+          "title": "火焰记忆底层",
+          "group": "primary",
+          "scene": "sc07",
+          "refs": [],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. A deliberately incomplete memory fragment: softly blurred wavering orange and muted yellow flames against deep smoky warm-gray darkness, painterly anime VN style, indistinct depth, no identifiable building, room, furniture, source of fire, weapon or person. Restrained dim palette rather than spectacular explosion. Clear space around central-left area for a separate sleeve-covered adult forearm fragment. No body, face, corpse, burns, symbols or written clues. This is an uncertain remembered visual impression, not an establishing shot that explains a death. Full landscape 16:9 opaque backplate.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-cc0e471e-ed5b-4168-b279-91a76405e97f.png",
+          "output": "assets/ch02/cg/memory_flames_v1.png",
+          "selected": true,
+          "mode": "text generation",
+          "width": 1672,
+          "height": 940,
+          "sha256": "fc80088e0383a19a1effde86d3fead4f2825a49a976388ee7d25fb2a764a7f08"
+        },
+        {
+          "id": "memory_mother_arm_layer_v1",
+          "title": "母亲挥动手臂记忆层",
+          "group": "primary_layer",
+          "scene": "sc07",
+          "refs": [],
+          "transparent": true,
+          "prompt": "Transparent isolated layer for a fragmentary memory CG in a serious anime visual novel. ONLY one ordinary adult woman's hand and sleeve-covered forearm entering from lower-left, reaching upward toward center-left with loosely open palm and five naturally separated fingers, a mid-wave gesture. Plain pale beige long sleeve, no jewelry, no distinctive pattern, no identifying marks; no face, head, torso or second arm. Clean refined anime linework, soft warm orange reflected light on fabric and skin but no flames ON the person, no injury, no blood, no burns, no dramatic effects. Preserve ambiguity of context. Wide landscape 16:9 transparent canvas, hand around normalized (.39,.29), forearm extends down toward (.22,.9); right half entirely empty transparent. No atmosphere, shadow cloud or background. True alpha transparency. Separate compositing layer for blurred flame backplate.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3bbda386-513f-49b2-b689-0a0db31d95af.png",
+          "output": "assets/ch02/cg/memory_mother_arm_layer_v1.png",
+          "selected": true,
+          "mode": "text generation",
+          "width": 1672,
+          "height": 941,
+          "sha256": "6f0952c76bfb28b1d5e58feed925d2202fb62de581c7087db74ccb9a24d2e9d6"
+        },
+        {
+          "id": "chinatsu_bruise_detail_v2",
+          "title": "千夏左上臂淤青特写（衣袖修正）",
+          "group": "primary",
+          "scene": "sc02/sc09",
+          "refs": [
+            "archive/cleanup_20261006/retired_art/ch02/cg/chinatsu_bruise_detail_v1.png"
+          ],
+          "prompt": "Precisely edit ONLY the incorrect ivory sweater sleeve topology in this CG. Preserve camera, character, hair, sofa, knees, left upper arm skin and existing single fading bruise completely unchanged. The entire sleeve is pushed up as ONE continuous bunched tube near the shoulder, with its ribbed cuff around the upper arm ABOVE the bruise. Remove the impossible separate sleeve segment around the elbow/forearm; the arm from just below the gathered upper-arm cuff down to the wrist is ordinary bare skin, the same anatomy and same resting hand. No detached fabric ring and no hole cut in a sleeve. Rest of torso and black trousers remain fully clothed. Do not change bruise location or add injury, no text. Match original refined anime VN style.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-55ee2c88-9874-459e-80c0-3ce11d83bc08.png",
+          "output": "assets/ch02/cg/chinatsu_bruise_detail_v2.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "767428c8ca23cb8d8ff5ce5f801b8b14abe85ec5257c53f65753141cc69c7828"
+        },
+        {
+          "id": "piano_push_away_v1",
+          "title": "千夏明确推拒",
+          "group": "primary",
+          "scene": "sc07",
+          "refs": [
+            "assets/ch02/cg/piano_forced_turn_v1.png"
+          ],
+          "prompt": "Edit this illustration into a plain tense family argument action: the girl on the right firmly blocks and moves the man's wrist away from her arm with her open hand, then draws her other arm toward herself, speaking with angry determined eyebrows. The man on the left releases both hands from her arms and looks displeased. Keep both seated, exact faces, hair, clothes, piano, seats, camera and background unchanged. Four anatomically natural arms with clearly separated hands. Serious anime narrative illustration, restrained emotions. Landscape frame, no text.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-6dd1e96a-cefb-4626-b04c-96051975139d.png",
+          "output": "assets/ch02/cg/piano_push_away_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "b5f64c35bf04df8246a542cb1e7e6d0a79a15519c2ef6c5e4e0f47be75fdcafd"
+        },
+        {
+          "id": "qixing_street_stopped_v1",
+          "title": "启星街头停住全景",
+          "group": "supplement",
+          "scene": "sc05",
+          "refs": [
+            "assets/reference/qixing/qixing_casual_v1.png",
+            "assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise.  Wide afternoon city shot outside the same theatre. Qixing alone center-left, black hair, charcoal long coat over blue-gray sweater, black trousers, stands stopped with arms hanging quietly, tense lost expression looking down street, entire figure visible. Two indistinct anonymous pedestrians farther away and traffic behind. Same theatre architecture. No named companion, legible signs or clues. Quiet loneliness after a failed search.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-22f0d6ff-31ff-49a2-96e4-3c9b6cbed55f.png",
+          "output": "assets/ch02/cg/qixing_street_stopped_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "1480693c741d07f6e8edff60d1c91e9f0b8ef95b9bde7822fa8c1157d4da1af8",
+          "playback_status": "retired_from_playback_user_revision"
+        },
+        {
+          "id": "limo_arrival_umekawa_v1",
+          "title": "礼宾车驶入梅川宅",
+          "group": "supplement",
+          "scene": "sc06",
+          "refs": [
+            "assets/ch02/backgrounds/umekawa_exterior_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise.  Wide afternoon arrival at EXACT Gothic mansion and winter garden of reference. One long black private limousine drives through open ornamental gold-and-dark iron gate along driveway toward entrance. Same mansion forms and windows, leafless plants, calm late daylight. Passengers hidden by dark windows. No brand, readable plate, guards or additional plot information. Mansion, gate and car legible above bottom 30 percent.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-590d385a-ab84-4c3d-9328-b9edd2cdfbce.png",
+          "output": "assets/ch02/cg/limo_arrival_umekawa_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "aa05df30552e47e574d22f9801f019a26b761006e69fe879b3ec059eafad849e"
+        },
+        {
+          "id": "chinatsu_corridor_escort_v1",
+          "title": "千夏沿走廊被带走",
+          "group": "supplement",
+          "scene": "sc06",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_casual_v1.png",
+            "assets/ch02/backgrounds/umekawa_corridor_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise.  Long perspective along SAME mansion corridor: Gothic windows LEFT, doors RIGHT, marble floor, walnut trim. Chinatsu in ivory puffer coat black trousers long chestnut hair walks toward far end head lowered and right hand resting on left upper arm. One adult servant in dark suit several steps ahead, another behind, indistinct faces. They walk without touching her. Distance and measured pace convey controlled household atmosphere. Girl recognizable mid-distance. No restraints or additional plot objects.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-e9a71388-792b-433f-998b-7e1274bfee64.png",
+          "output": "assets/ch02/cg/chinatsu_corridor_escort_v1.png",
+          "selected": false,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "21401f49ba4e81edbf3e67676a2a421eaf520c4aaf66d57087e8ab803459e555"
+        },
+        {
+          "id": "chinatsu_piano_stand_fear_v1",
+          "title": "千夏在琴房突然站起",
+          "group": "supplement",
+          "scene": "sc07",
+          "refs": [
+            "assets/ch02/cg/piano_forced_turn_v1.png",
+            "assets/reference/beidai/beidai_home_v1.png",
+            "assets/reference/chinatsu/chinatsu_dress_v2.png"
+          ],
+          "prompt": "Edit reference 1 into a later wider action state in SAME piano room with same identities, camera side, black piano LEFT, bench LEFT, carved chair RIGHT, windows and closed door. Reference 2 fixes Beidai's late disheveled state; reference 3 fixes Chinatsu slender figure and modest blue-gray long gown. Both are now standing, father LEFT near bench and daughter RIGHT just risen from carved chair, chair remains behind her. Father's anatomical RIGHT white suspender has slipped off right shoulder, left suspender stays on, neutral-gray center-part hair messy, ivory shirt gray trousers, anger restrained in face, hands by own sides. Chinatsu suddenly rises in fear, upper body draws back, hands tense near own waist, wide terrified eyes with no blush, no romantic tone. Keep her shoulders slender and dress unchanged fully in place. No flames in actual room, no injuries, no touching, no kiss, no new plot objects. Landscape serious anime VN CG.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-ccc985b0-b5ad-4e7f-a6c3-852895573043.png",
+          "output": "assets/ch02/cg/chinatsu_piano_stand_fear_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "c9edf15864550d7002b8034a4ada28652afd0b7b50048f580577ca77e63f7ca0"
+        },
+        {
+          "id": "beidai_phone_recoil_v1",
+          "title": "备代接听后后退全景",
+          "group": "supplement",
+          "scene": "sc08",
+          "refs": [
+            "assets/reference/beidai/beidai_home_v1.png",
+            "assets/ch02/props/servant_phone_handover_v3.png",
+            "assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise.  Wide shot in SAME mansion dusk corridor/wall from ref 3, orange evening through windows LEFT, walnut wainscot. Father Beidai stands center-right recoiling one step backward while listening to exact dark-gray CORDLESS LANDLINE handset of ref 2 at LEFT ear in LEFT hand, compact handset small unlit LCD and oval keypad, no smartphone or wire. Neutral gray center-part hair disheveled, ivory shirt gray trousers, anatomical RIGHT WHITE suspender slipped OFF right shoulder, LEFT stays on. His shocked eyes and tight mouth suggest fear without comedic scream, free right hand held low halfway withdrawing. No other visible person, no caller identity, no screen text, no dialogue. Upper body and handset in upper 65 percent, meaningful fullbody space.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-acd04753-dc07-46ff-95a3-741f71b2056b.png",
+          "output": "assets/ch02/cg/beidai_phone_recoil_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "998f3fad184c0fd52a6a69d468f44119be45acaf0a16df0c0b3da8d416a8f277"
+        },
+        {
+          "id": "qixing_stargaze_side_v1",
+          "title": "启星仰望星空侧面",
+          "group": "supplement",
+          "scene": "sc09",
+          "refs": [
+            "assets/reference/qixing/qixing_casual_v1.png",
+            "assets/ch02/backgrounds/street_night_v1.png"
+          ],
+          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise.  Medium side-profile shot of Qixing in the SAME winter city street at late night. Black tousled hair, charcoal long overcoat blue-gray sweater, standing in left half looking upward at sky with alert reflective expression, lips closed, restrained melancholy. Upper torso and profile in upper 65 percent, navy night sky upper-right with faint natural stars, warm street lights and leafless tree/building silhouettes softly blurred behind following reference, NO constellations, diagrams, special blinking points, arrows or identities. No other character. Quiet investigative chapter ending, not triumphant romance.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-ce242c44-aeb4-46ec-97e8-8204d8ee5407.png",
+          "output": "assets/ch02/cg/qixing_stargaze_side_v1.png",
+          "selected": true,
+          "mode": "reference-guided generation/edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "d5c4d777b890ff89192865fbf5091a6dd45b3d9ebcecd11b171f984c31cc7781"
+        },
+        {
+          "id": "qixing_take_hand_v2",
+          "title": "启星抓手（手部修正）",
+          "replaces": "qixing_take_hand_v1",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "assets/ch02/cg/qixing_take_hand_v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit ONLY the joined hands in the lower center of this exact illustration. Repair the girl's distorted hand: one natural small hand with correct palm, wrist and five fingers, gently taken by the young man's near hand. Distinct ownership and silhouettes: girl's ivory cuff, one wrist leads to her hand, thumb clearly on proper side, four relaxed fingers together, believable lengths and joints. Man's blue-gray cuff leads to his single hand gently supporting hers from below, his thumb rests lightly across the back; no interlaced fingers, no duplicated nails, fused fingers or extra hands. Keep her forearm, sleeve, all other anatomy, faces, poses, sofa, lighting, background, framing and colors unchanged. Same serious anime VN finish, landscape.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-f4444eb1-9f76-4735-a1e2-1eb8664bf322.png",
+          "output": "assets/ch02/cg/qixing_take_hand_v2.png",
+          "selected": false,
+          "mode": "builtin image_gen precise-object-edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "8475376b23812e32f5b6dd6fb4b60212c201713aaeb7a77babdbb769dd66cad8"
+        },
+        {
+          "id": "chinatsu_limo_interior_v2",
+          "title": "千夏车内（司机背带裤制服）",
+          "replaces": "chinatsu_limo_interior_v1",
+          "group": "primary",
+          "scene": "sc06",
+          "refs": [
+            "assets/ch02/cg/chinatsu_limo_interior_v1.png",
+            "assets/ch01/cg/cg_recital_v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 is the exact scene to edit, image 2 supplies household staff clothing ONLY from the two standing background servants. Replace ONLY the driver's dark suit jacket in image 1 with the same household uniform: pale ivory long-sleeved collared button shirt, narrow dark brown suspenders visibly running over BOTH shoulders and down the back into a Y connector, dark brown high-waisted tailored trousers where visible. No suit jacket or vest. Driver stays seated facing forward, same hair/head position, back toward camera; dark leather headrest may occlude central back but suspenders remain visible at shoulder edges. Preserve every pixel of Chinatsu, car seats, cabin, exterior, lighting, composition and colors as closely as possible. No identity transferred from reference, no extra person. Landscape refined anime VN.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-cee04e9d-648d-4bcf-8f2f-918933724461.png",
+          "output": "assets/ch02/cg/chinatsu_limo_interior_v2.png",
+          "selected": true,
+          "mode": "builtin image_gen precise-object-edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "557529c7036720d42f0b9947b8f121df0e0a954978717de500640fa40b70018f"
+        },
+        {
+          "id": "chinatsu_corridor_escort_v2",
+          "title": "千夏走廊（佣人背带裤制服）",
+          "replaces": "chinatsu_corridor_escort_v1",
+          "group": "supplement",
+          "scene": "sc06",
+          "refs": [
+            "assets/ch02/cg/chinatsu_corridor_escort_v1.png",
+            "assets/ch01/cg/cg_recital_v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Image 1 exact scene, image 2 clothing reference ONLY for the two standing background servants. Change BOTH male corridor servants from dark suits into matching household uniform: pale ivory long-sleeved collared button shirts, dark brown suspenders over BOTH shoulders with natural Y connection across BACK as both shown from behind, dark brown high-waisted tailored trousers and dark shoes. No suit jacket or vest. Preserve their original head/hair identity, white gloves, poses, positions and scale. Preserve Chinatsu entirely including ivory puffer coat, hair, face, protecting arm gesture, and preserve all corridor architecture, lighting, camera and framing. Do not add a third servant or alter direction of movement. Restrained refined anime VN landscape.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-db85a2fc-6482-4656-9920-2575ee5fd3f8.png",
+          "output": "assets/ch02/cg/chinatsu_corridor_escort_v2.png",
+          "selected": false,
+          "mode": "builtin image_gen precise-object-edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "98bc157cd44f411616ea572078877287881ffc01d674774c34f0e65826b087b8"
+        },
+        {
+          "id": "beidai_welcome_chinatsu_v2",
+          "title": "备代迎接（背景佣人背带裤制服）",
+          "replaces": "beidai_welcome_chinatsu_v1",
+          "group": "primary",
+          "scene": "sc06",
+          "refs": [
+            "assets/ch02/cg/beidai_welcome_chinatsu_v1.png",
+            "assets/ch01/cg/cg_recital_v1.png"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit ONLY the clothing of the TWO distant household servants at far RIGHT in image 1. Their clothing must match the two standing background staff in image 2: ivory collared long-sleeved shirts, narrow dark brown suspenders over both shoulders, dark brown high-waisted tailored trousers, dark shoes; retain original white gloves. Remove dark suit jackets, vests and neckties. Keep both servants' existing face/hair identities, distances, poses and exact positions. Preserve foreground father and daughter entirely, including father's own existing brown suspenders, her ivory puffer coat, all hands, faces, hair and expressions. Preserve identical foyer architecture, lighting, camera and palette. No new people. Refined landscape anime VN.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-d4cb04ef-58a1-4b10-8693-c246caa002c3.png",
+          "output": "assets/ch02/cg/beidai_welcome_chinatsu_v2.png",
+          "selected": true,
+          "mode": "builtin image_gen precise-object-edit",
+          "width": 1672,
+          "height": 941,
+          "sha256": "2108a2141c49df14ee8001029f1e3d7799586923348f0ab87c56bf7d39e725eb"
+        },
+        {
+          "id": "qixing_take_hand_v3",
+          "replaces": "qixing_take_hand_v2",
+          "title": "启星抓手（整图重绘）",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "assets/reference/qixing/qixing_indoor_v1.png",
+            "assets/reference/chinatsu/chinatsu_indoor_v1.png",
+            "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+          ],
+          "prompt": "Use case: illustration-story. Generate an entirely NEW complete landscape 16:9 CG, not a local edit or repair of previous CG. References supply ONLY character identities, clothing and living-room setting. Serious 2010–2016 Japanese PC visual novel, refined anime line art, restrained cel shading, softly painted background. Medium two-person shot on same gray sofa, morning window light LEFT. Qixing on LEFT black tousled hair blue-gray knit sweater dark trousers leans toward Chinatsu on RIGHT with chestnut long hair ivory sweater black trousers knees drawn up. He reflexively takes her RIGHT hand with his LEFT hand, she looks startled and guarded, no blush. Stage the hands near the CENTER at 55 percent image height so they remain above dialogue panel. SIMPLE CORRECT HAND ANATOMY is crucial: her near anatomical RIGHT upper arm visibly continues from right shoulder into right elbow and forearm extending LEFT toward him; her RIGHT HAND is seen from BACK, knuckles and nails up, fingers point LEFT, her RIGHT THUMB is on the UPPER/FAR side of that hand (toward rear of sofa). The man's near anatomical LEFT forearm extends RIGHT with LEFT PALM UP beneath her right hand, thumb lightly supporting her outer hand, no interlocked fingers. Both hands each have five naturally proportioned fingers, uninterrupted wrist alignment, distinct silhouettes. Other hands stay on their respective laps or hidden naturally, no second hand in grip. Caring but mistaken gesture, natural relaxed grasp not romantic pose. Faces and joined hands above bottom 30 percent. Opaque full-frame illustration, no text, UI or collage.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7049da64-ab1e-45ff-a2bd-7008b3c394a7.png",
+          "output": "assets/ch02/cg/qixing_take_hand_v3.png",
+          "selected": false,
+          "mode": "builtin image_gen full-frame regeneration from character/background references",
+          "width": 1672,
+          "height": 941,
+          "sha256": "f99639a2c3fae868c2746fb8a5f9b03f3dfb3ca5ce0354fd2483f8c347b29f29"
+        },
+        {
+          "id": "chinatsu_corridor_escort_v3",
+          "replaces": "chinatsu_corridor_escort_v2",
+          "title": "千夏被佣人带往走廊深处（整图重绘）",
+          "group": "supplement",
+          "scene": "sc06",
+          "refs": [
+            "assets/reference/chinatsu/chinatsu_casual_v1.png",
+            "assets/ch02/backgrounds/umekawa_corridor_v1.png",
+            "assets/ch01/cg/cg_recital_v1.png"
+          ],
+          "prompt": "Use case: illustration-story. Generate an entirely NEW complete 16:9 narrative CG, NOT an edit of old corridor picture. Reference 1 supplies Chinatsu identity and clothes, ref 2 corridor architecture, ref 3 supplies ONLY ivory shirt, dark brown suspenders and brown high-waisted trousers of two standing household servants. Serious commercial anime VN rendering with refined anatomy, restrained colors. Wide three-quarter SIDE VIEW of a closely grouped escort progressing TOGETHER from foreground-left toward a door along RIGHT wall in Gothic corridor, windows LEFT, walnut wainscot and polished floor. Chinatsu slender chestnut-haired girl in long ivory puffer black trousers is visibly WALKING in the same direction as both servants, head lowered, RIGHT hand resting protectively on LEFT upper arm. Exactly TWO adult male servants in ivory button shirts, BROWN suspenders, brown tailored trousers, white gloves, dark shoes. FIRST servant is only ONE STEP ahead and to her right: he turns his head and shoulders BACK toward her, makes a clearly visible open gloved hand gesture toward the right-side doorway to direct her onward. SECOND servant walks at her other side HALF A STEP behind, within arm's length, looking toward her and keeping close pace, body oriented along same route. Their gazes, close spacing and lead gesture make it unmistakable that they are escorting HER, not three strangers standing separately. Do not seize her arms, add restraints, force physical contact or add guards. Show all three full or knee-length figures as ONE tight narrative group near center; no servant huge isolated foreground, no distant unrelated servant. Directional foot placement and stepping clothes communicate walking, not idle standing. Faces and guiding gesture in upper 65 percent. Opaque full frame, no text or symbols.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7d471db1-eda4-4709-bfdb-a2c5c7e8b2c4.png",
+          "output": "assets/ch02/cg/chinatsu_corridor_escort_v3.png",
+          "selected": true,
+          "mode": "builtin image_gen full-frame regeneration from character/background references",
+          "width": 1672,
+          "height": 941,
+          "sha256": "ca04a67358f037fedabec61383efcc22c8195d857233b1016c24fcc86d0cfab4"
+        },
+        {
+          "id": "qixing_take_hand_v5",
+          "replaces": "qixing_take_hand_v3",
+          "title": "启星抓手（v1掌形不变，仅修正手指）",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "assets/ch02/cg/qixing_take_hand_v1.png"
+          ],
+          "prompt": "Precise minimal illustration repair. This ORIGINAL image already has the CORRECT hand orientation, thumb location, palm silhouette, wrists and grasp. DO NOT change any of those. Do not reinterpret left/right anatomy, rotate a palm, flip or mirror a hand, move a thumb, replace the grasp, simplify into a different hand pose, move sleeve cuffs or redraw the scene. ONLY repair the small malformed FINGER segments of the girl's hand within the existing grasp at lower center: retain exactly the original thumb on its existing lower contour, retain her existing palm shape and wrist angle, retain the boy's existing surrounding hand and fingers. Clean the girl's malformed finger outlines, awkward joints and nail placement so the original fingers become natural and proportional in the SAME original arrangement and original occlusion. Use original hand contour as the constraint, not an anatomical redesign. Outside those tiny finger details keep everything unchanged: camera, both identities, facial expressions, body poses, clothes, sofa and room. This image pairs with an existing hand-withdrawal CG, so composition must remain identical. No text. Finished restrained anime visual-novel CG.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3abeeb59-1ff1-40bd-a1d2-d7f8d21fb152.png",
+          "output": "archive/cleanup_20261006/retired_art/ch02/cg/qixing_take_hand_v5.png",
+          "selected": false,
+          "mode": "builtin image_gen minimal finger repair with original v1 palm orientation preserved",
+          "width": 1672,
+          "height": 941,
+          "sha256": "d495c97fd3efd7b5f1f19d72dfab354b8e8f6d654b0d3d48c4f58a6ee14f50c5"
+        },
+        {
+          "id": "qixing_take_hand_v6",
+          "replaces": "qixing_take_hand_v5",
+          "title": "启星抓手（去除多余手指，修正虎口）",
+          "group": "primary",
+          "scene": "sc02",
+          "refs": [
+            "archive/cleanup_20261006/retired_art/ch02/cg/qixing_take_hand_v5.png"
+          ],
+          "prompt": "Precise tiny local correction, preserve the entire supplied image. In the joined hands near the lower center, the GIRL'S thumb lies at the LOWER-RIGHT edge of the grasp, its tip pointing downward-left around (907,751) on the 1672x941 canvas. Immediately next to this thumb is an erroneous EXTRA long finger-like projection running down around x=908..925, y=690..737. DELETE that extra digit, its fingernail, and its long internal finger outline. That place must instead be the THUMB-INDEX WEB SPACE (虎口): a short natural concave curved junction between the retained thumb base and the index knuckle. Draw a small shallow curved V/U indentation and normal continuous skin surface, NOT another dangling finger, NOT a fingertip or nail. Keep the original thumb at lower right exactly where it is. Keep the girl's existing other four fingers grouped to the LEFT under the boy's hand, keep original palm orientation, wrist, cuff and grasp. Do NOT rotate or mirror either hand, do NOT redesign hand pose, do NOT move thumb to top edge. The man and his hand are unchanged. Only remove the unwanted finger-shaped spur and replace it with the short soft webbing curve. All faces, clothes, bodies, sofa, background, lighting and frame must remain the same. Serious finished anime VN art, no text.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-af2a6721-70b5-4447-84d5-ba5ebc54be2c.png",
+          "output": "assets/ch02/cg/qixing_take_hand_v6.png",
+          "selected": true,
+          "mode": "builtin image_gen local extra-digit removal and thumb-index web repair",
+          "width": 1672,
+          "height": 941,
+          "sha256": "8d346eb640e8f186daf16fb31d714973927798203cbc7a2cfd1f7f67339f2ccd"
+        },
+        {
+          "id": "chinatsu_bruise_detail_v3",
+          "title": "千夏左小臂淤青特写（位置修正）",
+          "scene": "sc02、09",
+          "group": "primary",
+          "selected": true,
+          "mode": "builtin image_gen reference-guided composition revision",
+          "refs": [
+            "assets/ch02/cg/chinatsu_bruise_detail_v2.png",
+            "assets/ch02/sprites/chinatsu_indoor_knees_closed_v1.png"
+          ],
+          "prompt": "Create a revised full-frame story CG replacing the injury-location image, using reference 1 ONLY for morning living-room gray sofa/light and anime rendering, reference 2 for Chinatsu identity, slender build, chestnut long hair, ivory sweater and black trousers. Completely NEW composition permitted and preferred: a close view of her anatomical LEFT FOREARM resting horizontally over her raised black-trousered knees as she sits on gray sofa, show elbow at one end and wrist/relaxed LEFT hand at other so injury placement is unmistakably BETWEEN ELBOW AND WRIST. One single fading muted purple-brown bruise on outer/back surface of LEFT FOREARM halfway between wrist and elbow, not upper arm, not elbow, no wound/blood. Her ivory sleeve is naturally pushed ONLY to just BELOW elbow with one continuous gathered ribbed cuff, upper arm entirely covered, lower forearm exposed; no floating sleeve sections, no transparent fabric. Hands normal five fingers relaxed gently partly over knee, avoid interlocking fingers. Crop excludes most face, a small edge of long chestnut hair and clothed torso establishes identity. Focal bruise in upper central 65 percent so dialogue panel cannot cover it; restrained serious observational camera, morning soft light, muted palette, fine Japanese commercial VN linework matching references. Landscape 16:9 opaque full-frame artwork, no UI, no words, no symbols, no extra injuries, no other person. This injury image is reused as Qixing's later memory, keep simple unequivocal anatomical forearm location.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-41c1e25b-077d-4107-90cc-43fac6579784.png",
+          "output": "assets/ch02/cg/chinatsu_bruise_detail_v3.png",
+          "transparent_background": false,
+          "width": 1672,
+          "height": 941,
+          "sha256": "4644c7be6813e50bd9f4928132ecc7fd990cdfbd23e63ef2db71f21451e4e5d8"
+        }
+      ],
+      "derived": [
+        {
+          "output": "assets/ch02/cg/theatre_voucher_handover_v1.svg",
+          "base": "assets/ch02/cg/theatre_voucher_handover_base_v1.png",
+          "graphic": "assets/ch02/props/theatre_voucher_v1.svg",
+          "canvas": [
+            1672,
+            941
+          ],
+          "rect": [
+            620,
+            356,
+            400,
+            165
+          ],
+          "mode": "code-native SVG composite with existing outlined lettering"
+        }
+      ],
+      "reused": [
+        "game/images/ch01/cg_table.png"
+      ],
+      "runtime_directory": "game/images/ch02/cg/"
+    },
+    "ch02_expression_imports": {
+      "chapter_id": "ch02",
+      "date": "2026-10-03",
+      "tool": "builtin image_gen",
+      "ja_sha256": "fa06b84c2245e33152c419fa7fc3abf503dc6ca34fde0aa2f9403a7f53730e0a",
+      "images": [
+        {
+          "index": 1,
+          "id": "qixing_indoor_bemused_v1",
+          "title": "启星室内 · 无奈浅笑",
+          "refs": [
+            "assets/ch02/sprites/qixing_indoor_neutral_v1.png"
+          ],
+          "scene": "sc01",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. A tiny rueful closed-mouth smile and softer eyebrows. Mild resignation while talking about an overenergetic television recital, not a happy grin, no blush.",
+          "output": "assets/ch02/expressions/qixing_indoor_bemused_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-1c8e2c52-fb4d-4812-959c-81f085a63e9d.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "2c0c93ae1e0f8dcfc52ef652d425f785c0009cb5f59852b7aa928201cc5e6ed5",
+          "base_sha256": "8bc75de2889b3860c75dbec3140bd886daec29716ce69d3a2ef04ce98b86034c"
+        },
+        {
+          "index": 2,
+          "id": "qixing_indoor_concerned_v1",
+          "title": "启星室内 · 认真关切",
+          "refs": [
+            "assets/ch02/sprites/qixing_indoor_neutral_v1.png"
+          ],
+          "scene": "sc02",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Serious caring concern: eyebrows slightly drawn inward, attentive eyes, closed lips, gentle worried look rather than hostility or interrogation.",
+          "output": "assets/ch02/expressions/qixing_indoor_concerned_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3c8806b7-df74-41e0-9827-d6c62c79e71a.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "38f8218e9da6d727ffdc91d10c0e9cab79031e00a353e4fcb32eec4683b772ad",
+          "base_sha256": "8bc75de2889b3860c75dbec3140bd886daec29716ce69d3a2ef04ce98b86034c"
+        },
+        {
+          "index": 3,
+          "id": "qixing_casual_restrained_anger_v1",
+          "title": "启星私服 · 克制怒气",
+          "refs": [
+            "assets/ch01/sprites/qixing_casual_neutral_v1.png"
+          ],
+          "scene": "sc04",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Suppressed irritation, noticeably knit brows, slightly narrowed eyes and firmly pressed lips, restrained anger without screaming or comic veins. Keep face recognizable and young.",
+          "output": "assets/ch02/expressions/qixing_casual_restrained_anger_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7c6db37e-5995-4215-bf83-85e0fd6b7ecf.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "e5b8751e1880817fb37d561e8a19e2278ec30869ad41491e993c0dc8b8e0c943",
+          "base_sha256": "05a79a23f7877f157df2462013f87cc83bfdd88af7a759a9cbc839475d47f57a"
+        },
+        {
+          "index": 4,
+          "id": "chinatsu_indoor_awkward_v1",
+          "title": "千夏室内 · 尴尬垂眼",
+          "refs": [
+            "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png"
+          ],
+          "scene": "sc01_003",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Awkward evasive eyes lowered slightly and hesitant closed lips. Embarrassed about her father being seen on television, NOT romance. No blush added, do not change head tilt or hair.",
+          "output": "assets/ch02/expressions/chinatsu_indoor_awkward_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-a884e783-1e15-4d2f-99c1-fc7a23ff2b70.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "b448811a804df3dfe5067191a8380fd236bc7b11264a24168cc5bb0c8b819341",
+          "base_sha256": "cdc504682e84d8953df5b4386183639cc01fe38aa79e8c12ff19142d42042daa"
+        },
+        {
+          "index": 5,
+          "id": "chinatsu_indoor_wry_v1",
+          "title": "千夏室内 · 淡淡讽刺",
+          "refs": [
+            "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png"
+          ],
+          "scene": "sc01_004",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Subtly wry expression: a barely raised corner of mouth, cool half-lowered eyelids and mild dry irony. Not a teasing happy smirk, not evil or mischievous. No blush.",
+          "output": "assets/ch02/expressions/chinatsu_indoor_wry_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-68809e94-211b-4fbb-8e66-0abd5edc267e.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "58397618ce2095d6615ebd3c8e2c639d26cc1dc697a3238baea5f9270764a724",
+          "base_sha256": "cdc504682e84d8953df5b4386183639cc01fe38aa79e8c12ff19142d42042daa"
+        },
+        {
+          "index": 6,
+          "id": "chinatsu_indoor_surprised_v1",
+          "title": "千夏室内 · 自然惊讶",
+          "refs": [
+            "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png"
+          ],
+          "scene": "sc01_006",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Natural mild conversational surprise: eyes a little wider, brows slightly raised, lips slightly parted as asking a question. NOT fear, no tears/blush, no comic symbols.",
+          "output": "assets/ch02/expressions/chinatsu_indoor_surprised_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-9687d575-3b3b-45aa-b08a-0b22f7c6a12c.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "eb99281f39533f27763210181e84817aeca2e075f447d008b646147bf903381c",
+          "base_sha256": "cdc504682e84d8953df5b4386183639cc01fe38aa79e8c12ff19142d42042daa"
+        },
+        {
+          "index": 7,
+          "id": "chinatsu_dress_angry_v1",
+          "title": "千夏礼服 · 受辱后的怒视",
+          "refs": [
+            "assets/ch02/sprites/chinatsu_dress_neutral_v1.png"
+          ],
+          "scene": "sc07_dir007",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Firm indignant glare after being mistreated: brows lowered and drawn inward, eyes sharp directed toward listener, lips tightly closed. Dignified unmistakable anger, not pout, romance, crying, smile or comedic rage. No marks or injuries added.",
+          "output": "assets/ch02/expressions/chinatsu_dress_angry_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-0e7851d3-59d8-4b97-8474-aa52fb0954aa.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "3c61f667dd055e8dc148f0070e34ec1a3e16b5abdb4a3b7b965a56df3a18a56e",
+          "base_sha256": "1903ae597fe72ab96f5a73b7df69cffc6a2493cd2097c9a76055f3aa0a0c6dd8"
+        },
+        {
+          "index": 8,
+          "id": "wengang_work_indignant_v1",
+          "title": "文钢 · 激动责备",
+          "refs": [
+            "assets/ch02/sprites/wengang_work_neutral_v1.png"
+          ],
+          "scene": "sc04_005–006",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Raised-voice indignant scolding: knit eyebrows, emphatic eyes, mouth open in normal speech with natural teeth. Strong reaction without enormous screaming mouth, fury caricature, comic lines or red face.",
+          "output": "assets/ch02/expressions/wengang_work_indignant_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-95a43a41-0849-4cc7-9f0c-577773309c96.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "2e87ca0e223e07d8ad9157a10e7e89bbacc88c22e809e7d5f222084d1de6cacb",
+          "base_sha256": "1fc30bbd777efd15e8670f52a93de1b816686e71c5887c1766c7dbd9517f4d46"
+        },
+        {
+          "index": 9,
+          "id": "wengang_work_skeptical_v1",
+          "title": "文钢 · 怀疑与劝告",
+          "refs": [
+            "assets/ch02/sprites/wengang_work_neutral_v1.png"
+          ],
+          "scene": "sc04_009–011",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Skeptical advice: one eyebrow slightly raised, other brow gently drawn in, eyes serious yet unconvinced, mouth small slightly parted in measured speech. Not smug or malicious.",
+          "output": "assets/ch02/expressions/wengang_work_skeptical_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-bdacaf56-574a-445e-8ce5-e0ab6b27a505.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "c71623281f406b0119bf632e7faebd39d52cec09ff7d49a2df6b90fc611789a1",
+          "base_sha256": "1fc30bbd777efd15e8670f52a93de1b816686e71c5887c1766c7dbd9517f4d46"
+        },
+        {
+          "index": 10,
+          "id": "wengang_work_surprised_v1",
+          "title": "文钢 · 意外惊讶",
+          "refs": [
+            "assets/ch02/sprites/wengang_work_neutral_v1.png"
+          ],
+          "scene": "sc04_dir006",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Taken-aback surprise at colleague suddenly leaving: both eyebrows lifted, eyes widened moderately, mouth slightly open, expression frozen rather than angry. No cartoon symbols.",
+          "output": "assets/ch02/expressions/wengang_work_surprised_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-0a45736e-1b31-4544-875d-48931dfbbf10.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "d5143b73bcdbbeb72916afa315068336f87f7882b689830723392c9fb3a71c16",
+          "base_sha256": "1fc30bbd777efd15e8670f52a93de1b816686e71c5887c1766c7dbd9517f4d46"
+        },
+        {
+          "index": 11,
+          "id": "maxi_incredulous_v1",
+          "title": "马皙 · 不可置信的惊讶",
+          "refs": [
+            "assets/ch01/sprites/maxi_neutral_v1.png"
+          ],
+          "scene": "sc05_012",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Incredulous conversational surprise: raised brows with one slightly higher, slightly wider eyes and parted lips, disbelieving look at a close friend. Remove original relaxed smile. Not annoyed, concerned or exaggerated screaming.",
+          "output": "assets/ch02/expressions/maxi_incredulous_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-20b04762-5af9-428e-94cd-e34505f5fd60.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "46c2c7a8a35c4dc9c5ac9d7a52bcad78babb2ee446fbb97fb900490432549ddd",
+          "base_sha256": "2f602329d0df9f637dd66c2cf1f547e7bbc80a3a07d8c7eca7dc3362b65196c2"
+        },
+        {
+          "index": 12,
+          "id": "beidai_home_false_tender_v1",
+          "title": "备代整齐 · 假慈爱",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_neutral_v1.png"
+          ],
+          "scene": "sc07_002–004",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. An outwardly gentle fatherly small closed-mouth smile, softly lifted brows but eyes subtly appraising and emotionally cool. Plausibly polite surface, not cartoon villain grin, sinister lighting, fang or exaggerated smirk. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_false_tender_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7f1a0283-d820-44c3-af53-2f1c90a4de9d.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "b3d74371b6ff619d5ef679550d99b24e743e994f936f54bcc86aa94fc9e7e8d1",
+          "base_sha256": "448690f1b8c66f6e3f97aa2d51766624ffaff46ffefa60f88a72f2d849c9d9b1"
+        },
+        {
+          "index": 13,
+          "id": "beidai_home_disheveled_furious_v1",
+          "title": "备代凌乱 · 盛怒责斥",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_disheveled_v1.png"
+          ],
+          "scene": "sc07_dir008",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Unmistakably furious accusatory expression: tightly knit lowered brows, angry intense eyes, mouth open in sharp speech, normal teeth and restrained realistic anime anatomy. No funny rage veins, giant mouth, glowing eyes or red skin. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_disheveled_furious_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-2c042464-d66a-4c94-8484-0142100689ad.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "2219a2a76c8ddc4490c21921642c8d458bf149036023ed27686611ec17c5b6a9",
+          "base_sha256": "d5e6bff42a3cdee3b8f9ad9c539110b3a8c4e774c53eff014d0588c31ca272f7"
+        },
+        {
+          "index": 14,
+          "id": "beidai_home_disheveled_curt_v1",
+          "title": "备代凌乱 · 冷淡不耐",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_disheveled_v1.png"
+          ],
+          "scene": "sc08_001",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Cold curt impatience: eyes slightly narrowed, brows faintly tense, small downward mouth line or very slight speaking gap. Anger subsided into dismissive irritation, no shouting, smile or fear. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_disheveled_curt_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-789bdeb2-c032-42b1-8aea-3aaeefcbb381.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "22be20067655868a1898a0bee12ba3b6c12a71fd27eafa1b9711cd72daaea8ef",
+          "base_sha256": "d5e6bff42a3cdee3b8f9ad9c539110b3a8c4e774c53eff014d0588c31ca272f7"
+        },
+        {
+          "index": 15,
+          "id": "beidai_home_phone_polite_v1",
+          "title": "备代持机 · 对外礼貌",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_phone_neutral_v1.png"
+          ],
+          "scene": "sc08_003",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Artificially restored public politeness on telephone: a thin socially polite smile, composed brow and attentive eyes. Distinct from warm fatherly smile. No genuine happiness or smirk. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_phone_polite_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-f57cdd20-f1b3-4fcb-9050-39da41387731.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "97f6f7c554cfdd9b0066fd1ad055bda90e3468c771ad425eb12a522eb411a708",
+          "base_sha256": "1a89b7b13c1dfcba6b71f0ff8c0da7b35d07a7950a90b73c9316ee653162492b"
+        },
+        {
+          "index": 16,
+          "id": "beidai_home_phone_uneasy_v1",
+          "title": "备代持机 · 疑惑不安",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_phone_neutral_v1.png"
+          ],
+          "scene": "sc08_dir003–004",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Early puzzled unease while waiting on phone: smile completely gone, brow faintly furrowed with inner ends raised, eyes alert and searching, lips narrowly parted. Not full terror yet, no sweat or comic symbols. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_phone_uneasy_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-7d1b49d7-a09d-4c1f-aff1-cc669c7694ee.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "72f8101c1079ff00fe6e8541c7ae5923dca3181bf87513822678d8b6169cc702",
+          "base_sha256": "1a89b7b13c1dfcba6b71f0ff8c0da7b35d07a7950a90b73c9316ee653162492b"
+        },
+        {
+          "index": 17,
+          "id": "beidai_home_phone_afraid_v1",
+          "title": "备代持机 · 惊恐失色",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_phone_neutral_v1.png"
+          ],
+          "scene": "sc08_005",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Shock turning into restrained fear after recognizing caller: lifted drawn-in brows, widened eyes with same iris color, small slightly parted trembling lips, slight loss of warmth in face skin ONLY. Breath caught and frightened, NOT loud scream or comic face. No sweat drops, tears, extreme shadows. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged.",
+          "output": "assets/ch02/expressions/beidai_home_phone_afraid_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-57ea0261-4281-47a0-ba94-ac7a7b129670.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "3639b40ecab402285fb6f6843a2d79a2ddc3404c7f1d7d77103768ea175000da",
+          "base_sha256": "1a89b7b13c1dfcba6b71f0ff8c0da7b35d07a7950a90b73c9316ee653162492b"
+        },
+        {
+          "index": 18,
+          "id": "beidai_home_dismiss_afraid_v1",
+          "title": "备代挥退 · 惊恐催退",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_phone_dismiss_v1.png",
+            "assets/ch02/expressions/beidai_home_phone_afraid_v1.png"
+          ],
+          "scene": "sc08_dir004",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Same restrained shock/fear design as phone-afraid state: lifted drawn-in brows, widened eyes, small slightly parted tense lips, slight loss of warmth in face ONLY. Gaze angled slightly toward servant at viewer RIGHT as urgently sending him away. Not neutral calm, command anger, smile or loud screaming. No comic sweat drops. Preserve neutral GRAY hair, white suspenders and gray trousers. If right white suspender is slipped in reference, keep it slipped on anatomical RIGHT upper arm (viewer LEFT). If phone exists, exact handset and LEFT holding hand stay unchanged. Input image 2 is ONLY a facial-expression design reference: copy its fearful eyebrows, eyelids, iris size and small tense mouth, adjusted to the existing face of image 1. Image 1 remains exact body/pose/canvas/phone/hand/hair/clothing target; DO NOT copy image 2's lowered right arm. Keep the extended dismissing right palm exactly as in image 1.",
+          "output": "assets/ch02/expressions/beidai_home_dismiss_afraid_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3db1a2b5-34b3-48b0-87c1-1dcb9e9a95d1.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "0b4e0f68354504467b98db6d15d846083ed1fc636dc28d8f7410ae6e24ab59ba",
+          "base_sha256": "6b0924b82b45b3cc6c5f94278d798e0d965e00777803887d3ad880c9c2e74f9a"
+        },
+        {
+          "index": 19,
+          "id": "theatre_staff_apologetic_v1",
+          "title": "剧院工作人员 · 正式歉意",
+          "refs": [
+            "assets/ch02/sprites/theatre_staff_halfbody_neutral_v1.png"
+          ],
+          "scene": "sc05_008–009",
+          "prompt": "Use case: identity-preserve. Edit target: image 1, an existing transparent Japanese commercial visual-novel character sprite. Deliver ONE complete sprite in the EXACT same 1024x1536 portrait canvas. Change ONLY facial expression inside existing face: eyebrows, eyelids, gaze and mouth; extremely slight face skin color only if expression explicitly requires it. Keep head angle/size/position, skull/jaw/nose/ears, eye/iris colors, hair shape/color, neck, body proportions, outfit, fabric folds, arms, hands, fingers, all held props, shoes, pose, lighting and shading outside face unchanged. Preserve transparency and sprite silhouette; no new background/halo/cast shadow, no recentering/resizing/cropping, no extra characters, no labels/text/symbols/panels. Match original fine anime linework and muted 2010–2016 PC visual novel shading. This is a face-expression variant, not a new character illustration. Formal apologetic service expression: inner eyebrows slightly raised, eyes attentive and regretful, mouth small slightly parted in polite explanation. Reserved apology, not grin, grief or exaggerated cringe. Do not bow or change hands.",
+          "output": "assets/ch02/expressions/theatre_staff_apologetic_v1.png",
+          "mode": "builtin image_gen edit",
+          "transparent_background": true,
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-aed86a52-0717-4ba1-970e-5e9319c606f1.png",
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "3a6f2756a97643cb8402b4f613310918328c711a480b36670dea61e86f37bb94",
+          "base_sha256": "b6a4f3773fd15ccd0634e8ff813533db30ff0513a2df6368433c6874707cb943"
+        }
+      ]
+    },
+    "ch02_pose_sprite_imports": {
+      "chapter_id": "ch02",
+      "date": "2026-10-03",
+      "tool": "builtin image_gen",
+      "ja_sha256": "fa06b84c2245e33152c419fa7fc3abf503dc6ca34fde0aa2f9403a7f53730e0a",
+      "expression_variants": false,
+      "images": [
+        {
+          "id": "chinatsu_indoor_knees_closed_v1",
+          "title": "千夏室内抱膝封闭",
+          "group": "primary",
+          "refs": [
+            "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png",
+            "assets/reference/chinatsu/chinatsu_indoor_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel. ONE character, single view, portrait 2:3 canvas. Refined thin anime lines and restrained soft cel shading, consistent with project references. Neutral diffused light. True transparent background with clean alpha edges: absolutely no colored haze, glow, halo, floor, cast shadow or background. No captions, labels, collage, inset or palette. Natural body and five-finger hand anatomy, modest transparent margin, silhouette wholly inside canvas. References fix exact Chinatsu face, long chestnut hair, slender body, ivory loose sweater, black trousers and dark gray socks. Replace reference seated pose with a proper knees-hugging seated pose: both knees drawn up toward chest, torso curls slightly inward, lower legs and sock feet together naturally, right arm crosses toward her LEFT upper arm (on viewer RIGHT), right hand resting over sweater on that upper arm to hide it, other arm wraps below knees. Sleeves completely cover arms and wrists, NO bruise drawn through fabric, no bare upper arm. Simple hands with no interlaced fingers; partially hide unused fingers behind fabric if needed. Head lowered slightly, closed mouth and guarded calm face, not crying or blushing. Same eye/hair colors. Full seated figure including feet, no chair or sofa baked in. Appropriate withdrawn posture, no costume change.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-175a7854-99f8-42d8-b2f5-ae9ed8a7a097.png",
+          "output": "assets/ch02/sprites/chinatsu_indoor_knees_closed_v1.png",
+          "mode": "reference_guided_generation",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "5b6b37c7a6ffedc6dc70e5d1ae0550ab79afc8e1ae763d6aef4b3fd2c5d1a70d",
+          "playback_status": "retired_from_playback_user_revision"
+        },
+        {
+          "id": "beidai_home_disheveled_v1",
+          "title": "备代宅内凌乱状态",
+          "group": "primary",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_neutral_v1.png",
+            "assets/reference/beidai/beidai_home_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel. ONE character, single view, portrait 2:3 canvas. Refined thin anime lines and restrained soft cel shading, consistent with project references. Neutral diffused light. True transparent background with clean alpha edges: absolutely no colored haze, glow, halo, floor, cast shadow or background. No captions, labels, collage, inset or palette. Natural body and five-finger hand anatomy, modest transparent margin, silhouette wholly inside canvas. Reference 1 exact existing standing sprite, reference 2 supplies disheveled costume state. Preserve mature Beidai identity, all-neutral-GRAY center-part hair, ivory long-sleeved button shirt tucked into gray tailored trousers and black leather shoes, matching fullbody size. ONLY his anatomical RIGHT WHITE suspender (on viewer LEFT) has slipped from right shoulder to wrap around right upper arm, loose length runs to original trouser fastening; LEFT white suspender stays correctly on left shoulder. Gray hair noticeably ruffled but same center part and color. Standing subtle three-quarter front, arms resting at sides, no phone, closed mouth and unsmiling controlled neutral face suitable for future expression variants. Completely normal anatomy and restrained non-comedic clothing disorder. Fullbody top to soles.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-ebf5a457-d041-4870-84c5-4f6158531e16.png",
+          "output": "assets/ch02/sprites/beidai_home_disheveled_v1.png",
+          "mode": "reference_guided_generation",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "d5e6bff42a3cdee3b8f9ad9c539110b3a8c4e774c53eff014d0588c31ca272f7"
+        },
+        {
+          "id": "beidai_home_phone_neutral_v1",
+          "title": "备代凌乱持电话",
+          "group": "primary",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_disheveled_v1.png",
+            "assets/ch02/props/servant_phone_handover_v3.png"
+          ],
+          "prompt": "Edit image 1 into a phone-holding pose on true TRANSPARENT background, keeping exact character identity, camera, fullbody proportions, ivory shirt gray trousers, black shoes, disheveled neutral-GRAY hair, anatomical RIGHT white suspender slipped down RIGHT upper arm on viewer LEFT and LEFT white suspender on shoulder. Change ONLY LEFT arm on viewer RIGHT: raise left forearm and hand to hold the exact dark-gray CORDLESS LANDLINE handset from image 2 naturally at his LEFT ear on viewer RIGHT. Fingers wrap outside phone with natural thumb and no extra digits, handset front angled slightly visible, same small unlit LCD, circular nav control and 3x4 oval keypad; no phone cord, smartphone or brand. Free RIGHT arm stays down at side. Closed mouth and composed unsmiling basic face suitable for later polite/fear expressions. Single fullbody sprite, not CG, no phone prop's suit cuff copied, no haze, glow, cast shadow or background. Fine serious anime VN lines and restrained shading. Preserve head and feet positions in same portrait2:3canvas.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-a53bc1af-f0a1-403d-afc3-36a530df0f23.png",
+          "output": "assets/ch02/sprites/beidai_home_phone_neutral_v1.png",
+          "mode": "edit",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "1a89b7b13c1dfcba6b71f0ff8c0da7b35d07a7950a90b73c9316ee653162492b"
+        },
+        {
+          "id": "beidai_home_phone_dismiss_v1",
+          "title": "备代持机挥退佣人",
+          "group": "supplement",
+          "refs": [
+            "assets/ch02/sprites/beidai_home_disheveled_v1.png",
+            "assets/ch02/props/servant_phone_handover_v3.png"
+          ],
+          "prompt": "Edit image 1 into a brief dismissive hand gesture pose while on telephone. Exact mature Beidai identity and fullbody scale, gray ruffled center-part hair, ivory shirt gray trousers black shoes, RIGHT WHITE suspender slipped onto RIGHT upper arm (viewer LEFT), LEFT WHITE suspender remains on shoulder. LEFT hand at LEFT ear (viewer RIGHT) holds the exact dark-gray cordless landline handset from reference 2, small unlit LCD and oval keypad, no wire/smartphone. Free RIGHT arm (viewer LEFT) extends gently outward at waist-to-chest height with RIGHT hand facing outward, fingers naturally together and one distinct thumb, a brief 'go away' wave directing a servant offscreen. No pointed accusation, no ghost hands or motion lines. Closed mouth and controlled neutral serious face, no shocked expression variant yet. Full character feet to hair within portrait2:3 transparent canvas with enough margin for extended hand. ONE sprite only, NO servant or room or props other than phone. Preserve neutral lighting and fine anime VN style. True alpha, no haze/glow/halo/cast shadow.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-42528b16-dbf2-4168-a081-d8520a9c26ef.png",
+          "output": "assets/ch02/sprites/beidai_home_phone_dismiss_v1.png",
+          "mode": "edit",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "6b0924b82b45b3cc6c5f94278d798e0d965e00777803887d3ad880c9c2e74f9a",
+          "playback_status": "retired_from_playback_user_revision"
+        },
+        {
+          "id": "theatre_staff_halfbody_neutral_v1",
+          "title": "剧院工作人员半身",
+          "group": "supplement",
+          "refs": [
+            "assets/ch02/cg/theatre_voucher_handover_base_v1.png",
+            "assets/ch02/sprites/beidai_home_neutral_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel. ONE character, single view, portrait 2:3 canvas. Refined thin anime lines and restrained soft cel shading, consistent with project references. Neutral diffused light. True transparent background with clean alpha edges: absolutely no colored haze, glow, halo, floor, cast shadow or background. No captions, labels, collage, inset or palette. Natural body and five-finger hand anatomy, modest transparent margin, silhouette wholly inside canvas. Image 1 supplies ONLY theatre employee dark formal jacket and white shirt cuffs from LEFT handing arm, image 2 supplies ONLY project linework/style, NEVER its character identity or suspenders. Create an unobtrusive adult male theatre employee about 30, neat dark-brown side-parted short hair, ordinary slim build and distinct face NOT Beidai, NOT Qixing. Dark navy-charcoal single-breasted suit jacket, white collared shirt, subdued dark necktie, no printed badge or name. Halfbody from whole hair to upper thighs, frontal slight three-quarter facing player. Hands gently together at waist in formal service posture with separate readable fingers, polite reserved closed mouth, ordinary attentive brows. Suitable for explaining cancellation to seated audience; no exaggerated bow, grin or pointing. No voucher held; separate existing handover CG handles that action. True transparent image.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-eb7b36c4-6ddc-4343-bc24-48780a92dacf.png",
+          "output": "assets/ch02/sprites/theatre_staff_halfbody_neutral_v1.png",
+          "mode": "reference_guided_generation",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "b6a4f3773fd15ccd0634e8ff813533db30ff0513a2df6368433c6874707cb943"
+        },
+        {
+          "id": "umekawa_servant_partial_neutral_v1",
+          "title": "梅川家佣人局部立绘",
+          "group": "supplement",
+          "refs": [
+            "assets/ch01/cg/cg_recital_v1.png",
+            "assets/ch02/sprites/beidai_home_neutral_v1.png"
+          ],
+          "prompt": "Production character sprite for a serious 2010–2016 Japanese PC visual novel. ONE character, single view, portrait 2:3 canvas. Refined thin anime lines and restrained soft cel shading, consistent with project references. Neutral diffused light. True transparent background with clean alpha edges: absolutely no colored haze, glow, halo, floor, cast shadow or background. No captions, labels, collage, inset or palette. Natural body and five-finger hand anatomy, modest transparent margin, silhouette wholly inside canvas. Reference 1: ONLY the LEFT standing background servant identity/uniform, NOT center seated pianist. Reference 2 supplies sprite rendering style only, NOT Beidai identity or white suspenders. One discreet male household servant, young adult, short brown side-part hair matching left background servant, ivory long-sleeved collared shirt, BROWN narrow suspenders and brown high-waisted tailored trousers, white gloves. Partial portrait from full head to mid-thigh, subtle three-quarter toward viewer left, calm formal face, closed mouth, no grin. Gloved hands held quietly in front of waist, natural simple separated five-finger shapes. NOT dark suit uniform, NOT gray trousers, NOT white suspenders. No telephone held, existing handover layer remains separate, no new character name or identifying badge. True transparency.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-6913b042-f907-4698-aac6-fbc5d38c9cff.png",
+          "output": "assets/ch02/sprites/umekawa_servant_partial_neutral_v1.png",
+          "mode": "reference_guided_generation",
+          "transparent_background": true,
+          "width": 1024,
+          "height": 1536,
+          "png_color_type": 6,
+          "sha256": "a6e2a7be718c7997f6d156e4bb3f9ab2b02269f045f05938a4bf7e9c9ac9d98d"
+        }
+      ],
+      "integration_document": "docs/ch02/ch02_pose_sprites.md"
+    },
+    "ch02_props_imports": {
+      "chapter": "ch02",
+      "ja_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+      "generator": "builtin image_gen",
+      "images": [
+        {
+          "id": "chinatsu_notice_portrait_v1",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu/chinatsu_casual_v1.png"
+          ],
+          "prompt": "Identity-preserving illustration for a missing-person notice within a serious Japanese visual novel. Reference is exact character identity: Chinatsu, seventeen, long straight chestnut-brown hair with natural bangs, warm brown eyes, same facial proportions and restrained anime linework. Produce ONE plain formal identification portrait, front-facing head and shoulders, neutral calm expression, mouth closed, ordinary ivory crewneck knit top, no coat, no accessories, no dramatic expression. Head fully included, neatly framed generous margins, warm light gray flat background. Clean 2010–2016 commercial anime VN art matching reference. No writing, captions, borders, injury, other views or collage. Portrait crop 3:4.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-2d01941e-9ddc-466a-a7b0-a74036a65ca9.png",
+          "selected": true,
+          "output": "assets/ch02/props/chinatsu_notice_portrait_v1.png"
+        },
+        {
+          "id": "chinatsu_shoes_layer_v1",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu/chinatsu_casual_v1.png",
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_entry_morning_v1.png"
+          ],
+          "prompt": "Transparent cutout game prop: exactly one matching pair of the girl's plain black leather ankle shoes from image 1: rounded closed toes, low block heel, ankle height, understated side seam/zip, no laces or buckles. Empty unworn shoes neatly side by side, toes facing toward viewer slightly left, heel openings visible, seen from standing camera looking downward as for placing on the floor in image 2's entry hall. Image 1 establishes shoe design only. Image 2 provides camera and soft warm morning light from left only; DO NOT output room or floor. Refined hand-painted anime VN background prop, restrained black leather highlights, natural proportions, subtle contact shadow with transparent fade. Entire pair isolated on actual transparent background, generous transparent margins, square canvas. No legs, feet, socks, other objects, writing or checkerboard.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f3f41c38-341c-484f-82e1-ae06bac38fad.png",
+          "selected": true,
+          "output": "assets/ch02/props/chinatsu_shoes_layer_v1.png"
+        },
+        {
+          "id": "servant_phone_handover_v1",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+          ],
+          "prompt": "Transparent cropped prop-action layer for a serious Japanese anime visual novel, matching supplied mansion's restrained warm dusk lighting from LEFT. ONLY an adult servant's one anatomically correct hand and forearm entering from lower RIGHT, offering one plain matte charcoal cordless LANDLINE handset toward center-left, held upright at slight diagonal. White shirt cuff under dark navy-black formal suit sleeve, bare natural hand with five fingers, no jewelry or gloves. Handset design is slim but recognizably early-2000s cordless household phone, rounded rectangular body, small dark inactive LCD, circular navigation key, conventional 3-by-4 rubber keypad, earpiece grille; no branding or generated letters/numbers, no illuminated caller identity, no smartphone apps, no cord or base. Device fully visible and consistent for future character holding it. Upper arm/body/person face absent, only forearm cut by right-bottom frame edge. Detailed commercial anime linework and modest cel/painterly shading, no dramatic action. Actual transparent background, no wall, no floor, no text, no checkerboard. Wide 3:2 canvas, device and hand occupy central area with transparent margin above/left.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-c95fe424-a2ef-4728-991d-92dc7e8615ae.png",
+          "selected": false,
+          "output": null
+        },
+        {
+          "id": "notice_removed_layer_v1",
+          "prompt": "Transparent game overlay, front-on rectangular arrangement of leftover four small beige semi-transparent adhesive tape strips and tiny torn cream-paper fragments at the four corners of a removed A4 missing-person notice. The center where the page used to be is COMPLETELY TRANSPARENT, so the original wall or window will remain visible. Corner scraps only, discreet slight paper fibers, tiny faint pale adhesive residue near tape, absolutely no opaque rectangular backing, no page, no text, no symbols. Portrait 3:4 canvas. Hand-painted anime visual novel environmental prop style, restrained realistic materials, soft daylight from upper left, no exaggerated dirt/grunge, no glow, no drop shadow outside the small scraps. Real alpha transparency, no background, no checkerboard.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-7012da1c-5241-4fa4-828b-a9d42ad86e27.png",
+          "selected": true,
+          "output": "assets/ch02/props/notice_removed_layer_v1.png"
+        },
+        {
+          "id": "servant_phone_handover_v2",
+          "refs": [
+            "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-c95fe424-a2ef-4728-991d-92dc7e8615ae.png"
+          ],
+          "prompt": "Edit target image: keep exact handset, all hand anatomy, sleeve, composition, dimensions, warm highlights ON the objects completely unchanged. Remove ONLY the large fuzzy brown/amber glow cloud around the hand and phone. All pixels outside the crisp object silhouette must become fully transparent; no halo, haze, cast light, background, shadow cloud or checkerboard. Maintain clean anti-aliased silhouette and actual alpha transparency. This is an isolated overlay to place over existing scene artwork.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-1f42c74a-0752-41e8-9d3c-bbd38613e0dc.png",
+          "selected": false,
+          "output": null
+        },
+        {
+          "id": "servant_phone_handover_v3",
+          "prompt": "Create a clean isolated anime visual novel prop CUTOUT with actual alpha. Only one adult servant's natural hand and forearm in dark navy suit and white cuff entering lower right, offering a matte dark gray cordless landline handset diagonally upright toward center left. Early 2000s home telephone: small unlit dark LCD, circular navigation button, unlabeled 3x4 keypad, speaker grille. No wires/base/brands/text. Hand anatomy five fingers, natural grip. Refined 2010s commercial anime cel shading, thin clean outlines. Neutral flat studio illustration lighting, tiny warm highlights INSIDE object silhouette ONLY. Outside hard-edged object silhouette is EMPTY FULLY TRANSPARENT. Absolutely NO bloom, glow, halo, atmospheric light, ambient haze, contact shadow, vignette, backdrop or surroundings. Wide 3:2 composition. Handset fully visible, forearm cut by bottom-right edge, left and top generous transparent space. No other body parts or face.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-b0517550-cefb-41ce-826c-72cd6280f2a3.png",
+          "selected": true,
+          "output": "assets/ch02/props/servant_phone_handover_v3.png"
+        }
+      ],
+      "vector_assets": {
+        "builder": "tools/build_ch02_props.py",
+        "font": "game/fonts/SourceHanSerifJP-Medium.otf",
+        "method": "Actual font glyph outlines in SVG; unchanged raster portrait embedded; no AI-generated lettering",
+        "output_directory": "assets/ch02/props/"
+      },
+      "notes": [
+        "电话局部仍有边缘柔光，未宣称已清除；等待用户画面验收。",
+        "备代持电话立绘留待角色立绘阶段，届时参考选定机型。",
+        "未启动游戏或浏览器进行画面检查。"
+      ]
+    },
+    "ch02_reference_imports": {
+      "date": "2026-10-01",
+      "scope": "Five planned character reference sheets only; no runtime sprites, CGs, backgrounds or audio.",
+      "note": "Chinatsu indoor initial request including bruise detail was rejected by image tool safety system. Successful design is fully clothed outfit only; injury and raised sleeve are not visually validated by this sheet.",
+      "records": [
+        {
+          "key": "qixing_indoor",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/qixing/qixing_casual_v1.png"
+          ],
+          "prompt": "Use case: identity-preserve. Image 1 is the exact identity and art-style reference for Xu Qixing, a 20-year-old male. Create a new indoor clothing model sheet, preserving his exact face, side-parted near-black short hair, gray-brown eyes, youthful slim athletic build and relative proportions. Remove only the long charcoal overcoat; retain the visible muted blue-gray crew-neck knit sweater, dark tailored trousers and black socks (indoor footwear, no boots). Sleeves to wrists. The outfit is ordinary fully clothed indoor winter attire. Front and rear three-quarter full-body views, clear neutral face close-up and a side profile head, sweater neckline and sleeve detail, color swatches. No alternate expressions, no props or accessories. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-6dfe7afd-5113-47a6-a239-940e7a4f215c.png",
+          "output": "assets/reference/qixing/qixing_indoor_v1.png",
+          "tool": "built-in image_gen",
+          "edit_prompt": null,
+          "intermediate_source": null
+        },
+        {
+          "key": "chinatsu_indoor",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu/chinatsu_casual_v1.png"
+          ],
+          "prompt": "Use case: identity-preserve. Input image 1 is the established character identity and art style reference. Create an ordinary winter clothing design reference sheet of the same girl, keeping her exact face, long straight chestnut hair, bangs, brown eyes, and proportions. Outfit: the same ivory crew-neck knit sweater already visible beneath her coat, now without the outdoor coat, with relaxed full-length sleeves and loose ribbed cuffs, black straight-leg trousers and dark socks. All views fully clothed. Neutral relaxed standing front and rear three-quarter full-body views, one neutral face portrait, separate close-up of the sweater fabric and cuff. No action or story scene, no alternate expressions. Clean off-white background and small color swatches, no labels. Match the reference's polished Japanese PC visual novel illustration, restrained colors, precise linework and soft neutral light. The purpose is to document a consistent everyday outfit, not to create a new character.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-5a8718c2-d647-4ec3-9cfe-a5155295a673.png",
+          "output": "assets/reference/chinatsu/chinatsu_indoor_v1.png",
+          "tool": "built-in image_gen",
+          "edit_prompt": "Edit this outfit reference sheet only: replace the black leather outdoor shoes on both full-body views with simple dark charcoal socks, feet resting naturally. Preserve absolutely everything else: same exact face, hair, ivory sweater, trousers, body proportions, standing poses, close-ups, layout, palette, background, rendering. Do not add or remove views. This is a small indoor-footwear correction.",
+          "intermediate_source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-a8ae258a-05af-4701-8efd-5f0c4927b142.png"
+        },
+        {
+          "key": "chinatsu_dress",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu/chinatsu_casual_v1.png"
+          ],
+          "prompt": "Use case: identity-preserve. Image 1 is exact face, hair, age and rendering reference for Chinatsu, a seventeen-year-old violinist. New clothing reference only, no narrative scene. Preserve same youthful face, chestnut long straight hair and brown eyes, normal slim proportions without body exaggeration. Design a tasteful formal concert evening dress: muted dusty blue-gray, matte layered fabric, fitted but not tight natural waist, full floor-length A-line skirt, wide folded off-shoulder neckline sitting just below shoulders, opaque and high across upper chest with absolutely no cleavage, no slit, no transparent fabric, no jewelry, no mature glamour makeup; closed-toe modest dark heels, visible only in small footwear inset. Hair same loose arrangement, no new accessories. Front and rear three-quarter full-length views and a neutral face portrait plus neckline fabric and shoe design details. This outfit is formal and modest, keep character recognizable and age-appropriate. No expressions sheet, no nudity, no sexual pose, no other characters. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f830a27a-a242-4e4a-94ff-faae7903ebe2.png",
+          "output": "archive/cleanup_20261006/retired_art/reference/chinatsu/chinatsu_dress_v1.png",
+          "tool": "built-in image_gen",
+          "edit_prompt": null,
+          "intermediate_source": null
+        },
+        {
+          "key": "beidai_home",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/beidai/beidai_casual_v2.png"
+          ],
+          "prompt": "Use case: identity-preserve. Image 1 is exact identity reference for middle-aged pianist Beidai. Preserve exact mature face, gray-brown eyes, body proportions, and center-parted hair which MUST remain neutral grayscale silver-gray, zero brown or colored tint. New indoor costume reference: clean ivory long-sleeve dress shirt buttoned modestly, medium cool-gray high-waisted tailored trousers, clearly WHITE fabric suspenders with simple dull silver clips, black polished dress shoes. Front and back three-quarter full-body neutral views, close-up face and suspender attachment detail. Also one small fully clothed upper-body costume continuity inset showing same shirt fully on and buttoned, one white suspender slipped from his RIGHT shoulder and hair slightly mussed; no anger or action narrative, just neutral clothing state. No brown suspenders, no tie, no medals, no hat, no phone. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-12983c23-b315-462e-bc70-506209c8d215.png",
+          "output": "assets/reference/beidai/beidai_home_v1.png",
+          "tool": "built-in image_gen",
+          "edit_prompt": null,
+          "intermediate_source": null
+        },
+        {
+          "key": "wengang",
+          "refs": [
+            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/qixing/qixing_casual_v1.png"
+          ],
+          "prompt": "Use case: stylized-concept. Input image 1 is STYLE reference only, NOT this man's identity. Create a DISTINCT new character Wengang, an adult male police-office colleague, tall and noticeably thin, lanky narrow shoulders, longer angular face, alert dark brown eyes, straight slightly prominent nose, short neat black hair combed slightly up and to one side, no center-part, no gray hair, no glasses or beard. Practical working appearance, approachable but direct, NOT a handsome duplicate of the reference man. Office police clothing: understated near-black/navy button-up uniform shirt with matching dark trousers, simple shoulder tabs, plain small nonspecific chest badge shapes, black belt and black shoes; no readable text, no real national insignia or rank stars, no firearm/tactical gear, no hat. Front and side full-body views, rear upper-body uniform construction inset, neutral face close-up with distinct lanky facial features and hair silhouette. No emotion variants or narrative scene. Same commercial VN cast visual quality. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
+          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-3587d794-b558-4778-a27c-7df0ead68ae5.png",
+          "output": "assets/reference/wengang/wengang_v1.png",
+          "tool": "built-in image_gen",
+          "edit_prompt": "Edit this NEW adult male character reference sheet, refining his identity consistently in EVERY full-body view and portrait. Keep sheet layout, uniform design, dark colors, shoes, art style and off-white background unchanged. Make him distinctly lanky and clearly different from the young lead: a longer narrower face, slightly hollow cheeks, a longer straight nose, narrower dark-brown eyes, thinner straighter eyebrows, a slightly uneven reserved mouth. Hair is cropped shorter at the sides and briskly swept UP and BACK, exposing the forehead with no long hanging fringe, no center part. Lean narrow shoulders, long neck, wiry thin limbs, not muscular. Adult colleague appearance around thirty is a visual design choice, not text. Same clean polished anime VN linework, not caricature, no glasses/beard, no new equipment, no text. Update all views coherently.",
+          "intermediate_source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-020ee8bd-fe6c-4aef-8bf6-dd3fb8744d14.png"
+        }
+      ]
+    }
+  },
+  "runtime_images": [
+    {
+      "runtime": "game/images/ch02/cg/beidai_phone_recoil_v1.png",
+      "originals": [
+        "assets/ch02/cg/beidai_phone_recoil_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/beidai_welcome_chinatsu_v1.png",
+      "originals": [
+        "assets/ch02/cg/beidai_welcome_chinatsu_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/beidai_welcome_chinatsu_v2.png",
+      "originals": [
+        "assets/ch02/cg/beidai_welcome_chinatsu_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_bruise_detail_v2.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_bruise_detail_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_bruise_detail_v3.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_bruise_detail_v3.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_corridor_escort_v1.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_corridor_escort_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_corridor_escort_v2.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_corridor_escort_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_corridor_escort_v3.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_corridor_escort_v3.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_limo_interior_v1.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_limo_interior_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_limo_interior_v2.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_limo_interior_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_piano_stand_fear_v1.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_piano_stand_fear_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/chinatsu_withdraw_hand_v1.png",
+      "originals": [
+        "assets/ch02/cg/chinatsu_withdraw_hand_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/limo_arrival_umekawa_v1.png",
+      "originals": [
+        "assets/ch02/cg/limo_arrival_umekawa_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/memory_flames_v1.png",
+      "originals": [
+        "assets/ch02/cg/memory_flames_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/memory_mother_arm_layer_v1.png",
+      "originals": [
+        "assets/ch02/cg/memory_mother_arm_layer_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/piano_forced_turn_v1.png",
+      "originals": [
+        "assets/ch02/cg/piano_forced_turn_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/piano_push_away_v1.png",
+      "originals": [
+        "assets/ch02/cg/piano_push_away_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_files_detail_v1.png",
+      "originals": [
+        "assets/ch02/cg/qixing_files_detail_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_stargaze_side_v1.png",
+      "originals": [
+        "assets/ch02/cg/qixing_stargaze_side_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_street_stopped_v1.png",
+      "originals": [
+        "assets/ch02/cg/qixing_street_stopped_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_take_hand_v1.png",
+      "originals": [
+        "assets/ch02/cg/qixing_take_hand_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_take_hand_v2.png",
+      "originals": [
+        "assets/ch02/cg/qixing_take_hand_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_take_hand_v3.png",
+      "originals": [
+        "assets/ch02/cg/qixing_take_hand_v3.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/qixing_take_hand_v6.png",
+      "originals": [
+        "assets/ch02/cg/qixing_take_hand_v6.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/theatre_voucher_handover_base_v1.png",
+      "originals": [
+        "assets/ch02/cg/theatre_voucher_handover_base_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/cg/tv_beidai_recital_v1.png",
+      "originals": [
+        "assets/ch02/cg/tv_beidai_recital_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_disheveled_curt_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_disheveled_curt_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_disheveled_furious_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_disheveled_furious_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_dismiss_afraid_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_dismiss_afraid_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_false_tender_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_false_tender_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_phone_afraid_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_phone_afraid_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_phone_polite_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_phone_polite_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/beidai_home_phone_uneasy_v1.png",
+      "originals": [
+        "assets/ch02/expressions/beidai_home_phone_uneasy_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/chinatsu_dress_angry_v1.png",
+      "originals": [
+        "assets/ch02/expressions/chinatsu_dress_angry_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/chinatsu_indoor_awkward_v1.png",
+      "originals": [
+        "assets/ch02/expressions/chinatsu_indoor_awkward_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/chinatsu_indoor_surprised_v1.png",
+      "originals": [
+        "assets/ch02/expressions/chinatsu_indoor_surprised_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/chinatsu_indoor_wry_v1.png",
+      "originals": [
+        "assets/ch02/expressions/chinatsu_indoor_wry_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/maxi_incredulous_v1.png",
+      "originals": [
+        "assets/ch02/expressions/maxi_incredulous_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/qixing_casual_restrained_anger_v1.png",
+      "originals": [
+        "assets/ch02/expressions/qixing_casual_restrained_anger_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/qixing_indoor_bemused_v1.png",
+      "originals": [
+        "assets/ch02/expressions/qixing_indoor_bemused_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/qixing_indoor_concerned_v1.png",
+      "originals": [
+        "assets/ch02/expressions/qixing_indoor_concerned_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/theatre_staff_apologetic_v1.png",
+      "originals": [
+        "assets/ch02/expressions/theatre_staff_apologetic_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/wengang_work_indignant_v1.png",
+      "originals": [
+        "assets/ch02/expressions/wengang_work_indignant_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/wengang_work_skeptical_v1.png",
+      "originals": [
+        "assets/ch02/expressions/wengang_work_skeptical_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/expressions/wengang_work_surprised_v1.png",
+      "originals": [
+        "assets/ch02/expressions/wengang_work_surprised_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/police_office_day_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/police_office_day_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/chinatsu_notice_portrait_v1.png",
+      "originals": [
+        "assets/ch02/props/chinatsu_notice_portrait_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/chinatsu_shoes_layer_v1.png",
+      "originals": [
+        "assets/ch02/props/chinatsu_shoes_layer_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/missing_notice_paper_runtime.svg",
+      "originals": [],
+      "derived_from": "assets/ch02/props/missing_notice_v1.svg",
+      "derivation": "Remove embedded portrait; compose unchanged PNG using native displayables"
+    },
+    {
+      "runtime": "game/images/ch02/props/missing_notice_v1.svg",
+      "originals": [
+        "assets/ch02/props/missing_notice_v1.svg"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/notice_removed_layer_v1.png",
+      "originals": [
+        "assets/ch02/props/notice_removed_layer_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/servant_phone_handover_v3.png",
+      "originals": [
+        "assets/ch02/props/servant_phone_handover_v3.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/signal_star_v1.svg",
+      "originals": [
+        "assets/ch02/props/signal_star_v1.svg"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/street_notices_posted_v1.svg",
+      "originals": [
+        "assets/ch02/props/street_notices_posted_v1.svg"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/street_notices_removed_v1.svg",
+      "originals": [
+        "assets/ch02/props/street_notices_removed_v1.svg"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/props/theatre_voucher_v1.svg",
+      "originals": [
+        "assets/ch02/props/theatre_voucher_v1.svg"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/qixing_entry_morning_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/qixing_entry_morning_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/qixing_living_morning_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/beidai_home_disheveled_v1.png",
+      "originals": [
+        "assets/ch02/sprites/beidai_home_disheveled_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/beidai_home_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/beidai_home_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/beidai_home_phone_dismiss_v1.png",
+      "originals": [
+        "assets/ch02/sprites/beidai_home_phone_dismiss_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/beidai_home_phone_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/beidai_home_phone_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/chinatsu_dress_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/chinatsu_dress_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/chinatsu_indoor_knees_closed_v1.png",
+      "originals": [
+        "assets/ch02/sprites/chinatsu_indoor_knees_closed_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/chinatsu_indoor_seated_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/qixing_indoor_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/qixing_indoor_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/theatre_staff_halfbody_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/theatre_staff_halfbody_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/umekawa_servant_partial_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/umekawa_servant_partial_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/sprites/wengang_work_neutral_v1.png",
+      "originals": [
+        "assets/ch02/sprites/wengang_work_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/starry_sky_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/starry_sky_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/street_night_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/street_night_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/theatre_audience_side_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/theatre_audience_side_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/theatre_exterior_day_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/theatre_hall_intermission_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/theatre_orchestra_layer_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/theatre_orchestra_layer_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_bathroom_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_bathroom_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_corridor_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_corridor_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_exterior_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_exterior_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_foyer_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_foyer_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_phone_dusk_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch02/umekawa_piano_room_v1.png",
+      "originals": [
+        "assets/ch02/backgrounds/umekawa_piano_room_v1.png"
+      ]
+    }
+  ]
+}

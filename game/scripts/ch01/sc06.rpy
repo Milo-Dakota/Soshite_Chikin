@@ -1,6 +1,6 @@
-# Generated from script_ja/ch01.yaml SHA256 99c9e2f74d61272fee0878fd615d04472b31aed59ec1fafa0c717112ded643cd
-# Chinese source script_zh/ch01.json SHA256 e46e1759ba58bf39ef9538d5681a4c79ae911ea23181186da715c490e80b9907
-# Edit Japanese text in YAML; staging in tools/build_ch01.py.
+# Generated from scripts/ja/ch01.yaml SHA256 99c9e2f74d61272fee0878fd615d04472b31aed59ec1fafa0c717112ded643cd
+# Chinese source scripts/zh/ch01.json SHA256 e46e1759ba58bf39ef9538d5681a4c79ae911ea23181186da715c490e80b9907
+# Edit Japanese text in YAML; staging in scripts/staging/ch01/directions.json.
 
 label ch01_sc06:
     # ch01_sc06_dir001
@@ -63,6 +63,6 @@ label ch01_sc06:
     window hide None
     scene black
     with fade
-    call ch_card("第一章・終", "パンと、家出少女") from ch01_ending_return
+    call ch_card("ch01_ending") from ch01_ending_return
 
     return

@@ -1,0 +1,12 @@
+{
+  "id": "bgm:23641:1",
+  "file": "assets/ch02/audio_candidates/bgm_23641_track1.mp3",
+  "content_type": "audio/mpeg",
+  "source": "https://opentracks.com/bgm/detail/23641",
+  "bytes": 10242395,
+  "download_page": "https://opentracks.com/bgm/detail/23641/download",
+  "sha256": "6acd38e76351fbfa07570a989f4270f2eaf90a8b06b87b6e8a30812dbc75cbe0",
+  "download_options": [
+    "<option value=\"1\">トラック1 （ループ/9.77 MB）</option>"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "chapter_id": "ch02",
+  "source_ja_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+  "translation_sha256": "833cfbd2a3ddf8d478f8b6f53411e11c27cdef2cf9ec9569ad9594208f2d4e18",
+  "scenes": 9,
+  "translated_lines": 125,
+  "text_counts": {
+    "thought": 69,
+    "dialogue": 36,
+    "protagonist_dialogue": 16,
+    "document_text": 4
+  },
+  "checks": [
+    "json_parse",
+    "unique_json_keys",
+    "source_hash_binding",
+    "exact_id_coverage",
+    "nonempty_text",
+    "no_display_tags_or_kana",
+    "all_document_text_included"
+  ],
+  "length_review_threshold": 70,
+  "long_lines_for_layout_review": [],
+  "not_checked": [
+    "RenPy runtime",
+    "bilingual layout",
+    "font glyph coverage",
+    "voice playback"
+  ],
+  "note": "Structural check only. Translation and semantic review are performed in the isolated localization context."
+}

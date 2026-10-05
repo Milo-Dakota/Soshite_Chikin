@@ -1,0 +1,464 @@
+{
+  "directions": {
+    "ch02_sc01_dir001": [
+      "window hide None",
+      "scene ch02_bg living",
+      "with dissolve",
+      "show ch02_qixing indoor at ch_left",
+      "show ch02_chinatsu indoor at ch02_indoor_seated",
+      "with dissolve",
+      "$ ch02_audio(\"room\")",
+      "$ ch02_audio(\"tv\")"
+    ],
+    "ch02_sc01_dir002": [
+      "window hide None",
+      "scene ch02_cg television",
+      "with dissolve"
+    ],
+    "ch02_sc01_dir003": [
+      "show ch02_qixing indoor_bemused at ch_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch02_sc01_dir004": [
+      "window hide None",
+      "$ ch02_audio_stop(\"ch_diegetic\", 0.35)",
+      "$ ch02_audio_stop(\"ch_ambience\", 0.35)",
+      "scene black",
+      "$ ch02_audio(\"door_close\")",
+      "with Dissolve(0.35)",
+      "pause 0.5",
+      "window hide None",
+      "scene ch02_bg street_posted",
+      "with dissolve",
+      "show ch_qixing neutral at ch_left",
+      "with dissolve",
+      "$ ch_audio(\"daily\")",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch02_sc01_dir005": [
+      "window hide None",
+      "hide ch02_notice",
+      "show screen ch_phone(\"馬皙\", incoming=True)",
+      "with dissolve",
+      "$ ch02_audio(\"phone_ring\")",
+      "pause"
+    ],
+    "ch02_sc01_dir006": [
+      "hide screen ch_phone",
+      "with dissolve",
+      "pause 0.3"
+    ],
+    "ch02_sc02_dir001": [
+      "window hide None",
+      "scene black",
+      "with Dissolve(0.3)",
+      "$ ch02_audio(\"door_open\")",
+      "pause 1.4",
+      "window hide None",
+      "scene ch02_bg entry_shoes",
+      "$ ch02_audio(\"room\")",
+      "$ ch02_audio(\"tv_return\")",
+      "with dissolve",
+      "pause 1.0",
+      "window hide None",
+      "scene ch02_bg living",
+      "with dissolve",
+      "show ch02_qixing indoor_concerned at ch_left",
+      "show ch02_chinatsu indoor at ch02_indoor_seated",
+      "with dissolve"
+    ],
+    "ch02_sc02_dir002": [
+      "window hide None",
+      "scene ch02_cg chinatsu_bruise_detail_v3",
+      "with dissolve"
+    ],
+    "ch02_sc02_dir003": [
+      "window hide None",
+      "scene ch02_cg qixing_take_hand_v6",
+      "with dissolve",
+      "pause 0.65",
+      "window hide None",
+      "$ ch02_audio(\"sleeve\")",
+      "scene ch02_cg chinatsu_withdraw_hand_v1",
+      "with dissolve"
+    ],
+    "ch02_sc02_dir004": [
+      "$ ch02_audio_end()",
+      "window hide None",
+      "scene black",
+      "with fade"
+    ],
+    "ch02_sc03_dir001": [
+      "call ch_card(\"ch02_morning\") from ch02_morning_return",
+      "window hide None",
+      "scene ch02_bg street_removed",
+      "with dissolve",
+      "show ch_qixing neutral at ch_left",
+      "with dissolve",
+      "$ ch_audio(\"daily\")",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch02_sc03_dir002": [
+      "show screen ch_phone(\"馬皙\", mode=\"notification\")",
+      "with dissolve",
+      "$ ch02_audio(\"notification\")"
+    ],
+    "ch02_sc03_dir003": [
+      "hide screen ch_phone",
+      "$ ch02_audio_stop(\"music\", 0.3)",
+      "$ ch02_audio_stop(\"ch_ambience\", 0.3)",
+      "window hide None",
+      "scene black",
+      "with Dissolve(0.3)",
+      "$ ch02_audio(\"door_open\")",
+      "pause 1.4",
+      "hide screen ch_phone",
+      "window hide None",
+      "scene ch02_bg entry",
+      "with dissolve",
+      "$ ch02_audio(\"room\")"
+    ],
+    "ch02_sc03_dir004": [
+      "window hide None",
+      "scene ch02_bg street_removed",
+      "with dissolve",
+      "pause 0.8",
+      "window hide None",
+      "scene ch02_bg living",
+      "with dissolve",
+      "$ ch02_audio(\"mystery_low\")"
+    ],
+    "ch02_sc03_dir005": [
+      "$ ch02_audio(\"door_close\")",
+      "window hide None",
+      "scene black",
+      "with fade",
+      "$ ch02_audio_stop(\"ch_ambience\")"
+    ],
+    "ch02_sc04_dir001": [
+      "window hide None",
+      "scene black",
+      "with Dissolve(0.3)",
+      "$ ch02_audio(\"door_open\")",
+      "pause 1.4",
+      "window hide None",
+      "scene ch02_bg office",
+      "with dissolve",
+      "show ch_qixing neutral at ch_left",
+      "show ch02_wengang work at ch02_colleague_right",
+      "with dissolve",
+      "$ ch02_audio(\"mystery_low\")",
+      "$ ch02_audio(\"office\")"
+    ],
+    "ch02_sc04_dir002": [
+      "pass"
+    ],
+    "ch02_sc04_dir003": [
+      "window hide None",
+      "scene black",
+      "with dissolve",
+      "pause 0.3",
+      "window hide None",
+      "scene ch02_bg office",
+      "with dissolve",
+      "show ch_qixing serious at ch_left",
+      "show ch02_wengang work_indignant at ch02_colleague_right",
+      "with dissolve"
+    ],
+    "ch02_sc04_dir004": [
+      "$ ch02_audio(\"paper\")",
+      "window hide None",
+      "scene ch02_cg qixing_files_detail_v1",
+      "with dissolve"
+    ],
+    "ch02_sc04_dir005": [
+      "window hide None",
+      "pause 0.3"
+    ],
+    "ch02_sc04_dir006": [
+      "$ ch02_audio(\"door_close\")",
+      "window hide None",
+      "scene ch02_bg office",
+      "show ch02_wengang work_surprised at ch02_colleague_right",
+      "with None",
+      "pause 1.5",
+      "scene black",
+      "with fade",
+      "$ ch02_audio_end()"
+    ],
+    "ch02_sc05_dir001": [
+      "window hide None",
+      "scene ch02_bg theatre_exterior",
+      "with fade",
+      "show ch_qixing troubled at ch_left",
+      "show ch_maxi concerned at ch_maxi_position(1690)",
+      "with dissolve",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch02_sc05_dir002": [
+      "$ ch02_audio_stop(\"music\")",
+      "$ ch02_audio_stop(\"ch_ambience\")",
+      "window hide None",
+      "scene ch02_bg theatre_performance",
+      "with dissolve",
+      "$ ch02_audio(\"ensemble\")"
+    ],
+    "ch02_sc05_dir003": [
+      "pass"
+    ],
+    "ch02_sc05_dir004": [
+      "$ ch02_audio_stop(\"ch_diegetic\", 1.2)",
+      "window hide None",
+      "scene ch02_bg theatre_intermission",
+      "with dissolve",
+      "show ch02_theatre_staff apologetic at ch02_service_right",
+      "with dissolve",
+      "$ ch02_audio(\"audience\")"
+    ],
+    "ch02_sc05_dir005": [
+      "window hide None",
+      "scene ch02_cg voucher",
+      "with dissolve"
+    ],
+    "ch02_sc05_dir006": [
+      "window hide None",
+      "scene ch02_bg theatre_side",
+      "with dissolve",
+      "show ch_qixing surprised at ch_left",
+      "show ch02_maxi incredulous at ch_maxi_position(1690)",
+      "with dissolve"
+    ],
+    "ch02_sc05_dir007": [
+      "$ ch02_audio_stop(\"music\")",
+      "$ ch02_audio_stop(\"ch_ambience\")",
+      "window hide None",
+      "scene ch02_bg theatre_exterior",
+      "with fade",
+      "show ch_qixing troubled at ch_left",
+      "with dissolve",
+      "$ ch_audio(\"street_room\")"
+    ],
+    "ch02_sc05_dir008": [
+      "window hide None",
+      "pause 0.8",
+      "$ ch02_audio_end()"
+    ],
+    "ch02_sc06_dir001": [
+      "call ch_card(\"ch02_chinatsu_home\") from ch02_chinatsu_home_return",
+      "window hide None",
+      "scene ch02_cg chinatsu_limo_interior_v2",
+      "with fade",
+      "$ ch02_audio(\"car\")",
+      "$ ch02_audio(\"mystery_dark\")"
+    ],
+    "ch02_sc06_dir002": [
+      "$ ch02_audio_stop(\"ch_ambience\", 0.8)",
+      "window hide None",
+      "scene ch02_cg limo_arrival_umekawa_v1",
+      "with dissolve",
+      "pause 0.9",
+      "window hide None",
+      "$ ch02_audio(\"mansion_open\")",
+      "scene ch02_bg foyer",
+      "with dissolve",
+      "show ch_chinatsu downcast at ch_right",
+      "with dissolve",
+      "$ ch02_audio(\"room\")"
+    ],
+    "ch02_sc06_dir003": [
+      "window hide None",
+      "scene ch02_cg beidai_welcome_chinatsu_v2",
+      "with dissolve"
+    ],
+    "ch02_sc06_dir004": [
+      "window hide None",
+      "scene ch02_cg chinatsu_corridor_escort_v3",
+      "with dissolve"
+    ],
+    "ch02_sc06_dir005": [
+      "window hide None",
+      "pause 0.3"
+    ],
+    "ch02_sc06_dir006": [
+      "window hide None",
+      "scene ch02_cg restaurant_memory",
+      "with Dissolve(0.6)"
+    ],
+    "ch02_sc06_dir007": [
+      "window hide None",
+      "scene ch02_bg bathroom",
+      "with dissolve",
+      "$ ch02_audio(\"shower\")"
+    ],
+    "ch02_sc06_dir008": [
+      "pass"
+    ],
+    "ch02_sc06_dir009": [
+      "$ ch02_audio_end(keep_music=True)",
+      "window hide None",
+      "scene black",
+      "with fade"
+    ],
+    "ch02_sc07_dir001": [
+      "call ch_card(\"ch02_chinatsu_piano\") from ch02_chinatsu_piano_return",
+      "window hide None",
+      "$ ch02_audio(\"mansion_open\")",
+      "scene ch02_bg piano",
+      "show ch02_beidai home at ch_left",
+      "with Dissolve(0.5)",
+      "$ ch02_audio(\"room\")",
+      "pause 2.1",
+      "$ ch02_audio(\"heels\")",
+      "$ renpy.pause(2.92, hard=True)",
+      "show ch02_chinatsu dress at ch_right",
+      "with Dissolve(0.35)"
+    ],
+    "ch02_sc07_dir002": [
+      "show ch02_beidai home_tender at ch_left",
+      "with Dissolve(0.2)"
+    ],
+    "ch02_sc07_dir003": [
+      "pass",
+      "hide ch02_chinatsu",
+      "hide ch02_beidai",
+      "with dissolve"
+    ],
+    "ch02_sc07_dir004": [
+      "window hide None",
+      "scene ch02_cg piano_forced_turn_v1",
+      "with dissolve"
+    ],
+    "ch02_sc07_dir005": [
+      "window hide None",
+      "scene ch02_cg piano_push_away_v1",
+      "with dissolve"
+    ],
+    "ch02_sc07_dir006": [
+      "window hide None",
+      "scene ch02_cg empty_keys",
+      "with Dissolve(0.15)"
+    ],
+    "ch02_sc07_dir007": [
+      "window hide None",
+      "scene ch02_bg piano",
+      "with dissolve",
+      "show ch02_chinatsu dress_angry at ch_right",
+      "show ch02_beidai disheveled_furious at ch_left",
+      "with dissolve"
+    ],
+    "ch02_sc07_dir008": [
+      "pause 0.25"
+    ],
+    "ch02_sc07_dir009": [
+      "window hide None",
+      "scene ch02_cg memory_flames_v1",
+      "with Dissolve(0.6)",
+      "show ch02_memory_arm at ch02_memory_sway",
+      "with Dissolve(0.4)"
+    ],
+    "ch02_sc07_dir010": [
+      "window hide None",
+      "scene ch02_cg chinatsu_piano_stand_fear_v1",
+      "with Dissolve(0.25)"
+    ],
+    "ch02_sc07_dir011": [
+      "$ ch02_audio_end(keep_music=True)",
+      "window hide None",
+      "scene black",
+      "with fade"
+    ],
+    "ch02_sc08_dir001": [
+      "call ch_card(\"ch02_phone\") from ch02_phone_return",
+      "window hide None",
+      "scene ch02_bg phone_dusk",
+      "with dissolve",
+      "show ch02_beidai disheveled_curt at ch02_phone_left",
+      "show ch02_house_servant neutral at ch02_service_right",
+      "with dissolve",
+      "$ ch02_audio(\"room\")"
+    ],
+    "ch02_sc08_dir002": [
+      "show ch02_house_servant neutral at ch02_servant_offer",
+      "pause 0.25",
+      "show ch02_beidai phone_polite at ch02_phone_left",
+      "with Dissolve(0.25)"
+    ],
+    "ch02_sc08_dir003": [
+      "$ ch02_audio_stop(\"music\", 0.6)",
+      "window hide None",
+      "pause 0.5",
+      "show ch02_house_servant neutral at ch02_servant_exit",
+      "pause 0.4",
+      "hide ch02_house_servant",
+      "$ ch02_audio(\"mansion_open\")",
+      "show ch02_beidai phone_uneasy at ch02_phone_left",
+      "with Dissolve(0.2)",
+      "pause 0.7"
+    ],
+    "ch02_sc08_dir004": [
+      "show ch02_beidai phone_afraid at ch02_phone_recoil",
+      "with Dissolve(0.15)",
+      "pause 0.25"
+    ],
+    "ch02_sc08_dir005": [
+      "$ ch02_audio_end()",
+      "window hide None",
+      "scene black",
+      "with Dissolve(0.8)"
+    ],
+    "ch02_sc09_dir001": [
+      "call ch_card(\"ch02_qixing_night\") from ch02_qixing_night_return",
+      "window hide None",
+      "scene ch02_bg night",
+      "with dissolve",
+      "show ch_qixing neutral at ch_left",
+      "with dissolve",
+      "$ ch02_audio(\"night\")",
+      "$ ch02_audio(\"mystery_low\")"
+    ],
+    "ch02_sc09_dir002": [
+      "window hide None",
+      "scene ch02_cg qixing_stargaze_side_v1",
+      "with dissolve"
+    ],
+    "ch02_sc09_dir003": [
+      "window hide None",
+      "scene ch02_bg sky",
+      "with dissolve",
+      "show ch02_star help"
+    ],
+    "ch02_sc09_dir004": [
+      "show ch02_star help"
+    ],
+    "ch02_sc09_dir005": [
+      "hide ch02_star",
+      "show ch02_star coordinates"
+    ],
+    "ch02_sc09_dir006": [
+      "hide ch02_star",
+      "window hide None",
+      "scene ch02_cg chinatsu_bruise_detail_v3",
+      "with Dissolve(0.5)"
+    ],
+    "ch02_sc09_dir007": [
+      "window hide None",
+      "scene ch02_cg qixing_stargaze_side_v1",
+      "with Dissolve(0.6)",
+      "pause 0.7",
+      "window hide None",
+      "scene black",
+      "with fade",
+      "$ ch02_audio_end()",
+      "call ch_card(\"ch02_ending\") from ch02_ending_return"
+    ]
+  },
+  "line_cues": {
+    "ch02_sc01_005": "window hide None\nscene ch02_bg living\nwith dissolve\nshow ch02_qixing indoor at ch_left\nshow ch02_chinatsu indoor_wry at ch02_indoor_seated\nwith dissolve",
+    "ch02_sc01_006": "show ch02_chinatsu indoor_surprised at ch02_indoor_seated\nwith Dissolve(0.2)",
+    "ch02_sc04_007": "hide ch_qixing\nshow ch02_qixing casual_anger at ch_left\nwith Dissolve(0.2)",
+    "ch02_sc04_009": "show ch02_wengang work_skeptical at ch02_colleague_right\nwith Dissolve(0.2)"
+  },
+  "audio_line_cues": {
+    "ch02_sc01_016": "$ ch02_audio_stop(\"sound\", 0)"
+  }
+}

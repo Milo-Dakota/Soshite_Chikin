@@ -1,4 +1,4 @@
-﻿## このファイルはゲームをカスタマイズする基本的なオプションを記載しています。
+## このファイルはゲームをカスタマイズする基本的なオプションを記載しています。
 ##
 ## 二つの'#'で始まる行はコメントなのでアンコメント（#を消してコメントをコードに
 ## 戻すこと）してはいけません。一つの'#'で始まる行はコメントアウト（#を加えてコ
@@ -24,21 +24,26 @@ define gui.show_name = True
 
 
 ## ゲームのバージョン。
-define build.version = "0.3"
-define config.version = "0.3 — Chapter 1 Bilingual Demo"
+define config.version = "0.4.0-dev"
+define build.version = config.version
+define ch_edition_name = "第一、二章开发预览版"
 
 
 ## About（バージョン情報）スクリーンに表示されるテキスト。トリプルクオートの間に
 ## テキストを入力します。段落の間には空行を挿入して下さい。
 
 define gui.about = _p("""
-第一章「パンと、家出少女」中日双语体验版。中文主字幕，日语副字幕及配音。
+《无只因生还》日式视觉小说改编。
+完全线性剧情，中文主字幕与日语副字幕。
 
-原作：中国語リレー小説『无只因生还』。
-日本語脚本・演出・画像制作：本プロジェクト（画像生成支援を使用）。
+当前收录第一章与第二章。第一章含日语角色配音，第二章配音尚未接入。
 
-フォント：Source Han Sans / Adobe。SIL Open Font License 1.1。
-ライセンス本文は game/licenses/SourceHanSans-OFL.txt に収録。
+原作：中文接龙小说《无只因生还》。
+日语改编、中文汉化与演出：本项目制作。
+美术使用图像生成工具辅助制作。
+
+字体：思源宋体、思源黑体（Adobe）与 Shippori Mincho。
+游戏引擎：Ren'Py。
 """)
 
 
@@ -173,7 +178,8 @@ init python:
 
     # Only runtime assets belong in the demo distribution; retain work files locally.
     for pattern in ("source/**", "docs/**", "script_ja/**", "script_zh/**", "script_plan/**",
-                    "assets/**", "tools/**", "voice/**", ".build/**",
+                    "assets/**", "tools/**", "utilities/**", "audio/**", "voice/**", ".build/**",
+                    "scripts/**", "handoff/**", "archive/**", "import_audio.cmd",
                     "AGENTS.md", "traceback.txt", "errors.txt", "log.txt",
                     "game/audio/bgm/easy_lemon.mp3", "game/audio/bgm/gymnopedie_no1.mp3"):
         build.classify(pattern, None)

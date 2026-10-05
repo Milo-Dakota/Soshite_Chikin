@@ -7,8 +7,10 @@ from PIL import Image
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-manifest = json.loads((ROOT / 'assets/manifests/ch01_expression_imports.json').read_text(encoding='utf-8'))
-assert hashlib.sha256((ROOT / 'script_ja/ch01.yaml').read_bytes()).hexdigest() == manifest['script_sha256']
+for output_folder in ('.build/reports', '.build/exports'):
+    (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
+manifest = json.loads((ROOT  / 'assets/records/ch01.json').read_text(encoding='utf-8'))['collections']['ch01_expression_imports']
+assert hashlib.sha256((ROOT / 'scripts/ja/ch01.yaml').read_bytes()).hexdigest() == manifest['script_sha256']
 runtime = (ROOT / 'game/ch01_runtime.rpy').read_text(encoding='utf-8')
 scripts = '\n'.join(p.read_text(encoding='utf-8') for p in sorted((ROOT / 'game/scripts/ch01').glob('*.rpy')))
 rows = []
@@ -47,5 +49,5 @@ report = {'script_sha256': manifest['script_sha256'], 'expression_count': 11,
           'checks': ['canvas_and_alpha', 'body_silhouette_alignment', 'all_assets_used',
                      'archive_hash_matches', 'no_sprite_over_cg'],
           'runtime_tested': False, 'files': rows}
-(ROOT / 'docs/reports/ch01_expression_check.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+(ROOT / '.build/reports/ch01_expression_check.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
 print(json.dumps(report))

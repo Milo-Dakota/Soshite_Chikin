@@ -1,0 +1,74 @@
+{
+  "chapter": "ch02",
+  "status": "已制作，待用户画面验收；未接入游戏",
+  "ja_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+  "generator": "builtin image_gen",
+  "images": [
+    {
+      "id": "chinatsu_notice_portrait_v1",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu_casual_v1.png"
+      ],
+      "prompt": "Identity-preserving illustration for a missing-person notice within a serious Japanese visual novel. Reference is exact character identity: Chinatsu, seventeen, long straight chestnut-brown hair with natural bangs, warm brown eyes, same facial proportions and restrained anime linework. Produce ONE plain formal identification portrait, front-facing head and shoulders, neutral calm expression, mouth closed, ordinary ivory crewneck knit top, no coat, no accessories, no dramatic expression. Head fully included, neatly framed generous margins, warm light gray flat background. Clean 2010–2016 commercial anime VN art matching reference. No writing, captions, borders, injury, other views or collage. Portrait crop 3:4.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-2d01941e-9ddc-466a-a7b0-a74036a65ca9.png",
+      "selected": true,
+      "output": "assets/ch02/props/chinatsu_notice_portrait_v1.png"
+    },
+    {
+      "id": "chinatsu_shoes_layer_v1",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu_casual_v1.png",
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_entry_morning_v1.png"
+      ],
+      "prompt": "Transparent cutout game prop: exactly one matching pair of the girl's plain black leather ankle shoes from image 1: rounded closed toes, low block heel, ankle height, understated side seam/zip, no laces or buckles. Empty unworn shoes neatly side by side, toes facing toward viewer slightly left, heel openings visible, seen from standing camera looking downward as for placing on the floor in image 2's entry hall. Image 1 establishes shoe design only. Image 2 provides camera and soft warm morning light from left only; DO NOT output room or floor. Refined hand-painted anime VN background prop, restrained black leather highlights, natural proportions, subtle contact shadow with transparent fade. Entire pair isolated on actual transparent background, generous transparent margins, square canvas. No legs, feet, socks, other objects, writing or checkerboard.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f3f41c38-341c-484f-82e1-ae06bac38fad.png",
+      "selected": true,
+      "output": "assets/ch02/props/chinatsu_shoes_layer_v1.png"
+    },
+    {
+      "id": "servant_phone_handover_v1",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+      ],
+      "prompt": "Transparent cropped prop-action layer for a serious Japanese anime visual novel, matching supplied mansion's restrained warm dusk lighting from LEFT. ONLY an adult servant's one anatomically correct hand and forearm entering from lower RIGHT, offering one plain matte charcoal cordless LANDLINE handset toward center-left, held upright at slight diagonal. White shirt cuff under dark navy-black formal suit sleeve, bare natural hand with five fingers, no jewelry or gloves. Handset design is slim but recognizably early-2000s cordless household phone, rounded rectangular body, small dark inactive LCD, circular navigation key, conventional 3-by-4 rubber keypad, earpiece grille; no branding or generated letters/numbers, no illuminated caller identity, no smartphone apps, no cord or base. Device fully visible and consistent for future character holding it. Upper arm/body/person face absent, only forearm cut by right-bottom frame edge. Detailed commercial anime linework and modest cel/painterly shading, no dramatic action. Actual transparent background, no wall, no floor, no text, no checkerboard. Wide 3:2 canvas, device and hand occupy central area with transparent margin above/left.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-c95fe424-a2ef-4728-991d-92dc7e8615ae.png",
+      "selected": false,
+      "output": null
+    },
+    {
+      "id": "notice_removed_layer_v1",
+      "prompt": "Transparent game overlay, front-on rectangular arrangement of leftover four small beige semi-transparent adhesive tape strips and tiny torn cream-paper fragments at the four corners of a removed A4 missing-person notice. The center where the page used to be is COMPLETELY TRANSPARENT, so the original wall or window will remain visible. Corner scraps only, discreet slight paper fibers, tiny faint pale adhesive residue near tape, absolutely no opaque rectangular backing, no page, no text, no symbols. Portrait 3:4 canvas. Hand-painted anime visual novel environmental prop style, restrained realistic materials, soft daylight from upper left, no exaggerated dirt/grunge, no glow, no drop shadow outside the small scraps. Real alpha transparency, no background, no checkerboard.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-7012da1c-5241-4fa4-828b-a9d42ad86e27.png",
+      "selected": true,
+      "output": "assets/ch02/props/notice_removed_layer_v1.png"
+    },
+    {
+      "id": "servant_phone_handover_v2",
+      "refs": [
+        "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-c95fe424-a2ef-4728-991d-92dc7e8615ae.png"
+      ],
+      "prompt": "Edit target image: keep exact handset, all hand anatomy, sleeve, composition, dimensions, warm highlights ON the objects completely unchanged. Remove ONLY the large fuzzy brown/amber glow cloud around the hand and phone. All pixels outside the crisp object silhouette must become fully transparent; no halo, haze, cast light, background, shadow cloud or checkerboard. Maintain clean anti-aliased silhouette and actual alpha transparency. This is an isolated overlay to place over existing scene artwork.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-1f42c74a-0752-41e8-9d3c-bbd38613e0dc.png",
+      "selected": false,
+      "output": null
+    },
+    {
+      "id": "servant_phone_handover_v3",
+      "prompt": "Create a clean isolated anime visual novel prop CUTOUT with actual alpha. Only one adult servant's natural hand and forearm in dark navy suit and white cuff entering lower right, offering a matte dark gray cordless landline handset diagonally upright toward center left. Early 2000s home telephone: small unlit dark LCD, circular navigation button, unlabeled 3x4 keypad, speaker grille. No wires/base/brands/text. Hand anatomy five fingers, natural grip. Refined 2010s commercial anime cel shading, thin clean outlines. Neutral flat studio illustration lighting, tiny warm highlights INSIDE object silhouette ONLY. Outside hard-edged object silhouette is EMPTY FULLY TRANSPARENT. Absolutely NO bloom, glow, halo, atmospheric light, ambient haze, contact shadow, vignette, backdrop or surroundings. Wide 3:2 composition. Handset fully visible, forearm cut by bottom-right edge, left and top generous transparent space. No other body parts or face.",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-b0517550-cefb-41ce-826c-72cd6280f2a3.png",
+      "selected": true,
+      "output": "assets/ch02/props/servant_phone_handover_v3.png"
+    }
+  ],
+  "vector_assets": {
+    "builder": "tools/build_ch02_props.py",
+    "font": "game/fonts/SourceHanSerifJP-Medium.otf",
+    "method": "Actual font glyph outlines in SVG; unchanged raster portrait embedded; no AI-generated lettering",
+    "output_directory": "assets/ch02/ui/"
+  },
+  "notes": [
+    "电话局部仍有边缘柔光，未宣称已清除；等待用户画面验收。",
+    "备代持电话立绘留待角色立绘阶段，届时参考选定机型。",
+    "未启动游戏或浏览器进行画面检查。"
+  ]
+}

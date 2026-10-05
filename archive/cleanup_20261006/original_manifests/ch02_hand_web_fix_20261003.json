@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qixing_take_hand_v6",
+    "replaces": "qixing_take_hand_v5",
+    "title": "启星抓手（去除多余手指，修正虎口）",
+    "group": "primary",
+    "scene": "sc02",
+    "refs": [
+      "assets/ch02/cg/qixing_take_hand_v5.png"
+    ],
+    "prompt": "Precise tiny local correction, preserve the entire supplied image. In the joined hands near the lower center, the GIRL'S thumb lies at the LOWER-RIGHT edge of the grasp, its tip pointing downward-left around (907,751) on the 1672x941 canvas. Immediately next to this thumb is an erroneous EXTRA long finger-like projection running down around x=908..925, y=690..737. DELETE that extra digit, its fingernail, and its long internal finger outline. That place must instead be the THUMB-INDEX WEB SPACE (虎口): a short natural concave curved junction between the retained thumb base and the index knuckle. Draw a small shallow curved V/U indentation and normal continuous skin surface, NOT another dangling finger, NOT a fingertip or nail. Keep the original thumb at lower right exactly where it is. Keep the girl's existing other four fingers grouped to the LEFT under the boy's hand, keep original palm orientation, wrist, cuff and grasp. Do NOT rotate or mirror either hand, do NOT redesign hand pose, do NOT move thumb to top edge. The man and his hand are unchanged. Only remove the unwanted finger-shaped spur and replace it with the short soft webbing curve. All faces, clothes, bodies, sofa, background, lighting and frame must remain the same. Serious finished anime VN art, no text.",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-af2a6721-70b5-4447-84d5-ba5ebc54be2c.png",
+    "output": "assets/ch02/cg/qixing_take_hand_v6.png",
+    "selected": true,
+    "mode": "builtin image_gen local extra-digit removal and thumb-index web repair"
+  }
+]

@@ -42,15 +42,27 @@ init python:
     def ch_voice(speaker, line_id):
         # Stop the previous line even if the next line is a silent thought.
         renpy.music.stop(channel="voice")
+        # Telephone dialogue uses the same filter across both chapters.
+        # Apply to the next file, then clear on every other line or silence.
+        telephone = speaker == "zheng" and line_id in (
+            "ch01_sc02_011", "ch01_sc02_013", "ch01_sc02_014", "ch01_sc02_016")
+        telephone = telephone or (speaker == "maxi" and line_id in (
+            "ch02_sc01_016", "ch02_sc01_017")) or (
+            speaker == "unknown_caller" and line_id.startswith("ch02_sc08_"))
+        af = renpy.audio.filter
+        renpy.music.set_audio_filter("voice", [af.Highpass(300), af.Lowpass(3400)] if telephone else None)
         if speaker and speaker != "qixing":
-            path = "audio/voice/{}/{}.ogg".format(speaker, line_id)
-            if renpy.loadable(path):
-                # voice is a store function, not part of renpy.exports.
-                voice(path)
+            for extension in ("wav", "ogg"):
+                path = "audio/voice/{}/{}.{}".format(speaker, line_id, extension)
+                if renpy.loadable(path):
+                    # voice is a store function, not part of renpy.exports.
+                    voice(path)
+                    break
 
     def ch_stop_audio():
         for channel in ("music", "sound", "voice", "ch_ambience"):
             renpy.music.stop(channel=channel, fadeout=0.6)
+        renpy.music.set_audio_filter("voice", None)
 
 define ch_title_text = "そして{rb}只因{/rb}{rt}チキン{/rt}もいなくなった"
 
@@ -173,11 +185,11 @@ screen ch_caption(title, subtitle=""):
     add Solid("#202735")
     vbox:
         xalign 0.5
-        yalign 0.46
-        spacing 30
-        text title font "fonts/ShipporiMincho-SemiBold.ttf" xalign 0.5 size 48 color "#f3efe7" ruby_style style.ch_title_ruby line_leading 24
+        yalign 0.5
+        spacing 32
+        text title font "fonts/SourceHanSerifJP-Medium.otf" xalign 0.5 text_align 0.5 size 54 color "#f3efe7" ruby_style style.ch_title_ruby line_leading 18
         if subtitle:
-            text subtitle font "fonts/SourceHanSerifSC-Medium.otf" xalign 0.5 size 29 color "#b39a68"
+            text subtitle font "fonts/SourceHanSerifSC-Medium.otf" xalign 0.5 text_align 0.5 size 28 color "#b39a68"
 
 # Dialogue portraits use screen-space half-body framing, not a shared floor.
 # Explicit center/top anchors keep placement independent of scaled canvas size.
@@ -277,21 +289,23 @@ image ch_maxi concerned = "images/ch01/maxi_concerned.png"
 image ch_maxi annoyed = "images/ch01/maxi_annoyed.png"
 image ch_beidai bow = "images/ch01/beidai_bow.png"
 
-screen ch_phone(contact, incoming=False):
+screen ch_phone(contact, incoming=False, mode=None):
     frame:
         xalign 0.5
         ypos 170
+        yanchor 0.0
         xsize 430
         padding (35, 38)
         background Solid("#202735f0")
         vbox:
             spacing 26
             xalign 0.5
-            text ("着信" if incoming else "連絡先") size 25 color "#b39a68" xalign 0.5
+            text ("通知" if mode == "notification" else "通話" if mode == "call" else "着信" if incoming else "連絡先") size 25 color "#b39a68" xalign 0.5
             text contact size 40 color "#f3efe7" xalign 0.5
-            text ("通話" if incoming else "発信") size 25 color "#aebdce" xalign 0.5
+            text ("新しい通知" if mode == "notification" else "通話中" if mode == "call" else "通話" if incoming else "発信") size 25 color "#aebdce" xalign 0.5
 
-label ch_card(title, subtitle=""):
+label ch_card(card_id):
+    $ title, subtitle = CH_CARDS[card_id]
     window hide
     stop ch_ambience fadeout 0.6
     $ quick_menu = False

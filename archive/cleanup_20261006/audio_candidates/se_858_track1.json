@@ -1,0 +1,13 @@
+{
+  "id": "se:858:1",
+  "file": "assets/ch02/audio_candidates/se_858_track1.mp3",
+  "source": "https://opentracks.com/se/detail/858",
+  "download_page": "https://opentracks.com/se/detail/858/download",
+  "download_url": "https://dova-worker.tracks-cid.workers.dev/download?filepath=se%2Faudio%2Ff1307e12-9c72-462f-99a4-f12749b3cf16.mp3&expires=1791015278&token=588e1c4ddb153094209ba1ae108cfd47a3bb92d17f9c750b39484bee19ff455e&filename=%E7%A9%8F%E3%82%84%E3%81%8B%E3%81%AA%E9%80%9A%E7%9F%A5%E9%9F%B3.mp3",
+  "content_type": "audio/mpeg",
+  "bytes": 241920,
+  "sha256": "f42b2b129a403f3f19c6c3ea09b75f95bf654b18071450967d0a95c86f0acdc3",
+  "download_options": [
+    "<option value=\"1\">トラック1 （0.23 MB）</option>"
+  ]
+}

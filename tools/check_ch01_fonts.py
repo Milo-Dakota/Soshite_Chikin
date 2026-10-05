@@ -2,12 +2,14 @@
 from pathlib import Path
 import sys, json, re
 ROOT = Path(__file__).resolve().parents[1]
+for output_folder in ('.build/reports', '.build/exports'):
+    (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(ROOT / '.build/deps'))
 import yaml
 from fontTools.ttLib import TTFont
 
-ja = yaml.safe_load((ROOT / 'script_ja/ch01.yaml').read_text(encoding='utf-8'))
-zh = json.loads((ROOT / 'script_zh/ch01.json').read_text(encoding='utf-8-sig'))
+ja = yaml.safe_load((ROOT / 'scripts/ja/ch01.yaml').read_text(encoding='utf-8'))
+zh = json.loads((ROOT / 'scripts/zh/ch01.json').read_text(encoding='utf-8-sig'))
 entries = [e['ja'] for s in ja['scenes'] for e in s['entries'] if 'ja' in e]
 ruby = re.compile(r'〖([^〖〗｜]+)｜([^〖〗｜]+)〗')
 ui = '\n'.join((ROOT / p).read_text(encoding='utf-8') for p in ['game/screens.rpy', 'game/options.rpy', 'game/ch_main_menu.rpy', 'game/ch_menu_pages.rpy', 'game/ch_reading_bar.rpy'])
@@ -27,6 +29,6 @@ for filename, sample in samples.items():
     missing = sorted({c for c in sample if ord(c) > 127 and ord(c) not in cmap})
     report[filename] = {'missing_glyphs': missing, 'weight': font['OS/2'].usWeightClass}
     font.close()
-(ROOT / 'docs/reports/ch01_font_check.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+(ROOT / '.build/reports/ch01_font_check.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(report, ensure_ascii=True))
 assert not any(r['missing_glyphs'] for r in report.values()), 'Missing glyphs in assigned font'

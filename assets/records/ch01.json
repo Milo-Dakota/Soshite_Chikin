@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch01",
+  "note": "Generation records; historical per-batch status is not chapter status. Current chapter status: docs/status.md.",
+  "collections": {
+    "ch01_asset_imports": [
+      {
+        "key": "restaurant_dry",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-8d58d6f1-79af-46c8-90aa-1f2a3d7b788d.png",
+        "archive": "assets/ch01/backgrounds/restaurant_day_v1.png",
+        "game": "game/images/ch01/restaurant_day.png"
+      },
+      {
+        "key": "cg_bread",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-c2f6db3d-8287-4ad3-a7c4-310c06189544.png",
+        "archive": "assets/ch01/cg/cg_bread_v1.png",
+        "game": "game/images/ch01/cg_bread.png"
+      },
+      {
+        "key": "maxi_neutral",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-17ad848e-97d4-4dac-9f62-892dad704da8.png",
+        "archive": "assets/ch01/sprites/maxi_neutral_v1.png",
+        "game": "game/images/ch01/maxi_neutral.png"
+      },
+      {
+        "key": "cg_support",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-e9cc60bb-6ae1-4bf8-8c1b-785d4aabdc9a.png",
+        "archive": "assets/ch01/cg/cg_support_v1.png",
+        "game": "game/images/ch01/cg_support.png"
+      },
+      {
+        "key": "chinatsu_afraid",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-66da822c-6d15-4ba6-a972-f6deca4275c0.png",
+        "archive": "assets/ch01/sprites/chinatsu_afraid_v1.png",
+        "game": "game/images/ch01/chinatsu_afraid.png"
+      },
+      {
+        "key": "cg_shower",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-b7cbe97d-71ac-4b7e-bc7a-a580ce40e248.png",
+        "archive": "assets/ch01/cg/cg_shower_v1.png",
+        "game": "game/images/ch01/cg_shower.png"
+      },
+      {
+        "key": "cg_recital",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-ad478eae-303c-4ce9-ba16-4fe98640d3b2.png",
+        "archive": "assets/ch01/cg/cg_recital_v1.png",
+        "game": "game/images/ch01/cg_recital.png"
+      },
+      {
+        "key": "cg_car",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-f44d5388-df01-4dd9-91a0-e17cf668fe7b.png",
+        "archive": "assets/ch01/cg/cg_car_v1.png",
+        "game": "game/images/ch01/cg_car.png"
+      },
+      {
+        "key": "beidai_bow",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-6bfbcc3f-d1fd-442f-99bb-700bd3683b0f.png",
+        "archive": "assets/ch01/sprites/beidai_bow_v1.png",
+        "game": "game/images/ch01/beidai_bow.png"
+      },
+      {
+        "key": "gym_empty",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-6e282238-5935-4648-9e7f-74e0e02d5a18.png",
+        "archive": "assets/ch01/backgrounds/gym_empty_v1.png",
+        "game": "game/images/ch01/gym_empty.png"
+      },
+      {
+        "key": "restaurant_empty",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-b984d26c-55f8-433e-bc0f-a7f4178b0594.png",
+        "archive": "assets/ch01/backgrounds/restaurant_empty_v1.png",
+        "game": "game/images/ch01/restaurant_empty.png"
+      },
+      {
+        "key": "cg_water",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-48c0df3b-5e0e-44e4-bf30-bd84eb599063.png",
+        "archive": "assets/ch01/cg/cg_water_v1.png",
+        "game": "game/images/ch01/cg_water.png"
+      },
+      {
+        "key": "cg_violin",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-66928350-66c2-4380-a006-ef8ae02c5b03.png",
+        "archive": "assets/ch01/cg/cg_violin_v1.png",
+        "game": "game/images/ch01/cg_violin.png"
+      }
+    ],
+    "ch01_beidai_staging_asset": {
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-ef0c9b90-3d15-43a6-b470-dc3bc6c3ab9e.png",
+      "archive": "assets/ch01/backgrounds/restaurant_public_v1.png",
+      "game": "game/images/ch01/restaurant_public.png",
+      "references": [
+        "game/images/ch01/restaurant_day.png",
+        "game/images/ch01/cg_recital.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target image 1: existing Japanese visual novel restaurant background. Make ONE additional background shot of the SAME restaurant for a pianist publicly bowing near its piano. Camera has moved forward from the dining table into the open aisle, looking toward entrance and piano. Remove the entire foreground table, food, glasses and two foreground chair backs; replace this foreground with continuous unobstructed polished wooden floor. Preserve architectural continuity: tall street-facing windows on the left, glazed entrance door slightly left of center at rear, dark wood panels and square columns, warm wall lamps, black grand piano on low platform to the right, reception cabinet near entrance, winter daytime street outside. Broad clear floor area in center-left for a standing full-body sprite, no furniture crossing it. Piano and door fully legible, eye-level medium-wide perspective. Image 2 is supporting style/setting reference ONLY, do not copy any people from it. Empty background, NO people or silhouettes. Match source refined anime VN background painting and restrained warm palette. Landscape 16:9, full bleed, no labels/text, no dramatic new lighting, no new architecture. Output an opaque background."
+    },
+    "ch01_demo02_asset_imports": [
+      {
+        "key": "cg_sleeve",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-0fa2fb54-be16-4f09-8298-b4c76bbaf70c.png",
+        "archive": "assets/ch01/cg/cg_sleeve_v1.png",
+        "game": "game/images/ch01/cg_sleeve.png"
+      },
+      {
+        "key": "cg_two_fingers",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-53d41fc4-a864-4fde-808b-d1e464b51cfe.png",
+        "archive": "assets/ch01/cg/cg_two_fingers_v1.png",
+        "game": "game/images/ch01/cg_two_fingers.png"
+      },
+      {
+        "key": "cg_table",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-629b7f7f-56a5-495f-99e5-5d5a7e328f87.png",
+        "archive": "assets/ch01/cg/cg_table_v1.png",
+        "game": "game/images/ch01/cg_table.png"
+      },
+      {
+        "key": "cg_walk_v2",
+        "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0e3c5-740f-7c43-afcd-767e95c65a28\\exec-cefaeb87-5890-489e-9fee-ee3a22c1ce15.png",
+        "archive": "assets/ch01/cg/cg_walk_v2.png",
+        "game": "game/images/ch01/cg_walk.png"
+      }
+    ],
+    "ch01_expression_imports": {
+      "tool": "built-in image_gen",
+      "script_sha256": "99c9e2f74d61272fee0878fd615d04472b31aed59ec1fafa0c717112ded643cd",
+      "assets": [
+        {
+          "name": "qixing_troubled",
+          "prompt": "Use case: identity-preserve. Edit target: attached existing full-body visual novel sprite of Qixing. Create ONE expression variant: troubled, avoiding a painful family topic; gaze lowered slightly, inner brows subtly raised, lips pressed gently, no anger or tears. Change ONLY facial expression (eyebrows, eyes, mouth). Preserve exact face identity, head angle, hair, every part of body, pose, hands, clothing, shoes, lighting, original character scale and position on the same 1024x1536 canvas. Commercial Japanese PC visual novel, restrained natural emotion. True transparent background, no glow, shadow, backdrop, text, labels or panels. Full original figure, no crop. Output one finished PNG sprite.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-4dcda2cf-5a9e-4fc5-8aa2-6f3012e0162c.png",
+          "reference": "game/images/ch01/qixing_neutral.png",
+          "archive": "assets/ch01/expressions/qixing_troubled_v1.png",
+          "game": "game/images/ch01/qixing_troubled.png"
+        },
+        {
+          "name": "qixing_bemused",
+          "prompt": "Use case: identity-preserve. Edit target: the attached Qixing full-body VN sprite. Produce ONE facial expression variant: bemused and mildly awkward: one eyebrow slightly raised, the other lightly furrowed, small wry asymmetrical mouth, no smile of happiness. Change ONLY eyebrows, eyes and mouth. Preserve exact character identity, head angle and position, hair, silhouette, body, hands, pose, clothes, shoes, colors and lighting. Keep original 1024x1536 canvas and pixel alignment; no zoom or reposition. Restrained commercial Japanese visual novel acting. True transparent background, no halo/backdrop, no text, no panels.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-25daf265-2cd0-445f-8384-8bfcf5d038ba.png",
+          "reference": "game/images/ch01/qixing_neutral.png",
+          "archive": "assets/ch01/expressions/qixing_bemused_v1.png",
+          "game": "game/images/ch01/qixing_bemused.png"
+        },
+        {
+          "name": "qixing_serious",
+          "prompt": "Use case: identity-preserve. Edit target: the attached Qixing full-body VN sprite. Produce ONE facial expression variant: serious and concerned: focused attentive gaze, eyebrows gently drawn together, closed firm mouth; caring not angry, not sad. Change ONLY eyebrows, eyes and mouth. Preserve exact character identity, head angle and position, hair, silhouette, body, hands, pose, clothes, shoes, colors and lighting. Keep original 1024x1536 canvas and pixel alignment; no zoom or reposition. Restrained commercial Japanese visual novel acting. True transparent background, no halo/backdrop, no text, no panels.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-9783acb2-40f8-4e5f-971b-507063bfb102.png",
+          "reference": "game/images/ch01/qixing_neutral.png",
+          "archive": "assets/ch01/expressions/qixing_serious_v1.png",
+          "game": "game/images/ch01/qixing_serious.png"
+        },
+        {
+          "name": "qixing_soft",
+          "prompt": "Use case: identity-preserve. Edit the attached Qixing VN sprite into a gentle warm expression: visibly softer relaxed eyebrows and eyes, small clearly upturned closed-mouth smile, kind reassurance, no blush. Change ONLY facial features inside the face; preserve exact head/hair position, anatomy, hands, costume textures, body, pose, shoes, palette, lighting, 1024x1536 canvas and silhouette. Full-body original same placement, no cropping/zoom. One transparent PNG expression variant, no text or panels, no background or halo.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-b4445448-2be6-479e-9ff2-2b9ad79f1425.png",
+          "reference": "game/images/ch01/qixing_neutral.png",
+          "archive": "assets/ch01/expressions/qixing_soft_v1.png",
+          "game": "game/images/ch01/qixing_soft.png"
+        },
+        {
+          "name": "qixing_surprised",
+          "prompt": "Use case: identity-preserve. Edit target: attached Qixing sprite. ONLY change his face expression into startled indignant protest at being called an uncle despite being twenty: distinctly raised eyebrows, widened eyes and an open speaking mouth; youthful slightly flustered but no blush, no rage, not screaming. This must be visibly different from neutral at game size. Keep all outside facial features exactly unchanged: identity, hair, head angle/position, shoulders, arms, hands, clothing folds/textures, stance, shoes, colors. Original full figure and original 1024x1536 canvas, no crop or zoom. Single PNG with preserved real transparent alpha; no background, halo, captions, labels, comic marks or panels. Serious Japanese visual novel art.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-1f5238d6-4475-4dce-86ec-e826b41d9278.png",
+          "reference": "game/images/ch01/qixing_neutral.png",
+          "archive": "assets/ch01/expressions/qixing_surprised_v1.png",
+          "game": "game/images/ch01/qixing_surprised.png"
+        },
+        {
+          "name": "chinatsu_embarrassed",
+          "prompt": "Use case: identity-preserve. Edit target: attached Chinatsu full-body VN sprite. ONE facial expression variant, shy gratitude just after being helped: gently averted lowered eyes, subtle warm pink blush confined to cheeks, small hesitant soft closed mouth. No tears, no broad grin. ONLY change eyebrows, eyes, mouth and cheek blush. Preserve original exact identity, head tilt and position, hair strands/silhouette, body, hands clasped in front, ivory long coat, trousers, shoes, lighting and colors. Exact 1024x1536 canvas, character scale/placement unchanged. Transparent PNG, no background or halo, no text or panels. Restrained Japanese commercial VN artwork.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-b164773e-c7aa-4ef0-8fb8-4bc691995cc3.png",
+          "reference": "game/images/ch01/chinatsu_guarded.png",
+          "archive": "assets/ch01/expressions/chinatsu_embarrassed_v1.png",
+          "game": "game/images/ch01/chinatsu_embarrassed.png"
+        },
+        {
+          "name": "chinatsu_downcast",
+          "prompt": "Use case: identity-preserve. Edit attached Chinatsu sprite. ONE facial expression variant: exhausted and downcast while discussing relentless music practice, tired half-lidded eyes looking down to the side, eyebrows raised slightly toward center, small downturned closed mouth. NO blush, no tears, no smile, not terror. Change only facial features. Lock original face identity, exact head angle/position, hair, pose, hands, clothing, trousers, boots, proportions, silhouette, all colors and lighting. Keep original 1024x1536 full-body canvas and all alignment. One transparent PNG VN sprite; no background, halo, text or panels. Natural restrained commercial Japanese visual novel art.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-af74de82-d7fd-418a-b2f7-51068657493e.png",
+          "reference": "game/images/ch01/chinatsu_guarded.png",
+          "archive": "assets/ch01/expressions/chinatsu_downcast_v1.png",
+          "game": "game/images/ch01/chinatsu_downcast.png"
+        },
+        {
+          "name": "chinatsu_surprised",
+          "prompt": "Use case: identity-preserve. Edit attached Chinatsu VN sprite into surprised tentative hope when offered a safe place to stay: eyes clearly widened and looking up toward the other person, eyebrows raised, lips slightly parted in a small natural open mouth. No fear, tears or blush, not yet smiling. ONLY change facial features. Preserve exact face identity, hair, head tilt/position, body, hands, full ivory coat and folds, trousers, boots, palette, lighting and original 1024x1536 alignment. One full-body PNG with true transparent alpha, no crop, background, glow, captions or panels. Restrained expressive commercial Japanese VN art.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-5e808910-ef1a-471e-bbc8-9e7c873b0683.png",
+          "reference": "game/images/ch01/chinatsu_guarded.png",
+          "archive": "assets/ch01/expressions/chinatsu_surprised_v1.png",
+          "game": "game/images/ch01/chinatsu_surprised.png"
+        },
+        {
+          "name": "maxi_enthusiastic",
+          "prompt": "Use case: identity-preserve. Edit target: attached Maxi male VN sprite holding phone. ONE expression variation: enthusiastic proud recommendation to a friend, bright engaged eyes, raised relaxed eyebrows, a distinctly cheerful open-mouth speaking smile, friendly not smug. Change ONLY eyebrows, eyes and mouth. Keep exact identity, same face contour, head angle and pixel position, messy hair, hands and phone, cardigan, white shirt, trousers, shoes, body pose, silhouette, colors, lighting. Exact original 1024x1536 full-body canvas. True transparent PNG, no backdrop/glow/text/panels, no cartoon symbols. Commercial Japanese VN art matching source.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-6667091b-064a-452c-b69e-2a08080e7ff4.png",
+          "reference": "game/images/ch01/maxi_neutral.png",
+          "archive": "assets/ch01/expressions/maxi_enthusiastic_v1.png",
+          "game": "game/images/ch01/maxi_enthusiastic.png"
+        },
+        {
+          "name": "maxi_concerned",
+          "prompt": "Use case: identity-preserve. Edit attached Maxi VN sprite. Facial expression ONLY: cautious concern as he asks a friend about family trouble. Remove smile completely, slightly raise inner eyebrows, attentive softened eyes, closed neutral-to-downturned mouth. No blush or tears. Preserve exact head angle, face identity and contour, hair, body pose, hands/phone, clothes, folds, trousers/shoes, all colors, lighting, original full-body size and placement on 1024x1536 canvas. One transparent PNG, no backdrop/halo/text/panels. Natural Japanese VN acting, clearly distinct from the cheerful source face.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-9649e3ef-121b-4e91-96b5-4deaec236db9.png",
+          "reference": "game/images/ch01/maxi_neutral.png",
+          "archive": "assets/ch01/expressions/maxi_concerned_v1.png",
+          "game": "game/images/ch01/maxi_concerned.png"
+        },
+        {
+          "name": "maxi_annoyed",
+          "prompt": "Use case: identity-preserve. Edit the attached full-body Maxi VN sprite. Change ONLY face expression to mock annoyance: eyebrows distinctly lowered/furrowed, eyes mildly narrowed, open speaking mouth protesting that his friend took his water. Friendly exasperation, not villainous anger, no grin or comedic symbols. Preserve exact original identity, head angle/position, hair, body, silhouette, hands with phone, clothes, folds, all colors and lighting. Same 1024x1536 canvas, same pixel placement and full figure. One transparent PNG, no background, glow, text or panels. Keep commercial Japanese VN quality.",
+          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0ebeb-7200-7bd0-8a95-39272a6b3c1f\\exec-50b9fbfd-8bc1-4998-b569-984c78680c4d.png",
+          "reference": "game/images/ch01/maxi_neutral.png",
+          "archive": "assets/ch01/expressions/maxi_annoyed_v1.png",
+          "game": "game/images/ch01/maxi_annoyed.png"
+        }
+      ]
+    }
+  },
+  "prompts": {
+    "beidai_bow_v1": "Create ONE fullbody transparent visual novel sprite from supplied character reference. Exact mature man identity face and outfit: white ivory shirt, brown suspenders/trousers, black polished shoes, center-part neutralgray hair ENTIRELY achromatic no brown hue. Pose: making a formal bow in greeting, torso inclined modestly forward, one hand near chest other at side, still enough face visible. Serious dignified pianist, not caricature. Clean restrained 2010s anime, match existing reference, one figure,1024x1536canvas full shoes visible, genuine transparent background no aura no floor no text.\n",
+    "beidai_gray_reference_v2": "Use case: precise-object-edit. Edit ONLY the hair color of Meikawa Bidai in EVERY view of this character reference sheet. User explicitly requests fully achromatic neutral GRAY hair, absolutely zero color saturation. Use medium neutral gray base approximately RGB(125,125,125), charcoal gray shadows with R=G=B, silver gray highlights with R=G=B. No brown, tan, warm sepia, blue or violet tint anywhere in scalp hair; hair must read visibly gray rather than near-black brown. Eyebrows also neutral charcoal gray to match. Preserve exact center-part hairstyle, hair strands, mature face, skin tone, eyes, all clothing, suspenders, pose, sheet layout, light background, canvas size, style and linework. Do not desaturate skin or clothing. Update hair color swatch to neutral gray if applicable. One change only: fully neutral gray hair across all four views.\n",
+    "cg_bread_v1": "Use case: illustration-story. Asset: story CG for serious Japanese PC visual novel, landscape 16:9. Reference 1 fixes Qixing identity/outfit (20-year-old young man, charcoal overcoat); reference 2 fixes Chinatsu identity/outfit (17-year-old girl, long chestnut hair and ivory calf-length down coat); reference 3 fixes city location and dry mild February daylight. Show their FIRST meeting: Qixing on left, Chinatsu on right, medium two-person shot from thigh up. Qixing gently places a small plain bread roll into her two outstretched hands, she looks pale, hungry and wary but focused on bread, he looks concerned. Their faces and all hands visible in upper 70% of frame, lower 25% reserved for game textbox. Qixing visibly taller by half a head. Keep exact faces, hair and modest winter clothes from references. Refined restrained 2D anime character art and painterly background, gentle linework, not photographic. No text, no labels, no UI, no extra fingers, no glowing romance effects. Everyday act of kindness, no embrace. A few distant small passersby out of focus are okay.\n",
+    "cg_car_v1": "16:9 serious commercial 2010s anime visual novel CG. Reference1 character Beidai mature man with fully achromatic neutral gray centerpart hair, ivory shirt brown suspenders. Reference2 restaurant windows/style. View FROM INSIDE restaurant through clear left window across dry city street: a long luxury BLACK STRETCH LIMOUSINE parked opposite, Beidai and two adult brown-suspender-trouser attendants politely questioning a shopkeeper by opposite storefront. All fully clothed, no aggression or weapons. Gray hair visible, no brown tint. Winter bare branches no snow. Foreground subtle windowframe, characters and car readable in upper70percent. No text/UI/brands.\n",
+    "cg_recital_v1": "Use case illustration-story. 16:9 commercial Japanese VN CG. Reference1 locks pianist Beidai: mature middle-aged man, center parted fully ACHROMATIC NEUTRAL GRAY hair, zero brown/blue saturation in hair including highlights, ivory shirt, brown suspenders and high-waisted trousers. Reference2 locks restaurant. Show him seated side three-quarter at the black grand piano on restaurant right, seriously and elegantly playing, hands anatomically natural on keys, his face/gray center-part/suspenders clear. Two adult attendants in brown suspender trousers stand behind searching the room with their gaze. Ordinary diners distant, puzzled, no exaggerated comic symbols. Warm restrained interior but KEEP HAIR neutral grayscale. Key figures occupy upper 70%; lower quarter safe for text overlay. No text/UI/watermark.\n",
+    "cg_shower_v1": "16:9 polished 2010s Japanese VN environmental close-up illustration. Gym shower partition of frosted glass and pale gray tiles, water droplets, a simple unlabelled white pump soap bottle on narrow shelf in upper middle. From RIGHT edge one adult male bare hand and forearm reaches around opaque partition, fingers naturally gripping the bottle to take it away. Show no people or bodies beyond this one forearm. Quiet everyday comedy presented seriously. Restrained gray blue lighting, clean anime painterly background, no text no UI, action well above lower25percent reserved for textbox.\n",
+    "cg_sleeve_v1": "Use case identity-preserve / narrative variant. Reference is existing VN CG of these SAME two characters exchanging bread. Create an EARLIER moment on exactly the same dry mild February city street, same outfits identities and serious polished 2010s anime style. Girl17 ivory calf-length down coat weak anxious face reaches ONE hand and gently catches sleeve of young man20 charcoal coat to stop him. He still holds bread in OTHER hand away from her, has NOT offered bread yet, turns toward her with mild surprise. Medium waist-up composition with faces and hand catching sleeve clearly ABOVE bottom quarter reserved for dialogue. Natural anatomy, no romance pose, no text or UI. Preserve dark side-part male hair and chestnut long straight girl hair. 16:9.\n",
+    "cg_support_v1": "16:9 Japanese 2010s commercial visual novel CG, serious restrained anime rendering. Reference 1 Qixing identity/outfit, reference 2 Chinatsu identity/outfit, reference3 street environment. Same young man20 in charcoal coat and girl17 in calf-length ivory down coat. Girl has just risen and stumbled; man at left steadies her upper arm with his outstretched arm, she leans slightly toward him in surprise with faint blush. Nonsexual ordinary caring action. Medium waist-up shot, all faces and supporting hand in upper two thirds. Dry mild February street, no snow. Match references exactly, no text, no panel, no UI.\n",
+    "cg_table_v1": "Edit target existing restaurant violin-miming CG into an earlier quiet conversation variant. SAME identities/outfits/camera/environment/table/plates. Girl lowers both hands onto table naturally, expression reserved and subdued with eyes open, lips lightly closed, looking toward man. Man lowers his hand from chin onto table, attentive slightly awkward neutral expression. No violin or raised hand gestures, no new props. Preserve 16:9 framing, characters genuinely SEATED OPPOSITE across table, same refined restrained anime rendering, upper70percent faces visible. No text/UI.\n",
+    "cg_two_fingers_v1": "Edit target existing restaurant violin-miming CG. Keep SAME camera, restaurant background, young man at left, girl at right, exact identities outfits lighting and plates. Change ONLY girl pose/expression: she stops miming, raises one hand upright beside her shoulder with exactly TWO fingers extended (index and middle) to enumerate her two points, other hand rests naturally near table. Slightly indignant proud earnest expression with eyes open and small pout, NOT gleeful victory peace pose. No violin. Keep her face and two-finger hand in upper70percent. Same 16:9 polished anime VN rendering. No text/UI.\n",
+    "cg_violin_v1": "16:9 polished 2010s Japanese visual novel CG, reference1 girl identity/outfit, reference2 young man identity/outfit, reference3 restaurant. Girl17 Chinatsu seated at restaurant table opposite Qixing20. Chestnut straight long hair ivory down coat cream sweater, briefly bright happy expression as she MIMES playing violin with EMPTY hands: left hand lifted near shoulder as if holding neck of imaginary violin, right hand holding imaginary bow. NO ACTUAL INSTRUMENT OR BOW. Man in charcoal coat visible left foreground halfprofile smiling gently listening. Respectful everyday dinner, no sexualization. Arms/hands and faces upper70percent, plates lower foreground. Same warm wood and left windows. No text, no UI.\n",
+    "cg_walk_v2": "Precise edit to supplied chapter-end CG. Change ONLY man's HEAD orientation and eye direction. Man on LEFT must turn his head toward LEFT edge of image, AWAY from girl on RIGHT, showing a LEFT-facing three-quarter profile with eyes looking off-frame LEFT. Small closed-mouth bashful smile hidden from girl, a trace of blush. His nose must point LEFT, NOT toward girl. Preserve exact male face identity, hair, body and clothes, girl face/pose/location, street/background, entire rest of composition. Same 16:9. No text.\n",
+    "cg_water_v1": "16:9 restrained 2010s commercial Japanese visual novel CG, precise character identities and outfits from reference1 Qixing and reference2 Chinatsu, street reference3. Girl17 chestnut long hair squatting at roadside in calf-length ivory quilted down coat cream sweater dark pants/boots, holding a very small remaining piece of bread, red-rimmed eyes and tired face. Young man20 charcoal overcoat slate sweater stands or leans slightly at left extending one sealed clear bluecap water bottle to her as she looks up. Natural helpful gesture, not romance pose. Medium side composition, girl face and bread and bottle positioned above lower25percent textbox area. Mild dry February day bare trees no snow no writing no UI.\n",
+    "chinatsu_afraid_v1": "Edit target: supplied full-body transparent character sprite. Change ONLY facial expression to tense and afraid: slightly widened eyes, lifted inner brows, lips barely parted, pale face. Keep identical face identity, hair chestnut, exact pose/clasped hands, clothes, outline, scale, foot baseline, canvas size1024x1536. Genuine transparent background with no glow or shadow outside subject. No other changes.\n",
+    "chinatsu_smile_v1": "Use case: identity-preserve. Edit target: Chinatsu standing sprite just generated. Change ONLY her facial expression into a small gentle relieved smile with subtly softened eyebrows and a faint natural blush. Keep the same exact face proportions, eyes, hair, body, hands, ivory down coat, trousers, shoes, pose, size and coordinates; keep 1024x1536 canvas. Actual transparent background, preserve existing clean alpha silhouette, no added objects or atmosphere. This is an aligned expression variation for a serious 2010s visual novel, not a new pose or new design.\n",
+    "chinatsu_sprite_v1": "Use case: identity-preserve. Asset: ONE transparent visual novel standing sprite, portrait 1024x1536 or larger with 2:3 ratio. Identity/outfit reference image is Chinatsu's sheet. Match the exact same modest 17-year-old girl, warm brown eyes, long straight chestnut hair and bangs, ivory mid-calf quilted down coat, cream crewneck sweater, charcoal full-length trousers, simple dark ankle boots. Full body front-three-quarter looking a little toward viewer's left. Both hands gently clasped at waist, slightly guarded tired expression, not crying. Clean refined 2010s Japanese PC VN cel-shaded 2D anime style matching sheet. Keep entire hair and shoes in frame, generous empty margin. ACTUAL TRANSPARENT BACKGROUND: all empty pixels alpha zero, character fully opaque. No background light, no glow or shadow, no black/gray haze, no drawn checkerboard, no floor. One full body only, no extra views or labels. Face and clothing construction must match the reference.\n",
+    "chinatsu_v1": "Use case: stylized-concept. Asset: production character reference sheet for a serious 2010-2016 Japanese PC visual novel. The attached previous image is a STYLE reference only, not a face reference. Draw Chinatsu, a 17-year-old girl with an age-appropriate modest design, soft narrow oval face, large expressive warm-brown eyes, long straight deep chestnut hair to lower back, gentle bangs with cheek-framing strands. Slender natural anatomy, approximately 7 heads tall. She is a reserved violinist, initially tired and pale but not skeletal. Outfit: ivory quilted down coat reaching mid-calf, practical front zipper, slim long sleeves, cream crewneck knit top, dark charcoal full-length straight trousers, simple dark ankle boots. No jewelry, no hair accessories, no uniform. Single landscape off-white sheet with full-body front-three-quarter view left, full-body side view middle, closeup neutral wary and gentle relieved smile at right, small color swatches. Keep face, hairstyle, outfit and body proportions identical across views, full shoes visible. Refined 2D anime cel shading with gentle gradients, restrained winter colors, clean delicate lines, neutral lighting. Same coherent artist as reference, but feminine youthful facial structure. No text, no logos, no chibi, no photorealism, no 3D, no fanservice, no exaggerated body proportions.\n",
+    "gym_empty_v1": "Edit supplied locker-room background. Remove ONLY the single blue-cap clear drinking-water bottle on foreground right wooden bench. Reconstruct exact wood slats behind it naturally. Preserve every other pixel composition lighting fixtures towels perspective and aspect ratio. No added objects or people.\n",
+    "gym_locker_v1": "Use case: illustration-story. Asset: empty visual novel background, exact 16:9 landscape preferably 1920x1080 or larger. Quiet modest gym locker room in a contemporary fictional Chinese city, pale slate metal lockers with simple numbered plates too small to read, a wooden bench, frosted high windows letting cool morning light in, a doorway to shower area at the back. A single clear unopened water bottle sits on the right end of the bench; no people. Eye-level stable perspective, open central composition for standing characters, lower quarter less detailed for dialogue overlay. Restrained polished hand-painted 2D anime background for a 2010s Japanese commercial VN, soft bluish gray and warm wood, clean but lived-in, same serious style as a winter city romance. No text, no UI, no black borders, no dramatic steam, no logos, no photorealism.\n",
+    "maxi_neutral_v1": "Use case: stylized-concept. Asset: ONE full-body standing transparent character sprite, also first character identity reference. Ma Xi, young adult Chinese male theater worker, relaxed artist personality, friendly handsome face distinct from the reference man. Reference is STYLE ONLY; don't copy Qixing's face/outfit. Slightly wavy medium short dark brown hair, warm hazel brown eyes, soft eyebrows, casual half smile. Loose muted moss-gray cardigan over plain off-white T-shirt, dark brown straight trousers, simple low shoes; dressed after gym. Lean natural 7.5-head adult proportions. Front three-quarter facing viewer's left, one hand holding a smartphone low near waist, other arm relaxed. Refined 2010-2016 Japanese PC visual novel anime linework and restrained cel-shading, plain soft neutral lighting. Portrait canvas 1024x1536 or larger, full shoes and hair inside margins. Actual fully transparent background, NO halo, NO floor shadow, NO text, NO labels, NO extra views, NO photo or 3D. Keep all accessories and hands anatomically clear.\n",
+    "qixing_sprite_clean_v1": "Use case: background-extraction. Edit target is this Qixing character sprite. Remove ALL background, gray halo, glow, black vignette and floor shadow. The empty pixels outside the exact outline of the man must be fully transparent alpha=0. This is a clean game sprite cutout. Keep the man's exact face, expression, coat, hair, hands, shoes, silhouette, pose and position unchanged. Keep the same 1024x1536 canvas. The character itself should be solid opaque, with only a narrow antialiased edge. Do not redesign, do not add any elements. No dark aura around him. Actual transparent background, not checkerboard.\n",
+    "qixing_sprite_v1": "Use case: identity-preserve. Asset: full body transparent VN standing character sprite, portrait canvas preferably 1600x2400. Reference image is the APPROVED identity and outfit source, not a layout to copy. Draw only ONE Xu Qixing from head to shoes, matching the reference exactly: young 20-year-old man, black side-part hair, gray-brown eyes, youthful handsome face, charcoal wool knee-length overcoat, slate gray crewneck sweater, dark trousers, black shoes. Front three-quarter view facing slightly to viewer's right, relaxed neutral attentive expression with slightly softer brow than reference. Left arm relaxed at side, right hand open loosely near waist; both hands visible and anatomically correct. Refined 2010s Japanese PC visual novel 2D anime art, restrained soft cel shading, no scenery, no text, no swatches, no extra views, no floor shadow. Actual transparent background with alpha channel, NOT a drawn checkerboard and NOT an opaque color. Full character entirely within canvas with breathing room. Preserve original facial proportions and coat design.\n",
+    "qixing_v1": "Use case: stylized-concept. Asset: production character reference sheet for a serious 2010-2016 Japanese PC visual novel. Create a single polished landscape character sheet of Xu Qixing, a 20-year-old young Chinese man, handsome with youthful face, lean athletic physique, approximately 7.5 heads tall. Near-black short naturally side-parted hair, a few loose forelocks, dark gray-brown eyes, defined eyebrows, clean shaven. Outfit: charcoal gray knee-length wool overcoat, muted slate crewneck knit top, dark straight trousers, simple black shoes. No police uniform in this outfit. Layout: one large full-body front-three-quarter view left, one full-body side view middle, two face closeups neutral and softly embarrassed at right, small flat color swatches. All views strictly the same face, hairstyle and outfit. Entire shoes and hair in frame. Restrained cel shading with gentle gradients, refined thin dark-brown lines, careful clothing structure, soft neutral light, off-white plain background. Warm human serious tone, no chibi, no photo, no 3D, no glossy mobile-game rendering, no weapons, no logos, no writing or labels. This sheet fixes character identity for later images.\n",
+    "restaurant_dry_v1": "Edit the restaurant image only: remove ALL snow and frost from the outdoor view through the windows and glass door. The February day is unusually mild and dry: clean gray paving, bare tree branches, normal green-gray hedge leaves with no white covering. Keep the restaurant interior, camera, exact table, dishes, two empty chairs, left windows, wood paneling, door and grand piano on right unchanged. Preserve the same landscape canvas and refined hand-painted VN style. No new people or text.\n",
+    "restaurant_empty_v1": "Edit supplied restaurant background. Change ONLY the food on two large foreground plates: all steak/vegetables have been eaten, leave empty plates with small sauce traces and existing cutlery. Preserve all furniture lighting street/piano architecture and camera identically. No characters added.\n",
+    "street_day_v1": "Use case: illustration-story. Asset: empty background for a serious Japanese PC visual novel, 1920x1080 or larger exact 16:9. Contemporary fictional Chinese city residential street on a mild February morning. Quiet sidewalk, unremarkable mid-rise residential buildings, a small gym storefront without readable lettering near a corner, a few bare deciduous trees with earliest sparse buds, soft cool daylight and gentle warm sunlight. Camera eye-level from sidewalk looking diagonally along the street, foreground pavement open for character sprites; background no people. Refined hand-painted 2D anime background matching a 2010-2016 commercial VN, restrained misty blue gray, ivory and stone colors, precise believable perspective, gentle texture. No Japanese signs, no torii, no sakura bloom, no snow cover, no readable text, no logos, no black borders, no UI. Lower quarter is mostly clear pavement, key architecture above it.\n"
+  },
+  "runtime_images": [
+    {
+      "runtime": "game/images/ch01/beidai_bow.png",
+      "originals": [
+        "assets/ch01/sprites/beidai_bow_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_bread.png",
+      "originals": [
+        "assets/ch01/cg/cg_bread_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_car.png",
+      "originals": [
+        "assets/ch01/cg/cg_car_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_recital.png",
+      "originals": [
+        "assets/ch01/cg/cg_recital_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_shower.png",
+      "originals": [
+        "assets/ch01/cg/cg_shower_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_sleeve.png",
+      "originals": [
+        "assets/ch01/cg/cg_sleeve_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_support.png",
+      "originals": [
+        "assets/ch01/cg/cg_support_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_table.png",
+      "originals": [
+        "assets/ch01/cg/cg_table_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_two_fingers.png",
+      "originals": [
+        "assets/ch01/cg/cg_two_fingers_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_violin.png",
+      "originals": [
+        "assets/ch01/cg/cg_violin_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_walk.png",
+      "originals": [
+        "assets/ch01/cg/cg_walk_v2.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/cg_water.png",
+      "originals": [
+        "assets/ch01/cg/cg_water_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_afraid.png",
+      "originals": [
+        "assets/ch01/sprites/chinatsu_afraid_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_downcast.png",
+      "originals": [
+        "assets/ch01/expressions/chinatsu_downcast_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_embarrassed.png",
+      "originals": [
+        "assets/ch01/expressions/chinatsu_embarrassed_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_guarded.png",
+      "originals": [
+        "assets/ch01/sprites/chinatsu_casual_guarded_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_smile.png",
+      "originals": [
+        "assets/ch01/sprites/chinatsu_casual_smile_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/chinatsu_surprised.png",
+      "originals": [
+        "assets/ch01/expressions/chinatsu_surprised_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/gym_empty.png",
+      "originals": [
+        "assets/ch01/backgrounds/gym_empty_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/gym_locker.png",
+      "originals": [
+        "assets/ch01/backgrounds/gym_locker_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/maxi_annoyed.png",
+      "originals": [
+        "assets/ch01/expressions/maxi_annoyed_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/maxi_concerned.png",
+      "originals": [
+        "assets/ch01/expressions/maxi_concerned_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/maxi_enthusiastic.png",
+      "originals": [
+        "assets/ch01/expressions/maxi_enthusiastic_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/maxi_neutral.png",
+      "originals": [
+        "assets/ch01/sprites/maxi_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_bemused.png",
+      "originals": [
+        "assets/ch01/expressions/qixing_bemused_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_neutral.png",
+      "originals": [
+        "assets/ch01/sprites/qixing_casual_neutral_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_serious.png",
+      "originals": [
+        "assets/ch01/expressions/qixing_serious_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_soft.png",
+      "originals": [
+        "assets/ch01/expressions/qixing_soft_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_surprised.png",
+      "originals": [
+        "assets/ch01/expressions/qixing_surprised_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/qixing_troubled.png",
+      "originals": [
+        "assets/ch01/expressions/qixing_troubled_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/restaurant_day.png",
+      "originals": [
+        "assets/ch01/backgrounds/restaurant_day_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/restaurant_empty.png",
+      "originals": [
+        "assets/ch01/backgrounds/restaurant_empty_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/restaurant_public.png",
+      "originals": [
+        "assets/ch01/backgrounds/restaurant_public_v1.png"
+      ]
+    },
+    {
+      "runtime": "game/images/ch01/street_day.png",
+      "originals": [
+        "assets/ch01/backgrounds/street_day_v1.png"
+      ]
+    }
+  ]
+}

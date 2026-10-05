@@ -1,4 +1,4 @@
-"""Read-only resource/font checks, with a report and embedded font license export."""
+"""Resource/font checks; writes reports only."""
 from pathlib import Path
 import hashlib
 import json
@@ -9,6 +9,8 @@ import textwrap
 from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
+for output_folder in ('.build/reports', '.build/exports'):
+    (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(ROOT / '.build/deps'))
 from fontTools.ttLib import TTFont
 from PIL import Image
@@ -28,15 +30,8 @@ for path in paths:
         images.append(row)
 
 font = TTFont(ROOT / 'game/SourceHanSansLite.ttf')
-copyright_text = '\n'.join(dict.fromkeys(n.toUnicode() for n in font['name'].names if n.nameID == 0))
-notice = ('Font supplied with the existing project: SourceHanSansLite.ttf\n'
-          'Not modified by this project. Embedded copyright notice:\n' + copyright_text + '\n\n'
-          'License: SIL Open Font License 1.1. See SourceHanSans-OFL.txt.\n'
-          'Upstream license source: https://github.com/adobe-fonts/source-han-sans/blob/release/LICENSE.txt\n'
-          'Font SHA-256: ' + hashlib.sha256((ROOT / 'game/SourceHanSansLite.ttf').read_bytes()).hexdigest() + '\n')
-(ROOT / 'game/licenses/SourceHanSansLite-NOTICE.txt').write_text(notice, encoding='utf-8')
 cmap = font.getBestCmap()
-manifest = json.loads((ROOT / 'voice/ch01_manifest.json').read_text(encoding='utf-8'))
+manifest = json.loads((ROOT / '.build/exports/ch01_manifest.json').read_text(encoding='utf-8'))
 scripts = '\n'.join(p.read_text(encoding='utf-8') for p in (ROOT / 'game/scripts/ch01').glob('*.rpy'))
 quoted = r'("(?:\\.|[^"\\])*")'
 say_pairs = re.findall(r'^    ch_\w+ ' + quoted + r' \(show_ja_text=' + quoted + r'\) id (ch01_\w+)$', scripts, re.M)
@@ -44,13 +39,6 @@ texts = [json.loads(t) for zh, ja, _ in say_pairs for t in (zh, ja)]
 texts += ['そして只因チキンもいなくなった第一章終パンと、家出少女幕間帰り道ジム徐启星千夏馬皙鄭局長梅川備代着信連絡先父さん発信通話']
 display = re.sub(r'\{[^}]*\}', '', ''.join(texts))
 missing_glyphs = sorted({c for c in display if ord(c) > 127 and ord(c) not in cmap})
-license_texts = list(dict.fromkeys(n.toUnicode() for n in font['name'].names if n.nameID == 13))
-full_license = next((t for t in license_texts if 'PREAMBLE' in t and 'DISCLAIMER' in t), None)
-if full_license:
-    license_path = ROOT / 'game/licenses/SourceHanSansLite-OFL.txt'
-    copyright_text = '\n'.join(dict.fromkeys(n.toUnicode() for n in font['name'].names if n.nameID == 0))
-    license_path.write_text(copyright_text + '\n\n' + full_license, encoding='utf-8')
-
 defined_images = set(re.findall(r'^image (.+?) =', runtime, re.M))
 used_images = set(re.findall(r'^    (?:show|scene) (ch_(?:bg|cg|qixing|chinatsu|maxi|beidai) \w+)', scripts, re.M))
 undefined = sorted(used_images - defined_images)
@@ -69,8 +57,8 @@ assert 'yoffset -38' in runtime
 assert 'style ch_subtitle_ruby is ch_ruby:' in runtime and 'yoffset -26' in runtime
 # Each save/history entry carries the two languages together; no screen-global
 # line lookup can accidentally show the current Japanese beneath an older line.
-translated = json.loads((ROOT / 'script_zh/ch01.json').read_text(encoding='utf-8-sig'))
-assert translated['source_ja_sha256'].lower() == hashlib.sha256((ROOT / 'script_ja/ch01.yaml').read_bytes()).hexdigest()
+translated = json.loads((ROOT / 'scripts/zh/ch01.json').read_text(encoding='utf-8-sig'))
+assert translated['source_ja_sha256'].lower() == hashlib.sha256((ROOT / 'scripts/ja/ch01.yaml').read_bytes()).hexdigest()
 assert {line_id for _, _, line_id in say_pairs} == set(translated['lines'])
 for encoded_zh, encoded_ja, line_id in say_pairs:
     zh, ja = json.loads(encoded_zh), json.loads(encoded_ja)
@@ -97,14 +85,26 @@ def stop(**kw):
     calls.append(('stop', kw))
     playing.pop(kw['channel'], None)
 fake = SimpleNamespace(music=SimpleNamespace(register_channel=lambda *a, **k: None,
-                        play=play, stop=stop, get_playing=lambda channel: playing.get(channel)),
+                        play=play, stop=stop, get_playing=lambda channel: playing.get(channel),
+                        set_audio_filter=lambda channel, effect: filter_calls.append((channel, effect))),
+                       audio=SimpleNamespace(filter=SimpleNamespace(
+                           Highpass=lambda frequency: ('highpass', frequency),
+                           Lowpass=lambda frequency: ('lowpass', frequency))),
                        loadable=lambda path: path in available)
+filter_calls = []
 helpers = textwrap.dedent(runtime.split('init python:\n', 1)[1].split('\ndefine ch_title_text', 1)[0])
 ast.parse(helpers)
 # Ren'Py exposes voice() in the store, not renpy.exports. Do not add a
 # nonexistent renpy.voice to the fake: that previously masked a runtime crash.
 namespace = {'renpy': fake, 'voice': lambda path: calls.append(('voice', path))}
 exec(compile(helpers, '<audio helpers>', 'exec'), namespace)
+namespace['ch_voice']('zheng', 'ch01_sc02_011')
+assert filter_calls[-1] == ('voice', [('highpass', 300), ('lowpass', 3400)])
+namespace['ch_voice']('zheng', 'future_in_person_line')
+assert filter_calls[-1] == ('voice', None)
+namespace['ch_voice'](None, '')
+assert filter_calls[-1] == ('voice', None)
+calls.clear()
 for speaker in (None, 'qixing', 'chinatsu'):
     namespace['ch_voice'](speaker, 'missing')
 assert all(call[0] == 'stop' for call in calls)
@@ -161,13 +161,12 @@ assert card.index('scene black') < card.index('hide screen ch_caption')
 assert 'window auto' not in scripts
 report = {'images': images, 'missing_files': missing, 'undefined_images': undefined,
           'missing_glyphs': missing_glyphs,
-          'font_license_available': (ROOT / 'game/licenses/SourceHanSans-OFL.txt').is_file(),
           'regression_checks': ['character_style_binding', 'ruby_init_priority', 'optional_audio_fake_engine', '97_bilingual_pairs', 'translation_source_hash', 'history_subtitle_style', 'ambience_routing', 'retained_bilingual_window', 'title_clears_old_scene'],
           'say_count': len(say_ids), 'unique_say_ids': len(set(say_ids)),
           'source_novel_sha256': hashlib.sha256((ROOT / 'source/novel.txt').read_bytes()).hexdigest(),
           'agent_runtime_tested': False, 'agent_rendering_tested': False,
           'user_confirmed': ['startup', 'title_ruby', 'dialogue_ruby']}
-(ROOT / 'docs/reports/ch01_resource_check.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+(ROOT / '.build/reports/ch01_resource_check.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(report, ensure_ascii=True))
 assert not missing, missing
 assert not undefined, undefined

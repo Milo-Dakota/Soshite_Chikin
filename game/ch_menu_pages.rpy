@@ -85,7 +85,7 @@ screen ch_page_shell(title):
             textbutton "关于" style "ch_page_button" action ShowMenu("about")
             textbutton "主菜单" style "ch_page_button" action MainMenu()
     else:
-        text "无只因生还  /  第一章":
+        text "无只因生还  /  第一章・第二章":
             style "ch_page_text"
             size 18
             color "#7c8797"
@@ -202,9 +202,9 @@ screen ch_about():
                 xalign 0.5
             text "无只因生还" style "ch_page_heading" size 29 xalign 0.5
             null height 32
-            text "一场相遇，一段离家出走的插曲。" style "ch_page_text" size 23 xalign 0.5
-            text "第一章 · 面包与离家少女" style "ch_page_text" size 22 color "#a5afbe" xalign 0.5
-            text "[config.version]" style "ch_page_text" size 18 color "#7c8797" xalign 0.5
+            text "从一次偶遇，走向失踪与星辰的谜团。" style "ch_page_text" size 23 xalign 0.5
+            text "[ch_edition_name]" style "ch_page_text" size 22 color "#a5afbe" xalign 0.5
+            text "Version [config.version]" style "ch_page_text" size 18 color "#7c8797" xalign 0.5
         viewport:
             xpos 728
             ypos 30
@@ -215,7 +215,13 @@ screen ch_about():
             scrollbars "vertical"
             vbox:
                 spacing 20
-                text "制作记录" style "ch_page_heading"
+                text "作品介绍" style "ch_page_heading"
+                text "将中文接龙小说认真改编为日语视觉小说，\n再以中文汉化呈现。" style "ch_page_text"
+                text "完全线性剧情 · 中日双语字幕" style "ch_page_text" color "#d6be8d"
+                text "当前收录\n第一章「面包与离家少女」\n第二章「消失的首席与星辰的求救信号」" style "ch_page_text"
+                text "第一章、第二章均已接入日语角色配音。" style "ch_page_text" size 22 color "#a5afbe"
+                null height 12
+                text "制作与素材" style "ch_page_heading"
                 text "原作  /  中文接龙小说《无只因生还》" style "ch_page_text"
                 text "日语改编 · 中文汉化 · 演出\n本项目制作" style "ch_page_text"
                 text "美术\n使用图像生成工具辅助制作" style "ch_page_text"

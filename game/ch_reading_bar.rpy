@@ -26,7 +26,7 @@ screen ch_reading_bar(compact=False):
         yoffset -8
         xsize 1776
         ysize 48
-        text "第一章":
+        text ch_chapter_label:
             font "fonts/SourceHanSerifSC-Medium.otf"
             size 18
             kerning 5

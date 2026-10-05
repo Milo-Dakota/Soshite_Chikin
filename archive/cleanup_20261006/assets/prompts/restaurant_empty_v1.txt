@@ -1,0 +1,1 @@
+Edit supplied restaurant background. Change ONLY the food on two large foreground plates: all steak/vegetables have been eaten, leave empty plates with small sauce traces and existing cutlery. Preserve all furniture lighting street/piano architecture and camera identically. No characters added.

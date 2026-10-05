@@ -6,7 +6,7 @@
 # to preserve published script metadata for save compatibility.
 # Do not ignore game/libs, game/tl, fonts, licenses, or runtime media.
 
-# Ren'Py editor/recovery copies, not versioned docs/archive snapshots.
+# Ren'Py editor/recovery copies, not historical snapshots in archive/.
 /game/**/*.bak
 /game/**/*.new
 /game/**/*.old
@@ -27,7 +27,7 @@
 /strings.json
 
 # Local build dependencies, scratch space and distribution output.
-# docs/release is a versioned release record, not a disposable build folder.
+# Historical snapshots in archive/ are tracked separately.
 /.build/
 /build/
 /dist/
@@ -66,7 +66,6 @@ Desktop.ini
 /.idea/workspace.xml
 /.idea/shelf/
 
-# Intentionally versioned: source/, script_ja/, script_zh/, script_plan/,
-# docs/ (reports, release records and historical snapshots),
-# assets/ (originals, prompts and manifests), voice/ and game/ media.
+# Production sources and historical snapshots remain versioned.
+# Keep scripts/, docs/, assets/, audio/, archive/ and game/ media.
 # Do not add blanket image/audio/font/archive-extension ignore rules.

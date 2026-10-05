@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qixing_take_hand_v5",
+    "replaces": "qixing_take_hand_v3",
+    "title": "启星抓手（v1掌形不变，仅修正手指）",
+    "group": "primary",
+    "scene": "sc02",
+    "refs": [
+      "assets/ch02/cg/qixing_take_hand_v1.png"
+    ],
+    "prompt": "Precise minimal illustration repair. This ORIGINAL image already has the CORRECT hand orientation, thumb location, palm silhouette, wrists and grasp. DO NOT change any of those. Do not reinterpret left/right anatomy, rotate a palm, flip or mirror a hand, move a thumb, replace the grasp, simplify into a different hand pose, move sleeve cuffs or redraw the scene. ONLY repair the small malformed FINGER segments of the girl's hand within the existing grasp at lower center: retain exactly the original thumb on its existing lower contour, retain her existing palm shape and wrist angle, retain the boy's existing surrounding hand and fingers. Clean the girl's malformed finger outlines, awkward joints and nail placement so the original fingers become natural and proportional in the SAME original arrangement and original occlusion. Use original hand contour as the constraint, not an anatomical redesign. Outside those tiny finger details keep everything unchanged: camera, both identities, facial expressions, body poses, clothes, sofa and room. This image pairs with an existing hand-withdrawal CG, so composition must remain identical. No text. Finished restrained anime visual-novel CG.",
+    "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3abeeb59-1ff1-40bd-a1d2-d7f8d21fb152.png",
+    "output": "assets/ch02/cg/qixing_take_hand_v5.png",
+    "selected": true,
+    "mode": "builtin image_gen minimal finger repair with original v1 palm orientation preserved"
+  }
+]

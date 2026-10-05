@@ -1,0 +1,7 @@
+{
+  "ffmpeg": "D:/Softwares/Steam/steamapps/common/A Dance of Fire and Ice/ffmpeg/ffmpeg.exe",
+  "voice": {"integrated_lufs": -16.0, "true_peak_dbtp": -2.0},
+  "bgm": {"integrated_lufs": -18.0, "true_peak_dbtp": -2.0},
+  "max_boost_db": 12.0,
+  "validate_voice_ids": true
+}

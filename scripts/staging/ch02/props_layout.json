@@ -1,0 +1,368 @@
+{
+  "chapter": "ch02",
+  "ja_sha256": "fa06b84c2245e33152c419fa7fc3abf503dc6ca34fde0aa2f9403a7f53730e0a",
+  "canvas": [
+    1672,
+    941
+  ],
+  "notice_line_ids": [
+    "ch02_sc01_011",
+    "ch02_sc01_012",
+    "ch02_sc01_013",
+    "ch02_sc01_014"
+  ],
+  "notice_text": [
+    "娘の〖梅川千夏｜うめかわちなつ〗が行方不明になって、二週間半になります。",
+    "いなくなった日、娘はサスペンダーを着けておらず、髪もセンター分けではありませんでした。",
+    "〖只因｜ただ〗、あの子が美しすぎたから。",
+    "――〖梅川備代｜サスペンダーなし〗"
+  ],
+  "street_notices": [
+    {
+      "x": 1450,
+      "y": 315,
+      "width": 102,
+      "height": 145
+    },
+    {
+      "x": 593,
+      "y": 335,
+      "width": 48,
+      "height": 68
+    }
+  ],
+  "shoes": {
+    "x": 840,
+    "y": 640,
+    "width": 215,
+    "height": 215
+  },
+  "phone_ui": {
+    "canvas": [
+      1920,
+      1080
+    ],
+    "x": 745,
+    "y": 170,
+    "width": 430,
+    "height": 276
+  },
+  "signal": {
+    "anchor": [
+      0.66,
+      0.36
+    ],
+    "display_size": 30,
+    "unit_seconds": 0.22,
+    "sequences": {
+      "HELP": [
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 7
+        }
+      ],
+      "89N64W": [
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 3
+        },
+        {
+          "on": true,
+          "units": 1
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 1
+        },
+        {
+          "on": true,
+          "units": 3
+        },
+        {
+          "on": false,
+          "units": 7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-01",
+  "tool": "built-in image_gen",
+  "script": "script_ja/ch02.yaml",
+  "script_sha256": "cc519c970d6136c03532af71c158277590f93c753f1a9dcbe49940b3f90e3cb4",
+  "scope": "B2: 13 background needs, 14 states via 13 RGB backgrounds and one RGBA orchestra overlay; plus one supplemental side audience background. No game integration.",
+  "status": "generated_visually_checked_pending_user_review",
+  "records": [
+    {
+      "id": "qixing_living_morning_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: modest young policeman's modern apartment living room in morning, NOT a restaurant. Gray fabric sofa left with adjacent broad window and ivory curtains; simple low wooden coffee table; television on right facing sofa, plain dark blank screen suitable for compositing TV footage. At back center-right a short entry passage ends at a plain brown entrance door, low shoe cupboard. Light oak floor, cream walls, quietly lived-in tidy home. Clear floor space and sofa seating, wide eye-level establishing view. Reference is rendering style only; no restaurant architecture or piano.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/restaurant_day.png"
+      ],
+      "title": "启星住处客厅·上午",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-d0115a6a-1040-4663-baa0-e7eac71643da.png",
+      "output": "assets/ch02/backgrounds/qixing_living_morning_v1.png"
+    },
+    {
+      "id": "qixing_entry_morning_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Input is SAME APARTMENT identity/layout reference. Move camera forward into the entry passage seen at back right of living room, looking directly at same closed brown entrance door. Keep its closer, peephole, brass handle at left, narrow light-wood shoe cabinet on RIGHT with small plant and framed landscape above. Same cream walls, wooden trim, warm morning light entering from living room behind camera on left. Frame low enough to clearly show broad empty gray tiled shoe area and transition to oak floor. Empty shoe spot next to dark doormat, no shoes, no people. Do not invent a second entrance or mirror. Wide close architectural background.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_living_morning_v1.png"
+      ],
+      "title": "启星住处玄关·上午",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-d4d7899f-8c74-40b5-a865-3c57ab68ffee.png",
+      "output": "assets/ch02/backgrounds/qixing_entry_morning_v1.png"
+    },
+    {
+      "id": "police_office_day_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene, empty modern police investigators' shared office daytime, understated functional municipal office in fictional Chinese-compatible city, no flags, emblems, firearms or readable case clues. Two main adjacent workstations with gray desks, black monitors, keyboards, ordinary blank folders and swivel chairs; protagonist near left foreground, colleague's workstation middle right, clear aisle to closed frosted-glass office door back right. Filing cabinets back wall, large windows along left with horizontal blinds, cool winter daylight. Pale walls, bluegray chairs, light gray floor, restrained everyday atmosphere. Wide eye-level framing that supports two speaking characters and leaving through door. Reference rendering style only, not its residential furnishings.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/qixing_living_morning_v1.png"
+      ],
+      "title": "警局办公室·白天",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-15d85dfa-d08e-4432-a6d9-260524395add.png",
+      "output": "assets/ch02/backgrounds/police_office_day_v1.png"
+    },
+    {
+      "id": "theatre_exterior_day_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: exterior entrance and front pavement of a prestigious city classical concert theater in afternoon. Contemporary early-2000s civic building, light warm stone, tall narrow glass windows, bronze-framed glass main doors, sober symmetrical facade, understated Art Deco accents (not a Gothic mansion). Theater entry occupies left and middle, urban road recedes along right with a few distant ordinary cars, neutral midrise city blocks and winter bare trees. Broad paved foreground for two characters to meet and stand after leaving. Blank dark bronze fascia above entrance reserved for later exact theater name, no generated letters, no posters with invented text. Clear afternoon light, no people.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/street_day.png"
+      ],
+      "title": "艾昆剧院入口·下午",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-fe87197e-f137-4da6-aa0e-8222150b8b3a.png",
+      "output": "assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+    },
+    {
+      "id": "theatre_hall_intermission_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Interior of same civic classical concert theater, seen from middle audience row toward centered broad raised stage. Intermission state: stage empty of musicians and conductor, with semicircle of about twenty empty black orchestral chairs and black music stands; leave generous visible stage floor between stands. Black grand piano closed on rear right, pale amber wood acoustic wall and vertical acoustic panels, warm ivory walls, understated bronze Art Deco fittings matching exterior, burgundy seats. Audience is required here: many ordinary adult spectators seen from behind in lower third and side rows, quietly seated or turned slightly to neighbor, small refined anime background figures without recognizable main characters. Central aisle, side doors. Fixed symmetric wide composition, stage occupies middle third of image, visible foreground seatbacks. Calm neutral concert illumination suitable for both performance and intermission, no spotlight drama. No readable text.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_exterior_day_v1.png"
+      ],
+      "title": "艾昆剧院·中场底图",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-260b065f-039e-41be-9e9c-c2d9b7f53f29.png",
+      "output": "assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+    },
+    {
+      "id": "theatre_orchestra_layer_v1",
+      "prompt": "Use case: compositing. Create a TRANSPARENT OVERLAY PNG for the supplied 1672x941 concert hall base, identical full 16:9 canvas and locked camera. Output ONLY the orchestra musicians with their played instruments, conductor and any tiny necessary foreground occluding sections of music stands. Entire architecture, floor, audience, unused chairs and all other pixels TRANSPARENT. Do not tightly crop the group; keep full base-sized canvas. Precisely align about twenty adult orchestral musicians in sober black formal attire to the chairs on stage, occupying approximately x=400..1210,y=385..535 of 1672x941. Seated violinists left, violas/celli right, woodwinds back, conductor standing at x=820,y=440 with feet on existing podium near y=532, facing away to orchestra, restrained raised baton. All musicians must be small distant background-scale figures in the same refined hand-painted commercial anime VN style. Instruments held correctly. No featured soloist, no gray-haired center-part pianist, nobody playing rear-right piano (featured pianist absent). Transparent pixels preserve all original stage architecture and audience unchanged when composited. No text, no background rectangle, no checkerboard baked in.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+      ],
+      "transparent": true,
+      "title": "艾昆剧院·乐团透明层",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-4efbcd8b-1e1c-4a71-b4dd-f8d4fcf52d21.png",
+      "output": "assets/ch02/backgrounds/theatre_orchestra_layer_v1.png"
+    },
+    {
+      "id": "umekawa_exterior_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. New scene: wealthy pianist Umekawa family's Gothic revival mansion in a contemporary East Asian city, February afternoon. View from just inside entrance gate across formal garden toward grand pointed-arch dark wood main double doors. Imposing pale gray stone two-storey mansion, steep slate roofs and slender gables, tall pointed windows; restrained gilded decorative metalwork. Black wrought iron boundary fence with gold finials visible on both sides foreground, manicured evergreen hedges and winter dormant trees, stone drive and path lead to main entrance. Expensive private home, not ruined haunted castle, not church, no crosses, no fantasy towers, no snow or cherry blossoms. Building prominent, entrance clear, quiet ordered and subtly oppressive mood, clean afternoon daylight. Reference rendering style only.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/restaurant_day.png"
+      ],
+      "title": "梅川宅花园与外观",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-5acff07b-5b03-4a74-ae78-1a61a4ea55e9.png",
+      "output": "assets/ch02/backgrounds/umekawa_exterior_v1.png"
+    },
+    {
+      "id": "umekawa_foyer_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Interior welcome foyer of the EXACT mansion in reference. View from inside looking diagonally toward the same grand dark walnut pointed-arch main double door and its tracery transom, visible on back LEFT; on back RIGHT a broad pointed arch opens into long interior corridor. Large empty central greeting area fits father daughter and servants later (no figures now). Pale limestone walls above dark walnut wainscot with narrow brass trim, cream marble floor with understated geometric border, warm bronze wall sconces and modest chandelier, high ceiling. Formal wealthy residential scale not cathedral, no religious symbols, portraits, heraldry or story clues. Winter afternoon light through tall narrow front windows near door, calm intimidating symmetry. Keep room connection legible and door design consistent with exterior.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_exterior_v1.png"
+      ],
+      "title": "梅川宅迎接区域",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-e2aef9d0-0cec-4b80-9936-62d6dac2ccf1.png",
+      "output": "assets/ch02/backgrounds/umekawa_foyer_v1.png"
+    },
+    {
+      "id": "umekawa_corridor_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Move into the corridor through right arch of reference foyer; same mansion identity and exact pale limestone/dark walnut/brass palette, lantern wall sconces, shallow pointed ribbed ceiling and cream marble floor with dark border. Wide eye-level view along quiet long corridor with tall pointed clear-glass windows LEFT looking out onto winter garden, heavy closed paneled walnut doors RIGHT (nearest right door leads to piano room, next closed door serves bathroom). No labels. Foreground floor occupies lower third and can be cropped for footsteps. Calm afternoon window light, reserved controlled wealthy atmosphere, not haunted, no candles on floor, no portraits or new clues. No people, shadows of people, stairs or furniture obstructing walking.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+      ],
+      "title": "梅川宅走廊",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-846a8923-a463-4b84-9282-15648bebcd43.png",
+      "output": "assets/ch02/backgrounds/umekawa_corridor_v1.png"
+    },
+    {
+      "id": "umekawa_bathroom_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Quiet empty bathroom environment inside this same mansion. Restrained close architectural composition, near left foreground a cream stone washbasin and antique brass faucet with a slender stream of running water, neatly folded white towel; pale warm-gray marble tiles, subtle brass trim, closed dark walnut paneled door at middle-right matching mansion. A high narrow frosted pointed window admits soft afternoon light. Bathroom only, no person, no body part, no human silhouette, no reflection of anyone, no translucent shower curtain, no clothing on floor, no bathtub occupant. Avoid mirrors or show only wall. Sober environment cutaway expressing isolation through empty space and running water. Wealthy residential bathroom with same walnut, cream stone, brass palette, smaller human-scale room rather than huge cathedral.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+      ],
+      "title": "梅川宅浴室",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-bb5228f3-f570-481f-9054-bdc0e58c4a8d.png",
+      "output": "assets/ch02/backgrounds/umekawa_bathroom_v1.png"
+    },
+    {
+      "id": "umekawa_piano_room_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Private piano practice room in this exact mansion. Wide three-quarter eye-level view: a full-size black grand piano on LEFT-middle with clearly visible uncovered keyboard facing camera diagonally; a wide black upholstered piano bench with room for two adjacent seated people before keyboard, plus one restrained dark-wood side chair nearby to right. Piano keys large and clean enough to crop later. Exposed polished dark walnut wooden floor throughout (important, NOT marble or carpet). Closed heavy single walnut door with pointed carved panels at BACK RIGHT, enough clean wall around it to crop a doorway cutaway. Tall pointed windows LEFT, muted ivory curtains, cream stone/plaster walls over dark walnut wainscot with thin brass trims and same warm lantern sconces. Late afternoon daylight, formal quiet oppressive room without horror effects. No people, no portraits, no extra piano, no readable music, no text on instrument. Make keyboard/bench ergonomically plausible, broad empty floor center-right for movement.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+      ],
+      "title": "梅川宅琴房",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f011d22b-e76e-48ad-8888-53458f6746e2.png",
+      "output": "assets/ch02/backgrounds/umekawa_piano_room_v1.png"
+    },
+    {
+      "id": "umekawa_phone_dusk_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. A closer neutral mansion interior backdrop for a standing adult answering a telephone at dusk. Only a quiet stretch of cream stone wall with dark walnut lower wall panels and thin brass molding, left edge of tall pointed window with ivory curtain, warm bronze lantern sconce high right. Same mansion architecture as reference but tighter camera, no new named room, no desk/books/study, no telephone or person baked in. Low muted orange sunset light enters from LEFT across panels while cool violet shadows deepen right; readable midtones for character sprites, not black or horror lighting. Outside window indistinct dusk sky and bare branches. Clear central background for a halfbody foreground character. No portraits, readable texts, objects suggesting location of another character.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/umekawa_foyer_v1.png"
+      ],
+      "title": "宅内电话·黄昏",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-7ee62df2-b8b8-4518-be0a-d63bd0b252d4.png",
+      "output": "assets/ch02/backgrounds/umekawa_phone_dusk_v1.png"
+    },
+    {
+      "id": "street_night_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Use case: lighting-weather EDIT. Convert supplied SAME city residential street to deep quiet night. Lock all buildings, sidewalk perspective, gym storefront and exercise machines, railings, bare trees, hedges and pavement layout exactly. Sparse distant cars only, no pedestrians. Nearly all apartment windows dark with a handful of warm window lights, gym interior lights off or very dim, gentle pools of warm streetlamp illumination along sidewalk. Deep desaturated navy sky, cool soft moonlight on buildings and pavement; dry ground, no rain/snow, no neon cyberpunk. Preserve usable readable foreground and realistic night contrast, subtle unsettling loneliness. No new shops, signs, stars enlarged into symbols, no giant visible moon required.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/game/images/ch01/street_day.png"
+      ],
+      "title": "杏城街道·深夜",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-033c5024-3cbb-41dd-8614-760be7f3aea4.png",
+      "output": "assets/ch02/backgrounds/street_night_v1.png"
+    },
+    {
+      "id": "starry_sky_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Upward-looking night sky background from this same urban street, camera tilted almost straight up. Vast deep navy sky with subtly irregular natural small stars, sparse thin wisps of blue-gray cloud near lower left and outer edges, calm pale small moon near upper LEFT around normalized x=.20,y=.23, moon only about 3 percent image width. Only minimal dark bare branch tips at bottom corners, no broad skyline. Restrained winter city night sky, no giant galaxy, rainbow nebula or aurora, no star diagrams, lines, labels, satellites or UFO. IMPORTANT leave a small clean dark-sky patch centered at normalized x=.66,y=.36 with no visible star within radius 2% image width; it reserves a future independently blinking signal-star layer. Ordinary surrounding starfield remains natural and static, no standout luminous signal star baked in. Keep central upper sky unobstructed and lower third uncluttered. Match reference cool night palette and painterly style.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/street_night_v1.png"
+      ],
+      "title": "仰视星空",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-32418978-91a2-46e1-8da9-318eb0323df5.png",
+      "output": "assets/ch02/backgrounds/starry_sky_v1.png"
+    },
+    {
+      "id": "theatre_audience_side_v1",
+      "prompt": "Use case: illustration-story. Production background for a serious 2010–2016 Japanese PC visual novel. One full-bleed wide 16:9 landscape image, preferably 1920x1080. Refined hand-painted anime architectural background, restrained neutral colors, delicate edges, realistic perspective and soft lighting, matching supplied image's rendering quality. No UI, captions, watermark, comic panels or border. No people unless explicitly requested. Keep foreground usable for character sprites, with normal continuous scenery behind lower dialogue area. Additional SIDE ANGLE of exact supplied concert hall during intermission. Same architecture identity: ivory stone walls, bronze Art Deco wall lamps and vertical trim, burgundy upholstered seats, warm amber wood stage and acoustic panels, no musicians on stage. Camera now at LEFT side aisle at seated eye level, looking diagonally across rows toward stage at upper RIGHT. Close empty burgundy pair of seats at foreground LEFT for later protagonist composition, ordinary small adult spectators sitting in midground rows seen in profile/back, subtly turned to neighbors; no main character. Stage partly visible in upper-right distance with empty black chairs and stands, exact same restrained civic hall, no extra balcony tiers. This is a supplemental spatial cutaway, not a replacement for frontal stage view. Match original style, materials and neutral concert lighting. No text.",
+      "refs": [
+        "C:/Users/craft/Desktop/soshite_chikin/assets/ch02/backgrounds/theatre_hall_intermission_v1.png"
+      ],
+      "supplemental": true,
+      "title": "剧院观众席侧向角度（后续补充）",
+      "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-182630c3-3c0a-4394-baac-b56b9d11b2ce.png",
+      "output": "assets/ch02/backgrounds/theatre_audience_side_v1.png"
+    }
+  ],
+  "composition": {
+    "theatre_performance": {
+      "canvas": [
+        1672,
+        941
+      ],
+      "base": "theatre_hall_intermission_v1.png",
+      "overlay": "theatre_orchestra_layer_v1.png",
+      "overlay_scale": 0.84,
+      "overlay_top_left": [
+        125,
+        50
+      ],
+      "intermission": "Hide overlay only",
+      "qa": "Browser composite and state switch visually inspected. Alpha-bearing RGBA verified. Runtime not tested."
+    },
+    "signal_star": {
+      "canvas": [
+        1672,
+        941
+      ],
+      "normalized_anchor": [
+        0.66,
+        0.36
+      ],
+      "pixel_anchor": [
+        1103.52,
+        338.76
+      ],
+      "layer_status": "not produced, B5 future task"
+    }
+  }
+}

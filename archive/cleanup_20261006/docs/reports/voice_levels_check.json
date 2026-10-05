@@ -1,0 +1,745 @@
+{
+  "date": "2026-10-05",
+  "method": "FFmpeg EBU R128 integrated loudness and oversampled true peak; per-character median of individual raw clips",
+  "scope": "source clips before RenPy telephone filters and user mixer settings; no audio changed",
+  "limits": "Short phrases and differences in performance can affect LUFS; beidai has only one first-chapter reference clip. True peaks above 0 dBFS are reconstructed intersample peaks, not proof of sample clipping.",
+  "summary": [
+    {
+      "character": "beidai",
+      "ch01": {
+        "count": 1,
+        "median_lufs": -17.4,
+        "minimum_lufs": -17.4,
+        "maximum_lufs": -17.4,
+        "highest_true_peak_dbfs": -0.2
+      },
+      "ch02": {
+        "count": 12,
+        "median_lufs": -13.65,
+        "minimum_lufs": -18.0,
+        "maximum_lufs": -11.8,
+        "highest_true_peak_dbfs": 1.2
+      },
+      "ch02_minus_ch01_lu": 3.75
+    },
+    {
+      "character": "chinatsu",
+      "ch01": {
+        "count": 22,
+        "median_lufs": -14.65,
+        "minimum_lufs": -19.2,
+        "maximum_lufs": -12.2,
+        "highest_true_peak_dbfs": 0.7
+      },
+      "ch02": {
+        "count": 8,
+        "median_lufs": -13.55,
+        "minimum_lufs": -17.1,
+        "maximum_lufs": -10.6,
+        "highest_true_peak_dbfs": 0.8
+      },
+      "ch02_minus_ch01_lu": 1.1
+    },
+    {
+      "character": "house_driver",
+      "ch02": {
+        "count": 1,
+        "median_lufs": -19.1,
+        "minimum_lufs": -19.1,
+        "maximum_lufs": -19.1,
+        "highest_true_peak_dbfs": 0.0
+      }
+    },
+    {
+      "character": "house_servant",
+      "ch02": {
+        "count": 1,
+        "median_lufs": -16.7,
+        "minimum_lufs": -16.7,
+        "maximum_lufs": -16.7,
+        "highest_true_peak_dbfs": -0.0
+      }
+    },
+    {
+      "character": "maxi",
+      "ch01": {
+        "count": 6,
+        "median_lufs": -15.8,
+        "minimum_lufs": -16.2,
+        "maximum_lufs": -14.9,
+        "highest_true_peak_dbfs": 0.7
+      },
+      "ch02": {
+        "count": 5,
+        "median_lufs": -12.0,
+        "minimum_lufs": -14.0,
+        "maximum_lufs": -11.2,
+        "highest_true_peak_dbfs": 0.8
+      },
+      "ch02_minus_ch01_lu": 3.8
+    },
+    {
+      "character": "theatre_staff",
+      "ch02": {
+        "count": 2,
+        "median_lufs": -16.3,
+        "minimum_lufs": -16.7,
+        "maximum_lufs": -15.9,
+        "highest_true_peak_dbfs": 0.1
+      }
+    },
+    {
+      "character": "unknown_caller",
+      "ch02": {
+        "count": 1,
+        "median_lufs": -17.5,
+        "minimum_lufs": -17.5,
+        "maximum_lufs": -17.5,
+        "highest_true_peak_dbfs": 0.7
+      }
+    },
+    {
+      "character": "wengang",
+      "ch02": {
+        "count": 6,
+        "median_lufs": -16.15,
+        "minimum_lufs": -17.5,
+        "maximum_lufs": -14.6,
+        "highest_true_peak_dbfs": 0.0
+      }
+    },
+    {
+      "character": "zheng",
+      "ch01": {
+        "count": 4,
+        "median_lufs": -15.25,
+        "minimum_lufs": -17.0,
+        "maximum_lufs": -14.8,
+        "highest_true_peak_dbfs": 1.0
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "game/audio/voice/beidai/ch01_sc05_027.ogg",
+      "character": "beidai",
+      "line_id": "ch01_sc05_027",
+      "chapter": "ch01",
+      "integrated_lufs": -17.4,
+      "true_peak_dbfs": -0.2,
+      "sha256": "ffdbaeb436e95c21baecd6399728e80aea7100b6e24e506a1ce4beffe03410fe"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc06_002.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc06_002",
+      "chapter": "ch02",
+      "integrated_lufs": -13.6,
+      "true_peak_dbfs": 0.4,
+      "sha256": "2d3ebc1d60fba2a1abdaf3b1e40862bb0c76cbbd7621b7bfb051088be1147bd0"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc06_003.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc06_003",
+      "chapter": "ch02",
+      "integrated_lufs": -13.7,
+      "true_peak_dbfs": 0.6,
+      "sha256": "a2f4527ecdbf16457b07af9d27a475164e515916bfa81772ec4dd59cffc452be"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc06_004.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc06_004",
+      "chapter": "ch02",
+      "integrated_lufs": -12.7,
+      "true_peak_dbfs": 0.5,
+      "sha256": "f1fd024d14e5fd3dabbadba9080bbf793036b2caa76db5b13660eb7e974d159d"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_002.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_002",
+      "chapter": "ch02",
+      "integrated_lufs": -17.3,
+      "true_peak_dbfs": -0.3,
+      "sha256": "20412de2c2fcd8905dfd2c7763d42dd89d9cf6457e52ed1650ee48ae6f73c49c"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_004.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_004",
+      "chapter": "ch02",
+      "integrated_lufs": -16.2,
+      "true_peak_dbfs": 0.1,
+      "sha256": "5cc6618f7024547e09fc4efec908e59fb0f674db31acb169a1f75a0374e35d33"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_005.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_005",
+      "chapter": "ch02",
+      "integrated_lufs": -11.9,
+      "true_peak_dbfs": 0.9,
+      "sha256": "57eb58fd3b5a2f7024cfb08b98f7425c8c0f1d0598a0c695d23460884a2b049a"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_008.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_008",
+      "chapter": "ch02",
+      "integrated_lufs": -13.6,
+      "true_peak_dbfs": 0.3,
+      "sha256": "3eb61a5365132a3d264ace2ce918b842120269b695a96fa6aa2ef93eca1ef09a"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_011.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_011",
+      "chapter": "ch02",
+      "integrated_lufs": -13.3,
+      "true_peak_dbfs": 1.2,
+      "sha256": "fa9e479744be23d6927d68420edda65d67a5edd65d150fac9145df3c73e42c48"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc07_012.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc07_012",
+      "chapter": "ch02",
+      "integrated_lufs": -11.8,
+      "true_peak_dbfs": 0.6,
+      "sha256": "3c83a3c20e83f2e64c269827f9dacac9bbf8c1c951b18effd6825c6f24197e9b"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc08_001.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc08_001",
+      "chapter": "ch02",
+      "integrated_lufs": -18.0,
+      "true_peak_dbfs": -2.1,
+      "sha256": "a119960020a8cc187f0963f7e2db1341c4931ca324f711f2f6bc101aa92fbc99"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc08_003.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc08_003",
+      "chapter": "ch02",
+      "integrated_lufs": -15.8,
+      "true_peak_dbfs": -0.0,
+      "sha256": "5e131412f02ca419170c28d00a1fba3c119175deb5b526e960c5e3bde1ab25dd"
+    },
+    {
+      "path": "game/audio/voice/beidai/ch02_sc08_005.wav",
+      "character": "beidai",
+      "line_id": "ch02_sc08_005",
+      "chapter": "ch02",
+      "integrated_lufs": -15.0,
+      "true_peak_dbfs": 0.2,
+      "sha256": "005919250e1ed4a84a9b60f43b2b689b3d407520f8669747a7d06b0ce6ed009e"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc01_006.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc01_006",
+      "chapter": "ch01",
+      "integrated_lufs": -12.2,
+      "true_peak_dbfs": 0.4,
+      "sha256": "9331408670892403002880fe579e1c51f73fc36e50cc3e20ee7a2eeb13ad357e"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc01_010.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc01_010",
+      "chapter": "ch01",
+      "integrated_lufs": -14.7,
+      "true_peak_dbfs": 0.2,
+      "sha256": "e9a4097693028f09afc94d769942fe0e1c021d696ee0b6faee4987c4ec1d6426"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc04_009.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc04_009",
+      "chapter": "ch01",
+      "integrated_lufs": -15.5,
+      "true_peak_dbfs": 0.1,
+      "sha256": "664bcf1c6967b7e6883605b81c44d0f4478eeb0c41330ed16bb36eb0b690e50a"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc04_012.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc04_012",
+      "chapter": "ch01",
+      "integrated_lufs": -14.6,
+      "true_peak_dbfs": 0.3,
+      "sha256": "bf6b246140fd420b8ccc5b1963c9b685d19d17b5c8a3ab1cda8180fa4c21196f"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc04_014.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc04_014",
+      "chapter": "ch01",
+      "integrated_lufs": -14.6,
+      "true_peak_dbfs": 0.3,
+      "sha256": "e002a5008356f30ee968659ed0c64d694c5920ab30165a7fa7550b658a52404b"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc04_015.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc04_015",
+      "chapter": "ch01",
+      "integrated_lufs": -14.4,
+      "true_peak_dbfs": 0.2,
+      "sha256": "3ff6caa4af8f5f4f7575a9f1bd4007a99a8ef07969b89c0efdfa63fe218e59f1"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc04_016.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc04_016",
+      "chapter": "ch01",
+      "integrated_lufs": -12.9,
+      "true_peak_dbfs": 0.0,
+      "sha256": "bf8bb598569a59ce2042dee89b033c4859dcbeff77e90996e1e3378ee188f425"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_004.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_004",
+      "chapter": "ch01",
+      "integrated_lufs": -13.8,
+      "true_peak_dbfs": -0.1,
+      "sha256": "6e23c91af2abd03a2c1f02d12c2a4775140a82d32d7bd6b0d1dd5bb02f3adf64"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_006.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_006",
+      "chapter": "ch01",
+      "integrated_lufs": -13.0,
+      "true_peak_dbfs": -0.1,
+      "sha256": "c2ac6db4e6c65c4ce869167ccb00d91a2f11617a864f1fd6a8ce3236a5bfb4b7"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_008.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_008",
+      "chapter": "ch01",
+      "integrated_lufs": -14.6,
+      "true_peak_dbfs": 0.7,
+      "sha256": "d71fa223677d233217e4b719122fdbf566836824330d0fe1fd606bd86ccc98c2"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_010.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_010",
+      "chapter": "ch01",
+      "integrated_lufs": -13.5,
+      "true_peak_dbfs": 0.0,
+      "sha256": "4f6133bdaa8f56148133af7445a542868a1fb4e0af9f83f21d90356b87a51741"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_011.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_011",
+      "chapter": "ch01",
+      "integrated_lufs": -13.6,
+      "true_peak_dbfs": -0.1,
+      "sha256": "10e012410ff637a90a3535c2cab4097e7c4231631f6d443561d4258c93897724"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_014.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_014",
+      "chapter": "ch01",
+      "integrated_lufs": -16.9,
+      "true_peak_dbfs": 0.3,
+      "sha256": "5eaf6f9f1109a4a8f41edc3511b997c2a4916f858cdf16677d9410ad3e2d6965"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_015.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_015",
+      "chapter": "ch01",
+      "integrated_lufs": -16.7,
+      "true_peak_dbfs": 0.0,
+      "sha256": "33aecceffe924e7a7e3019e1794c02696063579e973635cb17e1918683ba6c17"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_016.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_016",
+      "chapter": "ch01",
+      "integrated_lufs": -16.6,
+      "true_peak_dbfs": 0.1,
+      "sha256": "35390722a598ae7c98a118e01c3ee22ffbe838c73567880c2b7ebade57e8d1ff"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_019.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_019",
+      "chapter": "ch01",
+      "integrated_lufs": -15.2,
+      "true_peak_dbfs": -0.0,
+      "sha256": "76456c76b06eb0de8c69854d15326c46aa35ba0cc30387771b19565e3cce540d"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_021.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_021",
+      "chapter": "ch01",
+      "integrated_lufs": -14.0,
+      "true_peak_dbfs": 0.0,
+      "sha256": "0851014611e7622ca2fb6e53b63c16d68560f744b13e3e36c17694853b00cf97"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_024.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_024",
+      "chapter": "ch01",
+      "integrated_lufs": -17.7,
+      "true_peak_dbfs": 0.2,
+      "sha256": "18b82c4089506dcbee1ec2c5be7a94ce841deb2f0613db72a1407b5bac345c32"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_029.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_029",
+      "chapter": "ch01",
+      "integrated_lufs": -19.2,
+      "true_peak_dbfs": 0.1,
+      "sha256": "ff52a20782a538b2088cbf46158b615cdfad52a58f52d306baf6b39cdec0ec44"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc05_036.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc05_036",
+      "chapter": "ch01",
+      "integrated_lufs": -15.5,
+      "true_peak_dbfs": 0.1,
+      "sha256": "664bcf1c6967b7e6883605b81c44d0f4478eeb0c41330ed16bb36eb0b690e50a"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc06_001.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc06_001",
+      "chapter": "ch01",
+      "integrated_lufs": -18.5,
+      "true_peak_dbfs": 0.1,
+      "sha256": "6076c7b482013e37570e8642b808db55ac1a2d273b2e8e690cd3361b72ba4689"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch01_sc06_004.ogg",
+      "character": "chinatsu",
+      "line_id": "ch01_sc06_004",
+      "chapter": "ch01",
+      "integrated_lufs": -15.6,
+      "true_peak_dbfs": 0.4,
+      "sha256": "99d356c1c26e699f0e7d4d448298e3095671b3b76192df3cefd3006af9ad745e"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc01_003.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc01_003",
+      "chapter": "ch02",
+      "integrated_lufs": -11.7,
+      "true_peak_dbfs": 0.6,
+      "sha256": "a759d81d90abb3fb45d58d7e70ee01c6b517cb0656b6278c7c356b178dce0108"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc01_004.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc01_004",
+      "chapter": "ch02",
+      "integrated_lufs": -11.0,
+      "true_peak_dbfs": 0.6,
+      "sha256": "286b43a8b6860b535f83bd33ec1d2b1df12ba887cbcc8ca8439a9ddcee500fb9"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc01_006.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc01_006",
+      "chapter": "ch02",
+      "integrated_lufs": -10.6,
+      "true_peak_dbfs": 0.8,
+      "sha256": "32d62bf3034489e93f03a6141498b5133eb2fcc681b67037b0217790f0de3fd9"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc02_006.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc02_006",
+      "chapter": "ch02",
+      "integrated_lufs": -17.1,
+      "true_peak_dbfs": -0.9,
+      "sha256": "134aa504d88349daf6808cba028fba2b1541449a33649aa7892cfb19cf46e186"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc06_018.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc06_018",
+      "chapter": "ch02",
+      "integrated_lufs": -15.3,
+      "true_peak_dbfs": -0.0,
+      "sha256": "619bf198d09eb4c2eab18be07d48e526f5c62464c36e82cff39668b659bf7499"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc07_007.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc07_007",
+      "chapter": "ch02",
+      "integrated_lufs": -14.5,
+      "true_peak_dbfs": 0.3,
+      "sha256": "564d9e0fad43c12eff772ce4c8aa7ea500bb9beb5742a8246b1f39a381c849a8"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc07_009.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc07_009",
+      "chapter": "ch02",
+      "integrated_lufs": -12.8,
+      "true_peak_dbfs": 0.7,
+      "sha256": "7b7706babca24c01d709e397fe8b16e72c4e6ae56b43af78a39451d25bcd261b"
+    },
+    {
+      "path": "game/audio/voice/chinatsu/ch02_sc07_015.wav",
+      "character": "chinatsu",
+      "line_id": "ch02_sc07_015",
+      "chapter": "ch02",
+      "integrated_lufs": -14.3,
+      "true_peak_dbfs": 0.5,
+      "sha256": "63c18b6a016f60afeaf80ce46686cf42f84279bb1f1bf8630431f4676d523d74"
+    },
+    {
+      "path": "game/audio/voice/house_driver/ch02_sc06_001.wav",
+      "character": "house_driver",
+      "line_id": "ch02_sc06_001",
+      "chapter": "ch02",
+      "integrated_lufs": -19.1,
+      "true_peak_dbfs": 0.0,
+      "sha256": "7387e0a1490ca8af0fa5471fa3e686b8dbbdcd76bb3bb1ff3cb8a77edeb8fa05"
+    },
+    {
+      "path": "game/audio/voice/house_servant/ch02_sc08_002.wav",
+      "character": "house_servant",
+      "line_id": "ch02_sc08_002",
+      "chapter": "ch02",
+      "integrated_lufs": -16.7,
+      "true_peak_dbfs": -0.0,
+      "sha256": "5d041704dde3525953ad8acaccc8a0a9ae3cc1c539d53b46a2f6b2fce073de48"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc02_005.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc02_005",
+      "chapter": "ch01",
+      "integrated_lufs": -14.9,
+      "true_peak_dbfs": 0.7,
+      "sha256": "3d03b72e17a7d80677605f27965bdee0d18839393898e92623795161fe1e4e8f"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc02_008.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc02_008",
+      "chapter": "ch01",
+      "integrated_lufs": -15.9,
+      "true_peak_dbfs": 0.3,
+      "sha256": "1f35338a61bb7bc5380ebd4862f9820a6a743f6438db232143c4f5b70d978bd0"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc02_018.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc02_018",
+      "chapter": "ch01",
+      "integrated_lufs": -15.5,
+      "true_peak_dbfs": 0.3,
+      "sha256": "0728541c7ccfe5a260703e1453757d2f047008c5ac8d23e13037acbe62c57a51"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc03_001.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc03_001",
+      "chapter": "ch01",
+      "integrated_lufs": -16.2,
+      "true_peak_dbfs": -0.0,
+      "sha256": "183d1d980a338cd9faee6ef8662231123af0f1141e5b41448634c6405e8eed7f"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc03_002.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc03_002",
+      "chapter": "ch01",
+      "integrated_lufs": -15.9,
+      "true_peak_dbfs": 0.2,
+      "sha256": "ebf1507ac98368f748d670d6deaa9ec658e8d9106510cb3f68eff66c47b2f65c"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch01_sc03_003.ogg",
+      "character": "maxi",
+      "line_id": "ch01_sc03_003",
+      "chapter": "ch01",
+      "integrated_lufs": -15.7,
+      "true_peak_dbfs": 0.3,
+      "sha256": "6b686ec432242b4e1bb72bebf52c80be01b7f99c6a815543d0212c80b032cdb0"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch02_sc01_016.wav",
+      "character": "maxi",
+      "line_id": "ch02_sc01_016",
+      "chapter": "ch02",
+      "integrated_lufs": -12.0,
+      "true_peak_dbfs": 0.6,
+      "sha256": "c33a28df7913e9ef9628d2696625da4258acf80c6c4e4e782e253aa51bb40144"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch02_sc01_017.wav",
+      "character": "maxi",
+      "line_id": "ch02_sc01_017",
+      "chapter": "ch02",
+      "integrated_lufs": -11.5,
+      "true_peak_dbfs": 0.8,
+      "sha256": "172527e4ee967a3abcc94d9905725aa3206e963394e71db35468a8a61bdd5ff6"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch02_sc05_002.wav",
+      "character": "maxi",
+      "line_id": "ch02_sc05_002",
+      "chapter": "ch02",
+      "integrated_lufs": -14.0,
+      "true_peak_dbfs": 0.4,
+      "sha256": "a9affabbaac170263d3acd50bb388676033fb3f8a2a1a1fabbf32d47c0bc9912"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch02_sc05_003.wav",
+      "character": "maxi",
+      "line_id": "ch02_sc05_003",
+      "chapter": "ch02",
+      "integrated_lufs": -12.8,
+      "true_peak_dbfs": 0.6,
+      "sha256": "bf52aee456d37683259c33294bb4c0f9b0157b47a7398ac2fd4dd65fe72cbfcf"
+    },
+    {
+      "path": "game/audio/voice/maxi/ch02_sc05_012.wav",
+      "character": "maxi",
+      "line_id": "ch02_sc05_012",
+      "chapter": "ch02",
+      "integrated_lufs": -11.2,
+      "true_peak_dbfs": 0.6,
+      "sha256": "efe5bb82fbd88752d544df18d271c73ce49b631c8ac6e6f88fa7f1f71a9416cc"
+    },
+    {
+      "path": "game/audio/voice/theatre_staff/ch02_sc05_008.wav",
+      "character": "theatre_staff",
+      "line_id": "ch02_sc05_008",
+      "chapter": "ch02",
+      "integrated_lufs": -16.7,
+      "true_peak_dbfs": 0.0,
+      "sha256": "7989efe13d1a70d056fcda15f96ab47a5dbbd76b0fd0e11f8be1b81034d8dab6"
+    },
+    {
+      "path": "game/audio/voice/theatre_staff/ch02_sc05_009.wav",
+      "character": "theatre_staff",
+      "line_id": "ch02_sc05_009",
+      "chapter": "ch02",
+      "integrated_lufs": -15.9,
+      "true_peak_dbfs": 0.1,
+      "sha256": "88c84440a2bce085654674e55ab56a53d36ed1ee49b69c7420a4183e3c60c51e"
+    },
+    {
+      "path": "game/audio/voice/unknown_caller/ch02_sc08_004.wav",
+      "character": "unknown_caller",
+      "line_id": "ch02_sc08_004",
+      "chapter": "ch02",
+      "integrated_lufs": -17.5,
+      "true_peak_dbfs": 0.7,
+      "sha256": "21df463784a6eeb5dbeef997172d876810b06fbb2a9cbe2325fe40a9f014341c"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_001.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_001",
+      "chapter": "ch02",
+      "integrated_lufs": -15.9,
+      "true_peak_dbfs": 0.0,
+      "sha256": "6dfb0c896598c675563f041cdd54c60afd6e3a45a97458b86d3fc1c71d56489c"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_005.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_005",
+      "chapter": "ch02",
+      "integrated_lufs": -17.5,
+      "true_peak_dbfs": 0.0,
+      "sha256": "c1ae660580768ef49c3002161b9c1304a229d4639435888afb9760ef8ad27923"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_006.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_006",
+      "chapter": "ch02",
+      "integrated_lufs": -16.4,
+      "true_peak_dbfs": -0.0,
+      "sha256": "c12e86cc8554b89aded6c3fc3f72f3bf462b3928c292235296f113a55c16852c"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_009.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_009",
+      "chapter": "ch02",
+      "integrated_lufs": -14.6,
+      "true_peak_dbfs": 0.0,
+      "sha256": "706fca0d952358f8794daddb86ca47262ff99780a255cbf8a0c86c41412096a1"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_010.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_010",
+      "chapter": "ch02",
+      "integrated_lufs": -15.1,
+      "true_peak_dbfs": 0.0,
+      "sha256": "8b8e0469abf38e30648571fd6fcde4b9e9faeebf4dcbd2ff7724870ab64561b7"
+    },
+    {
+      "path": "game/audio/voice/wengang/ch02_sc04_011.wav",
+      "character": "wengang",
+      "line_id": "ch02_sc04_011",
+      "chapter": "ch02",
+      "integrated_lufs": -17.1,
+      "true_peak_dbfs": 0.0,
+      "sha256": "38ca5f760d3db7d1f41cbdcdfd371bd254d4f169335840ff31bd8fd5b7c2f194"
+    },
+    {
+      "path": "game/audio/voice/zheng/ch01_sc02_011.ogg",
+      "character": "zheng",
+      "line_id": "ch01_sc02_011",
+      "chapter": "ch01",
+      "integrated_lufs": -14.8,
+      "true_peak_dbfs": 1.0,
+      "sha256": "4a5e7dbfbb84a6da385aee7780a841c47574e485633f46c3c37ee4d1ba20d740"
+    },
+    {
+      "path": "game/audio/voice/zheng/ch01_sc02_013.ogg",
+      "character": "zheng",
+      "line_id": "ch01_sc02_013",
+      "chapter": "ch01",
+      "integrated_lufs": -15.1,
+      "true_peak_dbfs": -0.3,
+      "sha256": "5dd6affa020423f5e1bb1e0492325208981edc6ca0d4fcbbf7c8d3a4fa4578a1"
+    },
+    {
+      "path": "game/audio/voice/zheng/ch01_sc02_014.ogg",
+      "character": "zheng",
+      "line_id": "ch01_sc02_014",
+      "chapter": "ch01",
+      "integrated_lufs": -15.4,
+      "true_peak_dbfs": 0.4,
+      "sha256": "88d9fee69b4c0d067333507ed9f8537c826c1892bcaca9539053c5a427195a9a"
+    },
+    {
+      "path": "game/audio/voice/zheng/ch01_sc02_016.ogg",
+      "character": "zheng",
+      "line_id": "ch01_sc02_016",
+      "chapter": "ch01",
+      "integrated_lufs": -17.0,
+      "true_peak_dbfs": 0.1,
+      "sha256": "d19f60828a3e57b475c31bdaf8221d0894aad3eff135b79c738eb6c13d2a29ac"
+    }
+  ]
+}

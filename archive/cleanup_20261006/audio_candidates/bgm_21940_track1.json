@@ -1,0 +1,13 @@
+{
+  "id": "bgm:21940:1",
+  "file": "assets/ch02/audio_candidates/bgm_21940_track1.mp3",
+  "source": "https://opentracks.com/bgm/detail/21940",
+  "download_page": "https://opentracks.com/bgm/detail/21940/download",
+  "download_url": "https://dova-worker.tracks-cid.workers.dev/download?filepath=bgm%2Faudio%2F4d90438d-489c-45b2-9bb5-ad67166f623c.mp3&expires=1791015201&token=ce3263ba66225f4a69600e9871db012675d826db89591a81410ae4080b0e97bb&filename=%E5%BB%83.mp3",
+  "content_type": "audio/mpeg",
+  "bytes": 4681651,
+  "sha256": "304478557b02ba4d81998a33d9186b925d16a0e1af68a62c95542e8029b046ce",
+  "download_options": [
+    "<option value=\"1\">トラック1 （ループ/4.46 MB）</option>"
+  ]
+}
