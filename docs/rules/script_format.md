@@ -2,9 +2,13 @@
 
 日语源为 scripts/ja/chXX.yaml，中文源为 scripts/zh/chXX.json。日语按角色意图、关系、情绪和自然表达重组，保留剧情与梗，不逐字翻译。普通叙事优先画面／动作／声音／自然内心／对白，避免反复「我看到／我发现」。
 
+以下仅为格式示例，章节号不代表当前任务或制作授权。
+
 ```yaml
 schema_version: 1
 chapter_id: ch03
+title_ja: "章のタイトル"
+revision: 1
 scenes:
   - id: ch03_sc01
     scene_kind: main
@@ -16,13 +20,15 @@ scenes:
 
 scene_kind 为 main 或 side_scene。普通视点 qixing，特殊视点填写角色 ID 或 external（仅外部行为）。内心不能无提示切换人物，镜头不受此约束。
 
+示例只展示层级；正式文件还须满足对应导出器的字段检查。既有台本的 `status` 是历史导出标签，不代表图片、配音或整章的当前完成状态；不要据此重开已完成工作，也不要仅为同步进度修改它而改变台本摘要。当前进度读取 `docs/status.md`，新增格式不另设整章进度副本。正式汉化只读取提供的日语内容及汉化指南，不自行读取状态文件。
+
 | type | 规则 |
 |---|---|
 | dialogue | speaker、ja；非徐启星说出口对白，默认日语配音 |
 | protagonist_dialogue | speaker: qixing、ja；不配音 |
 | thought | speaker 与视点角色一致、ja；所有内心不配音 |
 | direction | action 与必要参数；不显示、不配音、不汉化 |
-| document_text | 第二章既有扩展：明确载体／作者的寻人启事，无 speaker、无 voice，保留显示 ID |
+| document_text | 明确载体／作者的书面文字，无 speaker、无 voice，保留显示 ID；载体在 text_type_extensions 中声明，寻人启事为既有用法 |
 
 新增书面载体须先声明来源和配音规则，不伪装成对白。普通 Scene 不引入 narrator。关键信息不能只写在演出备注中。
 

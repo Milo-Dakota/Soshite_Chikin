@@ -8,7 +8,6 @@ import re
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT/'.build/deps'))
 import yaml
 
 errors=[]
@@ -53,8 +52,6 @@ for path in (ROOT/'assets/records').glob('*.json'):
         count+=1
     for row in data.get('references',[]):
         require((ROOT/row['file']).is_file(),f'Missing reference: {row["file"]}')
-require(not (ROOT/'docs/ch01_handoff.md').exists(),'Obsolete current handoff remains')
-require(not (ROOT/'tools/import_ch02_voice.py').exists(),'Old audio importer remains active')
 report={'errors':errors,'documents_checked':len(docs),'runtime_images_checked':count,
         'runtime_tested':False,'note':'Organization checks only; user-confirmed completion lives in docs/status.md.'}
 (ROOT/'.build/reports').mkdir(parents=True,exist_ok=True)

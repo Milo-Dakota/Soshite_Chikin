@@ -1,10 +1,9 @@
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-$runtimePython = Join-Path $env:USERPROFILE '.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+$projectRoot = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
+$runtimePython = Join-Path $projectRoot '.venv/Scripts/python.exe'
 if (-not (Test-Path -LiteralPath $runtimePython)) {
-    $runtimeCommand = Get-Command python -ErrorAction SilentlyContinue
-    if (-not $runtimeCommand) { throw 'Python 3 is required. Install Python or edit launch.ps1 to set its path.' }
-    $runtimePython = $runtimeCommand.Source
+    throw 'Project Python environment missing. Create .venv with uv and install the root requirements.txt first.'
 }
 & $runtimePython (Join-Path $PSScriptRoot 'import_audio.py')
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

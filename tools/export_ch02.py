@@ -1,7 +1,6 @@
 """Validate the Japanese chapter and export its voiced lines, without touching game files."""
 from pathlib import Path
 from collections import Counter
-import csv
 import hashlib
 import json
 import re
@@ -10,7 +9,6 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 for output_folder in ('.build/reports', '.build/exports'):
     (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(ROOT / '.build' / 'deps'))
 import yaml
 
 SOURCE = ROOT / 'scripts/ja' / 'ch02.yaml'
@@ -106,7 +104,6 @@ def export():
                 'pace': performance['pace'], 'performance_note': performance['note'],
                 'output_path': f'audio/voice/{speaker}/{lid}' + ('.wav' if (ROOT / 'audio/voice' / speaker / (lid + '.wav')).is_file() else '.ogg'),
                 'spoken_sha256': hashlib.sha256(spoken.encode('utf-8')).hexdigest(),
-                'status': 'text_ready_audio_not_produced',
             })
         scene_counts.append({'scene_id': sid, 'counts': dict(local_counts)})
     require(len(documents) == 4, 'Missing notice text')
@@ -119,7 +116,7 @@ def export():
         '只朗读每条的“朗读正文”。角色名、编号、场次、演技说明与路径均不朗读。每条单独输出 Ogg Vorbis 或未压缩 16 位 PCM WAV 文件，勿只修改文件后缀。', '',
         '徐启星全部文字、千夏及其他人物的内心、寻人启事、视点提示和演出指令均不配音。Ruby 已转换为读音；对白里的“パパ”属于台词，不是说话者标记。', '',
         '本稿按角色分组，组内按出场顺序排列。第一章同角色沿用既有声音；电话效果在接入时处理，录音保持干净。琴房段落表现控制、拒绝和恐惧，不加入亲吻、情色喘息或身体接触音。', '',
-        f'来源：`scripts/ja/ch02.yaml`，revision {data["revision"]}。状态：录音文字就绪；实际接入状态见 `.build/reports/ch02_voice_check.json`。', '',
+        f'来源：`scripts/ja/ch02.yaml`，revision {data["revision"]}。本稿仅列录音文字；章节完成状态见 `docs/status.md`。', '',
         f'台本 SHA-256：`{digest}`', '',
         f'配音共 **{len(rows)} 条**。输出路径相对于项目根目录；保持 Line ID 不变。', '',
         '| 角色 | ID | 条数 |', '|---|---|---:|',
@@ -142,7 +139,7 @@ def export():
     exported_ids = re.findall(r'^### (ch02_sc\d{2}_\d{3})$', recording, re.M)
     require(len(exported_ids) == len(rows) and set(exported_ids) == {r['line_id'] for r in rows}, 'Markdown line coverage')
     require(not any(c in recording for c in '〖〗｜'), 'Display markup leaked to recording')
-    payload = {'chapter_id': 'ch02', 'revision': data['revision'], 'script_status': data['status'],
+    payload = {'chapter_id': 'ch02', 'revision': data['revision'],
                'script_sha256': digest, 'lines': rows}
     summary = {
         'chapter_id': 'ch02', 'script_sha256': digest, 'scenes': 9,
@@ -158,12 +155,9 @@ def export():
     }
     output = ROOT / '.build/exports'
     output.mkdir(parents=True, exist_ok=True)
-    (output / 'ch02_recording.md').write_text(recording, encoding='utf-8')
+    if '--recording' in sys.argv:
+        (output / 'ch02_recording.md').write_text(recording, encoding='utf-8')
     (output / 'ch02_manifest.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    with (output / 'ch02_manifest.csv').open('w', encoding='utf-8-sig', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
-        writer.writeheader()
-        writer.writerows(rows)
     reports = ROOT / '.build' / 'reports'
     reports.mkdir(parents=True, exist_ok=True)
     (reports / 'ch02_static_check.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

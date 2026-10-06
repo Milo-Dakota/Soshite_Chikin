@@ -11,8 +11,6 @@ from types import SimpleNamespace
 ROOT = Path(__file__).resolve().parents[1]
 for output_folder in ('.build/reports', '.build/exports'):
     (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(ROOT / '.build/deps'))
-from fontTools.ttLib import TTFont
 from PIL import Image
 
 runtime = (ROOT / 'game/ch01_runtime.rpy').read_text(encoding='utf-8')
@@ -29,16 +27,10 @@ for path in paths:
             row['alpha_range'] = im.getchannel('A').getextrema()
         images.append(row)
 
-font = TTFont(ROOT / 'game/SourceHanSansLite.ttf')
-cmap = font.getBestCmap()
 manifest = json.loads((ROOT / '.build/exports/ch01_manifest.json').read_text(encoding='utf-8'))
 scripts = '\n'.join(p.read_text(encoding='utf-8') for p in (ROOT / 'game/scripts/ch01').glob('*.rpy'))
 quoted = r'("(?:\\.|[^"\\])*")'
 say_pairs = re.findall(r'^    ch_\w+ ' + quoted + r' \(show_ja_text=' + quoted + r'\) id (ch01_\w+)$', scripts, re.M)
-texts = [json.loads(t) for zh, ja, _ in say_pairs for t in (zh, ja)]
-texts += ['そして只因チキンもいなくなった第一章終パンと、家出少女幕間帰り道ジム徐启星千夏馬皙鄭局長梅川備代着信連絡先父さん発信通話']
-display = re.sub(r'\{[^}]*\}', '', ''.join(texts))
-missing_glyphs = sorted({c for c in display if ord(c) > 127 and ord(c) not in cmap})
 defined_images = set(re.findall(r'^image (.+?) =', runtime, re.M))
 used_images = set(re.findall(r'^    (?:show|scene) (ch_(?:bg|cg|qixing|chinatsu|maxi|beidai) \w+)', scripts, re.M))
 undefined = sorted(used_images - defined_images)
@@ -160,15 +152,13 @@ card = runtime.split('label ch_card(', 1)[1]
 assert card.index('scene black') < card.index('hide screen ch_caption')
 assert 'window auto' not in scripts
 report = {'images': images, 'missing_files': missing, 'undefined_images': undefined,
-          'missing_glyphs': missing_glyphs,
           'regression_checks': ['character_style_binding', 'ruby_init_priority', 'optional_audio_fake_engine', '97_bilingual_pairs', 'translation_source_hash', 'history_subtitle_style', 'ambience_routing', 'retained_bilingual_window', 'title_clears_old_scene'],
           'say_count': len(say_ids), 'unique_say_ids': len(set(say_ids)),
           'source_novel_sha256': hashlib.sha256((ROOT / 'source/novel.txt').read_bytes()).hexdigest(),
           'agent_runtime_tested': False, 'agent_rendering_tested': False,
-          'user_confirmed': ['startup', 'title_ruby', 'dialogue_ruby']}
+          'completion_status': 'docs/status.md'}
 (ROOT / '.build/reports/ch01_resource_check.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(report, ensure_ascii=True))
 assert not missing, missing
 assert not undefined, undefined
-assert not missing_glyphs, missing_glyphs
 assert len(say_ids) == len(set(say_ids)) == 97

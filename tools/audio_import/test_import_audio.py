@@ -2,13 +2,16 @@
 from pathlib import Path
 import hashlib
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
 
 HERE = Path(__file__).resolve().parent
-FFMPEG = json.loads((HERE / 'config.json').read_text(encoding='utf-8'))['ffmpeg']
+FFMPEG = json.loads((HERE / 'config.json').read_text(encoding='utf-8')).get('ffmpeg') or shutil.which('ffmpeg')
+if not FFMPEG:
+    raise SystemExit('FFmpeg not found. Install it on PATH before running audio tests.')
 
 
 class ImportAudioTest(unittest.TestCase):

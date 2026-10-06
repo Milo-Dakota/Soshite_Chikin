@@ -13,7 +13,6 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 for output_folder in ('.build/reports', '.build/exports'):
     (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(ROOT / '.build/deps'))
 import yaml
 sys.path.insert(0, str(ROOT / 'scripts/staging/ch02'))
 from prop_resources import build_runtime as build_props

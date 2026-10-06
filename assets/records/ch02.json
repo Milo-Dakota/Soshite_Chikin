@@ -205,9 +205,7 @@
         {
           "id": "chinatsu_dress_v2",
           "prompt": "Edit the supplied character design sheet. Change ONLY the leftmost front-facing full-body figure's physique: make Chinatsu's upper body gently slimmer and more delicate, narrower shoulders and thinner upper arms, less broad ribcage, natural slender waist consistent with the existing middle back/side figure and the right large portrait. Healthy slender seventeen-year-old proportions, not exaggerated or emaciated. Preserve her exact face, head size, long chestnut hair, expression, pose and hand position; preserve the dress design: muted blue-gray off-shoulder folded neckline, modest covered chest, natural waist, full-length layered A-line skirt and dark closed-toe low heels. Do not shrink the skirt's intended A-line volume. Every other panel including middle rear/side figure, large face on right, shoe detail and palette must remain unchanged. Preserve the sheet layout, white background, exact art style and restrained color. No added text or elements.",
-          "refs": [
-            "archive/cleanup_20261006/retired_art/reference/chinatsu/chinatsu_dress_v1.png"
-          ],
+          "refs": [],
           "transparent": false,
           "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-54d8e71c-6a62-4576-9632-bebaeb5d78c4.png",
           "output": "assets/reference/chinatsu/chinatsu_dress_v2.png",
@@ -294,24 +292,6 @@
           "width": 1672,
           "height": 941,
           "sha256": "7c08c677e8fb4d3c34586af6a151c18f29366dda531d14217825b7c14e5ebdf4"
-        },
-        {
-          "id": "chinatsu_bruise_detail_v1",
-          "title": "千夏左上臂淤青特写",
-          "group": "primary",
-          "scene": "sc02/sc09",
-          "refs": [
-            "assets/reference/chinatsu/chinatsu_indoor_v1.png",
-            "assets/ch02/backgrounds/qixing_living_morning_v1.png"
-          ],
-          "prompt": "A finished story CG for a serious 2010–2016 Japanese PC visual novel, illustration-story. Landscape 16:9 composition, refined anime character linework and restrained cel shading, softly painted architectural background, natural anatomy, restrained colors. Keep exact established character identities and costume details from the labeled references. Important faces and actions in upper 70 percent; lower area can be covered by the game's bilingual dialogue panel. No text, subtitles, UI, watermark, labels, collage, montage panels, meme effects or extra narrative clues. Opaque full-frame artwork unless explicitly stated otherwise. Reference 1 defines Chinatsu's ivory loose sweater, black trousers and chestnut hair; reference 2 defines gray sofa and morning light from left. A restrained clinical narrative close-up of the BACK/outer surface of HER ANATOMICAL LEFT UPPER ARM (above elbow), with a single fading muted purple-brown bruise, skin intact, no blood or wound. She is seated hugging her black-trousered knees; her loose ivory sleeve has physically bunched up near left upper arm, exposing the bruise rather than showing through cloth. Camera from behind her left shoulder looking slightly down; edge of long chestnut hair, sweater fabric and gray sofa establish identity and position. Only modest small skin area on upper arm, rest fully clothed, no chest or bare torso, no sexualized camera, no injury being inflicted. Mark focal bruise upper-middle frame. One exact injury-location source suitable for later memory reuse.",
-          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-e2c3cfe0-26db-4b42-8618-1fbbbab55119.png",
-          "output": "archive/cleanup_20261006/retired_art/ch02/cg/chinatsu_bruise_detail_v1.png",
-          "selected": false,
-          "mode": "reference-guided generation/edit",
-          "width": 1672,
-          "height": 941,
-          "sha256": "42984c84cfbef5a164f7e41fcf7cb9713904afa32912853bc2b0736527702ade"
         },
         {
           "id": "qixing_take_hand_v1",
@@ -476,9 +456,7 @@
           "title": "千夏左上臂淤青特写（衣袖修正）",
           "group": "primary",
           "scene": "sc02/sc09",
-          "refs": [
-            "archive/cleanup_20261006/retired_art/ch02/cg/chinatsu_bruise_detail_v1.png"
-          ],
+          "refs": [],
           "prompt": "Precisely edit ONLY the incorrect ivory sweater sleeve topology in this CG. Preserve camera, character, hair, sofa, knees, left upper arm skin and existing single fading bruise completely unchanged. The entire sleeve is pushed up as ONE continuous bunched tube near the shoulder, with its ribbed cuff around the upper arm ABOVE the bruise. Remove the impossible separate sleeve segment around the elbow/forearm; the arm from just below the gathered upper-arm cuff down to the wrist is ordinary bare skin, the same anatomy and same resting hand. No detached fabric ring and no hole cut in a sleeve. Rest of torso and black trousers remain fully clothed. Do not change bruise location or add injury, no text. Match original refined anime VN style.",
           "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-55ee2c88-9874-459e-80c0-3ce11d83bc08.png",
           "output": "assets/ch02/cg/chinatsu_bruise_detail_v2.png",
@@ -618,7 +596,6 @@
         {
           "id": "qixing_take_hand_v2",
           "title": "启星抓手（手部修正）",
-          "replaces": "qixing_take_hand_v1",
           "group": "primary",
           "scene": "sc02",
           "refs": [
@@ -636,7 +613,6 @@
         {
           "id": "chinatsu_limo_interior_v2",
           "title": "千夏车内（司机背带裤制服）",
-          "replaces": "chinatsu_limo_interior_v1",
           "group": "primary",
           "scene": "sc06",
           "refs": [
@@ -655,7 +631,6 @@
         {
           "id": "chinatsu_corridor_escort_v2",
           "title": "千夏走廊（佣人背带裤制服）",
-          "replaces": "chinatsu_corridor_escort_v1",
           "group": "supplement",
           "scene": "sc06",
           "refs": [
@@ -674,7 +649,6 @@
         {
           "id": "beidai_welcome_chinatsu_v2",
           "title": "备代迎接（背景佣人背带裤制服）",
-          "replaces": "beidai_welcome_chinatsu_v1",
           "group": "primary",
           "scene": "sc06",
           "refs": [
@@ -692,7 +666,6 @@
         },
         {
           "id": "qixing_take_hand_v3",
-          "replaces": "qixing_take_hand_v2",
           "title": "启星抓手（整图重绘）",
           "group": "primary",
           "scene": "sc02",
@@ -712,7 +685,6 @@
         },
         {
           "id": "chinatsu_corridor_escort_v3",
-          "replaces": "chinatsu_corridor_escort_v2",
           "title": "千夏被佣人带往走廊深处（整图重绘）",
           "group": "supplement",
           "scene": "sc06",
@@ -731,32 +703,11 @@
           "sha256": "ca04a67358f037fedabec61383efcc22c8195d857233b1016c24fcc86d0cfab4"
         },
         {
-          "id": "qixing_take_hand_v5",
-          "replaces": "qixing_take_hand_v3",
-          "title": "启星抓手（v1掌形不变，仅修正手指）",
-          "group": "primary",
-          "scene": "sc02",
-          "refs": [
-            "assets/ch02/cg/qixing_take_hand_v1.png"
-          ],
-          "prompt": "Precise minimal illustration repair. This ORIGINAL image already has the CORRECT hand orientation, thumb location, palm silhouette, wrists and grasp. DO NOT change any of those. Do not reinterpret left/right anatomy, rotate a palm, flip or mirror a hand, move a thumb, replace the grasp, simplify into a different hand pose, move sleeve cuffs or redraw the scene. ONLY repair the small malformed FINGER segments of the girl's hand within the existing grasp at lower center: retain exactly the original thumb on its existing lower contour, retain her existing palm shape and wrist angle, retain the boy's existing surrounding hand and fingers. Clean the girl's malformed finger outlines, awkward joints and nail placement so the original fingers become natural and proportional in the SAME original arrangement and original occlusion. Use original hand contour as the constraint, not an anatomical redesign. Outside those tiny finger details keep everything unchanged: camera, both identities, facial expressions, body poses, clothes, sofa and room. This image pairs with an existing hand-withdrawal CG, so composition must remain identical. No text. Finished restrained anime visual-novel CG.",
-          "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-3abeeb59-1ff1-40bd-a1d2-d7f8d21fb152.png",
-          "output": "archive/cleanup_20261006/retired_art/ch02/cg/qixing_take_hand_v5.png",
-          "selected": false,
-          "mode": "builtin image_gen minimal finger repair with original v1 palm orientation preserved",
-          "width": 1672,
-          "height": 941,
-          "sha256": "d495c97fd3efd7b5f1f19d72dfab354b8e8f6d654b0d3d48c4f58a6ee14f50c5"
-        },
-        {
           "id": "qixing_take_hand_v6",
-          "replaces": "qixing_take_hand_v5",
           "title": "启星抓手（去除多余手指，修正虎口）",
           "group": "primary",
           "scene": "sc02",
-          "refs": [
-            "archive/cleanup_20261006/retired_art/ch02/cg/qixing_take_hand_v5.png"
-          ],
+          "refs": [],
           "prompt": "Precise tiny local correction, preserve the entire supplied image. In the joined hands near the lower center, the GIRL'S thumb lies at the LOWER-RIGHT edge of the grasp, its tip pointing downward-left around (907,751) on the 1672x941 canvas. Immediately next to this thumb is an erroneous EXTRA long finger-like projection running down around x=908..925, y=690..737. DELETE that extra digit, its fingernail, and its long internal finger outline. That place must instead be the THUMB-INDEX WEB SPACE (虎口): a short natural concave curved junction between the retained thumb base and the index knuckle. Draw a small shallow curved V/U indentation and normal continuous skin surface, NOT another dangling finger, NOT a fingertip or nail. Keep the original thumb at lower right exactly where it is. Keep the girl's existing other four fingers grouped to the LEFT under the boy's hand, keep original palm orientation, wrist, cuff and grasp. Do NOT rotate or mirror either hand, do NOT redesign hand pose, do NOT move thumb to top edge. The man and his hand are unchanged. Only remove the unwanted finger-shaped spur and replace it with the short soft webbing curve. All faces, clothes, bodies, sofa, background, lighting and frame must remain the same. Serious finished anime VN art, no text.",
           "source": "C:\\Users\\craft\\.codex\\generated_images\\01a0f0ec-91e3-7722-9f1f-50837a64c432\\exec-af2a6721-70b5-4447-84d5-ba5ebc54be2c.png",
           "output": "assets/ch02/cg/qixing_take_hand_v6.png",
@@ -1332,8 +1283,7 @@
           ],
           "prompt": "Transparent cropped prop-action layer for a serious Japanese anime visual novel, matching supplied mansion's restrained warm dusk lighting from LEFT. ONLY an adult servant's one anatomically correct hand and forearm entering from lower RIGHT, offering one plain matte charcoal cordless LANDLINE handset toward center-left, held upright at slight diagonal. White shirt cuff under dark navy-black formal suit sleeve, bare natural hand with five fingers, no jewelry or gloves. Handset design is slim but recognizably early-2000s cordless household phone, rounded rectangular body, small dark inactive LCD, circular navigation key, conventional 3-by-4 rubber keypad, earpiece grille; no branding or generated letters/numbers, no illuminated caller identity, no smartphone apps, no cord or base. Device fully visible and consistent for future character holding it. Upper arm/body/person face absent, only forearm cut by right-bottom frame edge. Detailed commercial anime linework and modest cel/painterly shading, no dramatic action. Actual transparent background, no wall, no floor, no text, no checkerboard. Wide 3:2 canvas, device and hand occupy central area with transparent margin above/left.",
           "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-c95fe424-a2ef-4728-991d-92dc7e8615ae.png",
-          "selected": false,
-          "output": null
+          "selected": false
         },
         {
           "id": "notice_removed_layer_v1",
@@ -1349,8 +1299,7 @@
           ],
           "prompt": "Edit target image: keep exact handset, all hand anatomy, sleeve, composition, dimensions, warm highlights ON the objects completely unchanged. Remove ONLY the large fuzzy brown/amber glow cloud around the hand and phone. All pixels outside the crisp object silhouette must become fully transparent; no halo, haze, cast light, background, shadow cloud or checkerboard. Maintain clean anti-aliased silhouette and actual alpha transparency. This is an isolated overlay to place over existing scene artwork.",
           "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-1f42c74a-0752-41e8-9d3c-bbd38613e0dc.png",
-          "selected": false,
-          "output": null
+          "selected": false
         },
         {
           "id": "servant_phone_handover_v3",
@@ -1385,9 +1334,7 @@
           "prompt": "Use case: identity-preserve. Image 1 is the exact identity and art-style reference for Xu Qixing, a 20-year-old male. Create a new indoor clothing model sheet, preserving his exact face, side-parted near-black short hair, gray-brown eyes, youthful slim athletic build and relative proportions. Remove only the long charcoal overcoat; retain the visible muted blue-gray crew-neck knit sweater, dark tailored trousers and black socks (indoor footwear, no boots). Sleeves to wrists. The outfit is ordinary fully clothed indoor winter attire. Front and rear three-quarter full-body views, clear neutral face close-up and a side profile head, sweater neckline and sleeve detail, color swatches. No alternate expressions, no props or accessories. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
           "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-6dfe7afd-5113-47a6-a239-940e7a4f215c.png",
           "output": "assets/reference/qixing/qixing_indoor_v1.png",
-          "tool": "built-in image_gen",
-          "edit_prompt": null,
-          "intermediate_source": null
+          "tool": "built-in image_gen"
         },
         {
           "key": "chinatsu_indoor",
@@ -1402,18 +1349,6 @@
           "intermediate_source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-a8ae258a-05af-4701-8efd-5f0c4927b142.png"
         },
         {
-          "key": "chinatsu_dress",
-          "refs": [
-            "C:/Users/craft/Desktop/soshite_chikin/assets/reference/chinatsu/chinatsu_casual_v1.png"
-          ],
-          "prompt": "Use case: identity-preserve. Image 1 is exact face, hair, age and rendering reference for Chinatsu, a seventeen-year-old violinist. New clothing reference only, no narrative scene. Preserve same youthful face, chestnut long straight hair and brown eyes, normal slim proportions without body exaggeration. Design a tasteful formal concert evening dress: muted dusty blue-gray, matte layered fabric, fitted but not tight natural waist, full floor-length A-line skirt, wide folded off-shoulder neckline sitting just below shoulders, opaque and high across upper chest with absolutely no cleavage, no slit, no transparent fabric, no jewelry, no mature glamour makeup; closed-toe modest dark heels, visible only in small footwear inset. Hair same loose arrangement, no new accessories. Front and rear three-quarter full-length views and a neutral face portrait plus neckline fabric and shoe design details. This outfit is formal and modest, keep character recognizable and age-appropriate. No expressions sheet, no nudity, no sexual pose, no other characters. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
-          "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-f830a27a-a242-4e4a-94ff-faae7903ebe2.png",
-          "output": "archive/cleanup_20261006/retired_art/reference/chinatsu/chinatsu_dress_v1.png",
-          "tool": "built-in image_gen",
-          "edit_prompt": null,
-          "intermediate_source": null
-        },
-        {
           "key": "beidai_home",
           "refs": [
             "C:/Users/craft/Desktop/soshite_chikin/assets/reference/beidai/beidai_casual_v2.png"
@@ -1421,9 +1356,7 @@
           "prompt": "Use case: identity-preserve. Image 1 is exact identity reference for middle-aged pianist Beidai. Preserve exact mature face, gray-brown eyes, body proportions, and center-parted hair which MUST remain neutral grayscale silver-gray, zero brown or colored tint. New indoor costume reference: clean ivory long-sleeve dress shirt buttoned modestly, medium cool-gray high-waisted tailored trousers, clearly WHITE fabric suspenders with simple dull silver clips, black polished dress shoes. Front and back three-quarter full-body neutral views, close-up face and suspender attachment detail. Also one small fully clothed upper-body costume continuity inset showing same shirt fully on and buttoned, one white suspender slipped from his RIGHT shoulder and hair slightly mussed; no anger or action narrative, just neutral clothing state. No brown suspenders, no tie, no medals, no hat, no phone. Polished Japanese PC visual novel character design reference sheet, restrained 2010–2016 commercial anime illustration, precisely match reference linework and coloring, warm off-white plain background, soft neutral studio lighting, readable separated views, full bodies include feet, no scenery, no logos, no captions, no writing, small coordinated color swatches. Reference sheet only, not a game sprite or story CG.",
           "source": "C:/Users/craft/.codex/generated_images/01a0f0ec-91e3-7722-9f1f-50837a64c432/exec-12983c23-b315-462e-bc70-506209c8d215.png",
           "output": "assets/reference/beidai/beidai_home_v1.png",
-          "tool": "built-in image_gen",
-          "edit_prompt": null,
-          "intermediate_source": null
+          "tool": "built-in image_gen"
         },
         {
           "key": "wengang",

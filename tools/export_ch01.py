@@ -1,6 +1,5 @@
 """Export the current Japanese draft for human voice production; no game launch."""
 from pathlib import Path
-import csv
 import hashlib
 import json
 import re
@@ -10,7 +9,6 @@ from collections import Counter
 ROOT = Path(__file__).resolve().parents[1]
 for output_folder in ('.build/reports', '.build/exports'):
     (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(ROOT / '.build' / 'deps'))
 import yaml
 
 source = ROOT / 'scripts/ja' / 'ch01.yaml'
@@ -65,19 +63,15 @@ for scene in data['scenes']:
             'performance_note': performance.get('note', ''),
             'output_path': f'audio/voice/{speaker}/{line_id}.ogg',
             'spoken_sha256': hashlib.sha256(spoken.encode('utf-8')).hexdigest(),
-            'status': 'ready_for_recording' if data['status'] == 'demo_reviewed' else 'draft_for_review',
+
         }
         rows.append(row)
 output = ROOT / '.build/exports'
 output.mkdir(parents=True, exist_ok=True)
-with (output / 'ch01_manifest.csv').open('w', encoding='utf-8-sig', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=list(rows[0]))
-    writer.writeheader()
-    writer.writerows(rows)
 payload = {
-    'chapter_id': 'ch01', 'script_status': data['status'],
+    'chapter_id': 'ch01',
     'script_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
-    'note': 'Japanese demo text reviewed. User produces voice; use ja_spoken and output_path.' if data['status'] == 'demo_reviewed' else 'Japanese only. Review the draft before recording.',
+    'note': 'Voice text export only; production status lives in docs/status.md.',
     'lines': rows,
 }
 (output / 'ch01_manifest.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -92,7 +86,8 @@ for character, name in [('chinatsu', '千夏'), ('maxi', '马皙'), ('zheng', '�
         recording += ['### ' + row['line_id'], '', row['ja_spoken'], '',
                       '演技：' + ' / '.join([row['emotion'], row['intensity'], row['pace']]) + '。' + row['performance_note'], '',
                       '保存为：`' + row['output_path'] + '`', '']
-(output / 'ch01_recording.md').write_text('\n'.join(recording), encoding='utf-8')
+if '--recording' in sys.argv:
+    (output / 'ch01_recording.md').write_text('\n'.join(recording), encoding='utf-8')
 summary = {
     'script_sha256': payload['script_sha256'],
     'scenes': len(data['scenes']), 'text_counts': dict(counts),

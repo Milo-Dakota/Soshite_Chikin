@@ -1,4 +1,0 @@
-PyYAML>=6,<7
-fonttools>=4,<5
-Pillow>=10
-numpy>=1.26

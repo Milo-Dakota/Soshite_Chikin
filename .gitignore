@@ -2,11 +2,10 @@
 /game/saves/
 /game/cache/
 
-# This Demo has been released. Keep .rpyc/.rpymc alongside source scripts
-# to preserve published script metadata for save compatibility.
+# Keep .rpyc/.rpymc alongside source scripts for save compatibility.
 # Do not ignore game/libs, game/tl, fonts, licenses, or runtime media.
 
-# Ren'Py editor/recovery copies, not historical snapshots in archive/.
+# Ren'Py editor/recovery copies.
 /game/**/*.bak
 /game/**/*.new
 /game/**/*.old
@@ -26,8 +25,7 @@
 /dialogue.txt
 /strings.json
 
-# Local build dependencies, scratch space and distribution output.
-# Historical snapshots in archive/ are tracked separately.
+# Generated manifests/reports, scratch space and distribution output.
 /.build/
 /build/
 /dist/
@@ -45,6 +43,7 @@ __pycache__/
 /.ruff_cache/
 /.coverage
 /.coverage.*
+/coverage.xml
 /htmlcov/
 
 # Local credentials. Example/template configuration may be committed.
@@ -66,6 +65,6 @@ Desktop.ini
 /.idea/workspace.xml
 /.idea/shelf/
 
-# Production sources and historical snapshots remain versioned.
-# Keep scripts/, docs/, assets/, audio/, archive/ and game/ media.
+# Production sources remain versioned.
+# Keep scripts/, docs/, assets/, audio/ and game/ media.
 # Do not add blanket image/audio/font/archive-extension ignore rules.

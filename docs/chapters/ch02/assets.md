@@ -1,6 +1,6 @@
 # 第二章美术维护
 
-本章已完成。原件在 assets/ch02，记录在 assets/records/ch02.json，runtime_images 提供当前原件与运行副本映射。固定参考按人物归入 assets/reference。
+原件在 assets/ch02，记录在 assets/records/ch02.json，runtime_images 提供当前原件与运行副本映射。固定参考按人物归入 assets/reference。
 
 - 启星室内服为蓝灰针织衫、深色裤；千夏室内服米白针织衫、深色裤，保持第一章人物身份。
 - 千夏礼服以 assets/reference/chinatsu/chinatsu_dress_v2.png 为准：蓝灰露肩长裙、自然腰线与分层裙摆，不回退到身形过宽的 v1。

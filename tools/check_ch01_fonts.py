@@ -4,7 +4,6 @@ import sys, json, re
 ROOT = Path(__file__).resolve().parents[1]
 for output_folder in ('.build/reports', '.build/exports'):
     (ROOT / output_folder).mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(ROOT / '.build/deps'))
 import yaml
 from fontTools.ttLib import TTFont
 

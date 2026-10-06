@@ -4,7 +4,6 @@ import sys, json, re, base64, hashlib
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / '.build/deps'))
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 
